@@ -1,0 +1,56 @@
+{
+  "id": "use-airport-boarding-pass",
+  "title": "Use an Airport Boarding Pass",
+  "domain": "navigation",
+  "summary": "Read a boarding pass and navigate the airport to reach your gate.",
+  "learnerPromise": "You will be able to read your boarding pass, understand its key details, and navigate an airport to find your gate in time for boarding.",
+  "whyItMatters": "Airports are large and busy, and flights leave on strict schedules. Knowing how to read your boarding pass and follow airport signs helps you move confidently through security and reach your gate with time to spare.",
+  "realLifeUses": [
+    "Flying for a family trip and needing to find your gate independently",
+    "Navigating a connecting flight at a large airport during a layover",
+    "Helping a travel companion understand where to go in the airport",
+    "Knowing what time boarding starts so you are not late"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "read-signs",
+    "navigate-large-building"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A boarding pass (printed or digital) or a sample boarding pass image"
+  ],
+  "result": "You can identify your flight details from a boarding pass and describe the steps to reach your gate.",
+  "youWillLearn": [
+    "How to find your gate number, terminal, seat, and boarding time on a boarding pass",
+    "How to follow airport signs to security, your terminal, and your gate",
+    "How to match your flight number to gate displays",
+    "How to handle gate changes announced on airport screens"
+  ],
+  "miniChallenge": "Look at a boarding pass and identify the flight number, gate, boarding time, and seat. Then list the steps you would take from the airport entrance to reach your gate.",
+  "steps": [
+    "Look at your boarding pass and note your terminal, gate number, boarding time, and seat number.",
+    "Enter the airport and follow signs to the security checkpoint for your terminal.",
+    "After security, follow signs for your gate number or terminal area.",
+    "Check the overhead flight display screens to confirm your gate has not changed.",
+    "Arrive at your gate with time to spare and listen for boarding announcements."
+  ],
+  "completionCriteria": [
+    "You correctly identified the gate, boarding time, and seat from the boarding pass",
+    "You listed a clear sequence of steps to reach your gate"
+  ],
+  "commonProblems": [
+    "Gates sometimes change at the last minute without clear announcements",
+    "Large airports may require a train or shuttle to reach another terminal",
+    "Security lines can be longer than expected and cause delays"
+  ],
+  "tips": [
+    "Arrive at the airport well before your flight to allow time for security",
+    "Check the flight display screens regularly in case your gate changes",
+    "Keep your boarding pass and ID easily accessible throughout the airport"
+  ],
+  "tags": ["airport", "flying", "boarding-pass", "travel"]
+}

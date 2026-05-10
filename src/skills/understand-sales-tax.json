@@ -1,0 +1,51 @@
+{
+  "id": "understand-sales-tax",
+  "title": "Understand Sales Tax",
+  "domain": "money-finance",
+  "summary": "Understand what sales tax is and estimate the final price before checkout.",
+  "learnerPromise": "You will be able to estimate the total cost of a purchase including sales tax.",
+  "whyItMatters": "Sales tax is added to many purchases, and knowing how to estimate it helps you avoid surprises at the register and stay within your budget.",
+  "realLifeUses": [
+    "Estimating whether you have enough cash before reaching the checkout",
+    "Comparing the real cost of items across stores with different tax rates",
+    "Figuring out if an online purchase includes tax or adds it at checkout",
+    "Budgeting for a shopping trip by adding tax to your expected total"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-prices"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["A calculator (optional)", "A sample item price"],
+  "result": "You can estimate the final price of a $20 item including sales tax.",
+  "youWillLearn": [
+    "Explain what sales tax is and who collects it",
+    "Find the sales tax rate in your area",
+    "Calculate tax on a single item mentally",
+    "Add tax to a subtotal to estimate the final price"
+  ],
+  "miniChallenge": "Pick an item you want to buy and calculate what it will cost after adding your local sales tax rate.",
+  "steps": [
+    "Look up the sales tax rate for your city or state (search online or check a recent receipt).",
+    "Convert the tax rate to a decimal (for example, 8% becomes 0.08).",
+    "Multiply the item price by the decimal to find the tax amount.",
+    "Add the tax to the original price to get the estimated total.",
+    "Practice with three different item prices to build confidence."
+  ],
+  "completionCriteria": [
+    "You correctly estimated the final price for at least one item",
+    "You know where to look up your local sales tax rate"
+  ],
+  "commonProblems": [
+    "Some items like groceries or medicine may not be taxed in some areas",
+    "Online purchases sometimes add tax only at the final checkout step",
+    "Different cities or states have different tax rates"
+  ],
+  "tips": [
+    "A quick mental shortcut: for 8% tax, multiply by 2, then by 4, then move the decimal two places left",
+    "Some stores show pre-tax prices on shelves and add tax at the register",
+    "Keep receipts to see exactly how much tax you paid on past purchases"
+  ],
+  "tags": ["tax", "shopping", "budgeting", "estimation"]
+}

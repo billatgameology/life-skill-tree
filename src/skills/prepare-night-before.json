@@ -1,0 +1,52 @@
+{
+  "id": "prepare-night-before",
+  "title": "Prepare the Night Before",
+  "domain": "organization",
+  "summary": "Prepare clothes, bag, and items the night before to make the next morning smoother.",
+  "learnerPromise": "You will be able to gather and arrange everything you need the night before so your morning is calmer and less rushed.",
+  "whyItMatters": "Mornings often feel hurried and stressful. Preparing the night before reduces decision fatigue, lowers the chance of forgetting something, and helps you start the day with more ease.",
+  "realLifeUses": [
+    "Lay out clothes and pack your bag for school or work",
+    "Prepare lunch and set out breakfast items before bed",
+    "Gather gym clothes, water bottle, and sneakers for a morning workout",
+    "Place keys, wallet, and transit pass by the door for easy grab-and-go"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["Bag, backpack, or tote", "Clothes you plan to wear"],
+  "result": "Everything needed for the next day is gathered, checked, and placed in one spot.",
+  "youWillLearn": [
+    "How to check the next day's schedule to know what you need",
+    "How to lay out clothes and accessories in one place",
+    "How to pack a bag with all required items",
+    "How to place essentials by the exit so they are hard to forget"
+  ],
+  "miniChallenge": "Tonight, prepare everything you need for tomorrow morning and place it in one spot.",
+  "steps": [
+    "Check your schedule for tomorrow and think through your day hour by hour.",
+    "Pick out your clothes and lay them in one place.",
+    "Pack your bag with everything you will need: papers, devices, chargers, snacks.",
+    "Prepare any food, water, or extra items like gym clothes or an umbrella.",
+    "Place your packed bag and essentials by the door or somewhere you will see them on your way out."
+  ],
+  "completionCriteria": [
+    "Clothes are laid out and ready to wear",
+    "Your bag is packed with all items you identified as needed",
+    "Everything is placed in one visible spot near your exit"
+  ],
+  "commonProblems": [
+    "Forgetting to check the weather and not packing an umbrella or jacket",
+    "Packing in a hurry and leaving something important behind",
+    "Not charging your phone or device overnight"
+  ],
+  "tips": [
+    "Do a quick mental walkthrough of your tomorrow morning to spot missing items",
+    "Keep a small checklist near your door if you often forget the same things",
+    "Set a phone alarm as a cue to start your nighttime prep if you tend to forget"
+  ],
+  "tags": ["morning-routine", "planning", "daily-prep", "time-saving"]
+}

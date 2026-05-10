@@ -1,0 +1,66 @@
+{
+  "id": "patch-small-wall-hole",
+  "title": "Patch a Small Wall Hole",
+  "domain": "home-care",
+  "summary": "Fill and smooth a small nail hole in a wall.",
+  "learnerPromise": "You will be able to fill a small nail or pin hole in a wall and smooth it so it blends in with the surrounding surface.",
+  "whyItMatters": "Small holes from nails, thumbtacks, or anchors are common when moving or redecorating. Patching them keeps walls looking neat and helps get a security deposit back when renting.",
+  "realLifeUses": [
+    "Filling nail holes after taking down pictures before moving out",
+    "Repairing a small dent or pinhole in a bedroom wall",
+    "Covering anchor holes left by removed shelving",
+    "Preparing a wall for a fresh coat of paint"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "use-tape-measure"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Spackling paste or wall filler",
+    "Putty knife or flat-edged tool",
+    "Fine-grit sandpaper",
+    "Clean cloth",
+    "Paint and brush (optional, for touch-up)"
+  ],
+  "result": "A smooth, filled wall hole that is ready for paint or touch-up.",
+  "youWillLearn": [
+    "How to clean and prepare a small hole for filling",
+    "How to apply spackling paste smoothly",
+    "How to sand the dried patch flush with the wall",
+    "How to blend the repair with the surrounding wall surface"
+  ],
+  "miniChallenge": "Patch one small nail hole in a wall at home. Smooth it and wipe away dust.",
+  "steps": [
+    "Wipe the area around the hole with a clean cloth to remove dust and loose debris.",
+    "Scoop a small amount of spackling paste onto the edge of the putty knife.",
+    "Press the paste into the hole and scrape the surface flat, removing excess.",
+    "Let the patch dry according to the product instructions, usually 30 minutes to a few hours.",
+    "Lightly sand the dried patch until it is flush with the wall, then wipe away dust."
+  ],
+  "completionCriteria": [
+    "Hole is fully filled and the surface is smooth to the touch",
+    "Patch sits flush with the surrounding wall and shows no visible bumps or gaps"
+  ],
+  "commonProblems": [
+    "Patch shrinks and leaves a dimple — apply a second thin coat after the first dries",
+    "Sanding removes too much — press more gently and use fine, not coarse, sandpaper",
+    "Texture does not match — dab a small amount of matching paint over the patch with a sponge"
+  ],
+  "tips": [
+    "Use only a small amount of filler — overfilling makes more sanding work",
+    "If the wall is painted, save a chip of paint or note the color code for touch-up later",
+    "For very tiny holes like pins, white toothpaste can work as a temporary filler"
+  ],
+  "tags": [
+    "repair",
+    "walls",
+    "diy",
+    "patching"
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "Ask for help if the repair feels unsafe or requires a ladder or power tools you are not comfortable using."
+}

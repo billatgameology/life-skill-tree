@@ -1,0 +1,56 @@
+{
+  "id": "mop-small-spill",
+  "title": "Mop Up a Small Spill",
+  "domain": "home-care",
+  "summary": "Safely mop up a small liquid spill on a hard floor.",
+  "learnerPromise": "You will be able to clean up a small liquid spill on a hard floor without spreading it or leaving a sticky residue.",
+  "whyItMatters": "Cleaning up spills quickly helps prevent slips and keeps floors from becoming sticky or stained. It also stops moisture from seeping into floor seams.",
+  "realLifeUses": [
+    "Wiping up a knocked-over glass of water",
+    "Cleaning a small spill in the kitchen while cooking",
+    "Removing a dropped bottle of sauce or juice",
+    "Drying a wet spot near a doorway after rain"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Mop or absorbent cloth",
+    "Bucket or bowl of warm water",
+    "Mild floor cleaner or dish soap"
+  ],
+  "result": "A clean, dry floor with the spill fully removed and no sticky residue.",
+  "youWillLearn": [
+    "How to absorb a spill first before mopping",
+    "How to mix a simple cleaning solution",
+    "How to mop without pushing dirty water into clean areas",
+    "How to dry the floor afterward to prevent slipping"
+  ],
+  "miniChallenge": "Clean up a small spill on a hard floor in your home, or pour a small amount of water and practice mopping it up.",
+  "steps": [
+    "Soak up as much liquid as possible with a towel or absorbent cloth.",
+    "Fill a bucket with warm water and add a small amount of floor cleaner or dish soap.",
+    "Dip the mop or cloth, wring it out well so it is damp, not dripping.",
+    "Wipe the spill area from the outside inward, rinsing and wringing the mop as needed.",
+    "Dry the area with a clean towel or let it air dry before walking on it."
+  ],
+  "completionCriteria": [
+    "The spill area is clean and shows no visible liquid or residue",
+    "The floor is dry enough to walk on safely"
+  ],
+  "commonProblems": [
+    "Floor feels sticky after drying — you used too much soap; re-mop with plain water",
+    "Spill spreads while mopping — work from the edges inward, not back and forth",
+    "Mop is too wet and leaves puddles — wring it out more thoroughly before each pass"
+  ],
+  "tips": [
+    "Act quickly so the liquid does not seep into cracks or under baseboards",
+    "For large or hazardous spills like oil or chemicals, ask an adult or professional for help",
+    "Use a color-safe cloth so you do not accidentally bleach a dark floor"
+  ],
+  "safetyLevel": "low",
+  "tags": ["cleaning", "floors", "mopping", "spills", "safety"]
+}

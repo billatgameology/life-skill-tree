@@ -1,0 +1,56 @@
+{
+  "id": "pack-water-bottle",
+  "title": "Pack a Water Bottle",
+  "domain": "outdoor-everyday",
+  "summary": "Bring water with you when going out and remember to drink it.",
+  "learnerPromise": "You will be able to bring water with you when you leave home and remember to drink it throughout the day.",
+  "whyItMatters": "Staying hydrated helps you feel more alert, prevents headaches, and keeps your body working well. Carrying water makes it easier to drink enough during the day.",
+  "realLifeUses": [
+    "Taking water to school, work, or a short walk",
+    "Remembering to sip water during a warm day outside",
+    "Avoiding headaches or tiredness from mild dehydration",
+    "Saving money by not buying drinks while out"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["dress-for-weather"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A reusable water bottle or a sealed bottle of water",
+    "Access to a sink or water fountain to refill"
+  ],
+  "result": "A filled water bottle packed and ready to take with you.",
+  "youWillLearn": [
+    "How to choose a water bottle that is easy to carry",
+    "How to fill and seal a bottle so it does not leak",
+    "How to remind yourself to drink water during the day",
+    "How to refill your bottle when you have access to clean water"
+  ],
+  "miniChallenge": "Fill a water bottle, put it in your bag, and finish it before the end of the day. Refill it at least once if you can.",
+  "steps": [
+    "Pick a clean water bottle that fits in your bag or hand.",
+    "Fill it with clean, drinkable water.",
+    "Make sure the lid is closed tightly and test for leaks.",
+    "Place the bottle somewhere easy to reach in your bag.",
+    "Take a few sips every hour or whenever you notice thirst."
+  ],
+  "completionCriteria": [
+    "You filled and carried a water bottle with you.",
+    "You drank most or all of it during the day.",
+    "You refilled it at least once if clean water was available."
+  ],
+  "commonProblems": [
+    "Forgetting the bottle at home",
+    "The bottle leaks because the lid was not closed fully",
+    "Drinking too little because the bottle is hard to reach in a bag"
+  ],
+  "tips": [
+    "Keep your bottle near your keys or phone so you remember it.",
+    "Choose a bottle with a reliable seal to avoid spills.",
+    "Set a quiet reminder on your phone if you often forget to drink.",
+    "Refill whenever you pass a sink or fountain, even if it is still partly full."
+  ],
+  "tags": ["hydration", "health", "daily-routine", "preparation"]
+}

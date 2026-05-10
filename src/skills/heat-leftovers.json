@@ -1,0 +1,62 @@
+{
+  "id": "heat-leftovers",
+  "title": "Heat Leftovers",
+  "domain": "food-cooking",
+  "summary": "Reheat leftover food to a safe temperature and check that it is warmed through.",
+  "learnerPromise": "You will be able to reheat leftover food so that it is warm throughout and safe to eat.",
+  "whyItMatters": "Leftovers can save time and money, but they need to be heated all the way through to avoid foodborne illness. Knowing how to check temperature and evenness keeps your meals safe.",
+  "realLifeUses": [
+    "Reheating last night's rice and chicken for lunch",
+    "Warming up soup or stew from the fridge",
+    "Heating a slice of pizza so it is crisp, not rubbery",
+    "Reheating a pasta dish so it tastes fresh"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Leftover food",
+    "Microwave-safe dish or pot/pan",
+    "Stirring spoon",
+    "Optional: food thermometer"
+  ],
+  "result": "Leftover food that is hot all the way through and safe to eat.",
+  "youWillLearn": [
+    "Choose the right method for the type of food",
+    "Stir or flip food for even heating",
+    "Check that food is hot throughout, not just on the edges",
+    "Know how long different leftovers can be stored safely"
+  ],
+  "miniChallenge": "Reheat one container of leftovers. Stir halfway through and check that the center is hot before eating.",
+  "steps": [
+    "Check that the leftovers still look and smell normal. When in doubt, throw them out.",
+    "Place the food in a microwave-safe dish or pot. Spread it out evenly.",
+    "Heat on medium to high power. Pause halfway through to stir or rearrange the food.",
+    "Check the center of the food. It should be steaming hot throughout.",
+    "Let it sit for 30 seconds, then stir once more and eat."
+  ],
+  "completionCriteria": [
+    "The food is steaming hot all the way through",
+    "You stirred or rearranged the food for even heating",
+    "The leftovers smelled and looked normal before reheating"
+  ],
+  "commonProblems": [
+    "Heating too fast and drying out the food",
+    "Not stirring, so the center stays cold",
+    "Reheating food that has been in the fridge too long"
+  ],
+  "tips": [
+    "Add a splash of water or broth to rice and pasta to keep them moist.",
+    "Cover the dish with a damp paper towel to trap moisture.",
+    "Most leftovers stay good in the fridge for about 3 to 4 days."
+  ],
+  "tags": [
+    "cooking",
+    "safety",
+    "leftovers",
+    "heating"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "use-coupon-code",
+  "title": "Use a Coupon or Discount Code",
+  "domain": "shopping-consumer",
+  "summary": "Find and apply a coupon or discount code during online checkout.",
+  "learnerPromise": "You will be able to find valid coupon codes and apply them correctly during online checkout to pay less.",
+  "whyItMatters": "Many online stores offer discount codes that are easy to miss. Knowing how to find and use them can lower your total without changing what you buy.",
+  "realLifeUses": [
+    "Finding a first-time buyer discount before placing your order",
+    "Applying a seasonal sale code during checkout to get a percentage off",
+    "Using a free shipping code to avoid delivery fees",
+    "Signing up for a store newsletter to receive a welcome discount"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["A device with internet access", "An item in your online shopping cart"],
+  "result": "A completed checkout with a coupon code applied, showing the discount.",
+  "youWillLearn": [
+    "Where to look for coupon codes on a store's website or email",
+    "How to enter a code in the correct checkout field",
+    "How to check that the discount was applied before paying",
+    "What to do if a code does not work"
+  ],
+  "miniChallenge": "Put an item in your cart on any online store. Search for a coupon code and try applying it at checkout.",
+  "steps": [
+    "Add an item to your cart and go to the checkout page.",
+    "Look for a field labeled 'Promo code,' 'Coupon code,' or 'Discount code.'",
+    "Search for codes on the store's website, email newsletter, or a trusted coupon site.",
+    "Copy and paste or type the code into the field and click apply.",
+    "Check that the total price drops before completing your purchase."
+  ],
+  "completionCriteria": [
+    "You found at least one coupon code for the store",
+    "You entered the code in the correct checkout field",
+    "You verified whether the code worked before paying"
+  ],
+  "commonProblems": [
+    "The code has expired or has restrictions — read the fine print",
+    "The code is case-sensitive — copy and paste carefully",
+    "Some codes only work for certain items or minimum purchase amounts"
+  ],
+  "tips": [
+    "Sign up for store emails to get first-time or loyalty discounts",
+    "Check the expiration date before relying on a code",
+    "If one code does not work, try another — multiple codes may exist"
+  ],
+  "tags": ["online-shopping", "saving-money", "coupons", "checkout"]
+}

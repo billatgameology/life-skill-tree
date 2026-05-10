@@ -1,0 +1,61 @@
+{
+  "id": "read-nutrition-label",
+  "title": "Read a Nutrition Label",
+  "domain": "food-cooking",
+  "summary": "Read a nutrition label and understand serving size, calories, and key nutrients.",
+  "learnerPromise": "You will be able to read a nutrition label and understand what the numbers mean for one serving.",
+  "whyItMatters": "Nutrition labels help you compare foods and make choices that match your needs. This is useful when managing energy, allergies, or health goals.",
+  "realLifeUses": [
+    "Comparing two cereal boxes to see which has less added sugar",
+    "Checking how much sodium is in a can of soup",
+    "Figuring out if one snack bar will keep you full until lunch",
+    "Checking serving size to understand how much you are actually eating"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "food-safety"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Two packaged food items with nutrition labels"
+  ],
+  "result": "You can explain the serving size, calories, and one key nutrient for each item.",
+  "youWillLearn": [
+    "Locate and read serving size on a label",
+    "Understand calories per serving",
+    "Spot key nutrients like fat, sodium, sugar, and protein",
+    "Compare two similar products using label information"
+  ],
+  "miniChallenge": "Pick two food packages from your kitchen and compare their nutrition labels. Which one has more protein per serving? Which has less added sugar?",
+  "steps": [
+    "Find the nutrition label on each package.",
+    "Look at the serving size first and picture that amount.",
+    "Check the calories per serving on each package.",
+    "Look at one or two nutrients that matter to you (for example, sodium, fiber, or added sugar).",
+    "Compare the two items and decide which fits your needs better."
+  ],
+  "completionCriteria": [
+    "You can state the serving size and calories for each item",
+    "You identified one meaningful difference between the two labels",
+    "You can explain your choice in one sentence"
+  ],
+  "commonProblems": [
+    "Ignoring serving size and assuming the whole package is one serving",
+    "Getting overwhelmed by all the numbers on the label",
+    "Not noticing that added sugar is listed separately from total sugar"
+  ],
+  "tips": [
+    "Start by looking at just three things: serving size, calories, and one nutrient you care about.",
+    "% Daily Value is based on a general adult diet; your needs may be different.",
+    "Ingredients are listed from most to least by weight\u2014useful for spotting hidden sugars or salts."
+  ],
+  "tags": [
+    "nutrition",
+    "food-labels",
+    "shopping",
+    "health"
+  ]
+}

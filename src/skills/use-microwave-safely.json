@@ -1,0 +1,67 @@
+{
+  "id": "use-microwave-safely",
+  "title": "Use a Microwave Safely",
+  "domain": "food-cooking",
+  "summary": "Heat food in a microwave using the right container settings and safety checks.",
+  "learnerPromise": "You will be able to heat food in a microwave safely using the correct container, time, and power settings.",
+  "whyItMatters": "Microwaves are fast and convenient, but improper use can cause burns, fires, or unsafe food temperatures. Knowing safe practices protects you and your food.",
+  "realLifeUses": [
+    "Heating a cup of soup for lunch",
+    "Warming up a plate of leftovers from last night",
+    "Defrosting frozen vegetables before cooking",
+    "Making a warm beverage or hot pack safely"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "food-safety"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Microwave",
+    "Microwave-safe container",
+    "Food to heat",
+    "Oven mitt or towel"
+  ],
+  "result": "Food heated evenly to a safe temperature without container damage or splatter.",
+  "youWillLearn": [
+    "Identify microwave-safe containers and materials to avoid",
+    "Set appropriate time and power level for different foods",
+    "Stir and check food for even heating",
+    "Handle heated containers safely to avoid burns"
+  ],
+  "miniChallenge": "Heat a cup of liquid or a small plate of leftovers in the microwave. Use a microwave-safe container, set the right time, and check that it is heated evenly.",
+  "steps": [
+    "Place food in a microwave-safe container. Avoid metal, foil, and non-microwave plastics.",
+    "Cover loosely with a microwave-safe lid or paper towel to reduce splatter.",
+    "Set the microwave time and power level based on the food amount.",
+    "Pause halfway through to stir or rotate the food for even heating.",
+    "Use an oven mitt or towel to remove the container. Check that the food is warm throughout."
+  ],
+  "completionCriteria": [
+    "You used only microwave-safe materials",
+    "The food is heated evenly and warm throughout",
+    "You removed the container safely without burning your hand"
+  ],
+  "commonProblems": [
+    "Using containers that melt or release chemicals in the microwave",
+    "Heating too long and drying out or exploding the food",
+    "Not stirring, which leaves cold spots where bacteria can survive"
+  ],
+  "tips": [
+    "When in doubt, transfer food to a ceramic or glass dish.",
+    "Start with less time. You can always add more, but you cannot undo overcooking.",
+    "Let heated food sit for 30 seconds after the microwave stops\u2014heat continues to spread."
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Ask for help if you smell burning, see sparks, the microwave makes unusual noises, or you burn yourself. Do not attempt to repair a microwave yourself.",
+  "tags": [
+    "cooking",
+    "safety",
+    "appliances",
+    "heating"
+  ]
+}

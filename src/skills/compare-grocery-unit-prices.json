@@ -1,0 +1,61 @@
+{
+  "id": "compare-grocery-unit-prices",
+  "title": "Compare Grocery Unit Prices",
+  "domain": "food-cooking",
+  "summary": "Compare prices per unit to find the better deal between two product sizes.",
+  "learnerPromise": "You will be able to calculate and compare unit prices to find the better value between two sizes of the same product.",
+  "whyItMatters": "Comparing unit prices helps you spend less over time and spot sales that may not actually be good deals. It is a useful skill for any shopping trip.",
+  "realLifeUses": [
+    "Choosing between a small and large container of yogurt",
+    "Figuring out if the bulk rice is really cheaper than the smaller bag",
+    "Deciding between name-brand and store-brand cereal",
+    "Checking if a 'buy one get one' deal saves money compared to the regular size"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "compare-prices"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Two sizes or brands of the same product"
+  ],
+  "result": "You can state which product is the better value per unit and explain why.",
+  "youWillLearn": [
+    "Find the total price and total weight or volume on each package",
+    "Calculate price per unit (ounce, gram, liter, etc.)",
+    "Compare the two unit prices",
+    "Consider shelf life and storage space before buying larger sizes"
+  ],
+  "miniChallenge": "Pick two sizes of the same product in your kitchen or at a store. Calculate the price per ounce (or per 100g) for each and decide which is the better deal.",
+  "steps": [
+    "Pick two packages of the same type of product (for example, two peanut butter jars).",
+    "Write down the total price and total amount (ounces, grams, liters) for each.",
+    "Divide the price by the amount to get the unit price for each one.",
+    "Compare the two unit prices. The lower one is the better value.",
+    "Think about whether you can use the larger size before it expires."
+  ],
+  "completionCriteria": [
+    "You calculated the unit price for each product correctly",
+    "You identified which product is the better value per unit",
+    "You considered whether the larger size makes sense for your situation"
+  ],
+  "commonProblems": [
+    "Forgetting to check that units match (grams vs. ounces)",
+    "Assuming the bigger package is always cheaper",
+    "Buying more than you can use before it goes bad"
+  ],
+  "tips": [
+    "Many stores print the unit price on the shelf tag\u2014look for the smaller number in the corner.",
+    "Factor in storage space. A great deal is less great if it takes up your whole cabinet.",
+    "Use the calculator on your phone to divide quickly while shopping."
+  ],
+  "tags": [
+    "shopping",
+    "budgeting",
+    "math",
+    "groceries"
+  ]
+}

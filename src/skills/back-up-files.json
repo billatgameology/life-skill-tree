@@ -1,0 +1,57 @@
+{
+  "id": "back-up-files",
+  "title": "Back Up Important Files",
+  "domain": "digital-basics",
+  "summary": "Copy important files to a second location so they are not lost.",
+  "learnerPromise": "You will be able to choose which files to back up, copy them to a second location, and verify that they can be restored.",
+  "whyItMatters": "Devices can break, get lost, or be stolen. Having a backup means your important documents, photos, and files are safe and can be recovered.",
+  "realLifeUses": [
+    "Your phone is lost or broken and you need your photos and contacts on a new device",
+    "Your computer crashes and you need to recover your school or work documents",
+    "You accidentally delete an important file and need to get it back",
+    "You are resetting your device and want to keep your personal files safe"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "use-cloud-storage"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "A phone, tablet, or computer",
+    "A second storage location: cloud storage account, USB drive, or external hard drive"
+  ],
+  "result": "At least one important file copied to a second location and successfully opened from that location.",
+  "youWillLearn": [
+    "How to identify which files are most important to back up",
+    "How to copy files to a cloud storage service or external drive",
+    "How to verify that the backup worked by opening the copied file",
+    "How to set up automatic backups for future protection"
+  ],
+  "miniChallenge": "Choose three important files, copy them to a second location, and open one from the backup to confirm it works.",
+  "steps": [
+    "Identify three files that would be hard to replace — such as photos, documents, or contacts",
+    "Choose a backup location: cloud storage, a USB drive, or an external hard drive",
+    "Copy each file to the backup location using upload, drag-and-drop, or a backup tool",
+    "Open one of the backed-up files from the new location to make sure it works correctly",
+    "If available, turn on automatic backup for photos or documents so future files are protected"
+  ],
+  "completionCriteria": [
+    "At least three important files are stored in a second location",
+    "You opened one file from the backup and confirmed it is intact and readable"
+  ],
+  "commonProblems": [
+    "Backup takes a long time with large files — start with your most important small files",
+    "Not enough space in cloud storage — check your available space or use a USB drive instead",
+    "Forgot where the backup is saved — write down the location or keep backups in a consistent place"
+  ],
+  "tips": [
+    "The 3-2-1 rule is a good guideline: keep 3 copies, on 2 types of storage, with 1 offsite",
+    "Turn on automatic photo and document backup in your cloud storage app so you do not have to remember",
+    "Label your external drives or USB sticks with the backup date so you know how recent they are",
+    "Back up before traveling or before major device updates"
+  ],
+  "tags": ["backup", "files", "storage", "safety", "recovery"]
+}

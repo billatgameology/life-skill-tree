@@ -1,0 +1,58 @@
+{
+  "id": "test-smoke-alarm",
+  "title": "Test a Smoke Alarm",
+  "domain": "home-care",
+  "summary": "Test a smoke alarm and know when to replace batteries or the unit.",
+  "learnerPromise": "You will be able to test a smoke alarm, interpret the result, and know when to replace batteries or the entire unit.",
+  "whyItMatters": "Smoke alarms save lives by providing early warning of fire. Testing them regularly and replacing them when needed is one of the most important home safety habits.",
+  "realLifeUses": [
+    "Monthly testing to confirm the alarm is still working",
+    "Checking after a low-battery chirp in the middle of the night",
+    "Moving into a new home and verifying all alarms are functional",
+    "Replacing an alarm that has reached its expiration date"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["replace-batteries"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Step stool (if the alarm is on the ceiling)",
+    "Replacement batteries (if needed)",
+    "Replacement smoke alarm unit (if needed)"
+  ],
+  "result": "A tested smoke alarm that is confirmed working or has been repaired or replaced.",
+  "youWillLearn": [
+    "How to press the test button and interpret the sound pattern",
+    "How to replace smoke alarm batteries correctly",
+    "How to check the manufacturing date on the alarm",
+    "How to know when the entire unit needs replacement"
+  ],
+  "miniChallenge": "Test every smoke alarm in your home today. Replace any dead batteries you find.",
+  "steps": [
+    "Locate the smoke alarm and clear any dust from the outside with a dry cloth.",
+    "Press and hold the test button until the alarm sounds — it should be loud and clear.",
+    "If the sound is weak or does not sound, replace the batteries and test again.",
+    "Check the manufacturing date on the back of the alarm; replace the entire unit if it is more than 10 years old.",
+    "Make a note on a calendar or phone to test again in one month."
+  ],
+  "completionCriteria": [
+    "Alarm produces a strong, clear sound when the test button is pressed",
+    "Batteries are fresh or the unit is confirmed to be within its valid age"
+  ],
+  "commonProblems": [
+    "Alarm chirps intermittently — this usually means low battery, replace it promptly",
+    "Test button does nothing after battery replacement — the unit may be expired or faulty",
+    "Cannot reach the alarm — use a sturdy step stool and ask someone to steady it"
+  ],
+  "tips": [
+    "Test smoke alarms once a month and replace batteries at least once a year",
+    "Never remove a working battery to stop chirping without replacing it immediately",
+    "Install smoke alarms inside every sleeping area and on every level of the home"
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "If an alarm continues to malfunction after battery replacement, or if you are unsure about electrical hardwired alarms, contact your landlord, a maintenance professional, or your local fire department for guidance.",
+  "tags": ["safety", "emergency", "maintenance", "fire-safety"]
+}

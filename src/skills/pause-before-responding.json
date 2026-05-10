@@ -1,0 +1,53 @@
+{
+  "id": "pause-before-responding",
+  "title": "Pause Before Responding",
+  "domain": "emotional-skills",
+  "summary": "Take a brief pause before reacting to something upsetting.",
+  "learnerPromise": "You will be able to insert a short pause between something that upsets you and your response.",
+  "whyItMatters": "A brief pause gives you time to choose your response instead of reacting on autopilot. This small gap can prevent misunderstandings and decisions you might later regret.",
+  "realLifeUses": [
+    "You receive a critical comment and pause before replying so your response is calmer",
+    "Someone cuts in front of you in line and you take a breath before speaking",
+    "You get a message that annoys you and you wait a few minutes before answering",
+    "You are asked a difficult question in a conversation and you pause to think before you speak"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["name-a-feeling"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "None — just a willingness to practice"
+  ],
+  "result": "A practiced habit of counting to three or taking a breath before responding in tense moments.",
+  "youWillLearn": [
+    "How to notice the moment when you feel a strong urge to react",
+    "A simple physical anchor — like a breath or a count — to create space",
+    "How to use that space to choose words or actions more intentionally",
+    "How to apply this pause in conversations, messages, and online interactions"
+  ],
+  "miniChallenge": "Think of the last time you reacted quickly and later wished you had not. Replay that moment in your mind and imagine inserting a three-second pause. What might you have said or done differently? Write it down.",
+  "steps": [
+    "Think of a recent moment when you reacted quickly to something upsetting",
+    "Close your eyes and replay it — notice what you felt in your body right before you reacted",
+    "Now imagine the same moment but take one slow breath before responding",
+    "Write down what you could have said or done with that extra pause",
+    "Pick a simple phrase you can say to yourself next time, such as 'I need a second' or 'Breathe'"
+  ],
+  "completionCriteria": [
+    "You identified one past situation where a pause would have helped",
+    "You practiced the pause technique and wrote an alternative response"
+  ],
+  "commonProblems": [
+    "You might forget to pause in the heat of the moment — this is normal and improves with practice",
+    "You may worry that pausing looks strange — a brief pause usually seems thoughtful, not awkward",
+    "The urge to react fast can feel physical — naming it helps you catch it earlier"
+  ],
+  "tips": [
+    "Start practicing with low-stakes situations, like choosing your order at a cafe",
+    "For digital messages, make it a rule to wait at least one minute before replying when upset",
+    "A pause does not mean silence forever — it means you respond on purpose, not on impulse"
+  ],
+  "tags": ["self-control", "impulse", "communication", "mindfulness"]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "read-pay-stub",
+  "title": "Read a Pay Stub",
+  "domain": "money-finance",
+  "summary": "Read a pay stub and understand gross pay, deductions, and net pay.",
+  "learnerPromise": "You will be able to look at a pay stub and understand where your money went before it reached you.",
+  "whyItMatters": "Your pay stub explains how your paycheck was calculated and what was taken out, which helps you catch errors and plan your budget around the actual amount you receive.",
+  "realLifeUses": [
+    "Checking that your hours and pay rate on a new job are correct",
+    "Understanding why your paycheck is smaller than your hourly rate times hours worked",
+    "Noticing if too much or too little tax was withheld",
+    "Using your year-to-date earnings to fill out a loan or rental application"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["track-spending"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["A recent pay stub (paper or digital)"],
+  "result": "You can identify gross pay, each deduction, and net pay on any pay stub.",
+  "youWillLearn": [
+    "Locate gross pay (total earnings before anything is taken out)",
+    "Identify common deductions like federal tax, state tax, and Social Security",
+    "Find optional deductions like health insurance or retirement contributions",
+    "Calculate net pay and understand year-to-date totals"
+  ],
+  "miniChallenge": "Look at a recent pay stub and list every deduction, then calculate what percentage of your gross pay you actually take home.",
+  "steps": [
+    "Find a recent pay stub from a job, either printed or in an online portal.",
+    "Look at the top section for your name, pay period dates, and gross pay.",
+    "Read the deductions section and look for federal income tax, state tax, Social Security, and Medicare.",
+    "Look for any optional deductions like health insurance, retirement, or union dues.",
+    "Find net pay (take-home pay) and compare it to gross pay to see what portion you keep."
+  ],
+  "completionCriteria": [
+    "You named at least four common deductions found on pay stubs",
+    "You calculated the difference between gross pay and net pay on a real or sample stub"
+  ],
+  "commonProblems": [
+    "Abbreviations like FIT, SIT, FICA, or YTD can be confusing at first",
+    "Different employers format pay stubs differently",
+    "Overtime pay or bonuses may appear on separate lines"
+  ],
+  "tips": [
+    "YTD means year-to-date and shows how much you have earned so far this year",
+    "If a deduction looks wrong, ask your payroll department or manager",
+    "Compare two consecutive pay stubs to spot unexpected changes"
+  ],
+  "tags": ["paycheck", "employment", "taxes", "deductions"]
+}

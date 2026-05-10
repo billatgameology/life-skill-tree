@@ -1,0 +1,52 @@
+{
+  "id": "read-basic-bill",
+  "title": "Read a Monthly Bill",
+  "domain": "money-finance",
+  "summary": "Read a monthly utility or phone bill and understand charges and due dates.",
+  "learnerPromise": "You will be able to look at a monthly bill, understand what you are being charged for, and know when payment is due.",
+  "whyItMatters": "Bills arrive regularly, and understanding them helps you avoid late fees, catch billing errors, and plan your spending around fixed monthly costs.",
+  "realLifeUses": [
+    "Checking your phone bill to see if you were charged for data you did not use",
+    "Reading an electricity bill to understand how usage affects the total",
+    "Noting the due date so you can pay on time and avoid a late fee",
+    "Comparing this month's bill to last month's to spot unusual charges"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["track-spending"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["A recent utility, phone, or internet bill (paper or digital)"],
+  "result": "You can explain each section of a bill and identify when and how to pay it.",
+  "youWillLearn": [
+    "Find the billing period and account number on any bill",
+    "Identify the balance due, due date, and payment options",
+    "Read the itemized charges section to see what each fee is for",
+    "Compare current and previous usage or balances"
+  ],
+  "miniChallenge": "Pick up a recent bill and identify the total due, the due date, and one charge you had not noticed before.",
+  "steps": [
+    "Look at the top of the bill for your name, account number, and billing period dates.",
+    "Find the amount due and the payment due date, usually highlighted near the top.",
+    "Read through the itemized charges to see the breakdown of services, usage, taxes, and fees.",
+    "Compare this bill to your previous one to see if charges or usage went up or down.",
+    "Check the payment options listed, such as online payment, mail, or auto-pay, and choose one."
+  ],
+  "completionCriteria": [
+    "You located the total due, due date, and payment options on a real or sample bill",
+    "You can explain at least one charge or fee listed on the bill"
+  ],
+  "commonProblems": [
+    "Bills with confusing abbreviations or technical terms",
+    "Estimated meter readings that differ from actual usage",
+    "Promotional rates ending and the bill increasing unexpectedly",
+    "Auto-pay set up but the payment method expired, causing a missed payment"
+  ],
+  "tips": [
+    "Open bills as soon as they arrive so you have time to question errors before the due date",
+    "Many companies offer paperless billing and usage alerts through their apps",
+    "If a charge looks wrong, call the company; billing errors are more common than you might expect"
+  ],
+  "tags": ["bills", "utilities", "budgeting", "adulting"]
+}

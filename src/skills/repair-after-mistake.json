@@ -1,0 +1,54 @@
+{
+  "id": "repair-after-mistake",
+  "title": "Repair After a Mistake",
+  "domain": "emotional-skills",
+  "summary": "Take responsibility and make things right after making an error.",
+  "learnerPromise": "You will be able to face a mistake, take responsibility, and do something to make the situation better.",
+  "whyItMatters": "Everyone makes mistakes. Knowing how to repair the situation helps you learn, maintains trust with others, and keeps a small error from becoming a bigger problem.",
+  "realLifeUses": [
+    "You forget to return a borrowed item and reach out to apologize and arrange to return it",
+    "You miss a deadline and notify the person, explain briefly, and offer a new time",
+    "You say something hurtful and later apologize and ask how you can make it right",
+    "You make an error on a shared document and fix it while letting others know what happened"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["repair-small-disagreement"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A way to communicate with the person affected (in person, message, or call)",
+    "A few minutes to think before acting"
+  ],
+  "result": "A clear plan or action that addresses the mistake and moves toward making it right.",
+  "youWillLearn": [
+    "How to admit a mistake without making excuses",
+    "How to offer a genuine, brief apology",
+    "How to suggest or ask what would help fix the situation",
+    "How to move forward after repairing so you do not dwell on the error"
+  ],
+  "miniChallenge": "Think of a small mistake you made recently. Write down one sentence admitting it and one sentence offering to make it right. If you feel ready, share it with the person involved.",
+  "steps": [
+    "Pause and admit to yourself what happened — no excuses, just facts",
+    "Think about who was affected and what they might need",
+    "Reach out with a brief, clear message: name the mistake and apologize",
+    "Offer to fix it or ask what you can do to make things right",
+    "Follow through on what you offered, then let yourself move on"
+  ],
+  "completionCriteria": [
+    "You wrote or spoke an honest acknowledgment of the mistake",
+    "You offered or did something to repair the situation"
+  ],
+  "commonProblems": [
+    "You might want to explain why it happened — keep explanations very brief",
+    "You may feel embarrassed — remember that repairing shows maturity",
+    "The other person might still be upset — your job is to repair, not to control their reaction"
+  ],
+  "tips": [
+    "A good repair is short, honest, and focused on action — not a long story",
+    "Do not over-apologize. One sincere apology and a repair action is enough",
+    "If you cannot fix the mistake directly, ask sincerely what the other person needs"
+  ],
+  "tags": ["responsibility", "apology", "repair", "accountability"]
+}

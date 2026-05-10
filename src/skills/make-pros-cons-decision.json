@@ -1,0 +1,54 @@
+{
+  "id": "make-pros-cons-decision",
+  "title": "Make a Decision Using Pros and Cons",
+  "domain": "emotional-skills",
+  "summary": "List pros and cons to help make a difficult decision more clearly.",
+  "learnerPromise": "You will be able to lay out the good and not-so-good sides of a choice to help you decide with more confidence.",
+  "whyItMatters": "When a decision feels hard, putting the reasons on paper can quiet a worried mind and help you see the choice more clearly. It also slows you down so you do not decide purely on impulse.",
+  "realLifeUses": [
+    "You are unsure whether to take a part-time job and list the benefits and drawbacks",
+    "You are deciding between two activities on the same weekend and compare them",
+    "You are considering whether to speak up in a group and weigh the possible outcomes",
+    "You are thinking about moving to a new place and use pros and cons to organize your thoughts"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["prioritize-tasks"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Paper and pen, or a notes app",
+    "A decision you are currently considering"
+  ],
+  "result": "A written pros and cons list for one real decision you are facing.",
+  "youWillLearn": [
+    "How to name a decision clearly so you know exactly what you are deciding",
+    "How to list honest pros and cons without judging yourself",
+    "How to weigh items by importance, not just count them",
+    "How to use the list to make a choice and commit to it"
+  ],
+  "miniChallenge": "Think of a decision you need to make in the next few days. Draw a line down the middle of a page. Write at least three pros on one side and three cons on the other. Look at the list and circle the item that matters most to you.",
+  "steps": [
+    "Write the decision as a clear yes-or-no or choice A versus choice B question",
+    "Set a timer for 5 minutes and list every reason in favor — do not censor yourself",
+    "Reset the timer and list every reason against — be honest, even if it feels uncomfortable",
+    "Review your list and mark each item as 'very important,' 'somewhat important,' or 'minor'",
+    "Make a tentative choice based on what matters most, and decide when you will act on it"
+  ],
+  "completionCriteria": [
+    "You wrote a pros and cons list with at least three items on each side",
+    "You identified which items matter most and made a tentative decision"
+  ],
+  "commonProblems": [
+    "You may feel more conflicted after listing — that means the decision is genuinely hard, not that you did it wrong",
+    "You might list only obvious items — push yourself to write at least one less obvious reason",
+    "You may want a perfect answer — pros and cons help, but they do not remove all uncertainty"
+  ],
+  "tips": [
+    "One strong pro or con often matters more than five weak ones",
+    "Talk your list through with a trusted person if you still feel stuck",
+    "Set a deadline for the decision so the list does not become a way to delay"
+  ],
+  "tags": ["decision-making", "planning", "clarity", "problem-solving"]
+}

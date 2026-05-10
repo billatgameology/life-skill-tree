@@ -1,0 +1,56 @@
+{
+  "id": "check-assignment-requirements",
+  "title": "Check Assignment Requirements",
+  "domain": "school-learning",
+  "summary": "Read and understand what an assignment is asking before starting.",
+  "learnerPromise": "You will be able to read an assignment carefully, identify what is being asked, and create a checklist of what you need to do before you begin.",
+  "whyItMatters": "Many students lose points simply because they missed part of the instructions. Taking a few minutes to check requirements before starting helps you do the assignment correctly the first time.",
+  "realLifeUses": [
+    "Checking a rubric before writing an essay to know how you will be graded",
+    "Reviewing all parts of a multi-step homework assignment before starting",
+    "Confirming formatting rules like font size and margins for a paper",
+    "Making sure you answer every question in a worksheet or packet"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "The assignment instructions or worksheet",
+    "Highlighter or pen",
+    "Paper or notes app for your checklist"
+  ],
+  "result": "A checklist of what the assignment requires, with key requirements highlighted",
+  "youWillLearn": [
+    "How to identify the main task an assignment is asking for",
+    "How to spot formatting, length, or deadline requirements",
+    "How to create a checklist from the instructions",
+    "How to notice hidden requirements like citations or specific sources"
+  ],
+  "miniChallenge": "Pick an assignment you have due soon. Read the instructions carefully and create a checklist of every requirement you need to meet.",
+  "steps": [
+    "Read the full assignment once from start to finish without starting the work.",
+    "Underline or highlight the main task and the due date.",
+    "Look for details like length, format, number of sources, or specific topics.",
+    "Write a checklist of every requirement you need to meet.",
+    "Check off each item as you complete it while doing the assignment."
+  ],
+  "completionCriteria": [
+    "You can state the main task of the assignment in one sentence",
+    "You have a written checklist of all requirements",
+    "You spotted at least one detail you might have missed on a quick read"
+  ],
+  "commonProblems": [
+    "Starting the work before fully reading the instructions",
+    "Missing requirements that are listed on a separate rubric or second page",
+    "Assuming you know what to do without checking for special rules"
+  ],
+  "tips": [
+    "Read the instructions twice, once for the big picture and once for details",
+    "If a rubric is provided, read it before you start so you know how you will be graded",
+    "Ask your teacher if any instruction is unclear, it is better to ask early"
+  ],
+  "tags": ["reading", "instructions", "checklist", "attention-to-detail"]
+}

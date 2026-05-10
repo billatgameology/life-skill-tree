@@ -1,0 +1,59 @@
+{
+  "id": "use-two-factor-authentication",
+  "title": "Turn On Two-Factor Authentication",
+  "domain": "digital-basics",
+  "summary": "Turn on an extra login security layer for an important account.",
+  "learnerPromise": "You will be able to enable two-factor authentication on an important account and understand how to use it when logging in.",
+  "whyItMatters": "Passwords can sometimes be guessed or stolen. Two-factor authentication adds a second step to verify it is really you, making your accounts much more secure.",
+  "realLifeUses": [
+    "You want to protect your email account from being accessed by someone else",
+    "A service you use was part of a data breach and you want stronger protection",
+    "You keep important documents or photos in an online account you want to secure",
+    "You use online banking or payment apps and want an extra layer of safety"
+  ],
+  "level": 3,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "create-passwords"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "A phone or computer with internet access",
+    "Access to an email account or phone number for receiving verification codes",
+    "Optionally: an authenticator app such as Google Authenticator or your password manager"
+  ],
+  "result": "Two-factor authentication is enabled on at least one account and you have saved your backup codes.",
+  "youWillLearn": [
+    "What two-factor authentication is and why it helps protect your accounts",
+    "How to find the security settings for an online account",
+    "How to choose a second verification method — text message, authenticator app, or security key",
+    "How to save backup codes in case you lose access to your second factor"
+  ],
+  "miniChallenge": "Enable two-factor authentication on one important account and save the backup codes in a safe place.",
+  "steps": [
+    "Choose one important account to secure — such as email, cloud storage, or social media",
+    "Sign in and go to the account settings, then find the security or login section",
+    "Look for 'Two-Factor Authentication,' '2FA,' or 'Extra Security' and select it",
+    "Choose your second verification method — text message or authenticator app are most common",
+    "Follow the setup steps, test logging in with the new second step, and save your backup codes"
+  ],
+  "completionCriteria": [
+    "You successfully enabled two-factor authentication on one account",
+    "You saved the backup or recovery codes somewhere safe and separate from your device"
+  ],
+  "commonProblems": [
+    "The verification code does not arrive — check your phone signal or spam folder",
+    "Authenticator app codes do not work — make sure your device's clock is set to automatic time",
+    "Lost access to the second factor — use a saved backup code to regain access, then update your 2FA settings",
+    "The account does not offer two-factor authentication — consider adding a strong unique password instead"
+  ],
+  "tips": [
+    "Authenticator apps are generally more secure than text message codes",
+    "Save backup codes somewhere you can access without your phone — such as a written copy in a safe place",
+    "Consider using a password manager that also handles two-factor codes",
+    "Enable 2FA on your most important accounts first: email, banking, and cloud storage"
+  ],
+  "tags": ["security", "2fa", "authentication", "accounts", "passwords"]
+}

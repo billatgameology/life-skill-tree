@@ -1,0 +1,52 @@
+{
+  "id": "organize-backpack",
+  "title": "Organize a Backpack",
+  "domain": "organization",
+  "summary": "Arrange a backpack so items are easy to find and nothing important is forgotten.",
+  "learnerPromise": "You will be able to organize your backpack so every item has a place and you can find what you need quickly.",
+  "whyItMatters": "A well-organized backpack saves time, reduces stress, and helps protect important items like electronics and papers from damage. It also makes it easier to notice when something is missing.",
+  "realLifeUses": [
+    "Keep school supplies sorted by subject so you can grab the right notebook fast",
+    "Store your keys, wallet, and phone in a secure pocket where they won't get lost",
+    "Separate clean clothes from dirty shoes in a gym or sports bag",
+    "Arrange work materials so nothing gets crumpled or spilled on during transit"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["Your backpack or bag", "Optional: small pouches or folders"],
+  "result": "A neatly organized backpack with designated spots for different types of items.",
+  "youWillLearn": [
+    "How to empty and assess what you are actually carrying",
+    "How to group similar items together",
+    "How to use compartments and pockets for different categories",
+    "How to do a quick daily check to keep the system working"
+  ],
+  "miniChallenge": "Empty your backpack completely, sort everything into groups, and repack it with each item in a logical place.",
+  "steps": [
+    "Completely empty your backpack onto a clean surface.",
+    "Sort items into groups: papers, electronics, personal items, food, and things to remove.",
+    "Designate one compartment or pocket for each group of items.",
+    "Place heavier items closer to your back and lighter items toward the front.",
+    "Remove anything you do not need and do a quick check that essentials are present."
+  ],
+  "completionCriteria": [
+    "Every item in your backpack has a designated spot",
+    "You can find any item within 10 seconds without digging",
+    "Unnecessary items have been removed"
+  ],
+  "commonProblems": [
+    "Shoving everything into the main compartment without using smaller pockets",
+    "Carrying items you no longer need, making the bag heavy and cluttered",
+    "Forgetting to reorganize after a few days so things drift back into chaos"
+  ],
+  "tips": [
+    "Use a small pouch for pens, chargers, and small items so they don't sink to the bottom",
+    "Put items you need most often in the most accessible pocket",
+    "Do a 30-second tidy every evening to maintain the system"
+  ],
+  "tags": ["backpack", "bag", "daily-carry", "sorting"]
+}

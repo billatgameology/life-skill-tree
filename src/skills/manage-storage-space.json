@@ -1,0 +1,55 @@
+{
+  "id": "manage-storage-space",
+  "title": "Free Up Storage Space",
+  "domain": "digital-basics",
+  "summary": "Free up space on a phone or computer by removing unneeded files and apps.",
+  "learnerPromise": "You will be able to check how much storage is left and remove items you no longer need.",
+  "whyItMatters": "Running out of storage can slow down your device and prevent you from taking photos or installing updates. Keeping space free helps your device run more smoothly.",
+  "realLifeUses": [
+    "Your phone says 'Storage Full' when you try to take a photo",
+    "An app update cannot install because there is not enough space",
+    "Your computer is running slower than usual",
+    "You want to download a new app or game but need to make room first"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A phone, tablet, or computer",
+    "Optional: cloud storage account for files you want to keep"
+  ],
+  "result": "At least 1 GB of freed storage space and a list of what was removed or moved.",
+  "youWillLearn": [
+    "How to check current storage usage on your device",
+    "How to find the largest files or apps taking up space",
+    "How to safely delete or offload apps you no longer use",
+    "How to clear cached data and downloads you no longer need"
+  ],
+  "miniChallenge": "Check your device's storage and delete or remove enough items to free up at least 500 MB.",
+  "steps": [
+    "Open your device settings and find the storage or memory section",
+    "Review what is using the most space — usually apps, photos, videos, or downloads",
+    "Delete apps you have not used in the past month or offload them if that option is available",
+    "Remove blurry photos, duplicate screenshots, and downloaded files you no longer need",
+    "Empty the trash or recently deleted folder to fully free the space"
+  ],
+  "completionCriteria": [
+    "You have freed at least 500 MB of storage",
+    "You can see the updated storage amount in your device settings"
+  ],
+  "commonProblems": [
+    "Deleted items sitting in a 'Recently Deleted' folder still take up space",
+    "Not knowing which apps are the largest — look for a list sorted by size in settings",
+    "Feeling unsure about deleting an app — you can usually re-download it later for free"
+  ],
+  "tips": [
+    "Start with downloads and screenshots — these are usually safe to delete",
+    "Use built-in tools like 'Offload Unused Apps' on iPhone or 'Storage Sense' on Windows",
+    "Move photos and videos to cloud storage before deleting them from your device",
+    "Set a monthly reminder to clean up storage before it becomes a problem"
+  ],
+  "tags": ["storage", "cleanup", "device-maintenance", "phone", "computer"]
+}

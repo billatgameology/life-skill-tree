@@ -1,0 +1,57 @@
+{
+  "id": "make-small-talk",
+  "title": "Make Small Talk",
+  "domain": "communication",
+  "summary": "Start and maintain a light, friendly conversation with someone you do not know well.",
+  "learnerPromise": "You will be able to start a friendly conversation with strangers or acquaintances and keep it going comfortably for a few minutes.",
+  "whyItMatters": "Small talk opens doors. It helps you meet new people, feel more comfortable in social settings, and build connections that can grow into friendships or opportunities.",
+  "realLifeUses": [
+    "Chatting with a classmate while waiting for a lecture to start",
+    "Talking to a cashier or barista while checking out",
+    "Starting a conversation at a social event or party",
+    "Breaking the ice with a new coworker in the break room"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "introduce-yourself",
+    "ask-clarifying-question"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "None"
+  ],
+  "result": "A short, friendly conversation started and maintained with someone new",
+  "youWillLearn": [
+    "Start a conversation with a simple observation or question",
+    "Use open-ended questions to keep the other person talking",
+    "Find common ground through shared topics like weather, classes, or events",
+    "Keep the conversation light and know when to wrap it up"
+  ],
+  "miniChallenge": "Start a short conversation with someone you do not know well. Use an observation or open question, ask one follow-up, and find one thing you have in common.",
+  "steps": [
+    "Choose a safe, shared topic like the setting, weather, or something you both see",
+    "Start with a simple question or comment to open the conversation",
+    "Ask an open-ended follow-up question that cannot be answered with just yes or no",
+    "Listen and find one point of connection to comment on",
+    "Keep it brief and positive, then let the conversation end naturally"
+  ],
+  "completionCriteria": [
+    "You initiated a conversation with someone you do not know well",
+    "The exchange lasted at least two to three minutes",
+    "You asked at least one open-ended question and found a shared topic"
+  ],
+  "commonProblems": [
+    "Asking questions that can be answered with just yes or no, which kills the flow",
+    "Talking only about yourself without asking the other person anything",
+    "Feeling pressure to be interesting instead of being interested"
+  ],
+  "tips": [
+    "People love talking about things they care about; your job is to be curious",
+    "Comments about the shared environment are the easiest conversation starters",
+    "It is okay if the conversation is short; even two minutes of friendly talk counts"
+  ],
+  "tags": ["conversation", "social-skills", "networking", "confidence"]
+}

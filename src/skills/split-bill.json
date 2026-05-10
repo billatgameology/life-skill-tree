@@ -1,0 +1,52 @@
+{
+  "id": "split-bill",
+  "title": "Split a Bill",
+  "domain": "money-finance",
+  "summary": "Divide a shared bill fairly among a group of people.",
+  "learnerPromise": "You will be able to split a group bill evenly or by what each person ordered.",
+  "whyItMatters": "Sharing costs with friends or roommates happens often, and a fair split keeps everyone comfortable and avoids awkwardness later.",
+  "realLifeUses": [
+    "Dividing a dinner bill among three friends after a meal out",
+    "Splitting the cost of a shared gift for someone",
+    "Sharing grocery costs when cooking a group meal",
+    "Dividing rideshare or taxi fares on a group trip"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["calculate-tip"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["A calculator", "A sample bill or receipt"],
+  "result": "You can split any group bill fairly using one of two methods.",
+  "youWillLearn": [
+    "Split a total evenly by dividing by the number of people",
+    "Assign each person the cost of what they ordered individually",
+    "Add tax and tip fairly to each person's share",
+    "Handle one person who paid and needs to be paid back"
+  ],
+  "miniChallenge": "Imagine a $60 dinner bill for three people; split it evenly and then try splitting by what each person ordered.",
+  "steps": [
+    "Ask the group if they want to split evenly or pay for their own items.",
+    "If splitting evenly, add the subtotal, tax, and tip, then divide by the number of people.",
+    "If splitting by order, go down the receipt and mark each item with the person's name.",
+    "Calculate each person's subtotal, then add an equal share of tax and tip.",
+    "Offer payment options like cash, payment app, or one person paying and others sending their share."
+  ],
+  "completionCriteria": [
+    "You calculated two ways to split the same bill",
+    "You can explain when even splitting is fair versus splitting by order"
+  ],
+  "commonProblems": [
+    "One person ordered much more or less than others",
+    "Someone only has cash while others want to use an app",
+    "Forgetting to include tax and tip in each person's share",
+    "A shared appetizer or drink that needs to be split among everyone"
+  ],
+  "tips": [
+    "Decide the split method before ordering to avoid awkward conversations later",
+    "Apps like Venmo, Cash App, or Zelle make paying friends back quick",
+    "If splitting by order feels too complicated, even splitting is usually fine among close friends"
+  ],
+  "tags": ["group-dining", "splitting", "friends", "payment-apps"]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "spot-fake-review",
+  "title": "Spot a Fake Review",
+  "domain": "shopping-consumer",
+  "summary": "Identify signs that an online review might be fake or paid.",
+  "learnerPromise": "You will be able to spot warning signs that suggest a review is fake or paid for, helping you trust reviews more wisely.",
+  "whyItMatters": "Not all online reviews are honest. Some are paid for or written by people who never used the product. Learning to spot fake reviews helps you avoid being misled.",
+  "realLifeUses": [
+    "Noticing that several 5-star reviews use the exact same phrases",
+    "Spotting a review that describes features the product does not actually have",
+    "Recognizing when a reviewer has only ever reviewed products from one brand",
+    "Seeing a burst of positive reviews posted within a few days of each other"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-product-reviews"],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["A device with internet access"],
+  "result": "A checklist of red flags you can use to judge review trustworthiness.",
+  "youWillLearn": [
+    "Common warning signs in fake reviews like vague praise or copied phrases",
+    "How to check a reviewer's history for patterns",
+    "How to compare reviews across different websites",
+    "How to balance positive and negative feedback for a fairer picture"
+  ],
+  "miniChallenge": "Find a product with many reviews. Look through them and write down at least 3 signs that a review might be fake or unreliable.",
+  "steps": [
+    "Read a mix of positive and negative reviews for one product.",
+    "Look for vague language: reviews that say 'great product' without any details.",
+    "Check if multiple reviews use very similar wording or were posted on the same day.",
+    "Click on a reviewer's profile to see if they only review one brand or product type.",
+    "Compare the same product's reviews on another website to see if the feedback is consistent."
+  ],
+  "completionCriteria": [
+    "You identified at least 3 red flags that suggest a review may be fake",
+    "You checked reviewer profiles or cross-site reviews for patterns",
+    "You can explain why a specific review seems trustworthy or not"
+  ],
+  "commonProblems": [
+    "Fake reviews can look very real — look for patterns, not just one clue",
+    "Some negative reviews are fake too, posted by competitors",
+    "Review filters on shopping sites are not perfect — use your own judgment"
+  ],
+  "tips": [
+    "Reviews with specific details and photos tend to be more reliable",
+    "A mix of positive and negative points in one review is often more honest",
+    "If almost every review is 5 stars, be cautious — most products have at least some variation"
+  ],
+  "tags": ["online-shopping", "reviews", "critical-thinking", "consumer-awareness"]
+}

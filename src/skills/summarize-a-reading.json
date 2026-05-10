@@ -1,0 +1,56 @@
+{
+  "id": "summarize-a-reading",
+  "title": "Summarize a Reading",
+  "domain": "school-learning",
+  "summary": "Read a text and write a short summary of the main points in your own words.",
+  "learnerPromise": "You will be able to identify the main ideas of a text and restate them briefly in your own words.",
+  "whyItMatters": "Summarizing helps you check that you understood what you read and makes it easier to review later. It is a skill used in most school subjects.",
+  "realLifeUses": [
+    "Writing a short summary of a textbook chapter for study notes",
+    "Explaining a news article to someone else in a few sentences",
+    "Reviewing research for a project by summarizing each source",
+    "Preparing for a book report by capturing the main events or ideas"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["take-class-notes"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A short article or text to read",
+    "Paper or a notes app",
+    "Pen or pencil"
+  ],
+  "result": "A 3-5 sentence summary of a text written in your own words",
+  "youWillLearn": [
+    "How to find the main idea of a paragraph or section",
+    "How to tell the difference between key points and small details",
+    "How to restate ideas using your own words",
+    "How to keep a summary short and focused"
+  ],
+  "miniChallenge": "Read a short article (1-2 pages) and write a 3-5 sentence summary of the main points in your own words.",
+  "steps": [
+    "Read the full text once without taking notes.",
+    "Ask yourself: What is the main topic? What are the most important points?",
+    "Write one sentence stating the main idea.",
+    "Add 2-4 more sentences covering the key supporting points only.",
+    "Check that you did not copy full sentences from the original text."
+  ],
+  "completionCriteria": [
+    "Summary is 3-5 sentences long",
+    "Main points are accurate and in your own words",
+    "No full sentences were copied from the original"
+  ],
+  "commonProblems": [
+    "Including too many small details instead of just main points",
+    "Copying sentences directly from the text instead of restating",
+    "Making the summary too long"
+  ],
+  "tips": [
+    "A summary should be much shorter than the original text",
+    "If you get stuck, cover the text and explain what you read out loud",
+    "Ask: if I told a friend one thing from this, what would it be?"
+  ],
+  "tags": ["reading", "writing", "comprehension", "summary"]
+}

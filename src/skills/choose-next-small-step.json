@@ -1,0 +1,54 @@
+{
+  "id": "choose-next-small-step",
+  "title": "Choose Your Next Small Step",
+  "domain": "emotional-skills",
+  "summary": "When overwhelmed, pick one small, specific action to move forward.",
+  "learnerPromise": "You will be able to break free from overwhelm by choosing one tiny, concrete action.",
+  "whyItMatters": "When everything feels like too much, focusing on just one small step can help you start moving again. Action, even a small one, often reduces anxiety.",
+  "realLifeUses": [
+    "A big project feels impossible so you choose to just open the document and read the first paragraph",
+    "Your room is a mess and you decide to only pick up the clothes on the floor today",
+    "You have too many messages to answer so you reply to just one important one",
+    "You feel overwhelmed by a decision so you choose to gather one piece of information first"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["prioritize-tasks"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Paper or a notes app",
+    "A pen or keyboard"
+  ],
+  "result": "One clearly written small step you will take today.",
+  "youWillLearn": [
+    "How to recognize when overwhelm is stopping you from acting",
+    "How to shrink a big task into a single first action",
+    "How to commit to just one step without pressuring yourself to finish everything",
+    "How taking one small step can change how you feel about a larger challenge"
+  ],
+  "miniChallenge": "Think of one thing you have been putting off because it feels too big. Write down the smallest possible first action you could take in the next 10 minutes. Then do it.",
+  "steps": [
+    "Name what is making you feel overwhelmed — say it or write it down",
+    "Ask yourself: what is the smallest thing I could do that counts as progress?",
+    "Write down that one small step so it is clear and specific",
+    "Set a timer for 10 minutes and do only that one step",
+    "When the timer ends, notice how you feel and decide whether to continue or stop"
+  ],
+  "completionCriteria": [
+    "You wrote down one specific small step",
+    "You completed that step within 10 minutes"
+  ],
+  "commonProblems": [
+    "You might still feel overwhelmed after one step — this is normal, and you can take another step later",
+    "Your small step might still feel too big — try making it even smaller",
+    "You may want to do everything at once — resist that urge and stick to one step"
+  ],
+  "tips": [
+    "A good small step takes under 10 minutes and requires almost no preparation",
+    "Examples of truly small steps: open an email, find a phone number, write one sentence, put one item away",
+    "If you keep going after the step, that is a bonus — not an expectation"
+  ],
+  "tags": ["overwhelm", "action", "procrastination", "focus"]
+}

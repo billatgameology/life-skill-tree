@@ -1,0 +1,64 @@
+{
+  "id": "pack-lunch",
+  "title": "Pack a Lunch",
+  "domain": "food-cooking",
+  "summary": "Pack a lunch that stays fresh and safe to eat until mealtime.",
+  "learnerPromise": "You will be able to pack a lunch that stays fresh, at a safe temperature, and ready to eat until your mealtime.",
+  "whyItMatters": "A well-packed lunch saves money and lets you choose what you eat. Keeping food at safe temperatures helps prevent spoilage and foodborne illness, especially when you are away from home for several hours.",
+  "realLifeUses": [
+    "Packing lunch for school or work",
+    "Preparing food for a day trip or outing",
+    "Packing a meal for sports practice or a hike",
+    "Sending food with a family member who works outside the home"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "food-safety"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Lunch container or bag",
+    "Ice pack or frozen water bottle",
+    "Containers for different foods",
+    "Napkin or utensils"
+  ],
+  "result": "A packed lunch that is organized, at a safe temperature, and ready to eat.",
+  "youWillLearn": [
+    "Choose foods that travel well and do not spoil quickly",
+    "Keep cold foods cold with an ice pack",
+    "Separate foods to keep textures and flavors fresh",
+    "Pack the lunch in a logical order so it is easy to eat"
+  ],
+  "miniChallenge": "Pack a lunch with at least three items (for example: a sandwich, a fruit, and a snack) using proper storage and a cold pack if needed.",
+  "steps": [
+    "Choose foods that hold up well when stored. Avoid items that spoil easily without refrigeration.",
+    "Prepare and cool any cooked items before packing. Warm food can raise the temperature inside the container.",
+    "Pack cold items with an ice pack or frozen drink bottle to keep them cool.",
+    "Use separate containers for wet and dry items to keep textures fresh.",
+    "Close containers tightly, add utensils and a napkin, and pack everything in an insulated bag if you have one."
+  ],
+  "completionCriteria": [
+    "The lunch includes at least three different items",
+    "Cold foods are packed with a cold source (ice pack or frozen drink)",
+    "Containers are sealed and the lunch is easy to carry and eat"
+  ],
+  "commonProblems": [
+    "Packing hot food that warms everything else in the lunch bag",
+    "Forgetting an ice pack, which lets cold food sit at unsafe temperatures",
+    "Packing foods that get soggy or mushy by mealtime"
+  ],
+  "tips": [
+    "Freeze a water bottle the night before. It acts as an ice pack and melts into a cold drink by lunch.",
+    "Keep wet ingredients (like tomato or dressing) separate until you are ready to eat.",
+    "If no refrigerator is available, eat the lunch within about 4 hours of packing."
+  ],
+  "tags": [
+    "planning",
+    "food-safety",
+    "lunch",
+    "storage"
+  ]
+}

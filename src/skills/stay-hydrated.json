@@ -1,0 +1,57 @@
+{
+  "id": "stay-hydrated",
+  "title": "Stay Hydrated",
+  "domain": "health-safety",
+  "summary": "Recognize signs of dehydration and take steps to drink enough water.",
+  "learnerPromise": "You will be able to notice when your body needs more fluids and build a simple habit of drinking water throughout the day.",
+  "whyItMatters": "Staying hydrated supports your energy, focus, and body temperature. Many people do not drink enough water, especially during warm weather or physical activity.",
+  "realLifeUses": [
+    "Drinking enough water before and during sports practice or exercise",
+    "Noticing a headache or dry mouth as a signal to drink water",
+    "Keeping a water bottle nearby during a long school or work day",
+    "Helping a friend remember to hydrate on a hot outdoor outing"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Water bottle or cup",
+    "Optional: phone alarm or hydration tracking app"
+  ],
+  "result": "A personal hydration plan with at least two reminders or cues built into your daily routine.",
+  "youWillLearn": [
+    "Recognize common early signs that your body needs more fluids",
+    "Estimate how much water you may need based on your activity level",
+    "Build simple cues and reminders into your daily routine",
+    "Choose water-rich foods and drinks as backup hydration sources"
+  ],
+  "miniChallenge": "Drink a full glass of water right now and set two reminders on your phone to drink water later today.",
+  "steps": [
+    "Notice how you feel right now: tired, headache, dry mouth, or dark urine can be signs you need water.",
+    "Fill a bottle or glass and drink a full serving.",
+    "Decide on two daily cues for drinking water, such as with meals or when you wake up.",
+    "Set reminders on your phone or place your bottle where you will see it often.",
+    "Check in with yourself later today to see if the reminders helped."
+  ],
+  "completionCriteria": [
+    "You drink at least one full glass or bottle of water during this skill",
+    "You have at least two reminders or cues set for the rest of the day",
+    "You can name three early signs of dehydration"
+  ],
+  "commonProblems": [
+    "Forgetting to drink water when busy or focused on other tasks",
+    "Not feeling thirsty even when your body needs fluids",
+    "Preferring sugary drinks over water, which can reduce how much you drink"
+  ],
+  "tips": [
+    "Keep a filled water bottle in your bag, on your desk, or by your bed",
+    "Drink a glass of water with each meal as a built-in habit",
+    "Add a slice of lemon or cucumber if plain water feels boring to you"
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "If you show signs of severe dehydration such as dizziness, very dark urine, rapid heartbeat, or confusion, contact a medical professional or urgent care.",
+  "tags": ["hydration", "water", "daily-habit", "health"]
+}

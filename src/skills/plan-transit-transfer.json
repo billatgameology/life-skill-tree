@@ -1,0 +1,58 @@
+{
+  "id": "plan-transit-transfer",
+  "title": "Plan a Transit Transfer",
+  "domain": "navigation",
+  "summary": "Switch from one bus or train to another to reach a destination.",
+  "learnerPromise": "You will be able to plan a trip that involves switching from one bus or train to another with confidence.",
+  "whyItMatters": "Most transit trips require at least one transfer. Knowing how to plan one helps you travel farther and reach places that no single route serves directly.",
+  "realLifeUses": [
+    "Taking a bus to a train station and switching to a train for the rest of your trip",
+    "Switching buses at a transit hub to reach a neighborhood on the other side of town",
+    "Planning a commute to school or work that involves two or more routes",
+    "Helping a friend figure out how to get to an event using multiple transit lines"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "read-transit-schedules",
+    "read-bus-route-map"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Transit schedules or a trip-planning app",
+    "Paper and pen or a notes app"
+  ],
+  "result": "You have a written plan showing your first route, transfer point, second route, and estimated arrival time.",
+  "youWillLearn": [
+    "How to identify the best transfer point between two routes",
+    "How to match arrival and departure times at a transfer stop",
+    "How to plan for walking between platforms or stops if needed",
+    "How to build a backup plan in case you miss your connection"
+  ],
+  "miniChallenge": "Plan a trip from a starting location to a destination that requires one transfer. Write down both route numbers, the transfer stop name, and the total estimated travel time.",
+  "steps": [
+    "Look up the route from your starting point to a central transfer stop or hub.",
+    "Find the connecting route from that stop to your final destination.",
+    "Check the schedules to make sure the arrival and departure times line up reasonably.",
+    "Note the transfer stop name and any walking directions between platforms.",
+    "Write down both route numbers, the transfer stop, and your backup option if you miss the connection."
+  ],
+  "completionCriteria": [
+    "You identified a valid transfer point where two routes meet",
+    "Your plan includes both route numbers and the transfer stop name",
+    "You estimated a realistic total travel time"
+  ],
+  "commonProblems": [
+    "The connecting bus or train leaves just before you arrive",
+    "Transfer stops can be on opposite sides of a large street or station",
+    "Routes sometimes run less frequently on weekends or evenings"
+  ],
+  "tips": [
+    "Allow at least five to ten minutes between connections when possible",
+    "Check if your transfer stop has a shelter or indoor waiting area",
+    "Have the next departure time ready in case you miss your first connection"
+  ],
+  "tags": ["transit", "transfer", "planning", "public-transportation", "multi-route"]
+}

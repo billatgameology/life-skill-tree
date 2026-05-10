@@ -1,0 +1,67 @@
+{
+  "id": "use-oven-safely",
+  "title": "Use an Oven Safely",
+  "domain": "food-cooking",
+  "summary": "Preheat and use an oven for baking or roasting without injury.",
+  "learnerPromise": "You will be able to preheat an oven, place food inside safely, and remove it without burns or accidents.",
+  "whyItMatters": "Ovens reach high temperatures that can cause serious burns. Learning safe setup, placement, and removal habits helps you bake and roast food with much lower risk.",
+  "realLifeUses": [
+    "Baking a frozen pizza at the temperature on the package",
+    "Roasting vegetables for a side dish",
+    "Baking a simple cake or cookies from a mix",
+    "Reheating food in an oven-safe dish"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "food-safety"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Oven",
+    "Oven mitt or thick towel",
+    "Oven-safe dish or tray"
+  ],
+  "result": "Food placed in and removed from a preheated oven safely, with no burns or spills.",
+  "youWillLearn": [
+    "Preheat the oven to the correct temperature",
+    "Use oven mitts to handle hot dishes and racks",
+    "Place and remove dishes without touching hot surfaces",
+    "Turn the oven off after use and leave the door closed while it cools"
+  ],
+  "miniChallenge": "Preheat your oven to 350 degrees Fahrenheit (175 Celsius), place an oven-safe empty dish inside for one minute, then remove it safely using oven mitts. Turn the oven off afterward.",
+  "steps": [
+    "Make sure the oven is empty. Remove any items stored inside.",
+    "Set the oven to the temperature you need and let it preheat fully.",
+    "Open the door slowly. Stand to the side to avoid the blast of hot air.",
+    "Place the dish on the center rack using oven mitts. Close the door gently.",
+    "When done, turn the oven off. Open the door carefully, remove the dish with mitts, and let the oven cool with the door closed or slightly open as needed."
+  ],
+  "completionCriteria": [
+    "You preheated the oven to the correct temperature",
+    "You placed and removed the dish using oven mitts without touching the rack or oven walls",
+    "You turned the oven off after use"
+  ],
+  "commonProblems": [
+    "Reaching into the oven without mitts and burning hands or arms",
+    "Placing a cold glass dish into a hot oven, which can cause it to shatter",
+    "Opening the oven door quickly and getting a face full of hot steam"
+  ],
+  "tips": [
+    "Use two oven mitts\u2014one for each hand\u2014when removing heavy or hot items.",
+    "Let frozen or refrigerated dishes warm slightly before putting them in a hot oven.",
+    "Keep children and pets away from the oven while it is on and while it cools down."
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Ask for help if you get a burn larger than a small coin, if the oven smokes or smells like gas, if you see sparks, or if a dish breaks inside the oven. For gas smells you cannot stop, leave the area and call for help.",
+  "tags": [
+    "cooking",
+    "safety",
+    "appliances",
+    "baking",
+    "oven"
+  ]
+}

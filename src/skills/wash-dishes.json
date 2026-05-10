@@ -1,0 +1,64 @@
+{
+  "id": "wash-dishes",
+  "title": "Wash Dishes",
+  "domain": "food-cooking",
+  "summary": "Wash dishes by hand or load a dishwasher correctly for clean results.",
+  "learnerPromise": "You will be able to wash dishes by hand or load a dishwasher so that everything comes out clean and ready to use again.",
+  "whyItMatters": "Clean dishes are essential for safe food preparation. Washing them properly removes food residue and bacteria that can cause illness or attract pests.",
+  "realLifeUses": [
+    "Cleaning up after breakfast before leaving for the day",
+    "Washing pots and pans after cooking dinner",
+    "Loading the dishwasher efficiently after a family meal",
+    "Washing a water bottle or lunch container for reuse"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Dirty dishes",
+    "Warm water",
+    "Dish soap",
+    "Sponge or dish brush",
+    "Dish towel or drying rack",
+    "Or: dishwasher and detergent"
+  ],
+  "result": "Clean, dry dishes ready to be put away.",
+  "youWillLearn": [
+    "Scrape off leftover food before washing",
+    "Wash in the right order (glasses first, greasy items last)",
+    "Rinse thoroughly and dry or air-dry dishes",
+    "Load a dishwasher so water reaches all surfaces"
+  ],
+  "miniChallenge": "Wash all the dishes from one meal. If you have a dishwasher, load it properly. If washing by hand, wash, rinse, and dry each item.",
+  "steps": [
+    "Scrape leftover food into the trash or compost bin.",
+    "Fill the sink with warm soapy water, or set up a washing station.",
+    "Wash in order: glasses and cups, then utensils, then plates, then pots and pans last.",
+    "Rinse each item under warm running water to remove all soap.",
+    "Place items in a drying rack or dry with a clean towel."
+  ],
+  "completionCriteria": [
+    "All dishes are free of food residue and soap",
+    "Dishes are rinsed clean and either dried or in a drying rack",
+    "The sink area is wiped down after washing"
+  ],
+  "commonProblems": [
+    "Washing greasy pans first and making the water too oily for other dishes",
+    "Not rinsing well, which leaves soap residue on dishes",
+    "Letting dishes pile up, which makes the job harder"
+  ],
+  "tips": [
+    "Wash dishes right after eating. Dried food is much harder to remove.",
+    "Soak pots and pans with stubborn residue for a few minutes before scrubbing.",
+    "Change the wash water if it gets cold or greasy."
+  ],
+  "tags": [
+    "cleaning",
+    "hygiene",
+    "kitchen",
+    "daily-task"
+  ]
+}

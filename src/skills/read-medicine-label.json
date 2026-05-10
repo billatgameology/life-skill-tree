@@ -1,0 +1,58 @@
+{
+  "id": "read-medicine-label",
+  "title": "Read a Medicine Label",
+  "domain": "health-safety",
+  "summary": "Read an over-the-counter medicine label to understand dosage, warnings, and ingredients.",
+  "learnerPromise": "You will be able to find and understand the key information on an over-the-counter medicine label before taking it.",
+  "whyItMatters": "Medicine labels contain important details about how much to take, how often, and what to avoid. Understanding these details helps you use medicine more safely.",
+  "realLifeUses": [
+    "Buying pain reliever at a pharmacy and choosing the right product for your symptoms",
+    "Checking if a cold medicine is safe to take with your existing prescriptions",
+    "Figuring out the correct dose and timing for a fever reducer",
+    "Identifying an ingredient you are sensitive to before taking a new medicine"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "One over-the-counter medicine box or bottle (new, unopened)",
+    "Optional: magnifying glass or phone camera zoom for small text"
+  ],
+  "result": "You can locate and explain the active ingredients, dosage instructions, and key warnings on a medicine label.",
+  "youWillLearn": [
+    "Locate the active ingredients and their purposes on a Drug Facts label",
+    "Read and follow dosage instructions by age or weight",
+    "Identify warning labels about drowsiness, allergies, or pregnancy",
+    "Check the expiration date and storage instructions"
+  ],
+  "miniChallenge": "Pick one over-the-counter medicine in your home and read its entire Drug Facts label. Write down three key facts you learned from it.",
+  "steps": [
+    "Find the Drug Facts panel on the medicine package.",
+    "Read the active ingredients section and note what each one does.",
+    "Check the uses section to confirm this medicine matches your symptoms.",
+    "Read the warnings section, including allergy alerts and when not to use it.",
+    "Review the directions for the correct dose based on age or weight."
+  ],
+  "completionCriteria": [
+    "You can point to and explain the active ingredients on the label",
+    "You can state the correct dose and at least one important warning",
+    "You can explain why reading the label matters before taking medicine"
+  ],
+  "commonProblems": [
+    "Some labels use very small print that is hard to read",
+    "Similar-sounding products may have very different ingredients",
+    "It can be confusing when multiple medicines contain the same active ingredient"
+  ],
+  "tips": [
+    "Ask a pharmacist to walk you through a label the first time if the text is overwhelming",
+    "Compare two similar products to see which ingredients differ",
+    "Keep a list of ingredients you are sensitive to and check every new medicine against it"
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Ask a pharmacist or doctor before taking medicine if you are unsure about the dosage, have existing health conditions, take prescription medications, or are pregnant.",
+  "tags": ["health", "medicine", "reading", "safety"]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "describe-symptoms-clearly",
+  "title": "Describe Symptoms Clearly",
+  "domain": "health-safety",
+  "summary": "Describe how you feel to a medical professional using clear, specific language.",
+  "learnerPromise": "You will be able to explain your symptoms to a doctor, nurse, or pharmacist in a way that helps them understand what is going on.",
+  "whyItMatters": "Clear descriptions help medical professionals assess your situation more accurately and suggest the right next steps.",
+  "realLifeUses": [
+    "Telling a doctor about a stomach problem during a clinic visit",
+    "Describing pain to a nurse over the phone when booking an appointment",
+    "Answering a pharmacist's questions about your symptoms to get the right medicine",
+    "Reporting changes in how you feel at a follow-up appointment"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Paper or phone notes app",
+    "Pen or digital device for writing"
+  ],
+  "result": "A written symptom note you could read or hand to a medical professional.",
+  "youWillLearn": [
+    "Use specific words to describe pain, discomfort, or changes in your body",
+    "Track when symptoms started and what makes them better or worse",
+    "Organize your description so it is easy for a professional to follow",
+    "Mention relevant details like recent activities, foods, or medicines"
+  ],
+  "miniChallenge": "Think of a time you felt unwell. Write down a clear description using the what, when, where, and how much framework.",
+  "steps": [
+    "Write down what the symptom feels like using specific words like sharp, dull, burning, or throbbing.",
+    "Note when it started and whether it is constant or comes and goes.",
+    "Describe where on your body you feel it and if it spreads to other areas.",
+    "Rate how strong it is on a scale of 1 to 10, with 10 being the worst.",
+    "List anything that makes it better, worse, or anything you have already tried."
+  ],
+  "completionCriteria": [
+    "You have a written note that covers what, when, where, and how strong the symptom is",
+    "You can read your note aloud in under one minute",
+    "A listener could understand the basic situation without extra explanation"
+  ],
+  "commonProblems": [
+    "Forgetting details when you are nervous at the appointment",
+    "Using vague words like weird or funny that do not give useful information",
+    "Trying to diagnose yourself instead of just describing what you feel"
+  ],
+  "tips": [
+    "Write your notes before the appointment and bring them with you",
+    "Use comparisons like tight as a rubber band or sharp like a needle if that helps",
+    "Be honest about things you think might be embarrassing; medical professionals have heard it before"
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "If your symptoms are severe, getting worse quickly, or you feel unsafe, contact emergency services or an urgent care center rather than waiting to describe them in a scheduled appointment.",
+  "tags": ["communication", "symptoms", "health", "doctor-visit"]
+}

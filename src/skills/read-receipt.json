@@ -1,0 +1,51 @@
+{
+  "id": "read-receipt",
+  "title": "Read a Receipt",
+  "domain": "money-finance",
+  "summary": "Check a purchase receipt for accuracy and understand what each line means.",
+  "learnerPromise": "You will be able to read a store receipt line by line and spot mistakes.",
+  "whyItMatters": "Receipts help you confirm you were charged the correct amount and give you proof of purchase if you need to return something.",
+  "realLifeUses": [
+    "Noticing you were charged twice for the same item at a grocery store",
+    "Confirming a discount was applied before leaving the shop",
+    "Checking that the items listed match what you put in your bag",
+    "Keeping a receipt for a later warranty claim or exchange"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-prices"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["A recent paper or digital receipt"],
+  "result": "You can explain each part of a receipt and identify one common error.",
+  "youWillLearn": [
+    "Locate the date, store name, and transaction number on a receipt",
+    "Match each item to its price and quantity",
+    "Spot extra charges, discounts, and sales tax",
+    "Calculate the total to verify it is correct"
+  ],
+  "miniChallenge": "Grab a recent receipt and check whether the total matches the items you bought.",
+  "steps": [
+    "Find a receipt from a recent purchase (paper or digital).",
+    "Look at the top for the store name, date, and time of purchase.",
+    "Read down the list of items and match each one to its price and quantity.",
+    "Look for subtotal, tax, discounts, and the final total.",
+    "Add up the item prices mentally or with a calculator to check the total."
+  ],
+  "completionCriteria": [
+    "You can name the five main sections of a receipt",
+    "You found at least one detail you had not noticed before"
+  ],
+  "commonProblems": [
+    "Receipts with very small print or confusing abbreviations",
+    "Discounts that appear after the total instead of beside the item",
+    "Being charged for an item you did not pick up"
+  ],
+  "tips": [
+    "Keep receipts for expensive items until the return window passes",
+    "Take a photo of paper receipts so you have a backup",
+    "If something looks wrong, ask the store before you leave"
+  ],
+  "tags": ["receipt", "shopping", "checking", "budgeting"]
+}

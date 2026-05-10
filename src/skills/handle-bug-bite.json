@@ -1,0 +1,59 @@
+{
+  "id": "handle-bug-bite",
+  "title": "Handle a Bug Bite or Sting",
+  "domain": "health-safety",
+  "summary": "Treat a minor insect bite or sting and know when to get medical help.",
+  "learnerPromise": "You will be able to clean and soothe a minor insect bite or sting and recognize warning signs that need professional care.",
+  "whyItMatters": "Most bug bites and stings are harmless and heal on their own, but knowing how to treat them properly reduces itching, swelling, and the risk of infection.",
+  "realLifeUses": [
+    "Treating a mosquito bite after a walk in the park",
+    "Removing a bee stinger and cleaning the area after being stung",
+    "Soothing an ant bite that is red and itchy",
+    "Helping a friend or family member who got bitten while outdoors"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Soap and water",
+    "Clean cloth or tissue",
+    "Optional: cold pack, anti-itch cream, adhesive bandage"
+  ],
+  "result": "A cleaned and treated bug bite with reduced itching and a plan for monitoring it.",
+  "youWillLearn": [
+    "Clean a bite or sting area properly to lower infection risk",
+    "Remove a stinger safely if one is present",
+    "Reduce swelling and itching with simple home care",
+    "Spot warning signs of an allergic reaction or infection"
+  ],
+  "miniChallenge": "Read the steps below and practice identifying the difference between a normal bite reaction and one that needs medical help. Write down two warning signs you would watch for.",
+  "steps": [
+    "Wash the bite or sting area with soap and water.",
+    "If a stinger is visible, remove it gently by scraping with a flat edge like a credit card.",
+    "Apply a cold pack or cool, damp cloth for 10 to 15 minutes to reduce swelling.",
+    "Avoid scratching the area to prevent infection and further irritation.",
+    "Monitor the area for the next 24 hours and watch for signs of allergic reaction or infection."
+  ],
+  "completionCriteria": [
+    "You can name the correct first steps for treating a bug bite or sting",
+    "You can list at least two warning signs that mean you should get medical help",
+    "You know how to remove a stinger safely if one is present"
+  ],
+  "commonProblems": [
+    "Scratching makes the bite more swollen and can lead to infection",
+    "It can be hard to tell a normal reaction apart from an allergic one at first",
+    "Some bites become infected a day or two later even if they seemed fine initially"
+  ],
+  "tips": [
+    "Keep nails short so scratching does less damage if you do it without thinking",
+    "A small adhesive bandage over the bite can remind you not to scratch",
+    "Take a photo of the bite when you first notice it so you can compare later if it changes"
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Call emergency services immediately if someone shows signs of a severe allergic reaction such as trouble breathing, swelling of the face or throat, dizziness, or widespread hives. Seek medical care if the bite area becomes increasingly red, warm, painful, or produces pus over the next day or two.",
+  "tags": ["insects", "bites", "stings", "first-aid", "outdoor"]
+}

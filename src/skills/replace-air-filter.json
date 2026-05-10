@@ -1,0 +1,62 @@
+{
+  "id": "replace-air-filter",
+  "title": "Replace an HVAC Air Filter",
+  "domain": "home-care",
+  "summary": "Replace a disposable HVAC air filter in a home system.",
+  "learnerPromise": "You will be able to locate, remove, and replace a disposable HVAC air filter in your home.",
+  "whyItMatters": "A clean air filter helps your heating and cooling system run efficiently, improves indoor air quality, and can lower energy bills. It is a simple maintenance task that most people can do.",
+  "realLifeUses": [
+    "Replacing a clogged filter at the start of a new season",
+    "Improving air quality during allergy season",
+    "Helping an older HVAC system run more efficiently",
+    "Moving into a new home and starting with a fresh filter"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "change-lightbulb"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Replacement air filter (correct size and type)"
+  ],
+  "result": "A correctly installed new air filter in the HVAC return vent or furnace.",
+  "youWillLearn": [
+    "How to locate the air filter compartment in your home",
+    "How to read the filter size and MERV rating on the old filter frame",
+    "How to insert the new filter with the airflow arrows pointing the correct direction",
+    "How to set a reminder for the next replacement"
+  ],
+  "miniChallenge": "Locate the air filter in your home, check its condition, and replace it with a new one of the correct size.",
+  "steps": [
+    "Turn off the HVAC system at the thermostat before opening the filter compartment.",
+    "Locate the filter compartment — usually behind a return air grille or near the furnace.",
+    "Slide out the old filter and note the size printed on the cardboard frame.",
+    "Insert the new filter with the airflow arrows pointing toward the blower or furnace, not toward the room.",
+    "Close the compartment securely, turn the system back on, and set a reminder for the next change."
+  ],
+  "completionCriteria": [
+    "New filter is fully seated in the compartment with arrows pointing the correct direction",
+    "Compartment door or grille is closed and the HVAC system turns back on normally"
+  ],
+  "commonProblems": [
+    "New filter does not fit — double-check the size printed on the old filter frame",
+    "Not sure which way the arrows point — look for a label on the unit or check the user manual",
+    "Filter compartment is hard to open — it may have latches or screws; do not force it"
+  ],
+  "tips": [
+    "Most filters should be replaced every 1 to 3 months depending on use and air quality",
+    "Write the replacement date on the edge of the new filter frame",
+    "Higher MERV ratings filter more particles but can restrict airflow — check what your system supports"
+  ],
+  "tags": [
+    "hvac",
+    "maintenance",
+    "air-quality",
+    "home-systems"
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "Ask for help if the repair feels unsafe or requires a ladder or power tools you are not comfortable using."
+}

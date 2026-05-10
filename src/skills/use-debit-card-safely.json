@@ -1,0 +1,52 @@
+{
+  "id": "use-debit-card-safely",
+  "title": "Use a Debit Card Safely",
+  "domain": "money-finance",
+  "summary": "Use a debit card for purchases while protecting the PIN and account.",
+  "learnerPromise": "You will be able to use a debit card confidently while keeping your account secure.",
+  "whyItMatters": "Debit cards draw money directly from your bank account, so protecting your card and PIN helps prevent unauthorized charges and keeps your money safe.",
+  "realLifeUses": [
+    "Paying for groceries at a checkout terminal without exposing your PIN",
+    "Withdrawing cash from an ATM without risking card theft",
+    "Shopping online with a debit card using trusted websites",
+    "Noticing and reporting suspicious transactions quickly"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-bank-accounts"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["A debit card"],
+  "result": "You know how to use a debit card securely and what to do if something goes wrong.",
+  "youWillLearn": [
+    "Cover the keypad when entering your PIN",
+    "Choose credit over debit at payment terminals when possible",
+    "Check your account regularly for transactions you did not make",
+    "Know what to do if your card is lost or stolen"
+  ],
+  "miniChallenge": "Log into your banking app and review the last ten transactions to make sure you recognize all of them.",
+  "steps": [
+    "Inspect any card reader or ATM for loose parts or unusual attachments before inserting your card.",
+    "When entering your PIN, use your free hand to shield the keypad from view.",
+    "At a store terminal, choose the credit option if prompted; this often skips the PIN and offers more fraud protection.",
+    "After each purchase, put your card away immediately and take your receipt.",
+    "Set a weekly reminder to check your account for unfamiliar transactions and report them right away if you find any."
+  ],
+  "completionCriteria": [
+    "You can list three safety habits for using a debit card",
+    "You have reviewed your recent transactions and know how to report a problem"
+  ],
+  "commonProblems": [
+    "Skimming devices attached to ATMs or gas station pumps",
+    "Shoulder surfing where someone watches you enter your PIN",
+    "Forgetting to report a lost card quickly, leading to unauthorized use",
+    "Using debit cards on unsecured public Wi-Fi for online purchases"
+  ],
+  "tips": [
+    "Never share your PIN with anyone, even friends or family",
+    "If your bank offers transaction alerts, turn them on for instant notifications",
+    "Memorize your PIN instead of writing it down or storing it with your card"
+  ],
+  "tags": ["debit-card", "banking", "security", "PIN", "fraud"]
+}

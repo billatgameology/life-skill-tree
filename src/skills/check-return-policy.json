@@ -1,0 +1,52 @@
+{
+  "id": "check-return-policy",
+  "title": "Check Return Policy",
+  "domain": "shopping-consumer",
+  "summary": "Find and understand a store's return or exchange policy before buying.",
+  "learnerPromise": "You will be able to locate and understand a store's return policy so you know your options if something goes wrong.",
+  "whyItMatters": "Return policies vary widely between stores. Knowing the rules before you buy can save you money, time, and frustration if the item does not work out.",
+  "realLifeUses": [
+    "Checking if you can return shoes that do not fit before ordering online",
+    "Finding out if a store offers refunds or only store credit",
+    "Learning how many days you have to return a gift you received",
+    "Understanding whether you need the original packaging to make a return"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["A device with internet access or a visit to a physical store"],
+  "result": "A clear understanding of the return window, refund type, and any conditions for a specific store.",
+  "youWillLearn": [
+    "How to find the return policy on a store's website or app",
+    "How to tell the difference between a refund, store credit, and exchange",
+    "What key details to look for: time limit, condition, receipt requirement",
+    "How to ask a store employee about the policy if you cannot find it online"
+  ],
+  "miniChallenge": "Pick one store where you shop. Find its return policy and write down the return window, what type of refund it offers, and any conditions you need to meet.",
+  "steps": [
+    "Go to the store's website or app and look for a 'Returns,' 'Help,' or 'Customer Service' link.",
+    "Read the return policy and note how many days you have to return items.",
+    "Check what kind of refund you get: money back, store credit, or exchange only.",
+    "Look for conditions: original packaging required, tags attached, receipt needed.",
+    "Write down the key rules so you remember them when making a purchase."
+  ],
+  "completionCriteria": [
+    "You found the return policy for a specific store",
+    "You identified the return time limit, refund type, and at least one condition",
+    "Your notes are clear enough to guide a future purchase decision"
+  ],
+  "commonProblems": [
+    "Return policy is hard to find — try the footer of the website or ask in chat",
+    "Policy uses confusing language — look for a simple FAQ or summary section",
+    "Different rules for online vs in-store purchases — make sure you check the right one"
+  ],
+  "tips": [
+    "Screenshot or save the policy page so you have it later",
+    "Some items like food, swimwear, or opened electronics may have special return rules",
+    "Gift receipts often have different return options — check those separately"
+  ],
+  "tags": ["returns", "consumer-rights", "online-shopping", "in-store"]
+}

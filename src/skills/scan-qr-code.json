@@ -1,0 +1,55 @@
+{
+  "id": "scan-qr-code",
+  "title": "Scan a QR Code",
+  "domain": "digital-basics",
+  "summary": "Use a phone camera to scan a QR code and follow where it leads.",
+  "learnerPromise": "You will be able to scan a QR code with your phone and safely decide what to do with the information it contains.",
+  "whyItMatters": "QR codes are used for menus, tickets, payments, and website links in many places. Knowing how to scan them saves time and helps you access information quickly.",
+  "realLifeUses": [
+    "A restaurant menu is accessed by scanning a QR code at the table",
+    "An event ticket is embedded in a QR code you need to show at the entrance",
+    "A product label has a QR code with more details or instructions",
+    "A flyer has a QR code linking to a sign-up form or website"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A smartphone with a working camera",
+    "A QR code to scan (find one on a product, flyer, or screen)"
+  ],
+  "result": "You successfully scan a QR code and reach the correct website, menu, or information page.",
+  "youWillLearn": [
+    "How to open your phone's camera or QR scanner",
+    "How to position the camera to read the QR code",
+    "How to review the link or information before opening it",
+    "How to recognize suspicious QR codes and avoid unsafe links"
+  ],
+  "miniChallenge": "Scan a QR code with your phone camera and safely visit the link it contains.",
+  "steps": [
+    "Open your phone's camera app or a QR code scanner app",
+    "Point the camera at the QR code so it fits inside the frame",
+    "Wait for a notification or pop-up to appear with the link or information",
+    "Read the link carefully before tapping it — check that it looks legitimate",
+    "Tap the notification to open the link, menu, or information in your browser or app"
+  ],
+  "completionCriteria": [
+    "You successfully scanned a QR code with your phone",
+    "You reached the intended webpage, menu, or information and confirmed it is safe"
+  ],
+  "commonProblems": [
+    "The camera does not recognize the code — try moving the phone closer or farther away",
+    "The lighting is too dim or too bright — adjust the angle or move to better lighting",
+    "The QR code is damaged or blurry — try a different code or ask for help"
+  ],
+  "tips": [
+    "Most modern phones scan QR codes directly through the camera app — no extra app needed",
+    "Always preview the link before opening it — if it looks odd, do not tap it",
+    "Be cautious with QR codes in public places — stickers can be placed over legitimate codes",
+    "If scanning does not work, try cleaning your camera lens"
+  ],
+  "tags": ["qr-code", "camera", "scanning", "links", "phone"]
+}

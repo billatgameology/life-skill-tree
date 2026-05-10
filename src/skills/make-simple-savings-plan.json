@@ -1,0 +1,51 @@
+{
+  "id": "make-simple-savings-plan",
+  "title": "Make a Simple Savings Plan",
+  "domain": "money-finance",
+  "summary": "Set a savings target and decide how much to set aside regularly.",
+  "learnerPromise": "You will be able to set a realistic savings goal and break it into small, regular steps.",
+  "whyItMatters": "Saving money becomes easier when you have a clear target and a plan, even small amounts add up over time and help you handle bigger expenses without stress.",
+  "realLifeUses": [
+    "Saving $200 for a new phone over four months by setting aside $50 each month",
+    "Building a small emergency fund for unexpected car repairs or medical costs",
+    "Setting aside money for a concert ticket before it goes on sale",
+    "Saving for holiday gifts so you are not short on cash in December"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["save-for-goal"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["Paper or a notes app", "A calculator", "Your income and expense estimates"],
+  "result": "You have a written savings plan with a target amount, timeline, and regular contribution.",
+  "youWillLearn": [
+    "Pick a specific, realistic savings target",
+    "Calculate how much you need to save per week or month",
+    "Choose a place to keep savings separate from spending money",
+    "Adjust the plan if your income or expenses change"
+  ],
+  "miniChallenge": "Pick something you want to buy within the next six months and create a weekly savings plan to afford it.",
+  "steps": [
+    "Write down one specific thing you want to save for and its estimated cost.",
+    "Decide when you want to reach your goal and count how many weeks or months that is.",
+    "Divide the total amount by the number of weeks or months to find your regular savings amount.",
+    "Look at your usual income and spending to check if the amount feels realistic.",
+    "Choose where to put the savings, such as a separate savings account or an envelope, and schedule when you will transfer the money."
+  ],
+  "completionCriteria": [
+    "You wrote down a specific savings goal with a dollar amount and a deadline",
+    "You calculated a regular savings amount and confirmed it fits your budget"
+  ],
+  "commonProblems": [
+    "Setting a goal that is too aggressive and feeling discouraged",
+    "Unexpected expenses that interrupt the plan",
+    "Keeping savings in the same account as spending money, making it too easy to use"
+  ],
+  "tips": [
+    "Start smaller than you think; consistency matters more than the amount",
+    "Name your savings account after your goal to make it feel more real",
+    "If you miss one week, do not give up; just continue the next week"
+  ],
+  "tags": ["savings", "goals", "budgeting", "planning"]
+}

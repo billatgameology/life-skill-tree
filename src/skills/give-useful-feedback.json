@@ -1,0 +1,57 @@
+{
+  "id": "give-useful-feedback",
+  "title": "Give Useful Feedback",
+  "domain": "communication",
+  "summary": "Share constructive feedback that is specific and helpful.",
+  "learnerPromise": "You will be able to give feedback that helps someone improve without making them feel attacked.",
+  "whyItMatters": "Good feedback helps people grow. Vague criticism or harsh comments shut people down. Useful feedback builds trust and makes teams, friendships, and work relationships stronger.",
+  "realLifeUses": [
+    "Telling a classmate what worked and what did not in a group presentation",
+    "Giving a coworker notes on a draft report",
+    "Helping a friend improve a skill they are practicing",
+    "Telling a service provider what you liked and what could be better"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "receive-feedback-calmly",
+    "disagree-respectfully"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "None"
+  ],
+  "result": "A piece of specific, constructive feedback delivered to someone",
+  "youWillLearn": [
+    "Point out something specific rather than giving general criticism",
+    "Use the format 'What I noticed' and 'One idea you might try'",
+    "Balance feedback by mentioning what is working too",
+    "Deliver feedback in private and at a good time"
+  ],
+  "miniChallenge": "Think of someone you interact with regularly. Write one sentence of positive feedback and one sentence of constructive feedback about something specific they did.",
+  "steps": [
+    "Pick a specific action or behavior to talk about, not the whole person",
+    "Start by noting something that went well or what you appreciated",
+    "Share the specific thing you noticed that could improve",
+    "Offer one practical idea or suggestion they could try",
+    "End with encouragement and offer to discuss it more if they want"
+  ],
+  "completionCriteria": [
+    "Your feedback refers to a specific action, not a general trait",
+    "It includes at least one positive point and one constructive suggestion",
+    "The other person receives it without feeling personally attacked"
+  ],
+  "commonProblems": [
+    "Giving vague feedback like 'It was fine' or 'It was bad' with no detail",
+    "Only pointing out problems and forgetting to mention what went well",
+    "Giving feedback in front of others, which can feel embarrassing"
+  ],
+  "tips": [
+    "The phrase 'I noticed that' keeps feedback focused on behavior, not personality",
+    "One specific suggestion is more useful than a list of everything wrong",
+    "Ask permission first if the feedback is more than casual, like 'Can I share one thought?'"
+  ],
+  "tags": ["feedback", "criticism", "growth", "professional"]
+}

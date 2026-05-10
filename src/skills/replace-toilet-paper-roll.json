@@ -1,0 +1,53 @@
+{
+  "id": "replace-toilet-paper-roll",
+  "title": "Replace a Toilet Paper Roll",
+  "domain": "home-care",
+  "summary": "Replace an empty toilet paper roll with a new one.",
+  "learnerPromise": "You will be able to replace an empty toilet paper roll with a new one correctly, with the paper facing the preferred direction.",
+  "whyItMatters": "Replacing an empty roll is a small act of consideration for the next person. It takes seconds and prevents an inconvenient discovery later.",
+  "realLifeUses": [
+    "Noticing the roll is empty after using the bathroom and replacing it",
+    "Helping restock a shared bathroom at home or in a dorm",
+    "Preparing a guest bathroom before visitors arrive",
+    "Teaching younger family members to notice and act on small needs"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 5,
+  "materialsNeeded": [
+    "New toilet paper roll"
+  ],
+  "result": "A properly installed toilet paper roll ready for use.",
+  "youWillLearn": [
+    "How to remove the empty roll from the holder",
+    "How to slide a new roll onto the holder",
+    "How to position the paper so it unrolls smoothly",
+    "How to check if the holder is loose or needs tightening"
+  ],
+  "miniChallenge": "Replace the toilet paper roll in one bathroom today. Make sure it is ready for the next person.",
+  "steps": [
+    "Remove the empty cardboard tube from the roll holder.",
+    "If the holder has a spring or bar, press or lift it to release one side.",
+    "Slide the new roll onto the holder with the paper facing outward or over the top.",
+    "Secure the holder back into place so the roll turns freely.",
+    "Give the end of the paper a gentle tear to leave a neat edge."
+  ],
+  "completionCriteria": [
+    "New roll is securely on the holder and spins freely",
+    "Paper pulls smoothly without catching or unwinding on its own"
+  ],
+  "commonProblems": [
+    "Roll keeps falling off — the holder may be too loose, check the spring or mounting",
+    "Paper unrolls too much — the roll may be oversized, try a different brand",
+    "Holder is stuck — press the spring firmly on both sides or lift the arm gently"
+  ],
+  "tips": [
+    "Replace the roll as soon as you use the last of it, or when only a few sheets remain",
+    "Keep a spare roll within reach of the toilet if possible",
+    "Some people prefer paper over the top, some prefer under — ask if you are unsure in a shared space"
+  ],
+  "tags": ["bathroom", "courtesy", "quick-task", "shared-living"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "ask-for-reference",
+  "title": "Ask for a Job Reference",
+  "domain": "career-work",
+  "summary": "Request that a teacher, former employer, or mentor serve as a professional reference in a polite and respectful way.",
+  "learnerPromise": "You will be able to ask someone to be your job reference in a way that feels comfortable for both of you and gives them the information they need.",
+  "whyItMatters": "Most employers want to hear from people who know your work. A polite request builds trust with your reference and makes them more likely to speak well of you.",
+  "realLifeUses": [
+    "Asking a former teacher to vouch for your reliability when applying for your first job",
+    "Requesting a reference from a supervisor at a volunteer organization",
+    "Asking a previous manager to serve as a reference for a new position",
+    "Contacting a family friend who hired you for informal work to ask if you can list them"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "make-simple-resume"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Phone or email to contact the person",
+    "A short list of jobs you are applying for",
+    "Your resume or a brief summary of your recent activities"
+  ],
+  "result": "A confirmed reference who has agreed and knows what to expect.",
+  "youWillLearn": [
+    "How to choose the right person to ask based on your relationship and the job you want",
+    "How to make the request politely by email, message, or in person",
+    "How to give your reference helpful context about the jobs you are applying for",
+    "How to follow up with a thank-you and keep your references informed"
+  ],
+  "miniChallenge": "Choose one person who knows your work well, prepare what you want to say, and ask them if they would be willing to be a reference for you.",
+  "steps": [
+    "Choose someone who knows your work ethic well: a teacher, coach, former boss, volunteer supervisor, or client.",
+    "Contact them privately. A brief email or message is often best. Start by asking how they are doing.",
+    "Politely ask if they would be comfortable being a reference for you. Mention the type of jobs you are applying for.",
+    "If they say yes, give them a copy of your resume and a short summary of your skills and recent activities.",
+    "Thank them sincerely. Let them know you will tell them before sharing their contact information with employers."
+  ],
+  "completionCriteria": [
+    "You have at least one person who has agreed to be a reference for you",
+    "Your reference has your current resume and knows what kinds of jobs you are applying for"
+  ],
+  "commonProblems": [
+    "Asking someone who does not know your work well — choose people who can speak specifically about you",
+    "Forgetting to warn your reference that a call might be coming — always give them a heads-up",
+    "Asking at the last minute, which can feel disrespectful — ask at least a few days in advance",
+    "Not updating references when you no longer need them, leading to unexpected calls years later"
+  ],
+  "tips": [
+    "It is okay to ask even if you have no formal job experience — teachers and volunteer supervisors make great references",
+    "Always ask permission before listing someone's phone number or email on an application",
+    "Keep a list of three to five references so you have options for different types of jobs",
+    "Send a thank-you note when you get the job, and let your references know the outcome"
+  ],
+  "tags": [
+    "references",
+    "job-search",
+    "communication",
+    "professionalism"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "check-door-is-locked",
+  "title": "Check a Door Is Locked",
+  "domain": "housing-living",
+  "summary": "Verify that doors and windows are properly locked before leaving home or going to sleep.",
+  "learnerPromise": "You will be able to quickly and reliably check that your doors and windows are locked, giving you confidence that your home is secure.",
+  "whyItMatters": "An unlocked door or window is one of the most common ways someone can enter a home without permission. A simple check takes seconds and greatly improves security.",
+  "realLifeUses": [
+    "Lock up before leaving home for school or work",
+    "Secure the house before going to bed at night",
+    "Check that a roommate or visitor remembered to lock the door behind them",
+    "Verify windows are locked after airing out a room"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 5,
+  "materialsNeeded": ["None"],
+  "result": "All exterior doors and accessible windows are confirmed locked.",
+  "youWillLearn": [
+    "Check a door lock by physically testing the handle and bolt",
+    "Check window locks by trying to slide or open each window",
+    "Create a quick routine that covers every entry point",
+    "Notice when a lock is not working properly and needs repair"
+  ],
+  "miniChallenge": "Walk to your front door right now, check that it is locked, and test the lock by turning the handle without unlocking it.",
+  "steps": [
+    "Start at the main entry door and turn the handle to confirm the bolt or latch is holding",
+    "Check the deadbolt or secondary lock by trying to slide it or verifying it is engaged",
+    "Move to any other exterior doors and repeat the handle and lock check",
+    "Walk to each ground-floor or accessible window and confirm the lock is closed",
+    "If you are leaving, take your keys and do one final check of the door you exit through"
+  ],
+  "completionCriteria": [
+    "You physically verify that every exterior door and window is locked",
+    "You notice and note any lock that feels loose or does not catch properly"
+  ],
+  "commonProblems": [
+    "Doors can feel locked when the latch is not fully engaged",
+    "Sliding windows may appear closed but the lock is not clicked in",
+    "Rushing makes it easy to skip a door or assume someone else locked it"
+  ],
+  "tips": [
+    "Do the same route every time so it becomes automatic",
+    "If you live with others, agree on who locks up for different times of day",
+    "A sticky or loose lock is a maintenance issue—report it early",
+    "Before bed, also check that any pet doors or basement access points are secure"
+  ],
+  "tags": ["housing", "safety", "security", "routine", "daily-habits"]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "identify-safer-walking-route",
+  "title": "Identify a Safer Walking Route",
+  "domain": "outdoor-everyday",
+  "summary": "Choose a walking route that is well-lit, populated, and safe.",
+  "learnerPromise": "You will be able to look at walking options and pick a route that feels safer and more comfortable.",
+  "whyItMatters": "Choosing a safer route can reduce risk and help you feel more confident when walking, especially at night or in unfamiliar areas.",
+  "realLifeUses": [
+    "Picking a route home from school or work that has more people and lights",
+    "Avoiding poorly lit streets or isolated shortcuts at night",
+    "Finding a path with sidewalks or crosswalks instead of busy roads",
+    "Helping a friend choose a safe walking route in a new neighborhood"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["cross-street-safely"],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A map app or paper map of the area",
+    "Optional: a trusted person to discuss the route with"
+  ],
+  "result": "A chosen walking route that you feel reasonably safe using.",
+  "youWillLearn": [
+    "How to spot well-lit and populated streets on a map",
+    "How to avoid isolated or poorly maintained paths",
+    "How to check for sidewalks, crosswalks, and traffic patterns",
+    "How to adjust your route based on time of day"
+  ],
+  "miniChallenge": "Look at two possible routes to a place you go often. Pick the one that feels safer and walk it once, noting what you liked or did not like.",
+  "steps": [
+    "Open a map or think about two possible routes to your destination.",
+    "Look for well-lit streets, sidewalks, and areas with other people.",
+    "Avoid shortcuts through isolated alleys, parks, or unlit areas.",
+    "Consider the time of day and how busy the streets usually are.",
+    "Walk the route and notice how comfortable and safe you feel."
+  ],
+  "completionCriteria": [
+    "You compared at least two possible walking routes.",
+    "You chose the one with better lighting, people, or sidewalks.",
+    "You walked the route and felt reasonably safe."
+  ],
+  "commonProblems": [
+    "Choosing the shortest route without thinking about safety",
+    "Walking through unfamiliar areas without checking them first",
+    "Forgetting that a safe daytime route may not be safe at night"
+  ],
+  "tips": [
+    "Walk new routes during daylight first to learn the area.",
+    "Trust your feelings. If a street feels uncomfortable, choose another.",
+    "Tell someone which route you are taking if walking alone.",
+    "Street lights, open shops, and other walkers are good signs of a safer route."
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "Ask a trusted adult, police officer, or transit worker for help if you feel unsafe on a route or if you are unsure which way to go in an unfamiliar area.",
+  "tags": ["safety", "navigation", "walking", "awareness"]
+}

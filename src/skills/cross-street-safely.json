@@ -1,0 +1,58 @@
+{
+  "id": "cross-street-safely",
+  "title": "Cross a Street Safely",
+  "domain": "outdoor-everyday",
+  "summary": "Cross a street at the right place and time, following traffic signals.",
+  "learnerPromise": "You will be able to cross streets at the right place and time, using traffic signals and pedestrian crossings.",
+  "whyItMatters": "Crossing streets safely reduces the risk of accidents and helps you move through your day with confidence. It is a basic skill that matters every time you are on foot near traffic.",
+  "realLifeUses": [
+    "Crossing at a marked crosswalk with a walk signal",
+    "Finding a safe place to cross when there is no crosswalk nearby",
+    "Crossing with a group or helping a younger person cross safely",
+    "Paying attention to turning cars even when you have the right of way"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A street with traffic signals or pedestrian crossings",
+    "Optional: a phone with a map to locate crosswalks"
+  ],
+  "result": "A safe street crossing at a proper location and time.",
+  "youWillLearn": [
+    "How to use pedestrian signals and crosswalks",
+    "How to look both ways and check for turning vehicles",
+    "How to pick the safest crossing point when no crosswalk is nearby",
+    "How to stay alert to traffic even when you have the right of way"
+  ],
+  "miniChallenge": "On your next walk, cross at least two streets using crosswalks or safe crossing points. Make eye contact with drivers before stepping in front of cars.",
+  "steps": [
+    "Stop at the curb or edge of the road and look for a crosswalk.",
+    "Check the traffic signal and press the pedestrian button if there is one.",
+    "Look left, right, and left again for cars, bikes, and buses.",
+    "Watch for turning vehicles even if you have a walk signal.",
+    "Cross straight and at a steady pace. Do not run or stop halfway."
+  ],
+  "completionCriteria": [
+    "You crossed at a designated crosswalk or safe crossing point.",
+    "You checked both directions and for turning vehicles before crossing.",
+    "You completed the crossing calmly and without rushing."
+  ],
+  "commonProblems": [
+    "Crossing while looking at a phone and not noticing traffic",
+    "Assuming a walk signal means all cars will stop",
+    "Darting between parked cars where drivers cannot see you"
+  ],
+  "tips": [
+    "Make eye contact with drivers when possible before crossing.",
+    "Remove earbuds or pause music when crossing busy streets.",
+    "Crosswalks with lights are safer than crossing mid-block.",
+    "If the intersection feels unsafe, wait for a gap in traffic or find a better crossing."
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "If you are unsure whether a crossing is safe, look for a nearby crosswalk, pedestrian bridge, or traffic officer. Ask a trusted adult or local authority for guidance if a street feels too dangerous to cross.",
+  "tags": ["safety", "traffic", "walking", "awareness"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "call-out-sick-politely",
+  "title": "Call Out Sick Politely",
+  "domain": "career-work",
+  "summary": "Notify your workplace that you cannot come in due to illness in a brief, respectful way.",
+  "learnerPromise": "You will be able to inform your workplace that you are too sick to work using the method they prefer, with the right information and a respectful tone.",
+  "whyItMatters": "Calling out sick properly protects your coworkers from illness, helps your workplace arrange coverage, and shows you are responsible even when you cannot work.",
+  "realLifeUses": [
+    "Calling a manager the morning of a shift because you have a fever and cannot work safely",
+    "Sending a text through a workplace app to report that you are vomiting and need to stay home",
+    "Notifying your workplace about a contagious illness like the flu or a stomach bug",
+    "Reporting an unexpected injury that makes it impossible to do your job safely"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "make-phone-call",
+    "write-professional-email"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Your supervisor's or workplace's contact number or messaging method",
+    "Your employee ID or identifying information if required",
+    "A general idea of when you might return"
+  ],
+  "result": "A completed sick notification sent through the correct channel with all required information.",
+  "youWillLearn": [
+    "How to find the correct way to report an absence at your workplace",
+    "What basic information to include: your name, shift time, and that you are unwell",
+    "How to keep the message brief and honest without oversharing medical details",
+    "How to follow your workplace's policy on sick days and doctor's notes"
+  ],
+  "miniChallenge": "Write or practice a 30-second sick-call script for an imaginary workplace. Include your name, that you are unwell, and when you expect to return.",
+  "steps": [
+    "Check your employee handbook or posted policy for the correct way to call out sick — phone call, text, app, or email.",
+    "Contact your supervisor or the designated person as early as possible, ideally at least one to two hours before your shift starts.",
+    "State clearly: your name, the fact that you are sick and cannot work, and the date and time of your shift.",
+    "Give a general sense of when you expect to return, such as 'I hope to be back for my next scheduled shift' if that seems realistic.",
+    "Thank them for understanding and end the call or message. Do not go into long medical details unless specifically asked."
+  ],
+  "completionCriteria": [
+    "You notified the correct person using the method your workplace requires",
+    "Your message included your name, the shift you are missing, and a brief statement that you are unwell"
+  ],
+  "commonProblems": [
+    "Not knowing the correct contact method or number — find this out before you ever need it",
+    "Waiting too long to call — notify as early as you can so your workplace can find coverage",
+    "Feeling guilty and offering too many medical details — a simple 'I am unwell and cannot work' is enough",
+    "Not following up if you are out for multiple days — check in daily if your workplace expects it"
+  ],
+  "tips": [
+    "Save your supervisor's number and the call-out line in your phone before you need them",
+    "Know your workplace's policy on doctor's notes — some require them after a certain number of days",
+    "If you have a contagious illness, mentioning that you are protecting coworkers can show responsibility",
+    "Keep a record of when you called and who you spoke with, in case of payroll questions later"
+  ],
+  "tags": [
+    "work-basics",
+    "health",
+    "communication",
+    "professionalism"
+  ]
+}

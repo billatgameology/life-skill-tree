@@ -1,0 +1,56 @@
+{
+  "id": "make-meeting-point-plan",
+  "title": "Make a Meeting Point Plan",
+  "domain": "outdoor-everyday",
+  "summary": "Arrange a clear meeting spot with others in case you get separated.",
+  "learnerPromise": "You will be able to agree on a clear meeting spot with others so you can reconnect easily if you get separated.",
+  "whyItMatters": "Having a planned meeting point reduces worry and confusion if you lose track of each other in a busy or unfamiliar place. Everyone knows where to go and what to do.",
+  "realLifeUses": [
+    "Choosing a spot to meet at a theme park if your group splits up",
+    "Agreeing on a meeting point at a concert or festival",
+    "Planning where to regroup during a shopping trip in a large mall",
+    "Setting a family meeting spot at a campsite or beach"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["avoid-getting-lost-crowd"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A destination or event you are attending with others",
+    "Optional: a phone to confirm plans"
+  ],
+  "result": "A clear, agreed-upon meeting point and time with your group.",
+  "youWillLearn": [
+    "How to pick a meeting spot that is easy to find and remember",
+    "How to agree on a backup plan if the first spot is unreachable",
+    "How to set a time limit for waiting before taking the next step",
+    "How to communicate the plan so everyone understands it"
+  ],
+  "miniChallenge": "Before your next outing with others, suggest one specific meeting spot and a time to meet there if anyone gets separated. Make sure everyone agrees.",
+  "steps": [
+    "Look at a map or walk around to find a clear, fixed landmark.",
+    "Choose a spot that is easy to see from multiple directions.",
+    "Agree on a time to meet there if anyone gets separated.",
+    "Pick a second spot nearby in case the first one is closed or hard to reach.",
+    "Tell everyone the plan and make sure they know how to get to the spot."
+  ],
+  "completionCriteria": [
+    "You chose a specific, easy-to-find meeting point.",
+    "Everyone in your group knew the spot and the meeting time.",
+    "You had a backup plan in case the first spot did not work."
+  ],
+  "commonProblems": [
+    "Picking a vague spot like near the entrance that has several doors",
+    "Not agreeing on a time, so someone waits too long or leaves too soon",
+    "Forgetting to share the plan with the whole group"
+  ],
+  "tips": [
+    "Large fixed objects like fountains, statues, or main gates make good meeting points.",
+    "Avoid spots that might move, like food trucks or temporary stalls.",
+    "Set a time limit. If someone does not show up within 15 to 20 minutes, call or go to the backup spot.",
+    "Write the meeting spot down or send it in a group message so everyone remembers."
+  ],
+  "tags": ["planning", "groups", "safety", "communication"]
+}

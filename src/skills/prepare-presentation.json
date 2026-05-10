@@ -1,0 +1,56 @@
+{
+  "id": "prepare-presentation",
+  "title": "Prepare a Presentation",
+  "domain": "school-learning",
+  "summary": "Plan and organize the content for a short presentation.",
+  "learnerPromise": "You will be able to plan a short presentation with a clear structure: an introduction, main points, and a conclusion.",
+  "whyItMatters": "Being able to organize your thoughts and present them to others is useful in school and many other situations. A clear plan helps you feel more confident when it is time to speak.",
+  "realLifeUses": [
+    "Planning a book report presentation for English class",
+    "Organizing a science project demonstration",
+    "Preparing to explain a group project to your class",
+    "Creating a short talk about a current event for social studies"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["summarize-a-reading"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Paper or a notes app",
+    "Timer",
+    "Optional: slides or visual aids materials"
+  ],
+  "result": "A presentation outline with an introduction, 2-4 main points, and a conclusion",
+  "youWillLearn": [
+    "How to choose a main message and stick to it",
+    "How to organize points in a logical order",
+    "How to write a strong opening and closing",
+    "How to estimate timing for each section"
+  ],
+  "miniChallenge": "Pick a topic you know well or are studying. Create a presentation outline with an introduction, three main points, and a conclusion. Estimate how long each part will take.",
+  "steps": [
+    "Choose one clear main message you want your audience to remember.",
+    "List 2-4 main points that support your message.",
+    "Write an opening that gets attention and states your topic.",
+    "Write a closing that restates your main message.",
+    "Estimate how long each section takes and adjust to fit your time limit."
+  ],
+  "completionCriteria": [
+    "You have a written outline with an opening, main points, and closing",
+    "Each section has a time estimate that adds up to your limit",
+    "The main message is clear and all points support it"
+  ],
+  "commonProblems": [
+    "Trying to cover too much information in a short time",
+    "Having points that do not connect to the main message",
+    "Forgetting to plan a strong opening or closing"
+  ],
+  "tips": [
+    "One clear message is better than ten scattered facts",
+    "Put your most important point first or last so people remember it",
+    "Practice transitions between sections so your talk flows smoothly"
+  ],
+  "tags": ["presentation", "public-speaking", "planning", "organization"]
+}

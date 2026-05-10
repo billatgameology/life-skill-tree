@@ -1,0 +1,51 @@
+{
+  "id": "set-payment-reminder",
+  "title": "Set a Payment Reminder",
+  "domain": "money-finance",
+  "summary": "Set a reminder to pay a bill on time and avoid late fees.",
+  "learnerPromise": "You will be able to set up a reliable reminder system so you never miss a bill payment.",
+  "whyItMatters": "Late payments often come with fees and can hurt your credit over time, a simple reminder system helps you stay organized and avoid extra costs.",
+  "realLifeUses": [
+    "Remembering to pay a phone bill before the due date each month",
+    "Setting a reminder three days before a credit card payment is due",
+    "Creating a recurring alert for rent on the first of every month",
+    "Getting notified before a subscription renews so you can decide whether to keep it"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["read-basic-bill"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["A phone or computer with a calendar or reminder app", "One upcoming bill"],
+  "result": "You have at least one payment reminder set up for an upcoming bill.",
+  "youWillLearn": [
+    "Choose a reminder time that gives you a buffer before the due date",
+    "Set a recurring reminder for bills that come monthly",
+    "Pick the best tool for you: phone alarms, calendar events, or app notifications",
+    "Pair reminders with the payment method you will use"
+  ],
+  "miniChallenge": "Take a bill that is due soon and set a calendar reminder two days before it is due.",
+  "steps": [
+    "Pick a bill with a due date coming up and find the exact due date.",
+    "Choose your reminder tool: phone calendar, reminder app, or the billing company's app.",
+    "Create a reminder for two to three days before the due date so you have time to pay.",
+    "Write a clear note in the reminder that says what bill, how much, and how you will pay.",
+    "If the bill is monthly, set the reminder to repeat automatically."
+  ],
+  "completionCriteria": [
+    "You created at least one reminder with the bill name, amount, and due date",
+    "The reminder is set to notify you before the actual due date"
+  ],
+  "commonProblems": [
+    "Setting the reminder for the due date itself, leaving no time to pay",
+    "Forgetting to update the reminder if the bill amount changes each month",
+    "Too many reminders leading to alarm fatigue where you start ignoring them"
+  ],
+  "tips": [
+    "Pick a consistent day each month, like the 25th, to review all upcoming bills at once",
+    "If your bank or service offers auto-pay, pair it with a reminder so you know the money will leave your account",
+    "Use different ring tones or labels for payment reminders so they stand out"
+  ],
+  "tags": ["reminders", "bills", "organization", "late-fees"]
+}

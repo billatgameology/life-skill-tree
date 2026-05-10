@@ -1,0 +1,55 @@
+{
+  "id": "use-flashlight",
+  "title": "Use a Flashlight",
+  "domain": "outdoor-everyday",
+  "summary": "Use a flashlight effectively in low-light situations.",
+  "learnerPromise": "You will be able to use a flashlight to see and move safely in dark or dimly lit spaces.",
+  "whyItMatters": "A flashlight helps you find your way, avoid tripping, and locate items when there is not enough light. Knowing how to use one well makes nighttime and dark spaces much easier to handle.",
+  "realLifeUses": [
+    "Finding your way during a power outage at home",
+    "Walking safely along an unlit path at night",
+    "Looking for something dropped under a car seat or bed",
+    "Signaling for attention in an outdoor emergency"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A flashlight or a phone with a flashlight feature"
+  ],
+  "result": "Confident use of a flashlight to improve visibility in low light.",
+  "youWillLearn": [
+    "How to turn a flashlight on and off and switch modes",
+    "How to hold the light to see your path without blinding others",
+    "How to conserve battery when the light is not needed",
+    "How to use a flashlight to signal for help if needed"
+  ],
+  "miniChallenge": "Find a flashlight or use your phone's light. In a dim room or hallway, walk from one end to the other using only the flashlight to guide you.",
+  "steps": [
+    "Find your flashlight or open your phone's flashlight feature.",
+    "Turn it on and check that the beam is bright and steady.",
+    "Hold the light at waist or chest level and aim it slightly downward.",
+    "Sweep the beam slowly across your path as you walk.",
+    "Turn it off when you no longer need it to save battery."
+  ],
+  "completionCriteria": [
+    "You turned on and used a flashlight in a low-light setting.",
+    "You were able to walk and see your path clearly.",
+    "You turned it off properly when finished."
+  ],
+  "commonProblems": [
+    "Shining the light too high and blinding yourself or others",
+    "Dead batteries because the flashlight was left on",
+    "Not having a flashlight nearby when it is suddenly needed"
+  ],
+  "tips": [
+    "Keep a small flashlight in your bag or bedside drawer for easy access.",
+    "Check and replace batteries every few months.",
+    "Use a lower brightness setting indoors to save battery and reduce glare.",
+    "If your phone is your flashlight, keep a charger or power bank handy."
+  ],
+  "tags": ["tools", "night", "safety", "preparation"]
+}

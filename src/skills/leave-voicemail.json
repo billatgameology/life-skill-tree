@@ -1,0 +1,56 @@
+{
+  "id": "leave-voicemail",
+  "title": "Leave a Voicemail",
+  "domain": "communication",
+  "summary": "Leave a concise, clear voicemail with your name, reason for calling, and callback number.",
+  "learnerPromise": "You will be able to leave a voicemail that gives someone everything they need to call you back.",
+  "whyItMatters": "People often cannot answer their phone, and a clear voicemail helps them respond faster. A messy or missing voicemail can cause delays and frustration.",
+  "realLifeUses": [
+    "Calling a doctor's office to request an appointment",
+    "Reaching out to a potential employer after an interview",
+    "Contacting a business about a question or order",
+    "Leaving a message for a family member who is not picking up"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "make-phone-call"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A phone"
+  ],
+  "result": "A clear voicemail that includes your name, reason for calling, and callback information",
+  "youWillLearn": [
+    "State your name clearly at the start of the message",
+    "Explain why you are calling in one or two sentences",
+    "Leave a callback number slowly and clearly",
+    "Keep the total message under 30 seconds"
+  ],
+  "miniChallenge": "Practice leaving a voicemail by recording yourself. Include your name, a reason for calling, and a callback number in under 30 seconds.",
+  "steps": [
+    "Write down your name, reason for calling, and callback number before dialing",
+    "Call the number and wait for the beep",
+    "Say your name clearly and state why you are calling",
+    "Leave your callback number, speaking slowly and repeating it once",
+    "End with a brief thank-you and hang up"
+  ],
+  "completionCriteria": [
+    "Your recorded voicemail is under 30 seconds long",
+    "It includes your name, a clear reason for the call, and a callback number",
+    "Someone listening could understand it on the first try"
+  ],
+  "commonProblems": [
+    "Speaking too fast, especially when leaving a phone number",
+    "Rambling without a clear reason for the call",
+    "Forgetting to leave a callback number"
+  ],
+  "tips": [
+    "Write a short script on paper before calling",
+    "Practice speaking slowly; it feels slow to you but sounds normal to the listener",
+    "Repeat your phone number once so the listener can catch it"
+  ],
+  "tags": ["phone", "voicemail", "professional", "voice-communication"]
+}

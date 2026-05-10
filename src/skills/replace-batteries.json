@@ -1,0 +1,55 @@
+{
+  "id": "replace-batteries",
+  "title": "Replace Batteries",
+  "domain": "home-care",
+  "summary": "Safely remove old batteries and insert new ones in the correct orientation.",
+  "learnerPromise": "You will be able to safely remove old batteries and insert new ones with the correct polarity in common household devices.",
+  "whyItMatters": "Many everyday devices run on batteries. Knowing how to replace them correctly keeps devices working and prevents damage from reversed polarity or leaking old batteries.",
+  "realLifeUses": [
+    "Reviving a TV remote that stopped responding",
+    "Replacing dead batteries in a flashlight before a trip",
+    "Changing batteries in a smoke alarm or clock",
+    "Fixing a wireless mouse or keyboard that is acting sluggish"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "New batteries (correct size: AA, AAA, etc.)",
+    "Small screwdriver (if battery cover is screwed shut)"
+  ],
+  "result": "A device powered by correctly installed new batteries.",
+  "youWillLearn": [
+    "How to open a battery compartment safely",
+    "How to identify the positive and negative ends of a battery",
+    "How to match battery polarity to the compartment markings",
+    "How to dispose of old batteries properly"
+  ],
+  "miniChallenge": "Find one device in your home with dead batteries and replace them today.",
+  "steps": [
+    "Turn off the device and locate the battery compartment cover.",
+    "Open the cover by sliding it, pressing a tab, or unscrewing it gently.",
+    "Remove the old batteries, noting which direction they face.",
+    "Insert the new batteries matching the plus (+) and minus (-) symbols in the compartment.",
+    "Close the cover securely and test the device to confirm it works."
+  ],
+  "completionCriteria": [
+    "New batteries are inserted with correct polarity as marked in the compartment",
+    "Device powers on and functions normally after closing the cover"
+  ],
+  "commonProblems": [
+    "Device still does not work — check that the polarity is correct and batteries are fresh",
+    "Battery cover is stuck — look for a hidden latch or tab, do not force it",
+    "Old battery is leaking — wear gloves if available, clean the compartment with a dry cloth, and wash hands after"
+  ],
+  "tips": [
+    "Always match the battery size on the device label exactly",
+    "Remove batteries from devices you will not use for several months",
+    "Recycle old batteries at a designated drop-off rather than throwing them in regular trash"
+  ],
+  "safetyLevel": "low",
+  "tags": ["electronics", "maintenance", "safety", "daily-fix"]
+}

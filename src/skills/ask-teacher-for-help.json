@@ -1,0 +1,55 @@
+{
+  "id": "ask-teacher-for-help",
+  "title": "Ask a Teacher for Help",
+  "domain": "school-learning",
+  "summary": "Approach a teacher or instructor and ask for help with something you do not understand.",
+  "learnerPromise": "You will be able to approach a teacher respectfully and explain what you need help with so you can get useful answers.",
+  "whyItMatters": "Asking for help is a normal and important part of learning. Most teachers want to help, but they can assist you better when your question is clear and specific.",
+  "realLifeUses": [
+    "Asking a teacher to explain a math problem you got wrong",
+    "Requesting extra help before a test on a topic you missed",
+    "Clarifying assignment instructions you find confusing",
+    "Getting feedback on a draft of a project or essay"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Your notes, textbook, or assignment (to show the teacher)",
+    "A specific question prepared ahead of time"
+  ],
+  "result": "A clear question asked to a teacher and a helpful response received",
+  "youWillLearn": [
+    "How to prepare a specific question before asking",
+    "How to explain what you have already tried",
+    "How to approach a teacher respectfully and at a good time",
+    "How to take notes on the answer so you can use it later"
+  ],
+  "miniChallenge": "Think of one thing from class that you do not fully understand. Write down a specific question and plan when and how you will ask your teacher.",
+  "steps": [
+    "Pick one topic or problem you are stuck on and write it down.",
+    "Try to solve it yourself first so you can explain where you got stuck.",
+    "Choose a good time to ask, such as after class or during office hours.",
+    "Say hello, state your question clearly, and show your work if possible.",
+    "Write down the teacher's answer so you do not forget it."
+  ],
+  "completionCriteria": [
+    "You asked a clear, specific question about something you did not understand",
+    "You explained what you had already tried",
+    "You wrote down the answer or next steps the teacher suggested"
+  ],
+  "commonProblems": [
+    "Saying 'I do not get it' without explaining which part is confusing",
+    "Waiting until the last minute to ask for help",
+    "Feeling nervous about asking, so avoiding it entirely"
+  ],
+  "tips": [
+    "Teachers usually appreciate students who ask questions because it shows they care",
+    "Bring your notes or textbook and point to the exact part that confuses you",
+    "If you are nervous, practice saying your question out loud first"
+  ],
+  "tags": ["communication", "help-seeking", "courage", "school"]
+}

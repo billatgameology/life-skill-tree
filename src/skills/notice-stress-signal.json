@@ -1,0 +1,55 @@
+{
+  "id": "notice-stress-signal",
+  "title": "Notice Stress Signals",
+  "domain": "emotional-skills",
+  "summary": "Recognize early physical or emotional signs that you are becoming stressed.",
+  "learnerPromise": "You will be able to spot the early signs that stress is building in your body or mind.",
+  "whyItMatters": "Catching stress early gives you a chance to respond before it becomes overwhelming. This can help you feel more in control of difficult moments.",
+  "realLifeUses": [
+    "Your shoulders tighten during a busy school or work day and you choose to take a short walk",
+    "You notice you are snapping at people more than usual and realize you need a break",
+    "Your stomach feels tense before a presentation and you decide to breathe slowly for a minute",
+    "You feel scattered and tired after several busy days and recognize it is time to slow down"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A piece of paper or a notes app",
+    "A quiet moment to reflect"
+  ],
+  "result": "A short personal list of your most common stress signals.",
+  "youWillLearn": [
+    "How to tell the difference between normal tiredness and stress",
+    "What your own body and mood tend to do when pressure rises",
+    "How to check in with yourself during a busy day",
+    "When a stressful feeling is temporary or sticks around too long"
+  ],
+  "miniChallenge": "Sit quietly for two minutes and ask yourself: 'What is my body telling me right now?' Write down one physical feeling and one emotional feeling you notice.",
+  "steps": [
+    "Stop what you are doing for just one minute",
+    "Scan your body from head to toe and notice any tension, pain, or discomfort",
+    "Ask yourself what emotion you are feeling right now — there is no wrong answer",
+    "Write down at least one body signal and one mood signal you noticed",
+    "Think back to the last time you felt this way and what was happening then"
+  ],
+  "completionCriteria": [
+    "You wrote down at least one physical and one emotional stress signal",
+    "You can describe a situation where noticing this signal would help you"
+  ],
+  "commonProblems": [
+    "It feels strange or uncomfortable to focus on your feelings at first",
+    "You might think 'I am fine' even when your body is tense — this is normal",
+    "It can be hard to find a quiet minute during a busy day"
+  ],
+  "tips": [
+    "There is no right or wrong signal — yours might be headaches, irritability, tiredness, or something else",
+    "Set a gentle phone reminder once a day to do a quick body scan",
+    "If your stress feels constant or unmanageable, talking to a trusted adult or counselor is a strong and healthy step"
+  ],
+  "helpBoundary": "If stress feels constant, overwhelming, or lasts for several weeks, consider speaking with a counselor, trusted adult, or healthcare provider.",
+  "tags": ["self-awareness", "stress", "mindfulness", "wellbeing"]
+}

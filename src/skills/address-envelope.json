@@ -1,0 +1,55 @@
+{
+  "id": "address-envelope",
+  "title": "Address an Envelope Correctly",
+  "domain": "civic-community",
+  "summary": "Write a complete, correctly formatted address on an envelope.",
+  "learnerPromise": "You will be able to write a mailing address in the correct format so the postal service can deliver it.",
+  "whyItMatters": "A clearly addressed envelope reaches its destination faster and avoids being returned. Addressing mail correctly is a basic skill for sending letters, forms, payments, and packages.",
+  "realLifeUses": [
+    "You need to mail a letter or payment to a business or government office",
+    "You are sending a birthday card or thank-you note to a relative",
+    "A form asks you to enclose a self-addressed stamped envelope",
+    "You need to return a document by mail and want it to arrive safely"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "An envelope",
+    "A pen with dark ink",
+    "The complete address you are mailing to"
+  ],
+  "result": "An envelope with a correctly formatted recipient address and your return address in the proper places.",
+  "youWillLearn": [
+    "Where to write the recipient's address on the envelope",
+    "Where to write your return address",
+    "How to format a full address with name, street, city, state, and zip code",
+    "How to double-check an address for accuracy before mailing"
+  ],
+  "miniChallenge": "Write a complete, correctly formatted address on an envelope, including your return address in the proper place.",
+  "steps": [
+    "Write your return address in the top-left corner of the envelope",
+    "Write the recipient's full name on the first line in the center",
+    "Write the street address or P.O. box on the second line",
+    "Write the city, state abbreviation, and zip code on the third line",
+    "Check that the writing is clear and all parts of both addresses are included"
+  ],
+  "completionCriteria": [
+    "The recipient's address is complete and written in the center of the envelope",
+    "Your return address is written in the top-left corner"
+  ],
+  "commonProblems": [
+    "The address is hard to read — use a dark pen and print clearly",
+    "You do not know the zip code — look it up online or ask the recipient",
+    "You forgot the return address — always include it so mail can come back if undeliverable"
+  ],
+  "tips": [
+    "Use all capital letters if your regular handwriting is hard to read",
+    "Do not write below the bottom inch of the envelope — that space is for postal barcodes",
+    "If mailing internationally, write the country name on the last line in capital letters"
+  ],
+  "tags": ["mail", "writing", "postal-service", "forms"]
+}

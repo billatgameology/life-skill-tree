@@ -1,0 +1,55 @@
+{
+  "id": "fill-out-simple-form",
+  "title": "Fill Out a Simple Form",
+  "domain": "civic-community",
+  "summary": "Complete a basic form with your personal information accurately.",
+  "learnerPromise": "You will be able to fill out a basic form neatly and accurately without skipping required sections.",
+  "whyItMatters": "Forms are part of everyday life — from school and medical offices to jobs and government services. Filling them out correctly saves time, prevents delays, and ensures your information is recorded properly.",
+  "realLifeUses": [
+    "You need to fill out a patient form at a doctor's office",
+    "A school or program asks you to complete an application or permission slip",
+    "You are signing up for a library card or gym membership",
+    "A government office requires you to submit a benefits or service form"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A pen with dark ink",
+    "Your personal information (address, phone, date of birth)",
+    "Any documents the form asks about (ID, insurance card)"
+  ],
+  "result": "A fully completed form with all required fields filled in clearly and accurately.",
+  "youWillLearn": [
+    "How to read form instructions before you start writing",
+    "How to fill in common fields like name, address, date of birth, and contact info",
+    "How to mark checkboxes and select the right options",
+    "How to review a form for mistakes before submitting it"
+  ],
+  "miniChallenge": "Find a simple form (school, medical, or application) and fill it out completely. Review it for accuracy before imagining you submit it.",
+  "steps": [
+    "Read the entire form and any instructions before writing anything",
+    "Gather any documents or info you will need (ID, dates, numbers)",
+    "Fill in every required field with clear, neat printing",
+    "Check that names, dates, and numbers are correct and match your documents",
+    "Review the form one more time to make sure nothing is blank by mistake"
+  ],
+  "completionCriteria": [
+    "Every required field on the form is filled in",
+    "You have checked for spelling errors and matched the info to your documents"
+  ],
+  "commonProblems": [
+    "You do not know what a field means — ask someone or look for an explanation on the form",
+    "You make a mistake — cross it out with a single line and write the correction nearby",
+    "You are missing a piece of info — leave the field blank and ask what to do rather than guessing"
+  ],
+  "tips": [
+    "Print in capital letters if your handwriting is hard to read",
+    "Use black or blue ink unless the form says otherwise",
+    "Take a photo or make a copy of completed forms before submitting them"
+  ],
+  "tags": ["forms", "paperwork", "writing", "daily-tasks"]
+}

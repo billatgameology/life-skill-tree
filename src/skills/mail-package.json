@@ -1,0 +1,59 @@
+{
+  "id": "mail-package",
+  "title": "Mail a Package",
+  "domain": "civic-community",
+  "summary": "Send a package through the postal service with proper labeling and postage.",
+  "learnerPromise": "You will be able to prepare, address, and send a package through the mail with the correct postage and labeling.",
+  "whyItMatters": "Mailing packages lets you send gifts, return items, ship sold goods, and share physical objects with others. Doing it correctly ensures your package arrives safely and on time.",
+  "realLifeUses": [
+    "You sold an item online and need to ship it to the buyer",
+    "You want to send a gift to a friend or family member who lives far away",
+    "You need to return a purchase that did not fit or work",
+    "You are mailing important documents that need to arrive securely"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "address-envelope"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "A box or padded envelope",
+    "Packing tape",
+    "A pen for writing the address",
+    "Postage or money to buy postage",
+    "Optional: bubble wrap, newspaper, or padding material"
+  ],
+  "result": "A sealed, labeled, and postage-paid package ready for drop-off or pickup.",
+  "youWillLearn": [
+    "How to choose the right box or envelope for your item",
+    "How to pack an item so it does not break or shift",
+    "How to label a package with a clear delivery and return address",
+    "How to buy and apply the correct postage"
+  ],
+  "miniChallenge": "Pack a small item securely, write the delivery and return address on the package, and buy the correct postage at a post office or online.",
+  "steps": [
+    "Choose a box or envelope that fits your item with a little room for padding",
+    "Wrap or pad the item so it cannot move around or break",
+    "Seal the package completely with tape on all open edges",
+    "Write the recipient's address clearly on the front and your return address on the top-left",
+    "Buy postage at a post office, online, or a shipping station and attach it to the package"
+  ],
+  "completionCriteria": [
+    "The package is sealed and the address is complete and readable",
+    "Correct postage is attached and the package is dropped off or ready for pickup"
+  ],
+  "commonProblems": [
+    "The package is too heavy or large for the postage you bought — check weight and size limits before buying",
+    "Fragile items break in transit — use more padding than you think you need",
+    "The address is smudged or unclear — use a permanent marker and print legibly"
+  ],
+  "tips": [
+    "Weigh your package on a home scale or at the post office to get the right postage",
+    "If the item is valuable, ask about tracking numbers and insurance options",
+    "Take a photo of the sealed, labeled package before you drop it off for your records"
+  ],
+  "tags": ["mail", "postal-service", "shipping", "logistics"]
+}

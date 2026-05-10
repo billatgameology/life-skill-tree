@@ -1,0 +1,52 @@
+{
+  "id": "make-simple-home-inventory",
+  "title": "Make a Simple Home Inventory",
+  "domain": "housing-living",
+  "summary": "List your important belongings for insurance claims, moving, or personal records.",
+  "learnerPromise": "You will be able to create a basic list of your valuable items with descriptions and photos that can support an insurance claim or help you stay organized during a move.",
+  "whyItMatters": "If items are damaged, stolen, or lost, an inventory makes it much easier to file an insurance claim or remember what you owned. It also helps you estimate what you need when moving to a new place.",
+  "realLifeUses": [
+    "List electronics and appliances for a renter's insurance claim after a break-in",
+    "Photo-document valuables before a move so you can check if anything arrives damaged",
+    "Keep a record of serial numbers for phones, laptops, and bikes in case of theft",
+    "Estimate the value of your belongings when shopping for insurance coverage"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["Phone or camera", "Notes app or notebook"],
+  "result": "A dated list of your most important items with descriptions, approximate values, and photos.",
+  "youWillLearn": [
+    "Decide which items are worth listing (high value or hard to replace)",
+    "Write a short, useful description of each item including brand and model if known",
+    "Take a clear photo that shows the item and any identifying marks or serial numbers",
+    "Store the inventory where it will not be lost along with the items it describes"
+  ],
+  "miniChallenge": "Pick the five most valuable items in your room and list them with a one-line description and a photo each.",
+  "steps": [
+    "Choose one room and identify the five to ten most valuable or important items in it",
+    "For each item, write the name, brand or model if known, and approximate value",
+    "Take a clear photo of each item and a close-up of any serial number or label",
+    "Save the list and photos together using a cloud app, email, or external storage",
+    "Set a reminder to update the list when you acquire or remove significant items"
+  ],
+  "completionCriteria": [
+    "You have a dated list with at least five items that includes descriptions and photos",
+    "The list is stored somewhere separate from the items themselves (cloud, email, etc.)"
+  ],
+  "commonProblems": [
+    "It feels overwhelming to inventory everything, so people never start",
+    "Photos are blurry or do not show identifying details",
+    "The list gets lost because it is stored on the same device that could be stolen"
+  ],
+  "tips": [
+    "Start with one room or category—electronics are usually the most valuable",
+    "Serial numbers matter more than exact photos for insurance purposes",
+    "Email the list to yourself or use a cloud service so it is accessible from anywhere",
+    "Receipts and warranties are useful—photo them and add them to your inventory file"
+  ],
+  "tags": ["housing", "inventory", "insurance", "organization", "moving"]
+}

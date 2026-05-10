@@ -1,0 +1,52 @@
+{
+  "id": "organize-digital-files",
+  "title": "Organize Digital Files",
+  "domain": "organization",
+  "summary": "Create folders and name files so digital documents are easy to find later.",
+  "learnerPromise": "You will be able to set up a simple folder system on your computer or phone and sort your files so you can find them quickly.",
+  "whyItMatters": "Digital clutter can be just as stressful as physical clutter. A clear folder structure and consistent naming make it faster to find documents, photos, and downloads when you need them.",
+  "realLifeUses": [
+    "Create folders for school subjects so each class has its own place",
+    "Organize photos by month or event so they are easier to browse",
+    "Sort downloads into categories so your downloads folder stops overflowing",
+    "Set up a folder for important documents like IDs, medical forms, and receipts"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["name-files-clearly"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["Computer, tablet, or phone with a file manager app"],
+  "result": "A folder system with sorted files and a clear structure you can keep using.",
+  "youWillLearn": [
+    "How to create top-level folders for broad categories",
+    "How to move files into the correct folders",
+    "How to delete or archive files you no longer need",
+    "How to name folders in a way that makes sense for your needs"
+  ],
+  "miniChallenge": "Create 3 to 5 folders for your most common file types and move at least 10 files into them.",
+  "steps": [
+    "Open your files app or file explorer and look at where your files currently live.",
+    "Create 3 to 5 main folders for broad categories like School, Work, Photos, and Personal.",
+    "Go through your files one by one and move each into the most fitting folder.",
+    "Delete or move to a separate archive folder anything you no longer need.",
+    "Check that you can find a file in under 10 seconds using your new system."
+  ],
+  "completionCriteria": [
+    "You have created 3 to 5 clearly named folders",
+    "At least 10 files have been moved into appropriate folders",
+    "You can locate any common file quickly without searching"
+  ],
+  "commonProblems": [
+    "Creating too many folders so the system becomes hard to navigate",
+    "Naming folders with vague labels like 'Stuff' that do not mean anything later",
+    "Being afraid to delete files and ending up with a bloated archive"
+  ],
+  "tips": [
+    "Keep your folder structure flat, 2 levels deep is usually enough",
+    "Use broad category names for top folders and specific names for subfolders",
+    "Set a monthly reminder to spend 10 minutes tidying your files"
+  ],
+  "tags": ["digital-organization", "files", "folders", "computer-skills"]
+}

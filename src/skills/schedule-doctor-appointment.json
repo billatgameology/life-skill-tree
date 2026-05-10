@@ -1,0 +1,59 @@
+{
+  "id": "schedule-doctor-appointment",
+  "title": "Schedule a Doctor Appointment",
+  "domain": "health-safety",
+  "summary": "Make a medical appointment by phone or online.",
+  "learnerPromise": "You will be able to book a doctor appointment using a phone call or an online system, and gather the information you need ahead of time.",
+  "whyItMatters": "Being able to schedule your own appointments gives you more control over your health and helps you get care when you need it.",
+  "realLifeUses": [
+    "Booking a yearly check-up with your primary care provider",
+    "Making an appointment for a sore throat that is not getting better",
+    "Scheduling a follow-up visit after a previous treatment",
+    "Booking a specialist visit after receiving a referral"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["find-doctor"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Phone or computer with internet",
+    "Your insurance or health coverage information",
+    "Calendar or scheduling app",
+    "ID card or patient number if you have one"
+  ],
+  "result": "A confirmed appointment with date, time, location, and any preparation instructions noted down.",
+  "youWillLearn": [
+    "Find the correct phone number or website to book an appointment",
+    "Prepare the personal and insurance information you will need",
+    "Ask about wait times, preparation steps, or what to bring",
+    "Add the appointment to your calendar and set a reminder"
+  ],
+  "miniChallenge": "Find a doctor's contact information and call or go online to check available appointment times. Write down three time slots that could work for you.",
+  "steps": [
+    "Find the clinic's phone number or online booking page.",
+    "Gather your ID, insurance details, and calendar before you call or log in.",
+    "State your reason for the appointment clearly and concisely.",
+    "Ask what you should bring and whether there is anything you need to do beforehand.",
+    "Write down the date, time, address, and any instructions, then add them to your calendar."
+  ],
+  "completionCriteria": [
+    "You have a confirmed appointment date and time",
+    "You have written down the clinic address and any preparation instructions",
+    "You know what documents or cards to bring with you"
+  ],
+  "commonProblems": [
+    "Phone lines may be busy or have long hold times",
+    "Online systems may require creating an account first",
+    "Available times may not match your schedule, causing frustration"
+  ],
+  "tips": [
+    "Call early in the morning for shorter wait times",
+    "Have a few date and time options ready in case your first choice is not available",
+    "Ask to be put on a cancellation list if you want an earlier appointment"
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "Ask a trusted adult, caregiver, or clinic staff member for help if you do not have insurance information, are unsure which type of doctor to see, or feel overwhelmed by the booking process.",
+  "tags": ["appointment", "health", "phone", "planning", "organization"]
+}

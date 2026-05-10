@@ -1,0 +1,56 @@
+{
+  "id": "clean-bathroom-sink",
+  "title": "Clean a Bathroom Sink",
+  "domain": "home-care",
+  "summary": "Clean and wipe down a bathroom sink and faucet.",
+  "learnerPromise": "You will be able to clean a bathroom sink and faucet so they look shiny and are free of soap scum and water spots.",
+  "whyItMatters": "Bathroom sinks collect soap, toothpaste, and water spots daily. Regular cleaning keeps the surface hygienic and makes the whole bathroom look fresher.",
+  "realLifeUses": [
+    "Quick daily wipe-down after brushing teeth",
+    "Preparing a bathroom before guests visit",
+    "Deep cleaning during a weekly chore routine",
+    "Removing buildup from hard water or soap residue"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "All-purpose bathroom cleaner or mild soap",
+    "Microfiber cloth or sponge",
+    "Old toothbrush (optional, for tight spots)"
+  ],
+  "result": "A clean, shiny sink basin and faucet with no visible soap scum or water spots.",
+  "youWillLearn": [
+    "How to apply cleaner and let it sit for best results",
+    "How to scrub the basin without scratching the surface",
+    "How to clean around and behind the faucet",
+    "How to polish the faucet and handles for a shiny finish"
+  ],
+  "miniChallenge": "Clean the bathroom sink and faucet in your home today. Make the faucet shine.",
+  "steps": [
+    "Remove items from the sink area and rinse the basin with warm water.",
+    "Spray or wipe cleaner over the basin, faucet, and handles.",
+    "Let the cleaner sit for one to two minutes to loosen buildup.",
+    "Scrub the basin and faucet with a cloth or sponge, using an old toothbrush for tight spots.",
+    "Rinse thoroughly with warm water and dry with a clean cloth to prevent water spots."
+  ],
+  "completionCriteria": [
+    "Sink basin and faucet are visibly clean with no soap scum or spots",
+    "Water runs freely and the drain area is wiped clear"
+  ],
+  "commonProblems": [
+    "Stubborn stains around the drain — scrub with a paste of baking soda and water",
+    "Water spots keep appearing — dry the faucet after rinsing, do not let it air dry",
+    "Buildup behind the faucet — wrap a damp cloth around the area and let it sit before scrubbing"
+  ],
+  "tips": [
+    "Clean from top to bottom so dirt falls into the sink and gets rinsed away last",
+    "Do not mix different cleaners — use one product at a time",
+    "A daily quick wipe takes under a minute and prevents heavy buildup"
+  ],
+  "safetyLevel": "low",
+  "tags": ["cleaning", "bathroom", "daily-chore", "hygiene"]
+}

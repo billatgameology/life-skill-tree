@@ -1,0 +1,52 @@
+{
+  "id": "label-house-key",
+  "title": "Label a House Key",
+  "domain": "housing-living",
+  "summary": "Label a key so you know which lock it opens without having to guess.",
+  "learnerPromise": "You will be able to label any key clearly and safely so you can tell it apart from others at a glance.",
+  "whyItMatters": "Most people carry several keys. Clear labels save time, prevent you from trying the wrong lock, and help you return a lost key to its owner more easily.",
+ "realLifeUses": [
+    "Tell your front door key apart from your back door key in the dark",
+    "Label a spare key you keep in a drawer so you remember what it opens",
+    "Mark keys for a friend or family member who is watching your home while you are away",
+    "Organize a set of keys after moving into a new place"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["The key you want to label", "A key tag, label sticker, or permanent marker", "Optional: key ring or color-coded cover"],
+  "result": "A labeled key that you can identify by touch or sight without testing it in a lock.",
+  "youWillLearn": [
+    "Choose a labeling method that works for your situation",
+    "Write or attach a label that stays readable over time",
+    "Avoid putting private information on a key that could be lost or stolen",
+    "Test that the label is secure and will not fall off with daily use"
+  ],
+  "miniChallenge": "Pick one unlabeled key you use regularly and label it with the name of the door or lock it opens.",
+  "steps": [
+    "Test the key in its lock to confirm which door or item it opens",
+    "Choose a labeling method: key tag, color ring, engraved label, or sticker",
+    "Write a clear label using a name you will recognize, not just an address",
+    "Attach the label securely and check that it will not slip off",
+    "Put the key back on your keyring and confirm you can identify it by touch or sight"
+  ],
+  "completionCriteria": [
+    "Your key has a readable label that identifies what it opens",
+    "The label is attached well enough to stay on during normal use"
+  ],
+  "commonProblems": [
+    "Labels fade or peel off after being in a pocket for weeks",
+    "Writing the address on a key is risky if the key is lost",
+    "Some keys are too small for standard key tags"
+  ],
+  "tips": [
+    "Use 'front door' or 'garage' instead of your street address for safety",
+    "Color-coded rings let you tell keys apart even in low light",
+    "If a key is shared, use a generic label that the owner still understands",
+    "Check the label once a month and replace it if it is wearing out"
+  ],
+  "tags": ["housing", "keys", "organization", "safety", "daily-life"]
+}

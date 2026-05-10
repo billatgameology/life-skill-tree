@@ -1,0 +1,64 @@
+{
+  "id": "answer-interview-question",
+  "title": "Answer a Common Interview Question",
+  "domain": "career-work",
+  "summary": "Respond to a typical interview question with a clear, brief answer that highlights your strengths.",
+  "learnerPromise": "You will be able to answer common interview questions in a clear, structured way that highlights your skills and stays on topic.",
+  "whyItMatters": "Interviewers ask similar questions to most candidates. Knowing how to structure your answer helps you sound confident and gives the interviewer the information they need.",
+  "realLifeUses": [
+    "Answering 'Tell me about yourself' without rambling or giving your whole life story",
+    "Explaining why you want the job in a way that shows genuine interest",
+    "Describing a challenge you faced and what you learned from it",
+    "Talking about your strengths without sounding like you are bragging"
+  ],
+  "level": 3,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "prepare-for-interview"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "A list of common interview questions",
+    "Notebook or notes app",
+    "A timer or phone to practice pacing"
+  ],
+  "result": "Three practiced answers you can deliver confidently in under 90 seconds each.",
+  "youWillLearn": [
+    "How to structure an answer with a beginning, middle, and end",
+    "How to keep responses concise and relevant to the question asked",
+    "How to use a specific example to make your answer more believable",
+    "How to stay calm and take a moment to think before responding"
+  ],
+  "miniChallenge": "Pick three common interview questions. Write out one-minute answers for each, then practice saying them out loud to a mirror or a friend.",
+  "steps": [
+    "Listen to the full question carefully. It is okay to pause for two or three seconds to gather your thoughts.",
+    "Start with a direct answer. For example, if asked about your strengths, name one or two clearly.",
+    "Support your answer with a brief, specific example from school, work, or volunteering.",
+    "Keep your answer under 60 to 90 seconds. Watch for signs that the interviewer wants to move on.",
+    "Stop when you have answered the question. Do not add unrelated information just to fill silence."
+  ],
+  "completionCriteria": [
+    "You have practiced answers to at least three common questions out loud",
+    "Each answer is under 90 seconds and includes a specific example from your experience"
+  ],
+  "commonProblems": [
+    "Rambling because you did not plan a clear ending — decide your last sentence in advance",
+    "Speaking too fast when nervous — practice taking a breath before you start",
+    "Giving answers that are too short or vague — include one concrete detail to make it memorable",
+    "Trying to say what you think the interviewer wants to hear instead of being honest"
+  ],
+  "tips": [
+    "The STAR method helps for experience questions: Situation, Task, Action, Result",
+    "If you do not understand a question, it is perfectly fine to ask the interviewer to repeat or clarify it",
+    "Practice with a friend who can give you feedback on whether your answers are clear",
+    "Smile slightly and make gentle eye contact — your tone becomes warmer automatically"
+  ],
+  "tags": [
+    "interview",
+    "communication",
+    "job-search",
+    "confidence"
+  ]
+}

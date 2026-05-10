@@ -1,0 +1,52 @@
+{
+  "id": "recognize-money-scam",
+  "title": "Recognize a Money Scam",
+  "domain": "money-finance",
+  "summary": "Spot warning signs of a financial scam and know how to respond.",
+  "learnerPromise": "You will be able to recognize common signs of a financial scam and know what steps to take next.",
+  "whyItMatters": "Scammers target people with urgent messages and fake offers; learning to spot the warning signs can protect your money and personal information from being stolen.",
+  "realLifeUses": [
+    "Ignoring a text message claiming you won a prize you never entered",
+    "Hanging up on a caller pretending to be from your bank who asks for your password",
+    "Spotting a fake online seller asking for payment through unusual methods",
+    "Noticing a too-good-to-be-true investment offer and walking away"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["spot-phishing"],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["None"],
+  "result": "You can list the five most common scam warning signs and explain what to do if you encounter one.",
+  "youWillLearn": [
+    "Identify pressure tactics like urgent deadlines or threats",
+    "Recognize requests for unusual payment methods like gift cards or wire transfers",
+    "Spot promises of guaranteed or risk-free returns",
+    "Know what to do and who to tell if you suspect a scam"
+  ],
+  "miniChallenge": "Read about one recent common scam online and identify which warning signs it uses.",
+  "steps": [
+    "Learn the five common warning signs: urgency, secrecy, unusual payment methods, too-good-to-be-true offers, and requests for personal information.",
+    "Think of a recent message, call, or offer you received and check it against the warning signs.",
+    "If something feels off, pause and do not act immediately; scammers rely on rushed decisions.",
+    "Verify the claim independently by contacting the company or person directly through a known official channel.",
+    "If you suspect a scam, tell a trusted adult, contact your bank if money is involved, and report it to local authorities or a consumer protection agency."
+  ],
+  "completionCriteria": [
+    "You can name at least five warning signs of a financial scam",
+    "You know who to contact if you or someone you know encounters a scam"
+  ],
+  "commonProblems": [
+    "Scammers using real company names and logos to look legitimate",
+    "Friends or family accounts being hacked to send scam messages",
+    "Feeling embarrassed after realizing a scam, which stops people from reporting it"
+  ],
+  "tips": [
+    "No legitimate company will ask for your password or PIN over the phone or by email",
+    "Gift cards are for gifts, not for paying bills or fines; any request to pay with gift cards is almost certainly a scam",
+    "If you are unsure, talk to a trusted adult, bank representative, or teacher before taking action"
+  ],
+  "helpBoundary": "If someone is pressuring you to send money quickly, or if you already shared financial information with a possible scammer, tell a trusted adult and contact your bank immediately. You are not in trouble; acting fast helps protect you.",
+  "tags": ["scams", "fraud", "safety", "security", "awareness"]
+}

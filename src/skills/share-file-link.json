@@ -1,0 +1,57 @@
+{
+  "id": "share-file-link",
+  "title": "Share a File with a Link",
+  "domain": "digital-basics",
+  "summary": "Send a file to someone using a shareable link instead of an attachment.",
+  "learnerPromise": "You will be able to create a shareable link for a file and send it to someone so they can view or download it.",
+  "whyItMatters": "Shareable links let you send large files that might not fit in an email. You can also control who sees the file and turn off access later.",
+  "realLifeUses": [
+    "A video file is too large to send as an email attachment",
+    "You want several people to view the same document without sending multiple copies",
+    "You need to collect feedback on a presentation from classmates or coworkers",
+    "You want someone to download a file without needing to create an account"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "use-cloud-storage"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A phone, tablet, or computer with internet access",
+    "A file uploaded to a cloud storage or file-sharing service"
+  ],
+  "result": "A shareable link copied to your clipboard, ready to paste into a message or email.",
+  "youWillLearn": [
+    "How to find the share option for a file in cloud storage",
+    "How to set link permissions so others can view or edit",
+    "How to copy and send the link through a message or email",
+    "How to turn off or change sharing permissions when you no longer want the file shared"
+  ],
+  "miniChallenge": "Upload one file to cloud storage, create a shareable link, and send it to yourself in a message.",
+  "steps": [
+    "Open your cloud storage app or website and locate the file you want to share",
+    "Tap or click the share icon next to the file",
+    "Choose the option to create a shareable link",
+    "Set the permission level — usually 'view only' is the safest starting choice",
+    "Copy the link and paste it into a message, email, or chat to send it"
+  ],
+  "completionCriteria": [
+    "You created a working shareable link for a file",
+    "You successfully sent the link and can open the file from it"
+  ],
+  "commonProblems": [
+    "The link does not work for the recipient — check that sharing permissions allow them to access it",
+    "The file is still private — look for a setting that says 'anyone with the link'",
+    "Forgot who you shared the file with — most services show a list of shared files and active links"
+  ],
+  "tips": [
+    "Use 'view only' links unless you want the other person to make changes",
+    "Set an expiration date on the link if your service offers that option",
+    "Avoid sharing links to sensitive personal documents publicly",
+    "You can turn off a link later if you no longer want people to access the file"
+  ],
+  "tags": ["sharing", "files", "links", "cloud", "collaboration"]
+}

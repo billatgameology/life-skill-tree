@@ -1,0 +1,52 @@
+{
+  "id": "document-room-condition",
+  "title": "Document Room Condition",
+  "domain": "housing-living",
+  "summary": "Record the condition of a room with notes and photos when moving in or out.",
+  "learnerPromise": "You will be able to create a clear record of a room's condition to protect yourself from unfair charges and support honest conversations with landlords or roommates.",
+  "whyItMatters": "A move-in or move-out record helps prevent disputes about damage, security deposits, and who is responsible for repairs. Photos and notes are much more reliable than memory alone.",
+  "realLifeUses": [
+    "Photograph and note every wall, floor, and appliance before moving into a rental",
+    "Record the condition of a dorm room at the start and end of a school year",
+    "Document wear and tear to show it existed before you moved in",
+    "Share a condition report with a landlord to set clear expectations"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["Phone or camera", "Notepad or notes app", "Pen (if using paper)"],
+  "result": "A dated set of room-by-room notes and photos showing the condition of walls, floors, fixtures, and appliances.",
+  "youWillLearn": [
+    "Systematically check each area of a room for existing damage or wear",
+    "Take clear, dated photos that show the full context of any issue",
+    "Write short, factual notes that describe what you see",
+    "Store the documentation in a place where you can find it later"
+  ],
+  "miniChallenge": "Pick one room and take five photos of areas that might show wear or damage. Write one sentence about each photo.",
+  "steps": [
+    "Walk into the room and start at the door, moving clockwise around the space",
+    "Photograph each wall, the floor, the ceiling, windows, and any fixtures or appliances",
+    "Write a short note for each photo: what it shows and the date",
+    "Open cabinets, turn on lights, and test outlets to check if things work",
+    "Save all photos and notes together with the date and room name in the filename or folder"
+  ],
+  "completionCriteria": [
+    "You have at least five dated photos of different parts of the room",
+    "Each photo has a short written note describing what it shows"
+  ],
+  "commonProblems": [
+    "Poor lighting makes damage hard to see in photos",
+    "It is easy to forget to check less obvious spots like inside drawers or behind doors",
+    "Some issues only show up after you have lived there for a while"
+  ],
+  "tips": [
+    "Take photos in daylight or with the room lights on for the clearest images",
+    "Include a wide shot first, then a close-up of any damage for context",
+    "If you are moving in, try to do this before you bring in furniture",
+    "Send a copy to your landlord or roommate so everyone has the same record"
+  ],
+  "tags": ["housing", "moving", "documentation", "renting", "protection"]
+}

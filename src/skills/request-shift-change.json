@@ -1,0 +1,65 @@
+{
+  "id": "request-shift-change",
+  "title": "Request a Shift Change",
+  "domain": "career-work",
+  "summary": "Ask your supervisor to change your work shift politely, with enough notice and a clear reason.",
+  "learnerPromise": "You will be able to ask for a shift change in a respectful way that gives your supervisor enough information and time to consider your request.",
+  "whyItMatters": "Workplaces run on reliable staffing. A polite, advance request shows responsibility and makes it more likely your supervisor can accommodate you.",
+  "realLifeUses": [
+    "Asking to swap a shift because of a doctor's appointment you scheduled before knowing your work schedule",
+    "Requesting a specific day off for a family event or school commitment",
+    "Asking to change from a closing shift to an opening shift due to transportation changes",
+    "Offering to cover another shift in exchange for the one you need changed"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "read-work-schedule"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Your current work schedule",
+    "A clear reason for the request",
+    "A suggested solution or alternative shift",
+    "Your supervisor's preferred contact method"
+  ],
+  "result": "A respectful request delivered to your supervisor with a suggested alternative and a clear timeframe.",
+  "youWillLearn": [
+    "How to ask for a shift change as early as possible",
+    "How to explain your reason briefly and honestly without oversharing",
+    "How to suggest a solution, such as a specific coworker who could swap or cover",
+    "How to accept the answer gracefully, whether it is yes or no"
+  ],
+  "miniChallenge": "Write out what you would say to request a shift change for a real or imaginary scheduling conflict. Include your reason and a suggested solution.",
+  "steps": [
+    "Check your workplace policy on shift changes. Some places require a minimum notice period or a specific form.",
+    "Contact your supervisor as soon as you know about the conflict. In person is usually best, followed by a written message to confirm.",
+    "State your request clearly: which shift you need to change, why, and what date you are talking about.",
+    "Suggest a solution. For example, mention a coworker who has agreed to swap, or offer to work a different shift that week.",
+    "Thank your supervisor for considering it. If they say no, accept it politely and try to solve your conflict another way."
+  ],
+  "completionCriteria": [
+    "You made your request at least a few days in advance, or as early as you possibly could",
+    "Your request included the specific shift, a brief reason, and a suggested alternative"
+  ],
+  "commonProblems": [
+    "Waiting until the last minute — most supervisors need time to adjust staffing",
+    "Not offering a solution — suggesting a swap or alternative makes the request easier to approve",
+    "Oversharing personal details — a brief reason like 'a family commitment' or 'a medical appointment' is enough",
+    "Getting upset if the answer is no — staffing needs are real, and your supervisor may not have flexibility"
+  ],
+  "tips": [
+    "Build goodwill by being flexible when your supervisor asks you to cover shifts for others",
+    "Keep a record of approved shift changes in case of payroll confusion later",
+    "If shift changes are frequent at your workplace, find a coworker you trust and agree to swap with each other when possible",
+    "Some workplaces use apps for shift swapping — learn how yours works if one is available"
+  ],
+  "tags": [
+    "work-basics",
+    "schedules",
+    "communication",
+    "professionalism"
+  ]
+}

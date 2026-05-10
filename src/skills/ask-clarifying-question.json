@@ -1,0 +1,54 @@
+{
+  "id": "ask-clarifying-question",
+  "title": "Ask a Clarifying Question",
+  "domain": "communication",
+  "summary": "Ask a question to clear up confusion without feeling awkward.",
+  "learnerPromise": "You will be able to ask questions that clear up confusion so you can act with confidence.",
+  "whyItMatters": "Misunderstandings waste time and cause mistakes. Asking a quick clarifying question shows you are engaged and helps everyone stay on the same page.",
+  "realLifeUses": [
+    "Asking a teacher to explain part of an assignment you did not understand",
+    "Confirming instructions from a manager before starting a task",
+    "Checking details with a friend about where and when to meet",
+    "Asking a doctor to repeat or rephrase medical advice"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "None"
+  ],
+  "result": "A clear question asked that resolves confusion about something you heard or read",
+  "youWillLearn": [
+    "Recognize when you are confused before acting",
+    "Phrase a question that is specific and easy to answer",
+    "Ask without apologizing for not knowing",
+    "Repeat back what you heard to confirm you got it right"
+  ],
+  "miniChallenge": "Think of something you heard recently that you were not fully sure about. Write down and then ask one specific question that would clear it up.",
+  "steps": [
+    "Notice that you are unsure about something someone said or wrote",
+    "Identify the exact part you do not understand",
+    "Form a short, specific question about that part",
+    "Ask the question directly without over-apologizing",
+    "Listen to the answer and repeat it back in your own words to confirm"
+  ],
+  "completionCriteria": [
+    "You asked a specific question about something you were unsure of",
+    "You got an answer that cleared up the confusion",
+    "You confirmed your understanding by restating what you learned"
+  ],
+  "commonProblems": [
+    "Pretending to understand to avoid looking foolish",
+    "Asking a question that is too vague to get a useful answer",
+    "Over-apologizing, which can make the question feel bigger than it is"
+  ],
+  "tips": [
+    "Questions like 'When you said X, did you mean Y?' are very effective",
+    "Asking for clarification is a sign of good communication, not weakness",
+    "If you are in a group, others are probably wondering the same thing"
+  ],
+  "tags": ["questions", "clarity", "listening", "confidence"]
+}

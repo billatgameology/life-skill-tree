@@ -1,0 +1,52 @@
+{
+  "id": "save-electricity-at-home",
+  "title": "Save Electricity at Home",
+  "domain": "housing-living",
+  "summary": "Take simple daily actions to reduce electricity use at home.",
+  "learnerPromise": "You will be able to lower your home electricity use through small habits and choices that are easy to keep up.",
+  "whyItMatters": "Using less electricity lowers your utility bill and reduces strain on the power grid. Small habits add up to noticeable savings over time.",
+  "realLifeUses": [
+    "Turn off lights and devices when leaving a room",
+    "Choose the right temperature setting on your thermostat to avoid overworking the AC or heater",
+    "Unplug chargers and appliances that draw power even when switched off",
+    "Replace frequently used bulbs with lower-wattage or LED options"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["None"],
+  "result": "A short checklist of electricity-saving habits you can use daily.",
+  "youWillLearn": [
+    "Identify which devices and lights use the most electricity in your home",
+    "Use natural light and timed usage to cut down on unnecessary power draw",
+    "Adjust thermostat settings by a few degrees to reduce heating and cooling costs",
+    "Build a short personal checklist of habits to check before bed or when leaving"
+  ],
+  "miniChallenge": "Walk through one room in your home and list three things that are using electricity right now that could be turned off or adjusted.",
+  "steps": [
+    "Walk through each room and note what is plugged in, turned on, or running",
+    "Turn off lights, fans, and devices in rooms you are not using",
+    "Unplug chargers, small appliances, and electronics that are not in use",
+    "Check your thermostat and adjust it by 2-3 degrees toward the outdoor temperature",
+    "Write down three habits you will try to keep for the next week"
+  ],
+  "completionCriteria": [
+    "You complete a walkthrough of at least one room and turn off or unplug unused items",
+    "You have a written list of three habits you plan to keep"
+  ],
+  "commonProblems": [
+    "Some devices need to stay on (like refrigerators or medical equipment)",
+    "It is easy to forget to turn things off when you are in a hurry",
+    "Shared spaces make it hard to control what others leave on"
+  ],
+  "tips": [
+    "Focus on the biggest users first: heating, cooling, and hot water usually matter most",
+    "Use a power strip to turn off several devices at once",
+    "If you share a home, post a small reminder note near light switches or the door",
+    "Small changes for a full month are more useful than perfect changes for one day"
+  ],
+  "tags": ["housing", "electricity", "saving", "energy", "home-maintenance"]
+}

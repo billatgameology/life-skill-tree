@@ -1,0 +1,55 @@
+{
+  "id": "email-teacher-question",
+  "title": "Email a Teacher a Question",
+  "domain": "school-learning",
+  "summary": "Write a polite, clear email to a teacher asking a specific question.",
+  "learnerPromise": "You will be able to write a short, respectful email to a teacher that clearly states your question and includes the information they need to help you.",
+  "whyItMatters": "Email is a common way to communicate with teachers outside of class. A clear and polite email helps you get a faster, more useful response.",
+  "realLifeUses": [
+    "Asking a teacher about a homework question you could not solve",
+    "Requesting clarification on an assignment due date",
+    "Informing a teacher that you will miss class and need to know what you missed",
+    "Following up on a conversation you had with a teacher after class"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["write-professional-email"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Email account or school messaging system",
+    "Your class schedule or assignment details (to include in the email)"
+  ],
+  "result": "A sent email to a teacher with a clear, polite question",
+  "youWillLearn": [
+    "How to start an email with a polite greeting using the teacher's name",
+    "How to state your question in one or two clear sentences",
+    "How to include important details like class period or assignment name",
+    "How to end an email politely with your name"
+  ],
+  "miniChallenge": "Write and send an email to a teacher with a specific question about a class, assignment, or due date. Keep it to 3-5 sentences.",
+  "steps": [
+    "Start with a greeting like 'Dear Ms. Smith,' or 'Hello Mr. Lee,'.",
+    "In the first sentence, say who you are and which class you are in.",
+    "State your question or request clearly in one or two sentences.",
+    "Include any helpful details like the assignment name or page number.",
+    "End with a polite closing like 'Thank you' and sign your full name."
+  ],
+  "completionCriteria": [
+    "Email includes a greeting, your name, class, and a specific question",
+    "Message is 3-5 sentences and uses a polite tone throughout",
+    "You receive a reply or confirmation that the email was sent successfully"
+  ],
+  "commonProblems": [
+    "Writing a vague message like 'I need help' without saying what the problem is",
+    "Forgetting to include your name or class so the teacher knows who you are",
+    "Using texting shortcuts or informal language in a school email"
+  ],
+  "tips": [
+    "Use the teacher's last name unless they have told you to use their first name",
+    "Reread your email before sending to check for typos",
+    "If it is urgent, mention a deadline, but give the teacher at least a day to reply"
+  ],
+  "tags": ["email", "communication", "writing", "help-seeking"]
+}

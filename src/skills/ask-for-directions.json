@@ -1,0 +1,51 @@
+{
+  "id": "ask-for-directions",
+  "title": "Ask for Directions",
+  "domain": "navigation",
+  "summary": "Ask a local person or staff member for clear directions when lost or unsure.",
+  "learnerPromise": "You will be able to confidently ask a stranger or staff member for directions and understand their response well enough to follow it.",
+  "whyItMatters": "Even with phones and maps, there are times when asking a person is the fastest or most reliable way to find your destination. It also helps you practice clear communication in unfamiliar situations.",
+  "realLifeUses": [
+    "Asking a store clerk how to find a specific building nearby",
+    "Checking with a transit worker to confirm which platform your train leaves from",
+    "Asking a passerby for help when your phone battery is low or signal is weak",
+    "Requesting directions to a restroom or exit in a large public building"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [],
+  "result": "You receive clear directions you can repeat back and follow.",
+  "youWillLearn": [
+    "How to choose the right person to ask for help",
+    "How to phrase your question clearly and politely",
+    "How to listen for landmarks and turn instructions",
+    "How to repeat the directions back to confirm you understood"
+  ],
+  "miniChallenge": "Ask a staff member, shop worker, or friendly passerby for directions to a nearby place you already know. Repeat the directions back to them to confirm you understood.",
+  "steps": [
+    "Pick someone who looks approachable, such as a staff member, shop worker, or person not in a rush.",
+    "Greet them politely and say the name of the place you are trying to find.",
+    "Ask a specific question like 'Is it within walking distance?' or 'Which direction should I go?'",
+    "Listen carefully and note any landmarks, street names, or turn instructions they mention.",
+    "Repeat the key directions back to them to make sure you got them right."
+  ],
+  "completionCriteria": [
+    "You asked a clear, polite question about directions",
+    "You repeated the directions back and confirmed they were correct"
+  ],
+  "commonProblems": [
+    "The person may not know the location or may give confusing directions",
+    "You might feel nervous or unsure about approaching a stranger",
+    "Directions given quickly can be hard to remember all at once"
+  ],
+  "tips": [
+    "Look for people wearing uniforms, name tags, or standing near information desks",
+    "If you did not catch something, politely ask them to repeat it",
+    "Write down or mentally pair each turn with a landmark to make it easier to remember"
+  ],
+  "tags": ["communication", "directions", "social", "wayfinding"]
+}

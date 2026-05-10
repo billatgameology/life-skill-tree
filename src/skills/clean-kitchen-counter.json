@@ -1,0 +1,61 @@
+{
+  "id": "clean-kitchen-counter",
+  "title": "Clean a Kitchen Counter",
+  "domain": "food-cooking",
+  "summary": "Wipe down and sanitize a kitchen counter after food preparation.",
+  "learnerPromise": "You will be able to clear, wipe, and sanitize a kitchen counter after cooking or preparing food.",
+  "whyItMatters": "Kitchen counters can collect food residue and bacteria during meal prep. Cleaning them after each use helps keep your cooking area safe and prevents pests.",
+  "realLifeUses": [
+    "Cleaning up after chopping vegetables for dinner",
+    "Wiping down the counter after making a sandwich",
+    "Sanitizing the surface after handling raw meat or eggs",
+    "Doing a quick clean after a baking session"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Clean cloth or paper towels",
+    "Warm soapy water or kitchen cleaner",
+    "Trash bin"
+  ],
+  "result": "A clean, dry kitchen counter free of food residue and visible stains.",
+  "youWillLearn": [
+    "Clear crumbs and debris from the counter",
+    "Wash the surface with soapy water",
+    "Rinse or wipe away soap residue",
+    "Dry the counter to prevent moisture buildup"
+  ],
+  "miniChallenge": "Clean your kitchen counter after your next meal prep. Remove all debris, wash with soapy water, and dry it completely.",
+  "steps": [
+    "Remove all items from the counter. Put away ingredients, tools, and containers.",
+    "Scrape or wipe crumbs and debris into your hand or a trash bin.",
+    "Wash the counter with warm soapy water or a kitchen-safe cleaner. Wipe in one direction.",
+    "Rinse the cloth and wipe again to remove any soap or cleaner residue.",
+    "Dry the counter with a clean, dry cloth."
+  ],
+  "completionCriteria": [
+    "The counter is clear of all food debris and items",
+    "The surface is clean with no visible residue or stickiness",
+    "The counter is dry after cleaning"
+  ],
+  "commonProblems": [
+    "Using the same cloth that was used for raw meat without washing it first",
+    "Leaving the counter wet, which can breed bacteria or damage surfaces",
+    "Pushing crumbs onto the floor instead of into the trash"
+  ],
+  "tips": [
+    "Clean as you go while cooking. It makes the final cleanup much faster.",
+    "Use a different cloth for raw meat areas than for general counters.",
+    "If you handled raw meat, eggs, or fish, sanitize the counter after washing it with soap."
+  ],
+  "tags": [
+    "cleaning",
+    "hygiene",
+    "kitchen",
+    "food-safety"
+  ]
+}

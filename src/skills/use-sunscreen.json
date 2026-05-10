@@ -1,0 +1,57 @@
+{
+  "id": "use-sunscreen",
+  "title": "Use Sunscreen Properly",
+  "domain": "health-safety",
+  "summary": "Apply sunscreen properly before going outside and know when to reapply.",
+  "learnerPromise": "You will be able to choose a suitable sunscreen and apply it correctly to protect your skin from sun damage.",
+  "whyItMatters": "Regular sunscreen use helps reduce the risk of sunburn and long-term skin damage, especially during outdoor activities or in sunny climates.",
+  "realLifeUses": [
+    "Applying sunscreen before a walk, hike, or sports practice",
+    "Reapplying after swimming or heavy sweating",
+    "Choosing the right sunscreen for a beach day or outdoor job",
+    "Helping a younger sibling or friend put on sunscreen correctly"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Sunscreen lotion, spray, or stick with SPF 30 or higher",
+    "Mirror (optional, for face application)"
+  ],
+  "result": "Sunscreen applied evenly to all exposed skin with a reapplication plan in mind.",
+  "youWillLearn": [
+    "Choose a sunscreen with an appropriate SPF and broad-spectrum protection",
+    "Apply enough sunscreen to cover all exposed skin evenly",
+    "Know when to reapply, such as after swimming or sweating",
+    "Check the expiration date and storage instructions"
+  ],
+  "miniChallenge": "Apply sunscreen to your face, neck, arms, and hands 15 minutes before going outside. Set a reminder to reapply in two hours.",
+  "steps": [
+    "Check the sunscreen label for SPF, broad-spectrum claim, and expiration date.",
+    "Squeeze out a generous amount and dot it on all exposed areas.",
+    "Rub it in evenly, making sure to cover ears, back of neck, and tops of feet if exposed.",
+    "Wait about 15 minutes before going into direct sun.",
+    "Set a timer or reminder to reapply every two hours, or sooner after swimming or heavy sweating."
+  ],
+  "completionCriteria": [
+    "You can explain what SPF means in simple terms",
+    "You have applied sunscreen to all exposed skin areas",
+    "You know when you should reapply and why"
+  ],
+  "commonProblems": [
+    "Using too little sunscreen, which reduces protection",
+    "Missing spots like ears, lips, or the part in your hair",
+    "Forgetting to reapply after getting wet or sweaty"
+  ],
+  "tips": [
+    "Use about a shot-glass amount for your whole body on a beach day",
+    "Choose a water-resistant formula if you will be swimming or sweating",
+    "Wear a hat and seek shade during midday hours when the sun is strongest"
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "If you get a severe sunburn with blistering, fever, or extreme pain, contact a medical professional for guidance.",
+  "tags": ["sun", "skin-care", "prevention", "outdoor"]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ask-for-space-politely",
+  "title": "Ask for Space Politely",
+  "domain": "emotional-skills",
+  "summary": "Ask for personal space or time alone without hurting someone's feelings.",
+  "learnerPromise": "You will be able to ask for time or space you need in a way that is clear and kind.",
+  "whyItMatters": "Everyone needs space sometimes. Learning to ask for it respectfully helps you protect your wellbeing without creating unnecessary conflict or making others feel rejected.",
+  "realLifeUses": [
+    "You need quiet to finish something and ask a family member or roommate for an hour alone",
+    "You feel overwhelmed during a conversation and say you need a short break",
+    "You decline a social invitation because you need a restful evening to yourself",
+    "You are working in a shared space and use headphones or a sign to signal you do not want to be disturbed"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["name-a-feeling", "pause-before-responding"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Paper or a notes app",
+    "A real or imagined situation where you need space"
+  ],
+  "result": "One or two polite phrases you can use to ask for space, tailored to your own words.",
+  "youWillLearn": [
+    "How to recognize when you genuinely need space versus when you are avoiding something",
+    "How to phrase a space request so it sounds kind, not harsh",
+    "How to suggest a time to reconnect so the other person does not feel dismissed",
+    "How to handle it if someone reacts negatively to your request"
+  ],
+  "miniChallenge": "Write down one sentence you could say to ask for 30 minutes of quiet time from someone you live with or know well. Make it kind, clear, and include when you will be available again.",
+  "steps": [
+    "Think about a time you needed space but did not know how to ask",
+    "Write down what you needed — be specific about the time or type of space",
+    "Draft a sentence that includes three parts: a kind opener, your request, and a time to reconnect",
+    "Read it aloud and imagine hearing it — does it sound clear and respectful?",
+    "Revise if needed, then keep the phrase somewhere you can find it when you need it"
+  ],
+  "completionCriteria": [
+    "You wrote one complete, polite sentence asking for space",
+    "Your sentence includes when you will be available again"
+  ],
+  "commonProblems": [
+    "You might feel guilty asking for space — remember it is a normal need, not a rejection",
+    "The other person might feel hurt — a clear time to reconnect usually helps",
+    "You might be vague to avoid discomfort — being specific is kinder than being unclear"
+  ],
+  "tips": [
+    "Keep it short. Long explanations can make the request feel bigger than it is",
+    "Examples: 'I need about 30 minutes to clear my head. Can we talk again at 4?' or 'I am feeling a bit overwhelmed. I would love to catch up tomorrow instead.'",
+    "If someone needs space from you, respect it — they are practicing a healthy skill too"
+  ],
+  "tags": ["boundaries", "communication", "self-care", "respect"]
+}

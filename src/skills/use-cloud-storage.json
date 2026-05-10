@@ -1,0 +1,55 @@
+{
+  "id": "use-cloud-storage",
+  "title": "Use Cloud Storage",
+  "domain": "digital-basics",
+  "summary": "Save files to cloud storage so they are accessible from another device.",
+  "learnerPromise": "You will be able to upload a file to a cloud storage service and open it from a different device.",
+  "whyItMatters": "Cloud storage keeps your files safe even if your device is lost or damaged. It also makes it easy to access your documents, photos, and other files from multiple devices.",
+  "realLifeUses": [
+    "You need to work on a school document from both home and school computers",
+    "You want to share vacation photos with family without sending them one by one",
+    "Your phone is running out of space and you want to keep your photos safe",
+    "You wrote notes on your laptop and want to read them on your phone later"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A phone, tablet, or computer with internet access",
+    "A free cloud storage account (such as Google Drive, iCloud, OneDrive, or Dropbox)"
+  ],
+  "result": "A file uploaded to cloud storage that you can view and download from another device or browser.",
+  "youWillLearn": [
+    "How to create or sign into a cloud storage account",
+    "How to upload a file from your device to the cloud",
+    "How to access your file from a web browser or another device",
+    "How to organize files into folders within cloud storage"
+  ],
+  "miniChallenge": "Upload a photo or document to a cloud storage service and open it from a web browser.",
+  "steps": [
+    "Sign up for or sign into a cloud storage service on your device",
+    "Find the upload button and select one file from your device to upload",
+    "Wait for the upload to finish and check that the file appears in your cloud folder",
+    "On a different device or browser, sign into the same cloud storage account",
+    "Locate the uploaded file and open it to confirm you can access it"
+  ],
+  "completionCriteria": [
+    "A file from your device is now visible in your cloud storage",
+    "You successfully opened the file from a different device or browser"
+  ],
+  "commonProblems": [
+    "Upload fails because of a poor internet connection — try again on Wi-Fi",
+    "Cannot find the uploaded file — check the correct folder or use the search bar",
+    "Running out of free storage space — most services offer a limited amount for free"
+  ],
+  "tips": [
+    "Most smartphones come with some free cloud storage already set up — check your settings",
+    "Create folders with clear names to keep your cloud files organized from the start",
+    "Enable automatic photo backup so new pictures are saved to the cloud without extra steps",
+    "Remember your login credentials or save them in a password manager"
+  ],
+  "tags": ["cloud", "files", "backup", "storage", "sync"]
+}

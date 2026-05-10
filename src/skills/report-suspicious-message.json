@@ -1,0 +1,57 @@
+{
+  "id": "report-suspicious-message",
+  "title": "Report a Suspicious Message",
+  "domain": "digital-basics",
+  "summary": "Flag a phishing or scam message through the proper channel.",
+  "learnerPromise": "You will be able to recognize when a message should be reported and use the right tools to flag it.",
+  "whyItMatters": "Reporting suspicious messages helps protect you and others from scams and phishing attempts. It also helps platforms improve their security and block harmful senders.",
+  "realLifeUses": [
+    "You receive an email asking for your password that looks fake",
+    "A text message claims to be from your bank but seems suspicious",
+    "A social media message contains a strange link from someone you know",
+    "You get a phone call or voicemail asking for personal information"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "spot-phishing"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A phone or computer with the suspicious message visible",
+    "Access to the app, email service, or website where you received it"
+  ],
+  "result": "A suspicious message reported through the proper channel and deleted from your inbox.",
+  "youWillLearn": [
+    "How to identify which messages are appropriate to report",
+    "How to use the built-in report button in email, text, and social media apps",
+    "How to forward phishing emails to your organization's IT or your email provider's abuse address",
+    "How to delete the message safely after reporting it"
+  ],
+  "miniChallenge": "Find or imagine a suspicious message and practice reporting it using the report feature in your app or email service.",
+  "steps": [
+    "Open the suspicious message but do not click any links or download any attachments",
+    "Look for a report button, flag icon, or 'Report spam/junk' option in your app or email service",
+    "Tap or click the report option and follow any prompts — some services ask why you are reporting",
+    "If the message is a phishing email at work or school, forward it to your IT department as well",
+    "Delete the message from your inbox and, if possible, block the sender"
+  ],
+  "completionCriteria": [
+    "You identified a suspicious message and used a report or flag feature",
+    "You deleted the message and know how to find the report feature again in the future"
+  ],
+  "commonProblems": [
+    "Cannot find the report button — look in the message menu or near the delete button",
+    "Not sure if the message is really a scam — when in doubt, report it; better safe than sorry",
+    "Reported a message by accident — most reports do not cause problems for the sender unless a pattern exists"
+  ],
+  "tips": [
+    "Never click links or reply to a suspicious message — reporting is enough",
+    "If a message claims to be from a company you use, contact that company directly through their official website",
+    "Reporting spam and scams helps the platform protect other users too",
+    "Take a screenshot before deleting if you need to share it with someone for advice"
+  ],
+  "tags": ["security", "phishing", "scams", "reporting", "safety"]
+}

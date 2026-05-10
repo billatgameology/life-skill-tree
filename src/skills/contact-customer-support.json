@@ -1,0 +1,52 @@
+{
+  "id": "contact-customer-support",
+  "title": "Contact Customer Support",
+  "domain": "shopping-consumer",
+  "summary": "Reach out to customer support by chat, email, or phone to resolve a purchase issue.",
+  "learnerPromise": "You will be able to contact customer support clearly and effectively to get help with an order or product problem.",
+  "whyItMatters": "When something goes wrong with a purchase, customer support can often fix it. Knowing how to reach them and explain your issue increases your chances of a quick, helpful response.",
+  "realLifeUses": [
+    "Reporting that your order arrived damaged and asking for a replacement",
+    "Asking when a delayed package will arrive",
+    "Requesting a refund for a subscription you did not mean to renew",
+    "Getting help with a technical problem for a product you just bought"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["write-professional-email"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["A device with internet access or a phone", "Your order number or receipt", "A clear description of the issue"],
+  "result": "A completed support contact with a clear explanation of your issue and next steps.",
+  "youWillLearn": [
+    "How to find the right support channel: chat, email, or phone",
+    "What information to gather before contacting support",
+    "How to describe your issue briefly and politely",
+    "How to keep a record of the conversation for follow-up"
+  ],
+  "miniChallenge": "Think of a recent or hypothetical purchase issue. Find the store's support contact, then send a message or start a chat that includes your order number and a clear description of the problem.",
+  "steps": [
+    "Find the 'Contact Us,' 'Help,' or 'Support' section on the store's website or app.",
+    "Gather your information: order number, receipt, photos of the issue if relevant.",
+    "Choose a contact method: live chat, email form, or phone call.",
+    "State your issue in 2-3 sentences: what happened, what you need, and any relevant details.",
+    "Save or screenshot the conversation and any case number for your records."
+  ],
+  "completionCriteria": [
+    "You found and used a correct support channel for the store",
+    "You included your order details and a clear description of the issue",
+    "You saved a record of the contact and any response or case number"
+  ],
+  "commonProblems": [
+    "Long wait times on phone or chat — try contacting during off-peak hours",
+    "Getting transferred between departments — note your case number each time",
+    "Support says they cannot help — politely ask to escalate to a supervisor"
+  ],
+  "tips": [
+    "Be polite but clear — respectful messages usually get faster help",
+    "Include photos or screenshots if they help explain the issue",
+    "If chat or email does not work, try phone support for urgent problems"
+  ],
+  "tags": ["customer-service", "problem-solving", "communication", "returns"]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "clean-desk",
+  "title": "Clean and Organize a Desk",
+  "domain": "organization",
+  "summary": "Clear and organize a desk so there is space to work and everything has a place.",
+  "learnerPromise": "You will be able to clear clutter from a desk and set it up so you have clean space to focus and can find what you need.",
+  "whyItMatters": "A clear workspace reduces distractions and makes it easier to start tasks. When your desk is organized, you spend less time looking for supplies and more time getting things done.",
+  "realLifeUses": [
+    "Clear off a homework desk so there is room for books, laptop, and writing",
+    "Organize a workspace so pens, chargers, and papers each have a spot",
+    "Reset a shared family table so it is ready for the next person to use",
+    "Tidy a work-from-home area to separate work time from relaxation time"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["Trash bin or recycling bag", "A cloth or wipes for dusting", "Optional: drawer organizer or small containers"],
+  "result": "A clean desk surface with clear space to work and organized supplies.",
+  "youWillLearn": [
+    "How to sort desk items into keep, trash, and relocate piles",
+    "How to create clear zones for different activities like writing and computer work",
+    "How to store frequently used items within arm's reach",
+    "How to establish a quick daily reset habit"
+  ],
+  "miniChallenge": "Clear your desk completely, clean the surface, and put back only what you use regularly with each item in a designated spot.",
+  "steps": [
+    "Remove everything from the desk surface and place it in a temporary pile.",
+    "Wipe down the desk surface with a cloth or cleaning wipe.",
+    "Sort the pile into three groups: keep at desk, throw away or recycle, and move elsewhere.",
+    "Place keep items back on the desk, grouping similar things together and giving each a spot.",
+    "Dispose of trash and take relocate items to their proper homes right away."
+  ],
+  "completionCriteria": [
+    "The desk surface is mostly clear with open space to work",
+    "Every item on the desk has a specific place",
+    "Trash and items that do not belong are removed"
+  ],
+  "commonProblems": [
+    "Trying to organize without clearing first, which leads to just moving clutter around",
+    "Keeping too many items on the desk 'just in case'",
+    "Not having a trash bin nearby, which leads to paper piling up"
+  ],
+  "tips": [
+    "If you have not used an item in two weeks, consider storing it elsewhere",
+    "Leave the center of your desk open for the task at hand",
+    "Spend two minutes at the end of each day resetting your desk"
+  ],
+  "tags": ["workspace", "cleaning", "decluttering", "focus"]
+}

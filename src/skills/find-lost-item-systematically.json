@@ -1,0 +1,52 @@
+{
+  "id": "find-lost-item-systematically",
+  "title": "Find a Lost Item Systematically",
+  "domain": "organization",
+  "summary": "Search for a lost item using a methodical approach instead of panicking.",
+  "learnerPromise": "You will be able to stay calm and search for a lost item using a step-by-step method that increases your chances of finding it.",
+  "whyItMatters": "Losing something important triggers stress, which makes it harder to think clearly. A calm, systematic search approach saves time and reduces the chance of overlooking the item.",
+  "realLifeUses": [
+    "Retrace your steps to find lost keys, a wallet, or a phone",
+    "Search a room methodically instead of randomly rummaging through piles",
+    "Find a missing document or paper by checking the most likely spots first",
+    "Locate a lost item at school or work by asking the right people in the right order"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["Optional: notepad to track searched areas"],
+  "result": "You follow a structured search process and either find the item or determine where to look next.",
+  "youWillLearn": [
+    "How to pause and think before you start searching frantically",
+    "How to retrace your recent movements step by step",
+    "How to divide a space into sections and search each one thoroughly",
+    "How to check common hiding spots and blind spots where items usually land"
+  ],
+  "miniChallenge": "Use the systematic search method to look for something you have misplaced, or practice by choosing an object and describing how you would find it.",
+  "steps": [
+    "Take a breath and try to remember the last time you had the item or used it.",
+    "Retrace your steps mentally or physically from that last moment to now.",
+    "Check the most likely spots first: pockets, bags, surfaces you used, and areas nearby.",
+    "Divide the remaining space into sections and search each one thoroughly before moving on.",
+    "If you still cannot find it, ask someone nearby if they have seen it or check lost and found."
+  ],
+  "completionCriteria": [
+    "You retraced your steps before beginning physical searching",
+    "You searched likely spots first and then covered remaining areas systematically",
+    "You either found the item or identified the next place to check"
+  ],
+  "commonProblems": [
+    "Panicking and searching the same spot multiple times without checking others",
+    "Moving items around while searching and accidentally burying the lost object deeper",
+    "Assuming the item is stolen or gone for good before doing a thorough search"
+  ],
+  "tips": [
+    "Search with your eyes first before moving things around",
+    "Check unusual spots too, items often slide under furniture or fall behind things",
+    "If searching a large area, mark sections you have already covered so you do not repeat"
+  ],
+  "tags": ["problem-solving", "searching", "staying-calm", "lost-items"]
+}

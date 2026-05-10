@@ -1,0 +1,51 @@
+{
+  "id": "compare-subscription-costs",
+  "title": "Compare Subscription Costs",
+  "domain": "money-finance",
+  "summary": "Compare the monthly or yearly cost of a subscription service against alternatives.",
+  "learnerPromise": "You will be able to compare subscriptions side by side and pick the one that fits your budget and needs.",
+  "whyItMatters": "Subscriptions add up quickly, and comparing them before signing up helps you avoid paying for features you will not use or overpaying for something a competitor offers cheaper.",
+  "realLifeUses": [
+    "Choosing between two music streaming services with similar libraries",
+    "Deciding whether a yearly plan saves money compared to paying monthly",
+    "Evaluating if a premium tier is worth the extra cost over the basic plan",
+    "Comparing video streaming services to keep only the ones you actually watch"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["needs-vs-wants"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["Paper or a notes app", "A calculator"],
+  "result": "You create a simple comparison chart for two or more subscription options.",
+  "youWillLearn": [
+    "List the features you actually need before comparing prices",
+    "Convert monthly and yearly prices to the same time period for a fair comparison",
+    "Look for hidden costs like ads, device limits, or extra member fees",
+    "Factor in free trial lengths and cancellation policies"
+  ],
+  "miniChallenge": "Pick a subscription you are considering and compare it with one competitor on price, features, and trial terms.",
+  "steps": [
+    "Write down what you want from the service (for example: no ads, offline downloads, family sharing).",
+    "Find two or more services that offer those features and note their monthly and yearly prices.",
+    "Convert all prices to the same time frame, such as yearly cost, so you can compare directly.",
+    "Check for extra fees, free trial periods, and how easy it is to cancel.",
+    "Pick the option that meets your needs at the lowest cost, or choose the free trial first to test it."
+  ],
+  "completionCriteria": [
+    "You made a written comparison of at least two subscription options",
+    "You calculated which option is cheaper over a full year"
+  ],
+  "commonProblems": [
+    "Yearly plans look expensive upfront but often cost less per month",
+    "Free trials that auto-renew if you forget to cancel",
+    "Services with multiple tiers where the cheapest plan lacks key features"
+  ],
+  "tips": [
+    "Set a calendar reminder to cancel a free trial a day or two before it ends",
+    "Check if your school, library, or family plan offers the service for free or at a discount",
+    "Review your subscriptions every few months and cancel the ones you are not actively using"
+  ],
+  "tags": ["subscriptions", "comparison", "budgeting", "saving"]
+}

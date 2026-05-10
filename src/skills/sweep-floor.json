@@ -1,0 +1,54 @@
+{
+  "id": "sweep-floor",
+  "title": "Sweep a Hard Floor",
+  "domain": "home-care",
+  "summary": "Sweep a hard floor to remove dust, crumbs, and debris.",
+  "learnerPromise": "You will be able to sweep a hard floor clean and collect the debris into a dustpan.",
+  "whyItMatters": "Regular sweeping keeps floors safe to walk on and prevents dirt from spreading to other rooms. It is one of the fastest ways to refresh a space.",
+  "realLifeUses": [
+    "Cleaning up crumbs after cooking or eating",
+    "Removing dust and dirt tracked in from outside",
+    "Preparing a floor before mopping",
+    "Quick tidying before guests arrive"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Broom",
+    "Dustpan"
+  ],
+  "result": "A swept floor with visible debris collected and disposed of.",
+  "youWillLearn": [
+    "How to hold a broom at the right angle for effective sweeping",
+    "How to sweep debris into a pile without scattering it",
+    "How to use a dustpan to collect a pile cleanly",
+    "How to reach under furniture and into corners"
+  ],
+  "miniChallenge": "Sweep one room with a hard floor today. Collect the debris and throw it away.",
+  "steps": [
+    "Clear small items off the floor so nothing blocks your path.",
+    "Hold the broom with both hands and start sweeping from the edges of the room inward.",
+    "Use short, controlled strokes to push dust and debris into a central pile.",
+    "Position the dustpan flat on the floor and sweep the pile into it.",
+    "Empty the dustpan into a trash bin and put the broom away."
+  ],
+  "completionCriteria": [
+    "Floor is visibly free of dust, crumbs, and loose debris",
+    "Debris has been collected and disposed of in a trash bin"
+  ],
+  "commonProblems": [
+    "Dust line left at dustpan edge — tilt the dustpan slightly back and sweep again",
+    "Debris scatters — use lighter strokes and sweep toward you, not away",
+    "Hair sticks to broom — remove it with a paper towel or old cloth after sweeping"
+  ],
+  "tips": [
+    "Sweep toward a light source so you can see dust better",
+    "Work from the far corner toward the door so you do not walk over what you cleaned",
+    "For pet hair, slightly dampen the broom bristles to help it clump together"
+  ],
+  "tags": ["cleaning", "floors", "broom", "quick-chore"]
+}

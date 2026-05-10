@@ -1,0 +1,53 @@
+{
+  "id": "find-local-library",
+  "title": "Find Your Local Library",
+  "domain": "civic-community",
+  "summary": "Find the nearest public library and learn its hours and services.",
+  "learnerPromise": "You will be able to locate your nearest public library and know when it is open and what it offers.",
+  "whyItMatters": "Public libraries provide free access to books, computers, classes, and community resources. Knowing how to find and use your library opens doors to learning and support.",
+  "realLifeUses": [
+    "You need a quiet place to study or use a computer",
+    "You want to borrow books or access free digital resources",
+    "You are looking for free community events or classes",
+    "You need internet access and do not have it at home"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A phone, computer, or someone who can help you search"
+  ],
+  "result": "You know the name, address, hours, and at least two services of your nearest public library.",
+  "youWillLearn": [
+    "How to search for nearby libraries online or by phone",
+    "How to read a library's schedule and service list",
+    "How to plan a visit using transit, walking, or a ride",
+    "How to check if a library has the resources you need"
+  ],
+  "miniChallenge": "Look up your nearest public library online or by phone and write down its address, today's hours, and two services it offers.",
+  "steps": [
+    "Search online for 'public library near me' or call a local information line",
+    "Write down the library's name, address, and phone number",
+    "Find the hours for today's day of the week",
+    "Look at the list of services (books, computers, events, Wi-Fi)",
+    "Write down two services that interest you and how you would get there"
+  ],
+  "completionCriteria": [
+    "You have the library's name, address, and correct hours written down",
+    "You can name at least two services the library provides"
+  ],
+  "commonProblems": [
+    "Search results show many libraries — check which is the closest or easiest to reach",
+    "Hours online may be outdated — call to confirm if planning a visit",
+    "Some services may require a card or appointment — check ahead"
+  ],
+  "tips": [
+    "Library websites often have a 'Using the Library' or 'Services' page",
+    "If you cannot get there easily, ask about book delivery or digital borrowing options",
+    "Many libraries offer free Wi-Fi and computer use even without a card"
+  ],
+  "tags": ["library", "community", "research", "local-services"]
+}

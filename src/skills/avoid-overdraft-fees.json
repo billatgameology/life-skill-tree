@@ -1,0 +1,51 @@
+{
+  "id": "avoid-overdraft-fees",
+  "title": "Avoid Overdraft Fees",
+  "domain": "money-finance",
+  "summary": "Take steps to avoid spending more than what is in a bank account.",
+  "learnerPromise": "You will be able to monitor your balance and use simple habits to avoid overdraft charges.",
+  "whyItMatters": "Overdraft fees can turn a small purchase into an expensive mistake, and building awareness of your balance helps you stay in control of your money.",
+  "realLifeUses": [
+    "Checking your balance before making a purchase to make sure funds are available",
+    "Setting up a low-balance alert so your bank warns you before you go negative",
+    "Opting out of overdraft coverage so small purchases are declined instead of causing fees",
+    "Linking a savings account as a backup to cover unexpected shortfalls"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-bank-accounts"],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["A bank account", "Banking app or online access"],
+  "result": "You have turned on at least one guardrail to prevent overdraft fees.",
+  "youWillLearn": [
+    "Check your available balance before spending",
+    "Understand how overdraft fees work and when they kick in",
+    "Set up account alerts for low balances",
+    "Know the difference between account balance and available balance"
+  ],
+  "miniChallenge": "Check your current account balance right now and set up a low-balance alert in your banking app.",
+  "steps": [
+    "Log into your banking app and look at your available balance (not just the total balance).",
+    "Read your bank's fee schedule to learn what they charge for overdrafts.",
+    "Look in your app settings for alert options and turn on low-balance notifications.",
+    "Consider opting out of overdraft protection if you prefer purchases to be declined rather than paid with a fee.",
+    "Make it a habit to check your balance before any non-essential purchase."
+  ],
+  "completionCriteria": [
+    "You can explain the difference between account balance and available balance",
+    "You have enabled at least one alert or protection setting in your banking app"
+  ],
+  "commonProblems": [
+    "Pending transactions that have not cleared yet, making your balance look higher than it is",
+    "Automatic subscriptions or bills coming out at unexpected times",
+    "Multiple small overdrafts each generating a separate fee on the same day"
+  ],
+  "tips": [
+    "Some banks offer grace periods or waive the first overdraft fee each year; check your bank's policy",
+    "A buffer of even $20–$50 in your account can prevent most accidental overdrafts",
+    "If you do get an overdraft fee, calling your bank and asking politely may get it reversed, especially if it is your first time"
+  ],
+  "tags": ["banking", "fees", "budgeting", "balance", "alerts"]
+}

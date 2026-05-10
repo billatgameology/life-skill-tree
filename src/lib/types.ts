@@ -6,7 +6,14 @@ export type DomainKey =
   | 'home-care'
   | 'communication'
   | 'health-safety'
-  | 'organization';
+  | 'organization'
+  | 'career-work'
+  | 'school-learning'
+  | 'civic-community'
+  | 'emotional-skills'
+  | 'outdoor-everyday'
+  | 'housing-living'
+  | 'shopping-consumer';
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 

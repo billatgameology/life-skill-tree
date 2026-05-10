@@ -1,0 +1,56 @@
+{
+  "id": "check-weather-before-leaving",
+  "title": "Check the Weather Before Leaving",
+  "domain": "outdoor-everyday",
+  "summary": "Check the weather forecast and decide what to wear or bring.",
+  "learnerPromise": "You will be able to check the weather forecast and use it to decide what to wear or take with you.",
+  "whyItMatters": "Knowing the weather ahead of time helps you stay comfortable and avoid getting caught in rain, cold, or heat. It only takes a moment and can make your whole day easier.",
+  "realLifeUses": [
+    "Checking if you need an umbrella before heading to school or work",
+    "Deciding whether to wear a jacket on a cool morning",
+    "Planning what to pack for a day trip or outing",
+    "Knowing if strong sun or heat means you should bring sunscreen or a hat"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A phone, computer, or radio with weather access",
+    "Optional: a window to look outside"
+  ],
+  "result": "A clear decision about what to wear or bring based on the forecast.",
+  "youWillLearn": [
+    "How to find a reliable weather forecast quickly",
+    "How to read temperature, rain chance, and wind information",
+    "How to match weather info to simple clothing and gear choices",
+    "How to check the weather as a daily habit"
+  ],
+  "miniChallenge": "Before you leave home today, check the weather forecast for your area and decide one thing you should wear or bring. Write it down or tell someone.",
+  "steps": [
+    "Open a weather app, website, or radio forecast.",
+    "Look at the temperature, rain or snow chance, and wind for the next few hours.",
+    "Think about where you are going and how long you will be outside.",
+    "Decide if you need extra clothing, rain gear, sun protection, or nothing special.",
+    "Set out or pack the items you decided on before leaving."
+  ],
+  "completionCriteria": [
+    "You checked a current weather forecast for your area.",
+    "You made at least one clothing or gear decision based on it.",
+    "You left home prepared for the expected conditions."
+  ],
+  "commonProblems": [
+    "Forgetting to check the weather until you are already outside",
+    "Only checking the current weather instead of the forecast for later",
+    "Not trusting the forecast and then being over- or under-dressed"
+  ],
+  "tips": [
+    "Make checking the weather part of your morning routine.",
+    "Look at hourly forecasts if you will be out for several hours.",
+    "Keep a small umbrella or light jacket in your bag during unpredictable seasons.",
+    "If forecasts often seem wrong for your area, try a different weather source."
+  ],
+  "tags": ["weather", "planning", "daily-routine", "preparation"]
+}

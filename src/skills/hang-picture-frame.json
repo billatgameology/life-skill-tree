@@ -1,0 +1,58 @@
+{
+  "id": "hang-picture-frame",
+  "title": "Hang a Picture Frame",
+  "domain": "home-care",
+  "summary": "Hang a picture frame on a wall using a nail or hook at the right height.",
+  "learnerPromise": "You will be able to hang a picture frame level and at a comfortable viewing height using a nail or hook.",
+  "whyItMatters": "Hanging pictures or artwork personalizes a space and makes it feel like home. Doing it correctly keeps frames secure and walls undamaged.",
+  "realLifeUses": [
+    "Hanging a poster or artwork in a bedroom",
+    "Putting up family photos in a living room",
+    "Mounting a whiteboard or corkboard in a study area",
+    "Decorating a dorm room or new apartment"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["use-tape-measure", "hammer-nail"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Picture frame",
+    "Nail or picture hook",
+    "Hammer",
+    "Tape measure",
+    "Pencil",
+    "Level or a phone with a level app"
+  ],
+  "result": "A securely hung picture frame that is level and at a comfortable viewing height.",
+  "youWillLearn": [
+    "How to choose the right height for hanging a frame",
+    "How to find the hanging point on the back of the frame",
+    "How to mark and place a nail or hook in the wall",
+    "How to check that the frame is level before finishing"
+  ],
+  "miniChallenge": "Hang one picture frame, poster, or lightweight item on a wall today. Make sure it is level.",
+  "steps": [
+    "Decide on placement and measure the center height, about 57 to 60 inches from the floor for artwork.",
+    "Check the back of the frame for a wire, hook, or bracket to find where it will hang from.",
+    "Mark the wall lightly with a pencil where the nail or hook needs to go.",
+    "Hammer the nail or insert the hook at a slight upward angle, leaving enough exposed to catch the frame.",
+    "Hang the frame, step back, and check if it is level. Adjust if needed."
+  ],
+  "completionCriteria": [
+    "Frame is securely attached and does not wobble when lightly touched",
+    "Frame appears level when viewed from a few feet away"
+  ],
+  "commonProblems": [
+    "Frame tilts to one side — the hanging wire may be off-center, adjust or use two nails",
+    "Nail bends while hammering — switch to a sturdier nail or a thinner wall hook",
+    "Not sure if it is level — use a level app on your phone placed on top of the frame"
+  ],
+  "tips": [
+    "For heavier frames, use a wall anchor or stud finder for extra support",
+    "Hold the frame up to the wall before committing to check if you like the placement",
+    "Use painter's tape to mark corners lightly before making holes"
+  ],
+  "tags": ["decorating", "tools", "walls", "diy"]
+}

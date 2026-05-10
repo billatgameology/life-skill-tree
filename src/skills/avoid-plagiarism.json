@@ -1,0 +1,56 @@
+{
+  "id": "avoid-plagiarism",
+  "title": "Avoid Plagiarism",
+  "domain": "school-learning",
+  "summary": "Use your own words and proper citation to avoid copying someone else's work.",
+  "learnerPromise": "You will be able to use information from sources in your own work while giving proper credit and avoiding copying.",
+  "whyItMatters": "Plagiarism means using someone else's words or ideas without credit, which is dishonest and can lead to serious consequences at school. Learning to use sources honestly is a key skill for all writing.",
+  "realLifeUses": [
+    "Writing a research paper using facts from books and websites in your own words",
+    "Quoting a definition in an essay and giving proper credit",
+    "Creating a presentation that includes information from multiple sources",
+    "Paraphrasing a news article for a current events assignment"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["cite-a-source", "summarize-a-reading"],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A short article or passage to practice with",
+    "Paper or a notes app",
+    "A citation guide (optional)"
+  ],
+  "result": "A short paragraph that uses source information in your own words with proper credit",
+  "youWillLearn": [
+    "How to tell the difference between quoting, paraphrasing, and copying",
+    "How to restate an idea in your own words while keeping the meaning",
+    "When and how to use quotation marks for exact wording",
+    "How to credit a source every time you use its information"
+  ],
+  "miniChallenge": "Read a short paragraph from an article. Write one sentence quoting it with quotation marks, and one sentence paraphrasing it in your own words. Add a simple citation to each.",
+  "steps": [
+    "Read the original text and make sure you understand the main idea.",
+    "To quote: copy the exact words inside quotation marks and credit the source.",
+    "To paraphrase: cover the text and write the idea in your own words without looking.",
+    "Compare your version to the original to make sure you changed enough words.",
+    "Add a citation to every sentence that uses someone else's information."
+  ],
+  "completionCriteria": [
+    "You can explain the difference between quoting and copying without credit",
+    "Your paraphrase uses mostly your own words and keeps the original meaning",
+    "Every use of source information includes a citation"
+  ],
+  "commonProblems": [
+    "Changing only a few words and thinking that counts as paraphrasing",
+    "Forgetting to cite a source because you did not use quotation marks",
+    "Copying the structure of the original sentence even when changing some words"
+  ],
+  "tips": [
+    "When paraphrasing, change both the words and the sentence structure",
+    "If you are not sure whether something needs a citation, include one just in case",
+    "Reading the source, covering it, and then writing helps you use your own words"
+  ],
+  "tags": ["academic-integrity", "citation", "writing", "research"]
+}

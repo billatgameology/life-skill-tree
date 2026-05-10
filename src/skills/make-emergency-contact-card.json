@@ -1,0 +1,57 @@
+{
+  "id": "make-emergency-contact-card",
+  "title": "Make an Emergency Contact Card",
+  "domain": "health-safety",
+  "summary": "Create a small card with emergency contacts and medical info to carry or display.",
+  "learnerPromise": "You will be able to create a portable card with your key emergency contacts and basic medical information.",
+  "whyItMatters": "In an urgent situation, having contact and health details ready can help others assist you faster, especially if you cannot speak for yourself.",
+  "realLifeUses": [
+    "Carrying it in your wallet or bag so it is always with you",
+    "Taping it inside a locker or on the fridge at home",
+    "Giving a copy to a trusted friend, roommate, or caregiver",
+    "Sharing it with a teacher, coach, or supervisor who may need to help you"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["emergency-numbers"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Index card, paper, or small notebook page",
+    "Pen or marker",
+    "Optional: clear tape or laminating sleeve to protect the card"
+  ],
+  "result": "A finished emergency contact card with at least three contacts and one piece of health information.",
+  "youWillLearn": [
+    "Decide which contacts and health details are most important to include",
+    "Format information so it is easy to read in a stressful moment",
+    "Choose a safe place to keep the card where others can find it",
+    "Update the card when information changes"
+  ],
+  "miniChallenge": "Write down three emergency contacts and one medical detail on a card. Place it somewhere you or others can easily find it.",
+  "steps": [
+    "Write your full name at the top of the card.",
+    "List three trusted contacts with their relationship to you and phone numbers.",
+    "Add one relevant health detail, such as a medicine allergy or condition.",
+    "Write down the local emergency number in a bold or highlighted spot.",
+    "Decide where to keep the card and put it there now."
+  ],
+  "completionCriteria": [
+    "Your card has at least three contacts and one health or allergy note",
+    "You have placed the card in a location where you or someone helping you can find it quickly"
+  ],
+  "commonProblems": [
+    "Phone numbers change and the card becomes outdated",
+    "The card gets damaged if not protected from water or wear",
+    "It can be hard to decide which contacts to include if you have a large support network"
+  ],
+  "tips": [
+    "Include both a local contact and one out-of-area contact in case local lines are down",
+    "Use a waterproof sleeve or tape to protect the card if you carry it daily",
+    "Review and update the card every six months or after any big life change"
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "Ask a trusted adult, caregiver, or support person for help if you are unsure which medical details to include or do not have anyone you feel comfortable listing as a contact.",
+  "tags": ["emergency", "contacts", "planning", "safety"]
+}

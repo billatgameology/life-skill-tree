@@ -1,0 +1,63 @@
+{
+  "id": "make-sandwich",
+  "title": "Make a Sandwich",
+  "domain": "food-cooking",
+  "summary": "Assemble a balanced sandwich with proper layering and safe handling.",
+  "learnerPromise": "You will be able to make a balanced, well-layered sandwich that stays together and tastes good.",
+  "whyItMatters": "Sandwiches are a quick, portable meal you can customize to your taste and nutrition needs. Good layering keeps the bread from getting soggy and the filling from falling out.",
+  "realLifeUses": [
+    "Packing a lunch for school or work",
+    "Making a quick dinner when you are short on time",
+    "Creating a snack before sports practice or a hike",
+    "Offering a simple meal to a friend or guest"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Bread or wrap",
+    "Spread (butter, mayo, hummus, etc.)",
+    "Protein (meat, cheese, beans, etc.)",
+    "Vegetables (lettuce, tomato, etc.)",
+    "Clean surface and knife"
+  ],
+  "result": "A complete sandwich that is balanced, layered well, and ready to eat.",
+  "youWillLearn": [
+    "Choose ingredients that taste good together",
+    "Layer ingredients so the sandwich holds together",
+    "Use spreads to add flavor and keep bread from drying out",
+    "Cut and store a sandwich neatly for later if needed"
+  ],
+  "miniChallenge": "Make a sandwich with at least three layers (spread, protein, vegetable). Take a bite and notice if it holds together.",
+  "steps": [
+    "Lay out two slices of bread on a clean surface.",
+    "Spread a thin layer on each slice. This adds flavor and creates a barrier against moisture.",
+    "Add your protein on one slice. Fold or slice it so it covers the bread evenly.",
+    "Add vegetables on top. Pat them dry if they are wet so the bread does not get soggy.",
+    "Press the top slice down gently. Cut in half if you want, and enjoy or wrap for later."
+  ],
+  "completionCriteria": [
+    "Your sandwich has at least three different ingredients",
+    "The layers are even and the sandwich holds together when picked up",
+    "The bread is not soggy and the sandwich is safe to eat"
+  ],
+  "commonProblems": [
+    "Overfilling the sandwich so it falls apart when eating",
+    "Putting wet ingredients directly on dry bread, causing sogginess",
+    "Not spreading condiments evenly, leading to dry bites"
+  ],
+  "tips": [
+    "Dry lettuce and tomato with a paper towel before adding them.",
+    "Put spreads on both slices of bread for better flavor coverage.",
+    "If packing for later, wrap tightly in foil or a reusable wrap to keep it fresh."
+  ],
+  "tags": [
+    "cooking",
+    "quick-meals",
+    "lunch",
+    "no-heat"
+  ]
+}

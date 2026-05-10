@@ -1,0 +1,59 @@
+{
+  "id": "check-temperature",
+  "title": "Check Your Temperature",
+  "domain": "health-safety",
+  "summary": "Use a thermometer to check body temperature correctly.",
+  "learnerPromise": "You will be able to use a digital thermometer to check your body temperature and understand what the reading means.",
+  "whyItMatters": "Temperature is one of the first things checked when someone feels unwell. Knowing how to measure it correctly helps you decide whether rest, medicine, or a doctor visit is the next step.",
+  "realLifeUses": [
+    "Checking if a fever means you should stay home from work or school",
+    "Monitoring temperature during a cold or flu to track if you are getting better",
+    "Sharing an accurate temperature reading with a nurse or doctor",
+    "Helping a family member or roommate check if they have a fever"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Digital thermometer (oral, ear, forehead, or underarm type)",
+    "Tissues or clean cloth",
+    "Optional: timer or clock"
+  ],
+  "result": "An accurate temperature reading and a basic understanding of what ranges suggest a fever.",
+  "youWillLearn": [
+    "Choose the right type of thermometer for your situation",
+    "Follow the correct steps for oral, forehead, ear, or underarm measurement",
+    "Read and record the temperature accurately",
+    "Know when a temperature reading suggests calling a medical professional"
+  ],
+  "miniChallenge": "Find a thermometer in your home, read its instructions, and practice taking your own temperature. Write down the reading and the time.",
+  "steps": [
+    "Wash your hands and check that the thermometer is clean and working.",
+    "Read the instructions for your specific thermometer type.",
+    "Position the thermometer correctly in your mouth, ear, underarm, or forehead as directed.",
+    "Wait for the thermometer to signal it is finished, then read the display.",
+    "Write down the temperature, time, and how you were feeling."
+  ],
+  "completionCriteria": [
+    "You successfully take your temperature and record the reading",
+    "You can name the general temperature range that is considered a fever for your measurement method",
+    "You can list one or two times when a temperature reading means you should call a doctor"
+  ],
+  "commonProblems": [
+    "Eating or drinking right before an oral reading can affect accuracy",
+    "Not waiting long enough between readings can give different results",
+    "Different thermometer types can give slightly different normal ranges"
+  ],
+  "tips": [
+    "Wait at least 15 minutes after eating or drinking before taking an oral temperature",
+    "Use the same type of thermometer and same body location for consistent tracking",
+    "Clean the thermometer with soap and water or rubbing alcohol after each use"
+  ],
+  "safetyLevel": "low",
+  "requiresSourceReview": true,
+  "helpBoundary": "Contact a medical professional if your temperature is very high, lasts more than a couple of days, or comes with severe symptoms like confusion, stiff neck, or trouble breathing.",
+  "tags": ["temperature", "thermometer", "fever", "health-monitoring"]
+}

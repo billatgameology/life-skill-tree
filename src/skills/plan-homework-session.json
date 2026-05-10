@@ -1,0 +1,52 @@
+{
+  "id": "plan-homework-session",
+  "title": "Plan a Homework Session",
+  "domain": "organization",
+  "summary": "Plan when, where, and how long to work on homework for best focus.",
+  "learnerPromise": "You will be able to set up a homework session with a clear plan for which tasks to do, in what order, and for how long.",
+  "whyItMatters": "Planning your homework before you start helps you use your energy wisely, tackle the hardest assignments when you are freshest, and avoid the stress of rushing at the last minute.",
+  "realLifeUses": [
+    "Decide which homework to tackle first based on difficulty and due date",
+    "Pick a quiet workspace and gather all needed materials before starting",
+    "Set time limits for each subject so one assignment does not consume the whole evening",
+    "Plan a short break between subjects to stay fresh and avoid burnout"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["break-task-into-steps", "use-timer"],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["Homework list or assignment tracker", "Timer or clock"],
+  "result": "A written plan for your homework session with task order and time estimates.",
+  "youWillLearn": [
+    "How to list all assignments and estimate how long each one takes",
+    "How to decide the best order to complete tasks",
+    "How to choose a workspace that supports focus",
+    "How to build short breaks into your session plan"
+  ],
+  "miniChallenge": "Before your next homework session, write a quick plan listing what you will do, in what order, and how long each task gets.",
+  "steps": [
+    "List every homework task you need to complete today or tonight.",
+    "Estimate how many minutes each task will take.",
+    "Decide which task to do first, second, and third based on difficulty and deadlines.",
+    "Choose a workspace, clear it, and gather all supplies you will need.",
+    "Set a timer for your first task and begin working through your plan."
+  ],
+  "completionCriteria": [
+    "You have a written list of tasks in the order you will complete them",
+    "Each task has a rough time estimate",
+    "You have a designated workspace ready with needed materials"
+  ],
+  "commonProblems": [
+    "Underestimating how long assignments take, leading to frustration",
+    "Starting with the easiest task and running out of energy for harder ones",
+    "Getting distracted by a messy workspace or missing supplies"
+  ],
+  "tips": [
+    "Consider doing the hardest task first when your focus is strongest",
+    "Add a 5-minute buffer to your time estimates for unexpected difficulty",
+    "If a task takes much longer than planned, it is okay to adjust your plan midway"
+  ],
+  "tags": ["homework", "study-planning", "time-management", "focus"]
+}

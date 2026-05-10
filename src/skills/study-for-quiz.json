@@ -1,0 +1,56 @@
+{
+  "id": "study-for-quiz",
+  "title": "Study for a Quiz",
+  "domain": "school-learning",
+  "summary": "Review material effectively for a short quiz using focused techniques.",
+  "learnerPromise": "You will be able to prepare for a short quiz using focused review methods that help you remember key material.",
+  "whyItMatters": "Studying with a plan helps you remember more in less time than just rereading. Focused review is one of the best ways to do well on quizzes.",
+  "realLifeUses": [
+    "Reviewing vocabulary words before a language quiz",
+    "Practicing math problems before a short test",
+    "Going over notes before a science class quiz",
+    "Using flashcards to memorize dates for a history quiz"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["take-class-notes"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Class notes or textbook",
+    "Flashcards or paper strips (optional)",
+    "Timer (phone or clock)"
+  ],
+  "result": "A completed 20-minute study session with a self-check of what you learned",
+  "youWillLearn": [
+    "How to pick out the most important material to study",
+    "How to test yourself instead of just rereading",
+    "How to use short focused blocks of time for review",
+    "How to check if you are ready for a quiz"
+  ],
+  "miniChallenge": "Spend 20 minutes reviewing material for an upcoming quiz. Cover your notes and try to say the key facts out loud or write them from memory.",
+  "steps": [
+    "Gather your notes and identify the topics the quiz will cover.",
+    "Break the material into small chunks and pick one to start with.",
+    "Read a section, then cover it and try to say the key points out loud.",
+    "Switch to a new chunk and repeat until you have reviewed all topics.",
+    "Do a final self-check by listing everything you remember without looking."
+  ],
+  "completionCriteria": [
+    "You reviewed all the quiz topics in focused blocks",
+    "You tested yourself by recalling facts without looking at notes",
+    "You can list most of the key points from memory"
+  ],
+  "commonProblems": [
+    "Rereading notes over and over without testing yourself",
+    "Studying for too long without a break and losing focus",
+    "Trying to memorize everything instead of focusing on key points"
+  ],
+  "tips": [
+    "Self-testing works better than rereading the same material",
+    "Study in a quiet place and put your phone out of reach",
+    "Sleep helps memory, so study the night before if you can"
+  ],
+  "tags": ["study", "quiz", "memory", "review", "test-prep"]
+}

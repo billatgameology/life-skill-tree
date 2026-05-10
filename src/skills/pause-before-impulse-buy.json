@@ -1,0 +1,52 @@
+{
+  "id": "pause-before-impulse-buy",
+  "title": "Pause Before an Impulse Buy",
+  "domain": "shopping-consumer",
+  "summary": "Take a moment to decide whether you really need something before purchasing.",
+  "learnerPromise": "You will be able to pause and ask yourself simple questions before buying something you had not planned to get.",
+  "whyItMatters": "Impulse buys can add up quickly and lead to regret. A short pause gives you space to decide if the purchase truly fits your needs and budget.",
+  "realLifeUses": [
+    "Stopping yourself from buying a snack you do not need at the checkout line",
+    "Waiting a day before buying an item you saw in an online ad",
+    "Asking yourself if you will still want the item in a week",
+    "Deciding whether a sale item is a good deal or just tempting because of the discount"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["needs-vs-wants"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["None"],
+  "result": "A personal pause habit that helps you make more intentional purchase decisions.",
+  "youWillLearn": [
+    "How to notice when you are about to make an unplanned purchase",
+    "Simple questions to ask yourself before buying",
+    "How to create a short waiting period for non-essential items",
+    "How to walk away without feeling pressured"
+  ],
+  "miniChallenge": "The next time you want to buy something you did not plan for, pause for 10 minutes. Ask yourself: Do I need this? Can I afford it? Will I use it? Write down your answers.",
+  "steps": [
+    "Notice the urge to buy something you had not planned for.",
+    "Stop and step away from the item or close the shopping tab.",
+    "Ask yourself: Do I need this? Can I afford it comfortably? Will I use or enjoy it?",
+    "Set a short waiting period: 10 minutes for small items, a day for larger ones.",
+    "After the wait, decide whether to buy, save for later, or skip it."
+  ],
+  "completionCriteria": [
+    "You paused before making an unplanned purchase",
+    "You asked yourself at least two reflection questions",
+    "You made a deliberate decision after the pause, not in the moment"
+  ],
+  "commonProblems": [
+    "Feeling pressured by limited-time offers — most sales come back",
+    "Worrying the item will sell out — consider if it is truly rare or necessary",
+    "Shopping as a way to cope with stress — the pause helps, but finding other coping habits helps too"
+  ],
+  "tips": [
+    "Keep a wishlist instead of buying immediately — you can always come back",
+    "Unsubscribe from marketing emails that trigger frequent impulse urges",
+    "Set a personal spending threshold where you always wait a day before deciding"
+  ],
+  "tags": ["self-control", "budgeting", "decision-making", "habits"]
+}

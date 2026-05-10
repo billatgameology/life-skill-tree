@@ -1,0 +1,66 @@
+{
+  "id": "use-stove-safely",
+  "title": "Use a Stove Safely",
+  "domain": "food-cooking",
+  "summary": "Turn a stove burner on and off safely and place cookware correctly.",
+  "learnerPromise": "You will be able to turn a stove burner on and off, place cookware correctly, and follow basic safety habits while cooking.",
+  "whyItMatters": "Stovetops involve open flame or hot coils that can cause burns or fires if used incorrectly. Safe habits help you cook with confidence and reduce risk.",
+  "realLifeUses": [
+    "Boiling water for pasta on an electric or gas stove",
+    "Heating a pan to cook eggs or vegetables",
+    "Simmering soup on a back burner",
+    "Turning off the stove properly after cooking is done"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "food-safety"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Stove (gas or electric)",
+    "Pot or pan with handle",
+    "Oven mitt"
+  ],
+  "result": "You can light or activate a burner, place cookware safely, and turn everything off correctly.",
+  "youWillLearn": [
+    "Turn a burner on to the correct heat level",
+    "Place pots and pans so handles do not stick out over the edge",
+    "Keep flammable items away from the heat source",
+    "Turn the burner off completely and check that it is off"
+  ],
+  "miniChallenge": "Practice turning a stove burner on to medium heat, place a pan on it, then turn it off and double-check that the burner is fully off.",
+  "steps": [
+    "Clear the area around the burner. Remove towels, paper, and other flammable items.",
+    "Place your pot or pan in the center of the burner with the handle turned inward.",
+    "Turn the burner on to the heat level your recipe or task needs.",
+    "Stay nearby while the burner is on. Never leave cooking food unattended.",
+    "When done, turn the burner off completely and verify it is off. Move the pan to a safe, heat-resistant surface."
+  ],
+  "completionCriteria": [
+    "You turned the burner on and off correctly",
+    "The cookware was placed safely with the handle turned inward",
+    "You kept the cooking area clear of flammable items"
+  ],
+  "commonProblems": [
+    "Leaving the handle sticking out where it can be bumped",
+    "Turning the burner to the wrong setting (too high or too low)",
+    "Walking away and forgetting the stove is on"
+  ],
+  "tips": [
+    "Always turn the handle inward so no one knocks the pan off the stove.",
+    "If a pan catches fire, slide a lid over it and turn off the burner. Do not use water on a grease fire.",
+    "Gas stoves: if you smell gas and the burner will not light, turn it off and wait before trying again."
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Ask for help if a fire starts, if you smell gas and cannot find the source, if you get a burn that blisters, or if the stove or burner looks damaged. For fires you cannot control, leave and call emergency services.",
+  "tags": [
+    "cooking",
+    "safety",
+    "appliances",
+    "stove"
+  ]
+}

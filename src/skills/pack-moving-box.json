@@ -1,0 +1,52 @@
+{
+  "id": "pack-moving-box",
+  "title": "Pack a Moving Box",
+  "domain": "housing-living",
+  "summary": "Pack a box for moving so items stay protected and are easy to find and unpack later.",
+  "learnerPromise": "You will be able to pack a moving box with the right order, padding, and labeling so nothing breaks and you can find what you need quickly at your new place.",
+  "whyItMatters": "Good packing saves time on both ends of a move. Items that are wrapped well and labeled clearly arrive intact and can be placed in the right room without opening every box first.",
+  "realLifeUses": [
+    "Pack a box of kitchen dishes so they do not chip during transport",
+    "Label a box with the room it belongs in and a short list of what is inside",
+    "Fill empty spaces in a box so items do not shift and break",
+    "Pack a 'first night' box with essentials so you do not have to open ten boxes to find a charger"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["pack-for-trip"],
+  "xp": 20,
+  "estimatedMinutes": 25,
+  "materialsNeeded": ["Sturdy cardboard box", "Packing tape", "Padding material (bubble wrap, towels, or paper)", "Permanent marker"],
+  "result": "One sealed, labeled, and properly packed moving box ready for transport.",
+  "youWillLearn": [
+    "Choose which items go together in one box by weight and fragility",
+    "Wrap breakable items and cushion them so they do not touch each other or the box walls",
+    "Place heavier items on the bottom and lighter ones on top",
+    "Label a box clearly with the destination room and a brief contents list"
+  ],
+  "miniChallenge": "Pack one box of items from a single room. Label it with the room name and three words describing what is inside.",
+  "steps": [
+    "Pick items from one room and sort them by fragility and weight",
+    "Line the bottom of the box with padding and place the heaviest items down first",
+    "Wrap breakable items individually and fill gaps with padding so nothing shifts",
+    "Place lighter items on top and add a final layer of padding before closing",
+    "Seal the box with tape and write the room name plus a short contents list on at least two sides"
+  ],
+  "completionCriteria": [
+    "The box is full enough that contents do not shift when you gently shake it",
+    "The label includes the destination room and at least a general description of contents"
+  ],
+  "commonProblems": [
+    "Boxes become too heavy to lift safely when filled with books or dishes",
+    "Fragile items break because they touch each other or the box sides",
+    "Labels fall off or are written on the top where they cannot be seen when boxes are stacked"
+  ],
+  "tips": [
+    "Keep any box under 50 pounds so one person can lift it",
+    "Use clothing, towels, or blankets as free padding for fragile items",
+    "Write labels on two sides plus the top so they are visible even when stacked",
+    "Pack a separate overnight bag with essentials so you do not need to open boxes your first night"
+  ],
+  "tags": ["housing", "moving", "packing", "organization", "logistics"]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "deposit-check",
+  "title": "Deposit a Paper Check",
+  "domain": "money-finance",
+  "summary": "Deposit a paper check into a bank account using a mobile app or ATM.",
+  "learnerPromise": "You will be able to deposit a paper check safely using your phone or an ATM.",
+  "whyItMatters": "Some payments like gifts, refunds, or paychecks still come as paper checks, and knowing how to deposit them gets the money into your account quickly and securely.",
+  "realLifeUses": [
+    "Depositing a birthday check from a relative",
+    "Cashing a paycheck at an ATM on the weekend",
+    "Depositing a refund check from a returned purchase",
+    "Adding a personal loan repayment from a friend to your account"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-bank-accounts"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["A paper check", "A bank account", "A banking app or nearby ATM", "A pen"],
+  "result": "You successfully deposit a paper check and confirm the funds appear in your account.",
+  "youWillLearn": [
+    "Endorse a check by signing the back correctly",
+    "Take clear photos of a check using a mobile banking app",
+    "Deposit a check at an ATM if mobile deposit is not available",
+    "Check your account to confirm the deposit went through"
+  ],
+  "miniChallenge": "If you have a paper check, endorse it and deposit it using your bank's mobile app or an ATM today.",
+  "steps": [
+    "Flip the check over and sign your name on the back in the endorsement area.",
+    "Open your banking app and find the mobile deposit option, or locate a deposit-enabled ATM.",
+    "Follow the prompts to take clear, well-lit photos of the front and back of the check.",
+    "Enter the check amount, confirm the details, and submit the deposit.",
+    "Wait for confirmation, then hold onto the check for at least two weeks in case the bank needs to see it again."
+  ],
+  "completionCriteria": [
+    "You completed all five steps for depositing a check",
+    "You checked your account balance or transaction history to confirm the deposit"
+  ],
+  "commonProblems": [
+    "Blurry photos causing the app to reject the check",
+    "Forgetting to endorse the back of the check before depositing",
+    "Depositing a check that is older than six months (stale-dated)",
+    "Mobile deposit limits that restrict large checks"
+  ],
+  "tips": [
+    "Write For deposit only and your account number under your signature for extra safety",
+    "Deposit checks promptly; waiting too long can make them hard to cash",
+    "If you do not have a bank account, some retailers or check-cashing services can help for a fee"
+  ],
+  "tags": ["banking", "check", "mobile-app", "ATM"]
+}

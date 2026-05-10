@@ -1,0 +1,59 @@
+{
+  "id": "pack-medication-for-trip",
+  "title": "Pack Medication for a Trip",
+  "domain": "health-safety",
+  "summary": "Pack necessary medications for a trip, including doses and basic documentation.",
+  "learnerPromise": "You will be able to organize and pack the medications you need for a trip so you have enough doses and key information with you.",
+  "whyItMatters": "Running out of medicine or missing doses while traveling can be stressful and affect your health. Packing ahead with a simple plan keeps you prepared.",
+  "realLifeUses": [
+    "Packing a three-day supply of allergy medicine for a weekend getaway",
+    "Bringing pain relievers and stomach remedies on a longer vacation",
+    "Carrying prescription medication in your carry-on bag for a flight",
+    "Having a copy of medication names and doses in case you need a refill while away"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "All medications you take regularly or may need",
+    "Pill organizer or zip-top bags",
+    "Paper and pen for a medication list",
+    "Original prescription bottles or labels if available"
+  ],
+  "result": "A organized medication pack with enough doses for your trip plus a written list of medications and doses.",
+  "youWillLearn": [
+    "Count out enough doses for your trip plus a small extra buffer",
+    "Keep medications in their original labeled containers when required",
+    "Write a simple medication list with names, doses, and timing",
+    "Store medicines safely during travel, considering temperature and access"
+  ],
+  "miniChallenge": "Count out enough doses of one medication for a pretend three-day trip. Write a simple list with the medication name, dose, and when you take it.",
+  "steps": [
+    "List every medication you take regularly or might need while away.",
+    "Count the exact number of doses needed for each day of the trip plus two extra days.",
+    "Keep prescription meds in original bottles if possible, or write the name and dose on a label.",
+    "Pack medicines in your carry-on or personal bag, not checked luggage.",
+    "Write a medication list with names, doses, and schedules, and keep it with you."
+  ],
+  "completionCriteria": [
+    "You have counted and packed enough doses for your trip length plus a small buffer",
+    "You have a written medication list with at least one medication's name, dose, and schedule",
+    "Your medications are stored in a place you can access during travel"
+  ],
+  "commonProblems": [
+    "Forgetting to account for time zone changes that affect dosing schedules",
+    "Packing medications in checked luggage that gets lost or delayed",
+    "Not bringing a copy of prescriptions, which can make refills difficult"
+  ],
+  "tips": [
+    "Set a phone alarm with the new time zone to keep doses on schedule",
+    "Take a photo of each prescription label as a backup",
+    "Keep a small note with your pharmacy name and phone number in case you need an emergency refill"
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "Talk to your doctor or pharmacist before traveling if you take prescription medications, need dose adjustments for time zones, or are traveling internationally where your medication may have different rules.",
+  "tags": ["travel", "medication", "planning", "organization"]
+}

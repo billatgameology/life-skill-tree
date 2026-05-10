@@ -1,0 +1,52 @@
+{
+  "id": "name-files-clearly",
+  "title": "Name Files Clearly",
+  "domain": "organization",
+  "summary": "Rename files using a clear, consistent format so you can recognize them at a glance.",
+  "learnerPromise": "You will be able to rename your files using a simple, consistent format that tells you what the file is and when it was created.",
+  "whyItMatters": "Clear file names save time and reduce frustration. When files are named consistently, you can quickly find what you need without opening random documents to check their contents.",
+  "realLifeUses": [
+    "Rename school assignments so you can tell the subject and due date from the filename",
+    "Label photos with the event and date so they are easy to find years later",
+    "Name work documents so colleagues and teammates understand what they contain",
+    "Organize receipts and invoices with dates and vendor names for easy reference"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["Computer, tablet, or phone with files to rename"],
+  "result": "At least 5 files renamed with a clear, consistent naming format.",
+  "youWillLearn": [
+    "How to choose a naming pattern that includes the topic and date",
+    "How to use consistent formatting like hyphens or underscores instead of spaces",
+    "How to avoid vague names like 'document1' or 'final_final'",
+    "How to apply your naming pattern to both new and existing files"
+  ],
+  "miniChallenge": "Choose a simple naming format and rename at least 5 files on your device using it.",
+  "steps": [
+    "Pick a naming pattern you will use, such as Topic-Date-Version or Date-Event-Description.",
+    "Find 5 files on your device that have vague or confusing names.",
+    "Rename each file following your chosen pattern consistently.",
+    "Check that the new names make sense even without opening the files.",
+    "Decide to use this pattern for all new files going forward."
+  ],
+  "completionCriteria": [
+    "At least 5 files have been renamed using a consistent format",
+    "You can tell what each file contains without opening it",
+    "You have chosen a pattern to use for future files"
+  ],
+  "commonProblems": [
+    "Using spaces in filenames which can cause issues on some systems",
+    "Writing vague names like 'stuff' or 'thing' that are meaningless later",
+    "Adding 'final' to filenames and then creating multiple 'final' versions"
+  ],
+  "tips": [
+    "Use dates in YYYY-MM-DD format so files sort chronologically",
+    "Replace spaces with hyphens or underscores to keep names compatible everywhere",
+    "Include a version number like v1 or v2 if you expect multiple drafts"
+  ],
+  "tags": ["file-management", "naming", "digital-organization", "computer-skills"]
+}

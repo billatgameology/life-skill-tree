@@ -1,0 +1,51 @@
+{
+  "id": "find-nearest-restroom",
+  "title": "Find the Nearest Restroom",
+  "domain": "navigation",
+  "summary": "Quickly locate a nearby public restroom when away from home.",
+  "learnerPromise": "You will be able to quickly find a nearby public restroom using signs, apps, or by asking at businesses.",
+  "whyItMatters": "Knowing how to locate a restroom when you are out helps you stay comfortable and avoid stress. It is a basic but important part of getting around in daily life.",
+  "realLifeUses": [
+    "Finding a restroom while shopping in an unfamiliar area",
+    "Locating the nearest bathroom during a long transit commute",
+    "Helping a friend or family member find a restroom in a hurry",
+    "Knowing which public buildings in your area have accessible restrooms"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [],
+  "result": "You identify the nearest available restroom and know how to reach it.",
+  "youWillLearn": [
+    "How to spot restroom signs in public buildings and transit stations",
+    "How to use a map app to search for nearby public restrooms",
+    "How to politely ask to use a restroom at a business",
+    "How to identify public buildings that typically have accessible restrooms"
+  ],
+  "miniChallenge": "Use a map app or walk through a nearby public building to locate the nearest restroom. Note the route and any signs that guided you there.",
+  "steps": [
+    "Check for restroom signs near entrances, stairwells, or information boards.",
+    "If signs are not visible, use a map app to search for 'public restroom near me'.",
+    "Look for public buildings like libraries, community centers, or cafes that often have restrooms.",
+    "If needed, politely ask a staff member if a restroom is available for public use.",
+    "Note the location and remember the route in case you need it again."
+  ],
+  "completionCriteria": [
+    "You found a restroom using at least one method",
+    "You can describe the route to that restroom from your starting point"
+  ],
+  "commonProblems": [
+    "Not all businesses allow non-customers to use their restrooms",
+    "Restrooms in some areas may be closed for cleaning or maintenance",
+    "Signs may be unclear or point in confusing directions"
+  ],
+  "tips": [
+    "Libraries, grocery stores, and fast-food restaurants are often reliable options",
+    "Some cities have public restroom locator apps or websites you can bookmark",
+    "Carry a small pack of tissues in case a restroom is low on supplies"
+  ],
+  "tags": ["public-facilities", "wayfinding", "daily-needs", "urban-navigation"]
+}

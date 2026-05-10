@@ -1,0 +1,53 @@
+{
+  "id": "use-tape-measure",
+  "title": "Use a Tape Measure",
+  "domain": "home-care",
+  "summary": "Measure a length, width, or height accurately using a tape measure.",
+  "learnerPromise": "You will be able to measure distances, objects, and spaces accurately using a standard tape measure.",
+  "whyItMatters": "Accurate measuring is the foundation of many home tasks, from hanging pictures to buying furniture that fits. It helps you avoid mistakes and wasted trips.",
+  "realLifeUses": [
+    "Measuring wall space before buying a bookshelf or desk",
+    "Finding the right size replacement window blinds",
+    "Checking if a new appliance will fit in a kitchen nook",
+    "Measuring a room to estimate how much paint to buy"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Tape measure (standard retractable type)"
+  ],
+  "result": "An accurate written measurement for a specific distance, object, or space.",
+  "youWillLearn": [
+    "How to lock and unlock the tape measure blade",
+    "How to read measurements in inches and feet",
+    "How to measure across long distances without the tape bending",
+    "How to account for the tape measure hook thickness on inner and outer measurements"
+  ],
+  "miniChallenge": "Measure the width of one door frame and the length of one piece of furniture in your home. Write both measurements down.",
+  "steps": [
+    "Pull the tape out to the length you need and press the lock button to hold it.",
+    "Place the metal hook at the starting edge of what you are measuring.",
+    "Extend the tape along the surface in a straight line to the end point.",
+    "Read the measurement at the point where the tape ends, noting inches and feet.",
+    "Release the lock and let the tape retract slowly back into the case."
+  ],
+  "completionCriteria": [
+    "Measurement is read correctly to the nearest quarter inch or half centimeter",
+    "The tape was held straight and level during measuring"
+  ],
+  "commonProblems": [
+    "Tape bends or droops on long measurements — get a helper to hold the end or measure in sections",
+    "Hook is loose — this is normal and accounts for inside vs outside measurements",
+    "Cannot read the mark — look straight down at the tape, not from an angle"
+  ],
+  "tips": [
+    "For inside measurements like window frames, measure in three places and use the smallest number",
+    "Write measurements down immediately so you do not forget them",
+    "Keep the tape clean and dry so it retracts smoothly over time"
+  ],
+  "tags": ["tools", "measuring", "planning", "diy"]
+}

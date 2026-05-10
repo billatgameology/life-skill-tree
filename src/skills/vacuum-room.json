@@ -1,0 +1,54 @@
+{
+  "id": "vacuum-room",
+  "title": "Vacuum a Room",
+  "domain": "home-care",
+  "summary": "Vacuum a room effectively by moving furniture slightly and covering the whole area.",
+  "learnerPromise": "You will be able to vacuum an entire room, including edges and under furniture, leaving the floor noticeably cleaner.",
+  "whyItMatters": "Vacuuming removes dust, allergens, and small debris that sweeping can miss. Regular vacuuming keeps carpets and hard floors looking better and lasting longer.",
+  "realLifeUses": [
+    "Weekly cleaning of a bedroom or living room",
+    "Removing crumbs after a party or gathering",
+    "Cleaning up pet hair that accumulates on carpets",
+    "Preparing a room for a guest or before moving out"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["sweep-floor"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Vacuum cleaner",
+    "Extension cord (if needed)"
+  ],
+  "result": "A fully vacuumed room with clean floors and an empty or tidied vacuum bin.",
+  "youWillLearn": [
+    "How to adjust vacuum height for different floor types",
+    "How to move small furniture and vacuum underneath",
+    "How to use edge tools for baseboards and corners",
+    "How to empty the vacuum bin or replace the bag"
+  ],
+  "miniChallenge": "Vacuum one room in your home today. Move at least one piece of small furniture and vacuum underneath it.",
+  "steps": [
+    "Pick up small items, cords, and anything on the floor that could get sucked in or tangled.",
+    "Plug in the vacuum and set the correct height for your floor type.",
+    "Start in the far corner and work toward the door, moving in straight overlapping rows.",
+    "Move lightweight furniture slightly and vacuum underneath, then replace it.",
+    "Use the hose attachment for edges, corners, and along baseboards, then empty the bin."
+  ],
+  "completionCriteria": [
+    "The entire floor area has been covered with overlapping passes",
+    "Edges and at least one area under furniture have been vacuumed"
+  ],
+  "commonProblems": [
+    "Vacuum is hard to push — the height setting is likely too low for carpet, raise it one notch",
+    "Not picking up debris — check if the bin is full or the filter is clogged",
+    "Cord keeps getting in the way — hold the cord in your non-vacuuming hand as you work"
+  ],
+  "tips": [
+    "Go slowly on carpet so the brushes have time to lift dirt",
+    "Vacuum in two directions on thick carpet for a deeper clean",
+    "Empty the bin after each use so it is ready for next time"
+  ],
+  "tags": ["cleaning", "vacuum", "floors", "deep-cleaning"]
+}

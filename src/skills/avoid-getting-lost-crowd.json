@@ -1,0 +1,56 @@
+{
+  "id": "avoid-getting-lost-crowd",
+  "title": "Avoid Getting Lost in a Crowd",
+  "domain": "outdoor-everyday",
+  "summary": "Stay oriented and find your way in a crowded place.",
+  "learnerPromise": "You will be able to stay oriented and find your way in crowded places like malls, festivals, or busy streets.",
+  "whyItMatters": "Crowded places can be confusing and easy to get turned around in. Knowing how to stay oriented helps you meet up with people, find exits, and avoid feeling overwhelmed.",
+  "realLifeUses": [
+    "Navigating a busy shopping mall without losing your sense of direction",
+    "Finding your friends again at a crowded concert or fair",
+    "Locating the nearest exit in a packed stadium or arena",
+    "Keeping track of where you parked or entered a busy area"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Optional: a phone with a map app",
+    "Optional: a wristwatch or way to note the time"
+  ],
+  "result": "You stay aware of your location and can retrace your steps in a crowded area.",
+  "youWillLearn": [
+    "How to note landmarks and reference points when you arrive",
+    "How to retrace your steps using stores, signs, or landmarks",
+    "How to stay calm and think clearly when you feel disoriented",
+    "How to use your phone or ask someone to find your way"
+  ],
+  "miniChallenge": "The next time you are in a crowded place, note one landmark near where you enter. Walk a short loop and find your way back to that landmark without using your phone.",
+  "steps": [
+    "When you arrive, pick a clear landmark near your entry point.",
+    "Glance back at the path you took every few turns.",
+    "Use large fixed features like signs, fountains, or buildings as anchors.",
+    "If you feel lost, stop and retrace your steps mentally or physically.",
+    "Ask a staff member or look for an information desk if you need help."
+  ],
+  "completionCriteria": [
+    "You identified a landmark when you entered a crowded area.",
+    "You found your way back to a known point without panic.",
+    "You used landmarks or signs rather than guessing randomly."
+  ],
+  "commonProblems": [
+    "Walking aimlessly when disoriented instead of stopping to think",
+    "Relying only on memory instead of noting landmarks",
+    "Panicking and making rushed decisions about which way to go"
+  ],
+  "tips": [
+    "Take a photo of your parking spot or entrance landmark.",
+    "Large stores and venues often have maps on walls or signs overhead.",
+    "Stay calm. Most crowded places have staff who can point you the right way.",
+    "If you are meeting people, agree on a specific spot ahead of time."
+  ],
+  "tags": ["crowds", "navigation", "awareness", "calm"]
+}

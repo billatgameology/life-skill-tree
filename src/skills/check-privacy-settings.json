@@ -1,0 +1,54 @@
+{
+  "id": "check-privacy-settings",
+  "title": "Check Privacy Settings",
+  "domain": "digital-basics",
+  "summary": "Review and adjust what personal information apps and websites can access.",
+  "learnerPromise": "You will be able to review what information apps and websites collect about you and adjust those settings to match your comfort level.",
+  "whyItMatters": "Many apps and websites request access to your location, contacts, photos, and other personal data. Reviewing these settings helps you share only what you are comfortable with.",
+  "realLifeUses": [
+    "You installed a new app and want to check what permissions it has",
+    "You read that a social media platform collects location data and want to turn it off",
+    "You want to limit targeted ads based on your browsing history",
+    "You are cleaning up old accounts and want to tighten privacy on the ones you still use"
+  ],
+  "level": 3,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "A phone, tablet, or computer with internet access"
+  ],
+  "result": "A list of privacy settings you reviewed and any changes you made, with reasons for each.",
+  "youWillLearn": [
+    "How to find privacy and permission settings on your device and in your accounts",
+    "How to understand what different permissions mean — location, camera, contacts, and more",
+    "How to turn off permissions or data collection you do not want",
+    "How to limit ad tracking and personalized advertising"
+  ],
+  "miniChallenge": "Review the privacy settings for one app or website and turn off at least one permission or data collection setting you do not need.",
+  "steps": [
+    "Choose one app or website account to review — start with one you use often",
+    "Open the app settings on your device or the account settings on the website",
+    "Find the privacy, permissions, or data section and read through what is currently allowed",
+    "Turn off any permissions or data collection that feel unnecessary — such as location access for a game",
+    "Write down or note what you changed so you can remember your choices"
+  ],
+  "completionCriteria": [
+    "You reviewed the privacy or permission settings for at least one app or account",
+    "You turned off at least one setting and can explain why you made that choice"
+  ],
+  "commonProblems": [
+    "An app stops working after you change permissions — you can turn specific permissions back on if needed",
+    "Privacy settings are hard to find — look for a 'Privacy' link in account menus or app settings",
+    "Unclear what a permission does — search the permission name online for a plain-language explanation"
+  ],
+  "tips": [
+    "A good rule of thumb: if an app does not need a permission to do its main job, consider turning it off",
+    "Check privacy settings every few months and after installing new apps",
+    "Use your device's privacy dashboard to see which apps have accessed your data recently",
+    "Be especially careful with apps that request access to contacts, microphone, or location"
+  ],
+  "tags": ["privacy", "settings", "permissions", "data", "security"]
+}

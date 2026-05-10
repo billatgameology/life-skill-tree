@@ -1,0 +1,52 @@
+{
+  "id": "read-utility-bill",
+  "title": "Read a Utility Bill",
+  "domain": "housing-living",
+  "summary": "Read a utility bill and find the usage amount, charges, and due date.",
+  "learnerPromise": "You will be able to look at a utility bill and understand what you are being charged for, how much you used, and when payment is due.",
+  "whyItMatters": "Utility bills are a regular part of living independently. Understanding them helps you avoid late fees, spot unexpected charges, and notice unusual usage.",
+  "realLifeUses": [
+    "Check if your electricity bill is higher than last month and figure out why",
+    "Confirm the due date so you can pay on time and avoid late fees",
+    "Compare your water usage to the same month last year",
+    "Spot a billing error and call the utility company with the right details"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["track-spending"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["A recent utility bill (paper or digital)"],
+  "result": "You can locate the billing period, usage amount, total charges, and due date on most utility bills.",
+  "youWillLearn": [
+    "Locate the billing period and service address on a bill",
+    "Find the usage section (kilowatt-hours, gallons, therms, etc.)",
+    "Identify the total amount due and the due date",
+    "Tell the difference between usage charges and fixed fees"
+  ],
+  "miniChallenge": "Pick up a recent utility bill and find three pieces of information: the billing period, the total amount due, and the due date.",
+  "steps": [
+    "Look at the top of the bill to find the billing period and your account details",
+    "Find the section that shows your usage for this period (kWh, gallons, etc.)",
+    "Locate the total amount due and circle or note the due date",
+    "Scan for any extra charges or fees listed below the usage total",
+    "Compare this bill to the previous one to see if the amount changed"
+  ],
+  "completionCriteria": [
+    "You can point to the total amount due and the due date without searching for more than a few seconds",
+    "You can explain in one sentence what the usage number means for that bill type"
+  ],
+  "commonProblems": [
+    "Bills from different companies look very different and put information in different places",
+    "Estimated readings sometimes appear instead of actual meter readings",
+    "Autopay amounts may differ from the bill total if there are pending adjustments"
+  ],
+  "tips": [
+    "Most bills put the amount due and due date near the top for quick reference",
+    "Usage is usually shown as a graph or table in the middle of the bill",
+    "Keep at least two months of bills so you can compare trends",
+    "Digital bills often have the same sections even if the layout looks different"
+  ],
+  "tags": ["housing", "bills", "reading", "utilities", "independent-living"]
+}

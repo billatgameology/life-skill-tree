@@ -1,0 +1,52 @@
+{
+  "id": "set-reminder",
+  "title": "Set a Reminder",
+  "domain": "organization",
+  "summary": "Set a useful reminder on a phone or calendar so you do not forget an important task.",
+  "learnerPromise": "You will be able to set a reminder on your phone or digital calendar that alerts you at the right time.",
+  "whyItMatters": "Reminders reduce the mental effort of remembering everything. They help you show up on time, meet deadlines, and follow through on small but important tasks.",
+  "realLifeUses": [
+    "Remind yourself to take medication at a certain time",
+    "Get an alert before a scheduled appointment or class",
+    "Remember to bring something important to school or work",
+    "Set a nudge to pay a bill or renew a subscription before it expires"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["use-calendar"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["Phone, tablet, or computer with a calendar or reminder app"],
+  "result": "A working reminder that will notify you at the chosen date and time.",
+  "youWillLearn": [
+    "How to create a new reminder or event alert",
+    "How to choose a date and time that gives you enough notice",
+    "How to write a clear, specific reminder message",
+    "How to confirm the reminder is saved and will notify you"
+  ],
+  "miniChallenge": "Set one reminder for something you need to do within the next 3 days.",
+  "steps": [
+    "Open your phone's built-in reminder, calendar, or task app.",
+    "Tap to create a new reminder or event.",
+    "Write a short, specific message about what you need to do.",
+    "Set the date and time for the reminder to alert you.",
+    "Save the reminder and check that it appears in your list."
+  ],
+  "completionCriteria": [
+    "The reminder is saved and shows the correct date and time",
+    "The reminder message clearly describes the task",
+    "You can see it in your reminder or calendar list"
+  ],
+  "commonProblems": [
+    "Setting the wrong time or accidentally choosing a.m. instead of p.m.",
+    "Writing a vague message like 'do thing' and forgetting what it meant",
+    "Forgetting to turn on the notification or alarm sound"
+  ],
+  "tips": [
+    "Set the reminder for a time when you can actually act on it",
+    "Use specific words like 'Bring permission slip to school' instead of 'Bring stuff'",
+    "Consider setting a second reminder a few minutes earlier for extra important tasks"
+  ],
+  "tags": ["calendar", "notifications", "time-management", "memory-aid"]
+}

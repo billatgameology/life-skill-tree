@@ -1,0 +1,54 @@
+{
+  "id": "take-calm-down-break",
+  "title": "Take a Calm-Down Break",
+  "domain": "emotional-skills",
+  "summary": "Step away from a stressful situation and use a simple technique to calm down.",
+  "learnerPromise": "You will be able to step away from a tense moment and use a simple method to feel calmer.",
+  "whyItMatters": "Stepping away and calming yourself helps you think more clearly and respond more thoughtfully instead of reacting on impulse.",
+  "realLifeUses": [
+    "You pause and breathe slowly before replying to a frustrating message",
+    "You take a short walk outside during an overwhelming study session",
+    "You step into another room to collect your thoughts during an argument",
+    "You splash cool water on your face and count to ten after receiving bad news"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["notice-stress-signal"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A quiet spot or a place to walk",
+    "A timer (phone or clock)"
+  ],
+  "result": "A personal calm-down method you can use the next time tension rises.",
+  "youWillLearn": [
+    "How to excuse yourself from a stressful situation respectfully",
+    "One breathing or grounding technique that works for you",
+    "How to know when you are calm enough to return or decide what comes next",
+    "How to practice this method so it feels familiar when you need it"
+  ],
+  "miniChallenge": "Right now, try the 4-7-8 breathing method: breathe in through your nose for 4 seconds, hold for 7 seconds, and breathe out slowly for 8 seconds. Do this three times and notice how you feel.",
+  "steps": [
+    "Notice that you are feeling stressed or heated — name it to yourself",
+    "Say a brief phrase to excuse yourself, such as 'I need a moment' or 'I will be right back'",
+    "Move to a different space, even if it is just another room or a hallway",
+    "Use one calm-down technique: slow breathing, a short walk, or grounding your senses",
+    "Check in with yourself after a few minutes and decide what to do next"
+  ],
+  "completionCriteria": [
+    "You successfully practiced one calm-down technique for at least one minute",
+    "You can name the technique and when you would use it"
+  ],
+  "commonProblems": [
+    "You might feel self-conscious stepping away — remember it is a healthy choice",
+    "Your mind may keep racing during the break — this is normal and gets easier with practice",
+    "You may not feel completely calm afterward — the goal is to feel calmer, not perfect"
+  ],
+  "tips": [
+    "Practice your chosen technique when you are already calm so it feels natural later",
+    "Keep the break short — even two minutes can make a difference",
+    "If one technique does not help, try a different one next time"
+  ],
+  "tags": ["stress-management", "self-regulation", "calming", "breathing"]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "navigate-large-building",
+  "title": "Navigate a Large Building",
+  "domain": "navigation",
+  "summary": "Find your way through a large building like a hospital, mall, or campus using signs and maps.",
+  "learnerPromise": "You will be able to navigate a large building by reading signs, directory maps, and room number patterns to reach your destination.",
+  "whyItMatters": "Large buildings can be confusing with long hallways, multiple floors, and similar-looking corridors. Knowing how to navigate them saves time and reduces stress when you have an appointment or meeting.",
+  "realLifeUses": [
+    "Finding the right department in a hospital for a medical appointment",
+    "Locating a specific store or gate in a large shopping mall",
+    "Getting to a classroom or office on a sprawling school campus",
+    "Finding your seat at a conference center or event venue"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "read-signs"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [],
+  "result": "You reach your destination inside a large building without getting lost or asking for help more than once.",
+  "youWillLearn": [
+    "How to read building directories and floor maps near entrances",
+    "How to follow directional signs and color-coded routes",
+    "How to understand room numbering systems and floor plans",
+    "How to retrace your steps if you go the wrong way"
+  ],
+  "miniChallenge": "Visit a large building you have never been in before and find a specific room or office using only the directory and signs. Note what helped you the most and where you got confused.",
+  "steps": [
+    "Enter the building and pause to look at the directory or floor map near the entrance.",
+    "Note the floor and section where your destination is located.",
+    "Follow the signs pointing toward that floor, wing, or department.",
+    "Check room numbers as you walk to make sure you are heading in the right direction.",
+    "If you get lost, return to the last sign or directory you saw and re-check your path."
+  ],
+  "completionCriteria": [
+    "You reached your intended room or area using building signs or maps",
+    "You identified at least one navigation cue that helped you (directory, sign, room number)"
+  ],
+  "commonProblems": [
+    "Signs may be missing, outdated, or point in unclear directions",
+    "Large buildings often have similar hallways that are hard to tell apart",
+    "Directories sometimes use abbreviations or terms you may not recognize"
+  ],
+  "tips": [
+    "Take a photo of the building directory or map at the entrance for reference",
+    "Look for landmarks like water fountains or artwork to help remember your path",
+    "Do not hesitate to ask a staff member or security guard if you are unsure"
+  ],
+  "tags": ["wayfinding", "indoor-navigation", "signs", "buildings"]
+}

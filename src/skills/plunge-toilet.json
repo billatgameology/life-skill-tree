@@ -1,0 +1,57 @@
+{
+  "id": "plunge-toilet",
+  "title": "Plunge a Clogged Toilet",
+  "domain": "home-care",
+  "summary": "Use a plunger to clear a simple toilet clog.",
+  "learnerPromise": "You will be able to use a plunger to clear a simple toilet clog and restore normal flushing.",
+  "whyItMatters": "A clogged toilet is a common household problem. Knowing how to plunge it safely saves time, money, and embarrassment compared to calling for help for a minor blockage.",
+  "realLifeUses": [
+    "Clearing a toilet clogged by too much toilet paper",
+    "Fixing a slow-draining toilet before guests arrive",
+    "Responding to a clog in a shared bathroom",
+    "Handling a backup when a plunger is the fastest solution"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["shut-off-water-valve"],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Flange plunger (cup-shaped with an extended rubber lip)",
+    "Old towels (for possible splashes)",
+    "Rubber gloves (optional)"
+  ],
+  "result": "A toilet that flushes normally with water draining at the proper speed.",
+  "youWillLearn": [
+    "How to choose the right type of plunger for a toilet",
+    "How to create a proper seal in the bowl",
+    "How to plunge with controlled pressure without splashing",
+    "How to test the flush and know when the clog is cleared"
+  ],
+  "miniChallenge": "Practice the plunging motion with a plunger in a working toilet, or use it to clear a real clog if one occurs.",
+  "steps": [
+    "If the bowl is full to the rim, wait a few minutes to see if the water level drops on its own.",
+    "Place old towels around the base of the toilet to catch any splashes.",
+    "Insert the plunger into the bowl at an angle to trap air, then position the flange into the drain opening.",
+    "Push down gently to create a seal, then pull up and push down with steady, forceful strokes for 15 to 20 seconds.",
+    "Remove the plunger and try flushing. If water drains normally, the clog is cleared."
+  ],
+  "completionCriteria": [
+    "Toilet flushes and water drains at normal speed without overflowing",
+    "Bowl refills to its usual water level after one flush"
+  ],
+  "commonProblems": [
+    "Plunger does not seal well — make sure you are using a flange plunger, not a flat sink plunger",
+    "Water splashes out — use gentler strokes and ensure the plunger is seated before pushing hard",
+    "Clog remains after several tries — the blockage may be deeper; call a plumber"
+  ],
+  "tips": [
+    "Keep a dedicated toilet plunger separate from one used for sinks",
+    "If the clog is stubborn, try adding a bucket of warm (not boiling) water from waist height to help dislodge it",
+    "Never pour boiling water into a toilet bowl — it can crack the porcelain"
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "If the toilet is overflowing and you cannot stop it, or if plunging does not work after several attempts, turn off the water valve behind the toilet and call a plumber. Do not use chemical drain cleaners in toilets.",
+  "tags": ["plumbing", "emergency", "toilet", "diy"]
+}

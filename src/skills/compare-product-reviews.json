@@ -1,0 +1,52 @@
+{
+  "id": "compare-product-reviews",
+  "title": "Compare Product Reviews",
+  "domain": "shopping-consumer",
+  "summary": "Read and compare online reviews to judge whether a product is right for you.",
+  "learnerPromise": "You will be able to read multiple reviews and compare them to make a more informed buying decision.",
+  "whyItMatters": "Reviews often show real experiences that product descriptions leave out. Learning to compare them helps you avoid disappointment and pick items that match your needs.",
+  "realLifeUses": [
+    "Choosing between two phone cases by reading what buyers say about durability",
+    "Deciding if a pair of headphones fits comfortably by checking comfort-related reviews",
+    "Checking if a kitchen gadget actually works as advertised before ordering",
+    "Comparing recent and older reviews to see if product quality has changed over time"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-prices"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["A device with internet access", "A product you are considering buying"],
+  "result": "A short list of pros and cons based on actual buyer reviews.",
+  "youWillLearn": [
+    "How to sort reviews by most recent and most helpful",
+    "How to spot repeated themes across multiple reviews",
+    "How to weigh positive and negative feedback fairly",
+    "How to match review details to your own needs and situation"
+  ],
+  "miniChallenge": "Pick one item you might buy and read at least 5 reviews. Write down 2 things buyers liked and 2 things buyers did not like.",
+  "steps": [
+    "Find the product page and locate the reviews or ratings section.",
+    "Sort reviews by 'most helpful' or 'most recent' to get a balanced view.",
+    "Read at least 5 reviews, including both high and low star ratings.",
+    "Look for patterns: what do multiple reviewers mention as good or bad?",
+    "Write down 2 pros and 2 cons that matter most to your own situation."
+  ],
+  "completionCriteria": [
+    "You have read reviews from multiple star levels",
+    "You have written a short pros and cons list based on reviewer feedback",
+    "Your list connects review findings to your own needs"
+  ],
+  "commonProblems": [
+    "Only reading 5-star reviews and missing common complaints",
+    "Ignoring the date of reviews and reading outdated feedback",
+    "Getting overwhelmed by too many reviews — start with a small number"
+  ],
+  "tips": [
+    "Look for reviews that mention specific details rather than vague praise",
+    "Check the review date — older reviews may reflect an older product version",
+    "Pay attention to reviews from people who describe a use case similar to yours"
+  ],
+  "tags": ["online-shopping", "reviews", "decision-making", "research"]
+}

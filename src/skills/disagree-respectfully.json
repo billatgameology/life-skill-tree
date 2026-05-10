@@ -1,0 +1,57 @@
+{
+  "id": "disagree-respectfully",
+  "title": "Disagree Respectfully",
+  "domain": "communication",
+  "summary": "Express a different opinion without being rude or dismissive.",
+  "learnerPromise": "You will be able to share a different point of view while keeping the conversation respectful and open.",
+  "whyItMatters": "Disagreement is normal. Handling it well lets you stand by your beliefs while keeping relationships strong and showing maturity.",
+  "realLifeUses": [
+    "Disagreeing with a friend's opinion about a movie or topic",
+    "Offering a different approach in a group project discussion",
+    "Politely declining advice you do not want to follow",
+    "Expressing a different political or personal view in a family conversation"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "repair-small-disagreement",
+    "ask-clarifying-question"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "None"
+  ],
+  "result": "A respectful expression of a different opinion shared in conversation",
+  "youWillLearn": [
+    "Acknowledge the other person's view before sharing your own",
+    "Use 'I' statements like 'I see it differently' or 'I think'",
+    "Keep your tone calm and your words neutral",
+    "Know when to pause or step back if emotions rise"
+  ],
+  "miniChallenge": "Think of a topic where you disagree with a common opinion. Practice saying your view out loud, starting with 'I understand that some people think X, and I see it a bit differently because'.",
+  "steps": [
+    "Listen to the other person's view fully before responding",
+    "Acknowledge part of what they said, even if you do not agree",
+    "State your view using 'I' language, not 'you are wrong' language",
+    "Keep your explanation short and focused on your perspective",
+    "Stay calm and be willing to agree to disagree if needed"
+  ],
+  "completionCriteria": [
+    "You expressed a different opinion using 'I' statements",
+    "You acknowledged the other person's view before sharing yours",
+    "The conversation stayed respectful on both sides"
+  ],
+  "commonProblems": [
+    "Starting with 'but' right after acknowledging, which cancels out the respect",
+    "Raising your voice or using sarcastic tone",
+    "Trying to win the argument instead of sharing your view"
+  ],
+  "tips": [
+    "You can disagree with an idea while still respecting the person",
+    "Not every disagreement needs to be resolved; sometimes sharing your view is enough",
+    "If the conversation gets heated, it is okay to say 'Let us take a break from this topic'"
+  ],
+  "tags": ["disagreement", "respect", "conflict", "opinions"]
+}

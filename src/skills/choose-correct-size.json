@@ -1,0 +1,52 @@
+{
+  "id": "choose-correct-size",
+  "title": "Choose the Correct Size",
+  "domain": "shopping-consumer",
+  "summary": "Use size charts and measurements to pick the right clothing or shoe size online or in-store.",
+  "learnerPromise": "You will be able to use size charts and your own measurements to choose clothing and shoes that fit better.",
+  "whyItMatters": "Sizes vary between brands and countries. Learning to use size charts and measure yourself reduces the chance of ordering the wrong fit and having to deal with returns.",
+  "realLifeUses": [
+    "Checking a brand's size chart before ordering pants online",
+    "Measuring your foot length to pick the right shoe size on a website",
+    "Comparing your body measurements to a chart to decide between two sizes",
+    "Trying on clothes in-store with a better idea of what size range to grab"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["A measuring tape (flexible) or a ruler", "Your current body or foot measurements", "Access to a size chart on a website or in-store"],
+  "result": "A note with your key measurements and the correct size for a specific item you want to buy.",
+  "youWillLearn": [
+    "How to take basic body or foot measurements accurately",
+    "How to read and compare size charts from different brands",
+    "How to convert between sizing systems like US, UK, and EU",
+    "How to use reviews to check if an item runs large or small"
+  ],
+  "miniChallenge": "Pick one clothing or shoe item you want to buy. Find the size chart, measure yourself, and write down the size you should order.",
+  "steps": [
+    "Find the size chart on the product page or the store's help section.",
+    "Use a flexible measuring tape to measure the part of your body the chart asks about.",
+    "Compare your measurement to the chart and note which size matches closest.",
+    "Read a few reviews to see if buyers say the item runs large, small, or true to size.",
+    "Write down the size you need and any fit notes before placing your order."
+  ],
+  "completionCriteria": [
+    "You measured yourself and recorded the numbers",
+    "You matched your measurement to the correct size on the chart",
+    "You noted any fit guidance from reviews that might change your size choice"
+  ],
+  "commonProblems": [
+    "Measurements fall between two sizes — check reviews for guidance on fit",
+    "Size charts differ between brands — always check the chart for each new brand",
+    "Fabric type affects fit — stretchy materials are more forgiving than rigid ones"
+  ],
+  "tips": [
+    "Measure yourself in the morning for the most consistent results",
+    "If you are between sizes, check the fabric — stretchy fabrics may fit either size",
+    "Keep a note of your measurements on your phone for quick reference when shopping"
+  ],
+  "tags": ["clothing", "online-shopping", "measurement", "fit"]
+}

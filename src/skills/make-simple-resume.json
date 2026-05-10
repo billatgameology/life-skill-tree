@@ -1,0 +1,64 @@
+{
+  "id": "make-simple-resume",
+  "title": "Make a Simple Resume",
+  "domain": "career-work",
+  "summary": "Create a one-page resume that presents your contact info, experience, skills, and education clearly.",
+  "learnerPromise": "You will be able to create a clean, one-page resume that shows an employer what you can offer, even if you have little or no formal work experience.",
+  "whyItMatters": "A resume is often the first thing an employer sees about you. A clear, simple one helps you stand out and can open doors to interviews.",
+  "realLifeUses": [
+    "Attaching a resume to an online job application",
+    "Handing a printed resume to a manager when asking about openings",
+    "Updating your profile on a job-search website",
+    "Sending a resume to a teacher or mentor who offered to help you find work"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "fill-out-job-application"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 25,
+  "materialsNeeded": [
+    "Computer or phone with a word processor or resume app",
+    "Your work, volunteer, or school activity history",
+    "Contact information for references"
+  ],
+  "result": "A one-page resume saved as a PDF or printed on clean paper.",
+  "youWillLearn": [
+    "How to structure a resume with clear sections: contact info, experience, skills, and education",
+    "How to describe experience using action words, even from informal or volunteer work",
+    "How to choose a simple, readable format that works on screens and paper",
+    "How to save and share your resume as a PDF so formatting stays consistent"
+  ],
+  "miniChallenge": "Create a one-page resume for yourself using a simple template. Include at least one experience entry and three skills, then save it as a PDF.",
+  "steps": [
+    "Open a blank document or simple resume template. Choose a clean, easy-to-read font.",
+    "Add your contact information at the top: full name, phone number, professional email address, and city or neighborhood.",
+    "List your experience section with entries that include the job title or role, the organization, dates, and 1-2 bullet points about what you did.",
+    "Add a skills section with 3-6 abilities relevant to the kind of work you want, such as customer service, organization, or basic computer skills.",
+    "Review for spelling and accuracy, then save or export the document as a PDF with a clear file name like 'YourName_Resume.pdf'."
+  ],
+  "completionCriteria": [
+    "Your resume fits on one page and includes your contact info, at least one experience entry, and a skills section",
+    "The resume is saved as a PDF or printed cleanly with no formatting errors"
+  ],
+  "commonProblems": [
+    "Trying to make the resume fancy with colors or graphics — simplicity is usually better for entry-level jobs",
+    "Including personal details like age, photo, or marital status, which are not needed in most countries",
+    "Using an unprofessional email address — create a simple one with your name if needed",
+    "Forgetting to proofread, which can leave typos that create a poor impression"
+  ],
+  "tips": [
+    "Volunteer work, school projects, and helping family businesses all count as experience",
+    "Use action words like 'helped,' 'organized,' 'supported,' or 'managed' to describe what you did",
+    "Ask someone you trust to read your resume and give feedback before sending it out",
+    "Update your resume every time you gain a new skill or experience so it stays current"
+  ],
+  "tags": [
+    "resume",
+    "job-search",
+    "documents",
+    "employment"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "use-rideshare-pickup",
+  "title": "Use a Rideshare Pickup",
+  "domain": "navigation",
+  "summary": "Request a rideshare trip and meet the driver at the correct pickup location.",
+  "learnerPromise": "You will be able to request a rideshare trip, confirm your pickup spot, identify the correct vehicle, and communicate with the driver if needed.",
+  "whyItMatters": "Rideshare apps are a common way to get around when transit is not available. Knowing how to use one safely helps you travel independently and avoid confusion at pickup time.",
+  "realLifeUses": [
+    "Getting a ride home from a location with limited bus or train service",
+    "Using a rideshare to reach an appointment on time when running late",
+    "Sharing a ride with friends to an event and splitting the fare",
+    "Getting a ride to the airport early in the morning"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "identify-safe-pickup-spot"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A smartphone with a rideshare app installed",
+    "A payment method linked to the app"
+  ],
+  "result": "You complete a rideshare pickup by matching the vehicle and driver details and confirming the ride.",
+  "youWillLearn": [
+    "How to enter a destination and request a ride in the app",
+    "How to set a clear and safe pickup location",
+    "How to verify the driver, car, and license plate before getting in",
+    "How to communicate with the driver if your location is hard to find"
+  ],
+  "miniChallenge": "Open a rideshare app, enter a nearby destination, and review the pickup process without confirming the ride. Note the driver verification details you would check before entering a vehicle.",
+  "steps": [
+    "Open the rideshare app and type in your destination.",
+    "Review the pickup spot on the map and move the pin if needed to a safe, accurate location.",
+    "Request the ride and wait in a visible, safe spot.",
+    "When the driver arrives, check the license plate, car color, and driver photo against the app.",
+    "Confirm the driver knows your name before getting in, then sit in the back seat."
+  ],
+  "completionCriteria": [
+    "You entered a destination and reviewed the pickup location",
+    "You identified what details to verify before entering the car",
+    "You described the safety steps you would follow"
+  ],
+  "commonProblems": [
+    "The driver may go to the wrong side of a large building or complex",
+    "Surge pricing can make the fare much higher than expected",
+    "It may be hard to find the right car in busy pickup areas like airports"
+  ],
+  "tips": [
+    "Stand in a visible spot and wave when you see the car approaching",
+    "Double-check the license plate before opening the door",
+    "Share your trip status with a trusted friend or family member when possible"
+  ],
+  "tags": ["rideshare", "app", "safety", "pickup", "travel"]
+}

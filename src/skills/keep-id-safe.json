@@ -1,0 +1,55 @@
+{
+  "id": "keep-id-safe",
+  "title": "Keep Your ID and Documents Safe",
+  "domain": "civic-community",
+  "summary": "Store your identification documents securely and know what to do if they are lost.",
+  "learnerPromise": "You will be able to store your important IDs and documents safely and know the first steps to take if they go missing.",
+  "whyItMatters": "Your ID and documents are key to daily life — from travel and banking to proving who you are. Keeping them safe and knowing what to do if they are lost protects you from stress, delays, and possible identity problems.",
+  "realLifeUses": [
+    "You need to keep your school ID, driver's license, or passport in a safe place",
+    "You want to protect your Social Security card or birth certificate from theft or damage",
+    "You lost your wallet and need to know what to do first",
+    "You are traveling and need to keep documents secure while away from home"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A safe storage spot (wallet, folder, or small lockbox)",
+    "A list of your important documents",
+    "Optional: a phone or camera to take photos of documents"
+  ],
+  "result": "Your important documents are stored in a secure place and you have a simple plan for what to do if they are lost.",
+  "youWillLearn": [
+    "Which documents are most important to protect",
+    "How to choose a safe place to store ID at home and when going out",
+    "How to make a quick list or photo record of your documents",
+    "What steps to take first if an ID or document goes missing"
+  ],
+  "miniChallenge": "Gather your most important IDs and documents, put them in one secure place, and write a list of what you have. Take photos of the front and back of each card.",
+  "steps": [
+    "Gather your important documents: ID card, health insurance card, and any other key cards",
+    "Choose one secure place at home to keep documents you do not carry daily",
+    "Decide what you really need to carry in your wallet and leave the rest at home",
+    "Write a list of your documents and any important numbers from them",
+    "Store the list separately from the documents and consider taking photos as a backup"
+  ],
+  "completionCriteria": [
+    "Your important documents are stored in a chosen secure location",
+    "You have a written list or photo record stored separately from the originals"
+  ],
+  "commonProblems": [
+    "You carry too many cards and might lose them — only carry what you need that day",
+    "You cannot remember what was in your lost wallet — this is why a list helps",
+    "You are not sure what to do if something goes missing — start by calling the issuing office"
+  ],
+  "tips": [
+    "Never carry your Social Security card in your wallet unless absolutely necessary",
+    "Keep documents in a dry place away from direct sun to prevent damage",
+    "If you lose an ID, report it to the issuing office as soon as you can"
+  ],
+  "tags": ["safety", "documents", "organization", "daily-tasks"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "write-thank-you-message",
+  "title": "Write a Post-Interview Thank-You Message",
+  "domain": "career-work",
+  "summary": "Send a brief, polite thank-you message after a job interview to show appreciation and reinforce your interest.",
+  "learnerPromise": "You will be able to write a short, professional thank-you message within 24 hours of an interview that leaves a positive impression.",
+  "whyItMatters": "A thank-you message shows good manners and keeps you fresh in the interviewer's mind. Many candidates skip this step, so doing it can help you stand out.",
+  "realLifeUses": [
+    "Emailing the person who interviewed you the evening after your meeting",
+    "Sending a brief thank-you text if you were interviewed by a small business owner who prefers texting",
+    "Writing a thank-you note to a teacher or mentor who connected you with a job opportunity",
+    "Following up after a casual informational conversation about possible work"
+  ],
+  "level": 3,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "arrive-for-interview"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Email address or phone number of the interviewer",
+    "Notes from the interview to reference",
+    "Phone or computer to send the message"
+  ],
+  "result": "A sent thank-you email or message that is polite, brief, and specific to the conversation.",
+  "youWillLearn": [
+    "How to write a subject line that is clear and easy to find",
+    "How to thank the interviewer specifically for something they shared or explained",
+    "How to restate your interest in the role in one sentence",
+    "How to keep the message short and send it within 24 hours"
+  ],
+  "miniChallenge": "Write a thank-you email for an imaginary interview. Mention something specific from the conversation, restate your interest, and keep it under five sentences.",
+  "steps": [
+    "Within 24 hours of the interview, open your email or messaging app and start a new message.",
+    "Use a clear subject line like 'Thank you — [Your Name]' or 'Thank you for the interview today.'",
+    "Start by thanking the interviewer by name for their time and for telling you about the role or company.",
+    "Mention one specific thing from the conversation that stood out to you, such as a detail about the team or the work.",
+    "Close by saying you remain interested in the position and look forward to hearing from them. Sign with your full name and phone number."
+  ],
+  "completionCriteria": [
+    "Your message is sent within 24 hours of the interview",
+    "The message includes a specific detail from your conversation and a clear statement of your interest"
+  ],
+  "commonProblems": [
+    "Forgetting to send it — set a reminder on your phone for a few hours after the interview",
+    "Writing too much — keep it to three to five sentences; the interviewer is busy",
+    "Being too generic — mentioning a specific detail shows you were paying attention and care",
+    "Sending it to the wrong email address — double-check the spelling before sending"
+  ],
+  "tips": [
+    "If you interviewed with multiple people, send a separate message to each person, slightly personalized",
+    "If you do not have the interviewer's email, ask the receptionist or send it through the person who scheduled the interview",
+    "Avoid asking about pay or benefits in the thank-you message — this is for appreciation, not negotiation",
+    "If you forgot to mention something important during the interview, you can include one brief sentence about it"
+  ],
+  "tags": [
+    "interview",
+    "email",
+    "professionalism",
+    "follow-up"
+  ]
+}

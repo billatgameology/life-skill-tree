@@ -1,0 +1,58 @@
+{
+  "id": "clean-toilet",
+  "title": "Clean a Toilet",
+  "domain": "home-care",
+  "summary": "Clean a toilet bowl and exterior safely.",
+  "learnerPromise": "You will be able to clean a toilet bowl, seat, and exterior safely, leaving it fresh and hygienic.",
+  "whyItMatters": "Toilets need regular cleaning to stay hygienic and odor-free. Learning to do it safely and effectively is a core home-care skill.",
+  "realLifeUses": [
+    "Weekly bathroom cleaning routine",
+    "Preparing a bathroom before guests arrive",
+    "Cleaning up after illness in the household",
+    "Moving into a new home and freshening the bathroom"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["clean-bathroom-sink"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Toilet bowl cleaner",
+    "Toilet brush",
+    "Disposable gloves (optional)",
+    "All-purpose cleaner or disinfectant wipes",
+    "Paper towels or a dedicated cleaning cloth"
+  ],
+  "result": "A clean, fresh-smelling toilet bowl and wiped exterior surfaces.",
+  "youWillLearn": [
+    "How to apply toilet bowl cleaner under the rim and around the bowl",
+    "How to scrub the bowl effectively without splashing",
+    "How to wipe down the seat, lid, and handle safely",
+    "How to finish up and store the toilet brush properly"
+  ],
+  "miniChallenge": "Clean the toilet in one bathroom today. Focus on the bowl and the seat.",
+  "steps": [
+    "Put on gloves if you have them and lift the toilet lid and seat.",
+    "Apply toilet bowl cleaner under the rim and around the inside of the bowl.",
+    "Let the cleaner sit for five to ten minutes while you clean the exterior.",
+    "Wipe down the seat, lid, handle, and base with all-purpose cleaner or a disinfectant wipe.",
+    "Scrub the bowl with the toilet brush, flush to rinse, and let the brush dry before storing."
+  ],
+  "completionCriteria": [
+    "Bowl is free of visible stains and rings after flushing",
+    "Seat, lid, and handle are wiped clean and dry"
+  ],
+  "commonProblems": [
+    "Hard water stains in the bowl — let the cleaner sit longer and scrub with a firm brush",
+    "Unpleasant smell lingers — check under the seat and around the base for missed spots",
+    "Brush drips on the floor — let it rest across the bowl rim to drip-dry before storing"
+  ],
+  "tips": [
+    "Never mix toilet cleaner with bleach or other cleaners — it can create harmful fumes",
+    "Close the lid before flushing to reduce spray and germ spread",
+    "Use a dedicated cloth or paper towel for toilets, not the one you use for sinks"
+  ],
+  "safetyLevel": "medium",
+  "tags": ["cleaning", "bathroom", "hygiene", "safety"]
+}

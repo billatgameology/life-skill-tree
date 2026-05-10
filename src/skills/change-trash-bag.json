@@ -1,0 +1,54 @@
+{
+  "id": "change-trash-bag",
+  "title": "Change a Trash Bag",
+  "domain": "home-care",
+  "summary": "Remove a full trash bag and replace it with a new one.",
+  "learnerPromise": "You will be able to remove a full trash bag and install a new one so the bin is ready for use again.",
+  "whyItMatters": "Knowing how to change a trash bag keeps bins from overflowing, reduces odors, and prevents pests. It is a quick task that makes a big difference in daily cleanliness.",
+  "realLifeUses": [
+    "Emptying a full kitchen trash bag before it overflows",
+    "Replacing a bathroom trash bag after cleaning",
+    "Taking out trash before a trip so it does not sit and smell",
+    "Helping with chores in a shared home or workspace"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "New trash bag",
+    "Full trash bag to remove"
+  ],
+  "result": "A tied, removed trash bag and a bin lined with a fresh bag.",
+  "youWillLearn": [
+    "How to gather and tie a full bag securely so nothing falls out",
+    "How to remove the bag without tearing it or spilling contents",
+    "How to place a new bag so it fits smoothly and stays in place",
+    "How to check for leaks or residue at the bottom of the bin"
+  ],
+  "miniChallenge": "Change the trash bag in one bin in your home today. Take the full bag to the outdoor trash if possible.",
+  "steps": [
+    "Pull the edges of the full bag together and tie the top into a firm knot.",
+    "Lift the bag out carefully, supporting the bottom if it feels heavy.",
+    "Check the inside of the bin for leaks or residue and wipe it clean if needed.",
+    "Unfold a new trash bag and open it fully before placing it in the bin.",
+    "Fit the edges of the new bag over the rim of the bin so it stays secure."
+  ],
+  "completionCriteria": [
+    "Full bag is tied shut and removed from the bin",
+    "New bag is fully open and secured around the bin rim"
+  ],
+  "commonProblems": [
+    "Bag tears while lifting — double-bag next time or take it out before it gets too heavy",
+    "New bag keeps slipping into the bin — tuck the edges firmly around the rim or use a bin with a built-in holder",
+    "Leak at the bottom — check for sharp objects and line the bin with newspaper next time"
+  ],
+  "tips": [
+    "Take the bag out before it is overflowing to make tying and carrying easier",
+    "Store extra bags at the bottom of the bin so they are always handy",
+    "If the bag is very heavy, ask someone to help carry it"
+  ],
+  "tags": ["cleaning", "trash", "daily-chore", "organization"]
+}

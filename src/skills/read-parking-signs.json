@@ -1,0 +1,51 @@
+{
+  "id": "read-parking-signs",
+  "title": "Read Parking Signs",
+  "domain": "navigation",
+  "summary": "Understand street parking signs to know when and where parking is allowed.",
+  "learnerPromise": "You will be able to read street parking signs and determine whether you can park in a spot legally and for how long.",
+  "whyItMatters": "Understanding parking signs helps you avoid tickets, towing, and fines. It also makes you more confident when driving or riding with someone who needs to park.",
+  "realLifeUses": [
+    "Figuring out if you can park on a street while visiting a friend",
+    "Checking time limits before leaving your car to run errands",
+    "Understanding street cleaning or snow emergency restrictions",
+    "Helping a driver read signs when you are a passenger"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [],
+  "result": "You can explain what a parking sign means and whether parking is allowed at a given time.",
+  "youWillLearn": [
+    "How to identify time limits and restricted hours on parking signs",
+    "How to recognize permit-only or paid parking zones",
+    "How to spot temporary restrictions like street cleaning or loading zones",
+    "How to check multiple signs on the same block for conflicting rules"
+  ],
+  "miniChallenge": "Walk or drive down a street with parking signs and read at least two of them. For each sign, state whether parking is allowed right now and what restrictions apply.",
+  "steps": [
+    "Locate the parking sign nearest to the spot you are considering.",
+    "Read the hours and days shown on the sign carefully.",
+    "Check for any additional signs nearby that add or change the rules.",
+    "Match the current day and time to the restrictions on the sign.",
+    "Decide if parking is allowed and for how long, or move to a different spot."
+  ],
+  "completionCriteria": [
+    "You correctly interpreted at least two parking signs",
+    "You stated whether parking was allowed at the current time and explained why"
+  ],
+  "commonProblems": [
+    "Multiple signs on one block can seem to conflict or be confusing",
+    "Arrow directions on signs may not be clear about which spots they apply to",
+    "Temporary paper signs may add rules not shown on the main sign"
+  ],
+  "tips": [
+    "Take a photo of the sign in case you need to double-check the rules later",
+    "Look up and down the block for additional signs that might affect your spot",
+    "When in doubt, choose a different spot with clearer or more relaxed rules"
+  ],
+  "tags": ["parking", "signs", "driving", "street-rules"]
+}

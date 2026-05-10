@@ -1,0 +1,52 @@
+{
+  "id": "keep-receipt",
+  "title": "Keep and Organize Receipts",
+  "domain": "shopping-consumer",
+  "summary": "Save and organize purchase receipts for returns, warranties, or tracking spending.",
+  "learnerPromise": "You will be able to save and organize receipts so you can find them when needed for returns, warranties, or expense tracking.",
+  "whyItMatters": "Receipts are proof of purchase. Keeping them organized means you can return items, claim warranties, or check your spending without stress.",
+  "realLifeUses": [
+    "Saving receipts during a trip to track your travel budget",
+    "Keeping appliance receipts in case something breaks within the warranty period",
+    "Storing clothing receipts until you are sure the items fit and you want to keep them",
+    "Organizing digital receipts from online orders in one email folder"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["Receipts you already have", "An envelope, folder, or digital storage like email or notes app"],
+  "result": "A simple system for storing receipts so you can find them quickly later.",
+  "youWillLearn": [
+    "Which receipts are worth keeping and for how long",
+    "How to store paper receipts so they stay readable",
+    "How to save and organize email or digital receipts",
+    "How to label or sort receipts by date or category"
+  ],
+  "miniChallenge": "Gather any receipts you have from the past 2 weeks. Choose one place to store them and put them there, sorted by date.",
+  "steps": [
+    "Collect all loose receipts from your bag, wallet, desk, or email inbox.",
+    "Decide what to keep: large purchases, items with warranties, things you might return.",
+    "Choose a storage spot: an envelope, a folder, or a dedicated email folder for digital receipts.",
+    "Sort receipts by date or category and label the storage container clearly.",
+    "For digital receipts, forward or move them into your chosen folder or app."
+  ],
+  "completionCriteria": [
+    "You collected receipts from multiple places into one spot",
+    "You chose a storage system that you can keep using",
+    "Your receipts are sorted and labeled in a way you can understand later"
+  ],
+  "commonProblems": [
+    "Paper receipts fade over time — take a photo as backup",
+    "Too many receipts feel overwhelming — start with recent ones and high-value items",
+    "Forgetting to save digital receipts — set a habit to move them right after purchase"
+  ],
+  "tips": [
+    "Take photos of important paper receipts as a backup",
+    "Keep receipts for electronics and appliances at least until the warranty ends",
+    "Review and clear out old receipts every few months to avoid clutter"
+  ],
+  "tags": ["organization", "receipts", "money-tracking", "returns"]
+}

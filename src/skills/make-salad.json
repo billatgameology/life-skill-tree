@@ -1,0 +1,66 @@
+{
+  "id": "make-salad",
+  "title": "Make a Salad",
+  "domain": "food-cooking",
+  "summary": "Wash, chop, and combine ingredients to make a simple fresh salad.",
+  "learnerPromise": "You will be able to wash, prepare, and combine fresh ingredients into a simple, tasty salad.",
+  "whyItMatters": "Fresh salads are a simple way to include vegetables in your meals. Knowing how to prep and combine ingredients lets you make a healthy side or main dish quickly.",
+  "realLifeUses": [
+    "Making a side salad to go with dinner",
+    "Preparing a lunch salad with greens, protein, and dressing",
+    "Using up vegetables in your fridge before they go bad",
+    "Contributing a dish to a gathering or potluck"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "use-knife"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Fresh vegetables or greens",
+    "Cutting board",
+    "Knife",
+    "Bowl",
+    "Colander for washing",
+    "Optional: dressing"
+  ],
+  "result": "A fresh salad with clean, evenly cut ingredients and balanced flavors.",
+  "youWillLearn": [
+    "Wash and dry greens and vegetables properly",
+    "Cut vegetables into bite-sized pieces",
+    "Combine ingredients in a balanced way",
+    "Add dressing so the salad is flavored but not soggy"
+  ],
+  "miniChallenge": "Make a salad with at least three ingredients (for example: greens, a vegetable, and a topping). Wash, chop, and mix them into a bowl.",
+  "steps": [
+    "Wash all vegetables and greens under cool running water.",
+    "Dry the greens well with a towel or by shaking off water.",
+    "Chop vegetables into similar-sized pieces so they are easy to eat.",
+    "Place greens in a bowl first, then add the chopped vegetables and toppings.",
+    "Toss with a small amount of dressing right before serving. Start with less and add more if needed."
+  ],
+  "completionCriteria": [
+    "All ingredients are washed and cut into bite-sized pieces",
+    "The salad has at least three different ingredients",
+    "The greens are dry and the salad is not overdressed"
+  ],
+  "commonProblems": [
+    "Cutting pieces too large, making the salad hard to eat",
+    "Not drying greens, causing the dressing to become watery",
+    "Adding too much dressing and making the salad soggy"
+  ],
+  "tips": [
+    "Tear greens by hand instead of cutting if you do not have a sharp knife.",
+    "Add crunchy toppings like nuts or croutons right before serving so they stay crisp.",
+    "Keep dressing on the side if you are storing the salad for later."
+  ],
+  "tags": [
+    "cooking",
+    "vegetables",
+    "healthy",
+    "no-heat"
+  ]
+}

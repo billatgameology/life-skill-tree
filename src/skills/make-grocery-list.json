@@ -1,0 +1,62 @@
+{
+  "id": "make-grocery-list",
+  "title": "Make a Grocery List",
+  "domain": "food-cooking",
+  "summary": "Write a short grocery list for one meal or one day's worth of food.",
+  "learnerPromise": "You will be able to write a clear grocery list for one meal or one day's meals that you can take to the store.",
+  "whyItMatters": "A grocery list helps you remember what you need and reduces impulse purchases. It also makes shopping trips faster and less stressful.",
+  "realLifeUses": [
+    "Planning ingredients for tonight's dinner before heading to the store",
+    "Writing a list for a day's worth of meals on a trip",
+    "Helping a family member shop by giving them a clear list",
+    "Budgeting for the week by listing only what you need"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "shop-for-one-meal"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Paper and pen",
+    "Or a notes app on a phone"
+  ],
+  "result": "A written grocery list with all items needed for one meal or one day.",
+  "youWillLearn": [
+    "Plan ingredients for a specific meal",
+    "Organize items by category (produce, dairy, pantry, etc.)",
+    "Estimate how much of each item you need",
+    "Check what you already have before adding to the list"
+  ],
+  "miniChallenge": "Plan one meal you want to make and write a grocery list for it. Check your kitchen first to see what you already have.",
+  "steps": [
+    "Choose one meal you want to prepare.",
+    "Look up or picture each ingredient the meal needs.",
+    "Check your kitchen to see which ingredients you already have.",
+    "Write down only the items you need to buy, with amounts if helpful.",
+    "Group similar items together (for example, all produce, all dairy)."
+  ],
+  "completionCriteria": [
+    "Your list includes every item needed for the chosen meal",
+    "You checked your kitchen and did not list items you already have",
+    "The list is organized and easy to read while shopping"
+  ],
+  "commonProblems": [
+    "Forgetting to check what you already have at home",
+    "Writing vague items like 'vegetables' instead of 'two bell peppers'",
+    "Making the list too long by trying to plan a whole week at once"
+  ],
+  "tips": [
+    "Start with just one meal. It is easier to build from there.",
+    "Walking through the store layout in your head can help you organize the list.",
+    "Keep the list on your phone so it is harder to lose."
+  ],
+  "tags": [
+    "shopping",
+    "planning",
+    "groceries",
+    "organization"
+  ]
+}

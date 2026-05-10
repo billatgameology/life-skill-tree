@@ -1,0 +1,57 @@
+{
+  "id": "sort-mail",
+  "title": "Sort Your Incoming Mail",
+  "domain": "civic-community",
+  "summary": "Sort incoming mail into categories and identify what needs attention.",
+  "learnerPromise": "You will be able to sort mail into useful piles and spot which items need action or a response.",
+  "whyItMatters": "Mail can include bills, important notices, and time-sensitive documents. Sorting it regularly helps you avoid missed deadlines, late fees, and lost paperwork.",
+  "realLifeUses": [
+    "You come home to a pile of mail and need to find the bills",
+    "You want to separate junk mail from items worth keeping",
+    "You need to track a letter or package that should have arrived",
+    "You are helping someone else manage their household mail"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "sort-important-papers"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A recent batch of mail",
+    "A flat surface to sort on",
+    "A pen to mark dates or notes"
+  ],
+  "result": "Mail is sorted into clear categories and time-sensitive items are easy to find.",
+  "youWillLearn": [
+    "How to quickly spot bills, official notices, and personal letters",
+    "How to separate junk mail and items you can discard safely",
+    "How to flag items that need a response or payment by a deadline",
+    "How to store important mail so it does not get lost"
+  ],
+  "miniChallenge": "Take a stack of recent mail and sort it into four piles: needs action, keep for records, read later, and discard. Mark deadlines on anything that needs action.",
+  "steps": [
+    "Gather all recent mail and find a flat surface to work on",
+    "Open each piece or glance at the front to identify the sender and topic",
+    "Create four piles: needs action, keep for records, read later, and discard",
+    "For each item that needs action, write the deadline on a sticky note or the envelope",
+    "Put the 'needs action' pile where you will see it and file or recycle the rest"
+  ],
+  "completionCriteria": [
+    "All mail is sorted into clear categories",
+    "Any item with a deadline is marked and placed where you will see it"
+  ],
+  "commonProblems": [
+    "You are not sure if something is important — check for your name, account numbers, or due dates",
+    "Junk mail looks official — look for your name or known account; if unsure, keep it briefly and check online",
+    "Mail piles up because you forget to sort — try sorting mail the same day you bring it in"
+  ],
+  "tips": [
+    "Open mail near a trash can so you can discard junk immediately",
+    "If you share a mailbox, write initials on each piece so people know what is theirs",
+    "Set a weekly time to review the 'keep for records' pile and move old items to a filing spot"
+  ],
+  "tags": ["mail", "organization", "daily-tasks", "paperwork"]
+}

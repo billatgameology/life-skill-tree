@@ -1,0 +1,55 @@
+{
+  "id": "reset-after-bad-day",
+  "title": "Reset After a Bad Day",
+  "domain": "emotional-skills",
+  "summary": "Do a short activity or routine to recover and feel better after a difficult day.",
+  "learnerPromise": "You will be able to choose and do a simple reset routine that helps you recover after a hard day.",
+  "whyItMatters": "Difficult days happen to everyone. Having a gentle reset routine helps you release tension, shift your mood, and avoid carrying one bad day into the next.",
+  "realLifeUses": [
+    "After a stressful day, you take a warm shower and listen to calming music before bed",
+    "You had an argument and go for a short walk to clear your head afterward",
+    "A difficult meeting leaves you drained so you spend 15 minutes on a hobby you enjoy",
+    "You write down three things that went okay today before going to sleep"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["notice-stress-signal", "take-calm-down-break"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Any items for your chosen reset activity (walking shoes, music, journal, etc.)",
+    "A quiet space if possible"
+  ],
+  "result": "A personal reset routine you can use after a difficult day.",
+  "youWillLearn": [
+    "How to notice when a day has left you feeling low or tense",
+    "How to pick a reset activity that tends to help you personally",
+    "How to create a short, repeatable routine for tough days",
+    "How to let go of the day so it does not carry over into tomorrow"
+  ],
+  "miniChallenge": "Choose one reset activity from the list — a 10-minute walk, a shower, journaling, or listening to music — and do it today after something stressful. Notice how you feel before and after.",
+  "steps": [
+    "Name the day as difficult — say to yourself, 'Today was hard' — and accept that feeling",
+    "Choose one reset activity that usually helps you feel even a little better",
+    "Set a timer or block out 10 to 20 minutes for that activity",
+    "Do the activity without multitasking — let it be your only focus",
+    "Afterward, ask yourself: 'Do I feel a little different?' There is no wrong answer"
+  ],
+  "completionCriteria": [
+    "You completed one reset activity today",
+    "You can name what activity you chose and whether it helped"
+  ],
+  "commonProblems": [
+    "You might not feel like doing anything — choose the smallest, easiest option on your list",
+    "You may want to replay the bad day over and over — this is common, but the reset activity helps break the loop",
+    "One reset might not fix everything — that is okay, it is one step, not a complete solution"
+  ],
+  "tips": [
+    "Build a short menu of reset options so you have choices depending on your energy level",
+    "Some people reset through movement, others through stillness — there is no single right way",
+    "If bad days are very frequent, consider talking to a trusted person or counselor for extra support"
+  ],
+  "helpBoundary": "If most days feel like bad days for several weeks in a row, reaching out to a counselor or trusted adult is a strong and healthy choice.",
+  "tags": ["recovery", "routine", "self-care", "stress-relief"]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "read-work-schedule",
+  "title": "Read a Work Schedule",
+  "domain": "career-work",
+  "summary": "Understand a work schedule so you know when you are expected to work, including shifts, breaks, and changes.",
+  "learnerPromise": "You will be able to read and understand a typical work schedule, know when your shifts start and end, and spot schedule changes or special instructions.",
+  "whyItMatters": "Knowing your schedule helps you show up on time and plan the rest of your life around work. Misreading a schedule is a common reason people miss shifts.",
+  "realLifeUses": [
+    "Checking the weekly schedule posted at a restaurant or retail store",
+    "Reading a schedule sent by email or through a scheduling app",
+    "Figuring out your lunch break time on a long shift",
+    "Noticing a last-minute schedule change before it causes a problem"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Your work schedule (paper, email, or app)",
+    "A calendar or notes app to record your shifts"
+  ],
+  "result": "Your shifts for the week written into your personal calendar with start times, end times, and any notes.",
+  "youWillLearn": [
+    "How to find your name and shift times on a posted or digital schedule",
+    "How to tell the difference between shift start times, break times, and end times",
+    "How to transfer your shifts to your own calendar or reminders",
+    "How to spot special notes like training sessions, holiday hours, or shift swaps"
+  ],
+  "miniChallenge": "Take a sample work schedule and copy your assigned shifts into your phone's calendar for the week, including start and end times.",
+  "steps": [
+    "Locate your name on the schedule. Some schedules use initials or employee numbers, so know yours.",
+    "Read across the row or column to find the days and times you are scheduled to work.",
+    "Note the start time and the end time for each shift. Check for any special codes like 'TR' for training or 'OP' for opening.",
+    "Copy each shift into your own calendar or set phone reminders. Include the start time and plan to arrive a few minutes early.",
+    "Look for any notes at the bottom of the schedule about holiday hours, meeting times, or schedule-change policies."
+  ],
+  "completionCriteria": [
+    "You can correctly identify all of your scheduled shifts for the week, including start and end times",
+    "Your shifts are recorded in your personal calendar or reminder system"
+  ],
+  "commonProblems": [
+    "Confusing AM and PM times — double-check especially for early morning or late evening shifts",
+    "Not noticing a schedule update — check the schedule regularly, not just once a week",
+    "Missing a shift because you wrote the wrong date — always verify the day of the week matches the date",
+    "Not knowing who to contact if you find an error on your schedule — ask your supervisor how to report discrepancies"
+  ],
+  "tips": [
+    "Take a photo of a posted schedule every week so you have it on your phone",
+    "Set a recurring reminder to check the schedule on the day it is usually posted",
+    "If your workplace uses a scheduling app, learn how to turn on notifications for shift changes",
+    "Mark personal commitments on the same calendar so you can spot conflicts early"
+  ],
+  "tags": [
+    "work-basics",
+    "schedules",
+    "time-management",
+    "employment"
+  ]
+}

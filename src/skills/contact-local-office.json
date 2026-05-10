@@ -1,0 +1,57 @@
+{
+  "id": "contact-local-office",
+  "title": "Contact a Local Office for Information",
+  "domain": "civic-community",
+  "summary": "Call or visit a local government or community office to ask for information you need.",
+  "learnerPromise": "You will be able to reach out to a local office by phone or in person and get the information you are looking for.",
+  "whyItMatters": "Local offices handle questions about housing, permits, benefits, voting, and community services. Knowing how to contact them gives you access to resources and answers that affect your daily life.",
+  "realLifeUses": [
+    "You need to ask about a permit, license, or local program",
+    "You want to find out if you qualify for a community benefit or service",
+    "You have a question about trash pickup, water bills, or road repairs",
+    "You want to report a problem in your neighborhood and do not know who to call"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "make-phone-call",
+    "ask-for-help"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "A phone or way to visit in person",
+    "A notebook and pen to write down answers"
+  ],
+  "result": "You have made contact with a local office and received the information or next steps you needed.",
+  "youWillLearn": [
+    "How to find the right office or department for your question",
+    "How to prepare what to say before calling or visiting",
+    "How to ask clear questions and write down the answers",
+    "How to follow up if you need more help or documents"
+  ],
+  "miniChallenge": "Find the phone number of a local office that handles a question you have, call them, and write down the answer or next steps they give you.",
+  "steps": [
+    "Pick a question you have that a local office might answer",
+    "Search online or ask someone for the right office and phone number",
+    "Write down your question and any details you may need to share",
+    "Call or visit the office during open hours and ask your question",
+    "Write down the answer, the name of the person you spoke with, and any next steps"
+  ],
+  "completionCriteria": [
+    "You successfully reached the office by phone or in person",
+    "You received an answer or clear next steps for your question"
+  ],
+  "commonProblems": [
+    "You get sent to the wrong department — ask them to transfer you or give you the right number",
+    "The office is closed or busy — try calling at a different time or use email",
+    "You do not understand the answer — ask them to repeat it or explain it in simpler terms"
+  ],
+  "tips": [
+    "Before you call, write your main question on a card or sticky note so you do not forget",
+    "Have a pen ready — do not rely on memory for phone numbers or instructions",
+    "If visiting in person, bring ID and any related mail or documents with you"
+  ],
+  "tags": ["government", "phone", "community", "information"]
+}

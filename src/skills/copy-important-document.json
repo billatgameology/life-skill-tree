@@ -1,0 +1,55 @@
+{
+  "id": "copy-important-document",
+  "title": "Copy an Important Document",
+  "domain": "civic-community",
+  "summary": "Make a photocopy or digital copy of an important document.",
+  "learnerPromise": "You will be able to make a clear, complete copy of a document using a copier, scanner, or phone camera.",
+  "whyItMatters": "Having copies of important documents helps you fill out forms, apply for services, and recover faster if the original is lost or damaged. Copies also let you share documents without risking the original.",
+  "realLifeUses": [
+    "A school or job application asks for a copy of your ID or transcript",
+    "You want a backup of your insurance card or medical records",
+    "You need to mail a document but want to keep a copy for yourself",
+    "You are applying for a program and need to submit copies rather than originals"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "The document you want to copy",
+    "Access to a copier, scanner, or smartphone with a camera",
+    "Optional: a copy app or email to send the digital file"
+  ],
+  "result": "A clear, complete copy of one important document stored digitally or printed.",
+  "youWillLearn": [
+    "How to make a copy using a photocopier or scanner",
+    "How to take a clear photo of a document with a phone",
+    "How to check that the copy is complete and readable",
+    "How to store or share the copy safely"
+  ],
+  "miniChallenge": "Pick one important document and make a copy of it. Check that every word and detail on both sides is clear and readable.",
+  "steps": [
+    "Choose a document that would be useful to have a copy of",
+    "Place it flat on a copier or scanner, or on a well-lit surface if using a phone",
+    "Make the copy and check that all text, numbers, and images are clear",
+    "If the document has a back side, copy that too",
+    "Store the digital copy in a safe folder or put the printed copy somewhere secure"
+  ],
+  "completionCriteria": [
+    "The copy includes all pages or both sides of the document",
+    "The text and details on the copy are clear enough to read"
+  ],
+  "commonProblems": [
+    "The copy is blurry or cut off — make sure the document is flat and all edges are on the glass or in the camera frame",
+    "The copy is too dark or light — adjust the copier settings or lighting if using a phone",
+    "You only copied one side — check if the document has information on the back"
+  ],
+  "tips": [
+    "Use a copier app on your phone for automatic edge detection and straightening",
+    "If copying at a library or store, ask staff for help if you are unsure how the machine works",
+    "Keep digital copies in a password-protected folder or secure cloud storage"
+  ],
+  "tags": ["documents", "copier", "technology", "daily-tasks"]
+}

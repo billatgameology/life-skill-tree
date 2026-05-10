@@ -1,0 +1,63 @@
+{
+  "id": "measure-ingredients",
+  "title": "Measure Ingredients",
+  "domain": "food-cooking",
+  "summary": "Measure dry and liquid ingredients accurately using common kitchen tools.",
+  "learnerPromise": "You will be able to measure dry and liquid ingredients accurately using measuring cups and spoons.",
+  "whyItMatters": "Accurate measuring helps your recipes turn out well and teaches you to follow instructions carefully. It is especially important in baking where ratios matter a lot.",
+  "realLifeUses": [
+    "Measuring flour for a pancake recipe",
+    "Adding the right amount of rice and water to a pot",
+    "Measuring oil for a stir-fry or dressing",
+    "Following a baking recipe that calls for precise amounts"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Measuring cups (dry and liquid)",
+    "Measuring spoons",
+    "Dry ingredients (flour, rice, sugar)",
+    "Liquid (water or oil)",
+    "Flat edge for leveling"
+  ],
+  "result": "Accurately measured ingredients ready to use in a recipe.",
+  "youWillLearn": [
+    "Use dry measuring cups for solid ingredients",
+    "Use liquid measuring cups for wet ingredients",
+    "Level off dry ingredients for accuracy",
+    "Read liquid measurements at eye level"
+  ],
+  "miniChallenge": "Measure one cup of flour using the spoon-and-level method, and measure half a cup of water using a liquid measuring cup at eye level.",
+  "steps": [
+    "Choose the right tool: dry cups for flour, sugar, rice; liquid cups for water, milk, oil.",
+    "For dry ingredients, spoon the ingredient into the measuring cup until it is slightly heaped.",
+    "Use a flat edge (like a knife) to level off the top of the dry measuring cup.",
+    "For liquids, place the measuring cup on a flat surface and pour to the correct line.",
+    "Bend down to read the liquid at eye level to make sure it is accurate."
+  ],
+  "completionCriteria": [
+    "You used the correct measuring tool for dry and liquid ingredients",
+    "Dry ingredients are leveled off evenly",
+    "Liquid is read at eye level and matches the correct measurement line"
+  ],
+  "commonProblems": [
+    "Scooping flour directly with the cup, which packs it too tightly",
+    "Reading a liquid measurement while holding the cup in the air",
+    "Using a dry cup for liquids, which spills easily"
+  ],
+  "tips": [
+    "Spoon and level dry ingredients. Do not scoop directly from the bag.",
+    "Place liquid measuring cups on the counter and bend down to read them.",
+    "When doubling a recipe, measure each ingredient separately rather than estimating."
+  ],
+  "tags": [
+    "baking",
+    "cooking-basics",
+    "measurement",
+    "recipes"
+  ]
+}

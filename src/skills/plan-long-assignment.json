@@ -1,0 +1,56 @@
+{
+  "id": "plan-long-assignment",
+  "title": "Plan a Long Assignment",
+  "domain": "school-learning",
+  "summary": "Break a large assignment into stages and set mini-deadlines for each part.",
+  "learnerPromise": "You will be able to take a big assignment, split it into smaller steps, and create a simple plan with deadlines for each step.",
+  "whyItMatters": "Large assignments can feel overwhelming, but breaking them into smaller pieces makes them easier to start and finish on time. Planning also helps you avoid last-minute rushing.",
+  "realLifeUses": [
+    "Planning a research paper by setting dates for research, outline, draft, and revision",
+    "Breaking a group project into tasks with deadlines for each member",
+    "Spreading out a science fair project over several weeks",
+    "Managing a reading assignment by dividing chapters across multiple days"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["check-assignment-requirements"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Calendar or planner (paper or digital)",
+    "The assignment instructions",
+    "Paper or a notes app"
+  ],
+  "result": "A written plan with 3-5 stages and a mini-deadline for each",
+  "youWillLearn": [
+    "How to read an assignment and identify all the parts needed",
+    "How to divide a big task into smaller, manageable stages",
+    "How to set realistic mini-deadlines before the final due date",
+    "How to write down a plan you can follow and check off"
+  ],
+  "miniChallenge": "Pick one upcoming assignment that is due in at least one week. Break it into 3-5 smaller stages and write a mini-deadline for each stage in your calendar.",
+  "steps": [
+    "Read the full assignment and list everything that needs to be done.",
+    "Break the work into stages, such as research, outline, draft, and revise.",
+    "Estimate how long each stage takes and assign it a mini-deadline.",
+    "Write each mini-deadline in your calendar or planner.",
+    "Review your plan daily and check off stages as you complete them."
+  ],
+  "completionCriteria": [
+    "Assignment is broken into 3-5 clear stages",
+    "Each stage has a realistic mini-deadline before the final due date",
+    "Plan is written somewhere you will see it and use it"
+  ],
+  "commonProblems": [
+    "Waiting until the day before the deadline to start",
+    "Making stages too big so they still feel overwhelming",
+    "Not building in extra time for unexpected delays"
+  ],
+  "tips": [
+    "Set your own deadline one day before the real deadline as a safety buffer",
+    "Start with the hardest stage first if you can",
+    "If you fall behind, adjust your plan instead of giving up"
+  ],
+  "tags": ["planning", "time-management", "assignments", "organization"]
+}

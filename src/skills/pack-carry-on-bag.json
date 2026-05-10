@@ -1,0 +1,55 @@
+{
+  "id": "pack-carry-on-bag",
+  "title": "Pack a Carry-On Bag",
+  "domain": "navigation",
+  "summary": "Pack a compliant carry-on bag that fits size limits and contains travel essentials.",
+  "learnerPromise": "You will be able to pack a carry-on bag that meets airline size rules and holds everything you need for a flight.",
+  "whyItMatters": "A well-packed carry-on saves you from checked bag fees and lost luggage worries. It also keeps your important items close during the flight so you are prepared and comfortable.",
+  "realLifeUses": [
+    "Packing for a short trip without needing to check a bag",
+    "Keeping medications, chargers, and snacks in your carry-on for easy access",
+    "Making sure your bag fits in the overhead bin or under the seat",
+    "Preparing for a flight where you want to avoid baggage claim waits"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "A carry-on-sized bag",
+    "Your travel items and a packing list"
+  ],
+  "result": "A fully packed carry-on bag that fits size limits and contains organized travel essentials.",
+  "youWillLearn": [
+    "How to check your airline's carry-on size and weight limits",
+    "How to choose travel essentials and leave non-essentials behind",
+    "How to pack liquids and electronics to meet security rules",
+    "How to organize your bag for easy access during the flight"
+  ],
+  "miniChallenge": "Pack a carry-on bag for a two-day trip. Include clothing, toiletries, and one electronic device. Check that all liquids are in travel-sized containers and that the bag closes comfortably.",
+  "steps": [
+    "Check your airline's carry-on size limits and measure your bag if needed.",
+    "Make a short packing list of essentials: clothing, toiletries, documents, chargers, and snacks.",
+    "Place liquids in a clear quart-sized bag and keep electronics easy to reach for security.",
+    "Roll or fold clothing to save space and place heavier items at the bottom of the bag.",
+    "Close the bag and lift it comfortably to confirm it is not too heavy to carry."
+  ],
+  "completionCriteria": [
+    "Your bag fits within your airline's carry-on size limits",
+    "You packed travel-sized liquids in a clear bag and kept electronics accessible",
+    "The bag closes and is comfortable to lift and carry"
+  ],
+  "commonProblems": [
+    "Overpacking makes the bag too heavy or hard to fit in the overhead bin",
+    "Forgetting that liquids must be in small containers can cause delays at security",
+    "Important items get buried under clothing and are hard to reach during the flight"
+  ],
+  "tips": [
+    "Wear your bulkiest clothing on the plane to save space in your bag",
+    "Keep your ID, boarding pass, phone, and charger in an outer pocket for easy access",
+    "Pack a small empty water bottle and fill it after you pass through security"
+  ],
+  "tags": ["travel", "packing", "airport", "flight", "organization"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "choose-interview-clothes",
+  "title": "Choose Interview Clothes",
+  "domain": "career-work",
+  "summary": "Select clean, appropriate, and professional clothing that fits the type of job you are interviewing for.",
+  "learnerPromise": "You will be able to choose an outfit that looks professional and feels comfortable, so you can focus on the interview instead of worrying about your clothes.",
+  "whyItMatters": "Your appearance is part of your first impression. Clean, appropriate clothing signals respect for the interviewer and the opportunity.",
+  "realLifeUses": [
+    "Deciding what to wear for a first interview at a coffee shop or retail store",
+    "Choosing an outfit for an office or front-desk position interview",
+    "Finding something presentable when you do not own formal clothes",
+    "Preparing a backup outfit in case of spills or weather issues on interview day"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "prepare-for-interview"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Clean clothes that fit you well",
+    "Iron or steamer (optional)",
+    "Clean, appropriate shoes"
+  ],
+  "result": "A complete, clean, and appropriate interview outfit laid out and ready to wear.",
+  "youWillLearn": [
+    "How to match your outfit to the type of workplace you are interviewing at",
+    "How to check that your clothes are clean, wrinkle-free, and fit well",
+    "How to keep accessories and scents minimal and professional",
+    "How to plan your outfit in advance to avoid last-minute stress"
+  ],
+  "miniChallenge": "Look at what you own and lay out one complete interview outfit. Check that it is clean, fits well, and is appropriate for a specific job you might apply for.",
+  "steps": [
+    "Research the workplace. A bank or office usually expects more formal clothing than a warehouse or casual restaurant.",
+    "Choose clean, wrinkle-free clothes in solid, neutral colors if possible. Avoid clothing with large logos or distracting graphics.",
+    "Make sure everything fits comfortably. You should be able to sit, stand, and move without adjusting your clothes constantly.",
+    "Keep accessories, makeup, and scents minimal. The goal is to look neat, not to make a fashion statement.",
+    "Lay out your full outfit the night before, including shoes and any needed underlayers, so you are not rushing."
+  ],
+  "completionCriteria": [
+    "You have a complete outfit laid out that is clean, wrinkle-free, and fits the type of workplace",
+    "You can explain why this outfit is appropriate for the specific job you are considering"
+  ],
+  "commonProblems": [
+    "Wearing brand-new shoes that hurt — break in shoes beforehand or choose comfortable ones you know",
+    "Overdressing or underdressing for the workplace — when unsure, slightly more formal is usually safer",
+    "Wearing strong perfume or cologne — many workplaces are scent-free, and heavy scents can be distracting",
+    "Waiting until the last minute and discovering your clothes need washing or mending"
+  ],
+  "tips": [
+    "If you do not own professional clothes, thrift stores and clothing swaps are affordable options",
+    "Try on the full outfit and sit down in it — some clothes feel different when you are seated",
+    "Bring a small stain-removal pen or ask someone to check you for lint or pet hair before you go in",
+    "Personal grooming matters too — clean hair, trimmed nails, and fresh breath all support a polished appearance"
+  ],
+  "tags": [
+    "interview",
+    "professional-appearance",
+    "clothing",
+    "first-impression"
+  ]
+}

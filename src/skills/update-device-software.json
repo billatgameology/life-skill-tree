@@ -1,0 +1,59 @@
+{
+  "id": "update-device-software",
+  "title": "Update Device Software",
+  "domain": "digital-basics",
+  "summary": "Check for and install operating system updates on a phone or computer.",
+  "learnerPromise": "You will be able to check for available system updates, understand what they include, and install them safely.",
+  "whyItMatters": "Software updates fix security problems, add new features, and improve how your device works. Keeping your device updated helps protect your personal information.",
+  "realLifeUses": [
+    "Your phone or computer reminds you that an update is available",
+    "An app is not working correctly and the help page suggests updating your system",
+    "You read about a security issue and want to make sure your device is protected",
+    "You want access to a new feature that was added in a recent update"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "restart-update-app"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "A phone, tablet, or computer",
+    "A stable Wi-Fi connection",
+    "Device battery at least 50% or plugged into a charger"
+  ],
+  "result": "Your device is running the latest available operating system version.",
+  "youWillLearn": [
+    "How to find the software update section in your device settings",
+    "How to read what an update includes before installing it",
+    "How to prepare your device for an update — charging and connecting to Wi-Fi",
+    "How to start the update and what to do if it fails or gets stuck"
+  ],
+  "miniChallenge": "Check for a system update on your device. If one is available, start the installation. If not, confirm you are on the latest version.",
+  "steps": [
+    "Open your device settings and find the system or software update section",
+    "Tap 'Check for Updates' or wait for the page to load the latest information",
+    "Read the update notes to understand what changes or fixes are included",
+    "Make sure your device is connected to Wi-Fi and plugged in or fully charged",
+    "Start the update and wait for the device to restart — do not turn it off during the process"
+  ],
+  "completionCriteria": [
+    "You confirmed your device is running the latest software version or successfully installed an update",
+    "You can see the current version number in your settings and know how to check again later"
+  ],
+  "commonProblems": [
+    "Update fails because of low battery — plug your device in and try again",
+    "Not enough storage space for the update — free up space and retry",
+    "Update gets stuck — wait at least 30 minutes, then restart the device and check again",
+    "Wi-Fi disconnects during download — connect to a more stable network"
+  ],
+  "tips": [
+    "Turn on automatic updates so your device stays current without manual checks",
+    "Install updates at night or when you do not need to use your device for a while",
+    "Back up important files before major system updates, just in case",
+    "If an update keeps failing, try restarting your device and attempting again"
+  ],
+  "tags": ["updates", "software", "security", "device-maintenance", "system"]
+}

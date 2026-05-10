@@ -1,0 +1,52 @@
+{
+  "id": "return-item-to-store",
+  "title": "Return an Item to a Store",
+  "domain": "shopping-consumer",
+  "summary": "Return or exchange a purchased item with the receipt and proper packaging.",
+  "learnerPromise": "You will be able to return or exchange an unwanted or defective item following store procedures.",
+  "whyItMatters": "Returning an item the right way increases your chances of getting a refund or exchange. Knowing the steps saves time and reduces stress at the counter.",
+  "realLifeUses": [
+    "Returning a shirt that does not fit and getting the right size",
+    "Taking back a broken gadget and exchanging it for a working one",
+    "Returning an online order at a physical store location",
+    "Getting a refund for a duplicate gift you received"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["check-return-policy"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["The item to return", "Receipt or proof of purchase", "Original packaging or bag (if possible)", "Payment card used for purchase (sometimes required)"],
+  "result": "A completed return or exchange with a refund receipt or new item in hand.",
+  "youWillLearn": [
+    "How to gather what you need before going to the store",
+    "How to approach customer service and explain your request clearly",
+    "How to check that the refund or exchange is processed correctly",
+    "What to do if the store says they cannot accept the return"
+  ],
+  "miniChallenge": "Gather the receipt, item, and packaging for something you want to return. Go to the store and complete the return or exchange.",
+  "steps": [
+    "Find your receipt or order confirmation email and check the return deadline.",
+    "Repack the item with any tags, parts, or accessories that came with it.",
+    "Go to the customer service desk or checkout area and state your request simply.",
+    "Show your receipt and let the staff inspect the item.",
+    "Check the refund receipt or your payment method to confirm the transaction went through."
+  ],
+  "completionCriteria": [
+    "You brought the required proof of purchase and the item",
+    "You received a refund, store credit, or exchange as expected",
+    "You kept any return receipt or confirmation for your records"
+  ],
+  "commonProblems": [
+    "Missing receipt — some stores may still help with card lookup or store credit",
+    "Item is outside the return window — politely ask if any exception is possible",
+    "Original packaging is gone — some stores are flexible, especially with defects"
+  ],
+  "tips": [
+    "Bring the card you paid with — some stores refund to the original payment method only",
+    "Be polite and calm — staff are more likely to help when treated with respect",
+    "If the store refuses unfairly, ask to speak with a manager or check your local consumer protection rules"
+  ],
+  "tags": ["returns", "in-store", "consumer-rights", "practical"]
+}

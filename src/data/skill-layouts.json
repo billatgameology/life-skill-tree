@@ -219,6 +219,718 @@
     "write-professional-email": {
       "x": 674,
       "y": 996
+    },
+    "take-screenshot": {
+      "x": 1043,
+      "y": 453
+    },
+    "back-up-files": {
+      "x": 924,
+      "y": 185
+    },
+    "manage-storage-space": {
+      "x": 952,
+      "y": 182
+    },
+    "organize-phone-photos": {
+      "x": 966,
+      "y": 181
+    },
+    "report-suspicious-message": {
+      "x": 979,
+      "y": 180
+    },
+    "scan-qr-code": {
+      "x": 1007,
+      "y": 180
+    },
+    "set-screen-time-limits": {
+      "x": 1021,
+      "y": 180
+    },
+    "share-file-link": {
+      "x": 1034,
+      "y": 181
+    },
+    "update-device-software": {
+      "x": 1062,
+      "y": 183
+    },
+    "use-cloud-storage": {
+      "x": 1076,
+      "y": 185
+    },
+    "check-privacy-settings": {
+      "x": 910,
+      "y": 66
+    },
+    "use-two-factor-authentication": {
+      "x": 1090,
+      "y": 66
+    },
+    "ask-for-directions": {
+      "x": 1102,
+      "y": 465
+    },
+    "buy-transit-ticket": {
+      "x": 1113,
+      "y": 469
+    },
+    "check-traffic-before-leaving": {
+      "x": 1123,
+      "y": 472
+    },
+    "find-nearest-restroom": {
+      "x": 1133,
+      "y": 476
+    },
+    "identify-safe-pickup-spot": {
+      "x": 1142,
+      "y": 480
+    },
+    "read-bus-route-map": {
+      "x": 1152,
+      "y": 485
+    },
+    "read-parking-signs": {
+      "x": 1162,
+      "y": 490
+    },
+    "navigate-large-building": {
+      "x": 1181,
+      "y": 207
+    },
+    "pack-carry-on-bag": {
+      "x": 1205,
+      "y": 215
+    },
+    "plan-transit-transfer": {
+      "x": 1229,
+      "y": 224
+    },
+    "use-airport-boarding-pass": {
+      "x": 1297,
+      "y": 256
+    },
+    "use-rideshare-pickup": {
+      "x": 1319,
+      "y": 269
+    },
+    "avoid-overdraft-fees": {
+      "x": 1407,
+      "y": 332
+    },
+    "calculate-tip": {
+      "x": 1414,
+      "y": 338
+    },
+    "cancel-subscription": {
+      "x": 1421,
+      "y": 345
+    },
+    "compare-subscription-costs": {
+      "x": 1441,
+      "y": 364
+    },
+    "deposit-check": {
+      "x": 1448,
+      "y": 371
+    },
+    "make-simple-savings-plan": {
+      "x": 1461,
+      "y": 385
+    },
+    "read-basic-bill": {
+      "x": 1467,
+      "y": 392
+    },
+    "read-pay-stub": {
+      "x": 1473,
+      "y": 399
+    },
+    "read-receipt": {
+      "x": 1479,
+      "y": 407
+    },
+    "recognize-money-scam": {
+      "x": 1485,
+      "y": 414
+    },
+    "set-payment-reminder": {
+      "x": 1491,
+      "y": 421
+    },
+    "split-bill": {
+      "x": 1497,
+      "y": 429
+    },
+    "understand-sales-tax": {
+      "x": 1502,
+      "y": 437
+    },
+    "use-debit-card-safely": {
+      "x": 1508,
+      "y": 444
+    },
+    "check-food-expiration": {
+      "x": 1320,
+      "y": 658
+    },
+    "clean-kitchen-counter": {
+      "x": 1322,
+      "y": 663
+    },
+    "heat-leftovers": {
+      "x": 1329,
+      "y": 680
+    },
+    "make-grocery-list": {
+      "x": 1331,
+      "y": 686
+    },
+    "make-sandwich": {
+      "x": 1333,
+      "y": 692
+    },
+    "measure-ingredients": {
+      "x": 1336,
+      "y": 704
+    },
+    "pack-lunch": {
+      "x": 1338,
+      "y": 709
+    },
+    "wash-dishes": {
+      "x": 1342,
+      "y": 727
+    },
+    "wash-produce": {
+      "x": 1344,
+      "y": 733
+    },
+    "compare-grocery-unit-prices": {
+      "x": 1562,
+      "y": 538
+    },
+    "make-salad": {
+      "x": 1577,
+      "y": 573
+    },
+    "read-nutrition-label": {
+      "x": 1584,
+      "y": 590
+    },
+    "use-microwave-safely": {
+      "x": 1600,
+      "y": 645
+    },
+    "use-oven-safely": {
+      "x": 1605,
+      "y": 663
+    },
+    "use-stove-safely": {
+      "x": 1609,
+      "y": 682
+    },
+    "change-trash-bag": {
+      "x": 1350,
+      "y": 800
+    },
+    "clean-bathroom-sink": {
+      "x": 1350,
+      "y": 806
+    },
+    "clean-toilet": {
+      "x": 1350,
+      "y": 812
+    },
+    "make-bed": {
+      "x": 1349,
+      "y": 831
+    },
+    "mop-small-spill": {
+      "x": 1348,
+      "y": 837
+    },
+    "replace-batteries": {
+      "x": 1347,
+      "y": 843
+    },
+    "replace-toilet-paper-roll": {
+      "x": 1347,
+      "y": 849
+    },
+    "sweep-floor": {
+      "x": 1345,
+      "y": 861
+    },
+    "test-smoke-alarm": {
+      "x": 1344,
+      "y": 867
+    },
+    "use-tape-measure": {
+      "x": 1341,
+      "y": 879
+    },
+    "hang-picture-frame": {
+      "x": 1620,
+      "y": 808
+    },
+    "patch-small-wall-hole": {
+      "x": 1619,
+      "y": 827
+    },
+    "plunge-toilet": {
+      "x": 1618,
+      "y": 846
+    },
+    "replace-air-filter": {
+      "x": 1617,
+      "y": 865
+    },
+    "shut-off-water-valve": {
+      "x": 1614,
+      "y": 884
+    },
+    "vacuum-room": {
+      "x": 1604,
+      "y": 939
+    },
+    "apologize-clearly": {
+      "x": 1322,
+      "y": 937
+    },
+    "ask-clarifying-question": {
+      "x": 1318,
+      "y": 947
+    },
+    "leave-voicemail": {
+      "x": 1308,
+      "y": 966
+    },
+    "reply-to-invitation": {
+      "x": 1298,
+      "y": 984
+    },
+    "reschedule-politely": {
+      "x": 1292,
+      "y": 993
+    },
+    "send-clear-text-message": {
+      "x": 1286,
+      "y": 1002
+    },
+    "disagree-respectfully": {
+      "x": 1563,
+      "y": 1060
+    },
+    "end-conversation-politely": {
+      "x": 1555,
+      "y": 1077
+    },
+    "give-useful-feedback": {
+      "x": 1537,
+      "y": 1110
+    },
+    "make-small-talk": {
+      "x": 1527,
+      "y": 1126
+    },
+    "receive-feedback-calmly": {
+      "x": 1517,
+      "y": 1142
+    },
+    "set-boundary-respectfully": {
+      "x": 1495,
+      "y": 1173
+    },
+    "check-temperature": {
+      "x": 1232,
+      "y": 1062
+    },
+    "handle-bug-bite": {
+      "x": 1219,
+      "y": 1073
+    },
+    "make-emergency-contact-card": {
+      "x": 1213,
+      "y": 1078
+    },
+    "stay-hydrated": {
+      "x": 1206,
+      "y": 1083
+    },
+    "use-sunscreen": {
+      "x": 1177,
+      "y": 1102
+    },
+    "describe-symptoms-clearly": {
+      "x": 1407,
+      "y": 1268
+    },
+    "make-basic-first-aid-kit": {
+      "x": 1373,
+      "y": 1295
+    },
+    "pack-medication-for-trip": {
+      "x": 1356,
+      "y": 1308
+    },
+    "read-medicine-label": {
+      "x": 1338,
+      "y": 1320
+    },
+    "recognize-emergency-situation": {
+      "x": 1319,
+      "y": 1331
+    },
+    "schedule-doctor-appointment": {
+      "x": 1301,
+      "y": 1342
+    },
+    "break-task-into-steps": {
+      "x": 1114,
+      "y": 1131
+    },
+    "clean-desk": {
+      "x": 1106,
+      "y": 1134
+    },
+    "find-lost-item-systematically": {
+      "x": 1098,
+      "y": 1136
+    },
+    "name-files-clearly": {
+      "x": 1081,
+      "y": 1140
+    },
+    "organize-backpack": {
+      "x": 1073,
+      "y": 1142
+    },
+    "prepare-night-before": {
+      "x": 1064,
+      "y": 1144
+    },
+    "set-reminder": {
+      "x": 1048,
+      "y": 1147
+    },
+    "use-timer": {
+      "x": 1031,
+      "y": 1149
+    },
+    "create-simple-routine": {
+      "x": 1178,
+      "y": 1394
+    },
+    "make-packing-checklist": {
+      "x": 1153,
+      "y": 1401
+    },
+    "organize-digital-files": {
+      "x": 1129,
+      "y": 1406
+    },
+    "plan-homework-session": {
+      "x": 1079,
+      "y": 1415
+    },
+    "fill-out-job-application": {
+      "x": 969,
+      "y": 1149
+    },
+    "read-work-schedule": {
+      "x": 927,
+      "y": 1142
+    },
+    "track-work-hours": {
+      "x": 886,
+      "y": 1131
+    },
+    "ask-for-reference": {
+      "x": 946,
+      "y": 1418
+    },
+    "call-out-sick-politely": {
+      "x": 908,
+      "y": 1413
+    },
+    "choose-interview-clothes": {
+      "x": 871,
+      "y": 1406
+    },
+    "make-simple-resume": {
+      "x": 834,
+      "y": 1397
+    },
+    "request-shift-change": {
+      "x": 798,
+      "y": 1386
+    },
+    "answer-interview-question": {
+      "x": 936,
+      "y": 1537
+    },
+    "arrive-for-interview": {
+      "x": 876,
+      "y": 1529
+    },
+    "prepare-for-interview": {
+      "x": 817,
+      "y": 1517
+    },
+    "write-thank-you-message": {
+      "x": 759,
+      "y": 1500
+    },
+    "ask-teacher-for-help": {
+      "x": 830,
+      "y": 1106
+    },
+    "check-assignment-requirements": {
+      "x": 818,
+      "y": 1099
+    },
+    "email-teacher-question": {
+      "x": 806,
+      "y": 1091
+    },
+    "study-for-quiz": {
+      "x": 794,
+      "y": 1083
+    },
+    "summarize-a-reading": {
+      "x": 783,
+      "y": 1075
+    },
+    "take-class-notes": {
+      "x": 772,
+      "y": 1065
+    },
+    "use-library-catalog": {
+      "x": 761,
+      "y": 1056
+    },
+    "avoid-plagiarism": {
+      "x": 699,
+      "y": 1342
+    },
+    "cite-a-source": {
+      "x": 667,
+      "y": 1323
+    },
+    "plan-long-assignment": {
+      "x": 636,
+      "y": 1302
+    },
+    "practice-presentation": {
+      "x": 606,
+      "y": 1278
+    },
+    "prepare-presentation": {
+      "x": 577,
+      "y": 1253
+    },
+    "address-envelope": {
+      "x": 720,
+      "y": 1011
+    },
+    "contact-local-office": {
+      "x": 714,
+      "y": 1002
+    },
+    "copy-important-document": {
+      "x": 708,
+      "y": 993
+    },
+    "fill-out-simple-form": {
+      "x": 702,
+      "y": 984
+    },
+    "find-local-library": {
+      "x": 697,
+      "y": 975
+    },
+    "get-library-card": {
+      "x": 692,
+      "y": 966
+    },
+    "keep-id-safe": {
+      "x": 687,
+      "y": 956
+    },
+    "read-public-notice": {
+      "x": 682,
+      "y": 947
+    },
+    "sort-mail": {
+      "x": 678,
+      "y": 937
+    },
+    "mail-package": {
+      "x": 463,
+      "y": 1110
+    },
+    "ask-for-space-politely": {
+      "x": 659,
+      "y": 879
+    },
+    "choose-next-small-step": {
+      "x": 657,
+      "y": 869
+    },
+    "make-pros-cons-decision": {
+      "x": 655,
+      "y": 860
+    },
+    "name-a-feeling": {
+      "x": 654,
+      "y": 851
+    },
+    "notice-small-win": {
+      "x": 652,
+      "y": 841
+    },
+    "notice-stress-signal": {
+      "x": 651,
+      "y": 832
+    },
+    "pause-before-responding": {
+      "x": 651,
+      "y": 822
+    },
+    "repair-after-mistake": {
+      "x": 650,
+      "y": 813
+    },
+    "reset-after-bad-day": {
+      "x": 650,
+      "y": 803
+    },
+    "take-calm-down-break": {
+      "x": 650,
+      "y": 794
+    },
+    "avoid-getting-lost-crowd": {
+      "x": 656,
+      "y": 733
+    },
+    "check-weather-before-leaving": {
+      "x": 659,
+      "y": 721
+    },
+    "dress-for-weather": {
+      "x": 662,
+      "y": 709
+    },
+    "make-meeting-point-plan": {
+      "x": 665,
+      "y": 698
+    },
+    "pack-water-bottle": {
+      "x": 669,
+      "y": 686
+    },
+    "read-basic-trail-sign": {
+      "x": 673,
+      "y": 675
+    },
+    "tie-secure-knot": {
+      "x": 678,
+      "y": 663
+    },
+    "use-flashlight": {
+      "x": 683,
+      "y": 652
+    },
+    "cross-street-safely": {
+      "x": 391,
+      "y": 682
+    },
+    "identify-safer-walking-route": {
+      "x": 438,
+      "y": 538
+    },
+    "check-door-is-locked": {
+      "x": 713,
+      "y": 599
+    },
+    "label-house-key": {
+      "x": 731,
+      "y": 577
+    },
+    "save-electricity-at-home": {
+      "x": 750,
+      "y": 555
+    },
+    "understand-shared-chore-plan": {
+      "x": 770,
+      "y": 536
+    },
+    "document-room-condition": {
+      "x": 492,
+      "y": 444
+    },
+    "make-simple-home-inventory": {
+      "x": 510,
+      "y": 420
+    },
+    "pack-moving-box": {
+      "x": 529,
+      "y": 397
+    },
+    "prepare-for-power-outage": {
+      "x": 550,
+      "y": 374
+    },
+    "read-utility-bill": {
+      "x": 571,
+      "y": 353
+    },
+    "report-maintenance-issue": {
+      "x": 593,
+      "y": 332
+    },
+    "check-return-policy": {
+      "x": 820,
+      "y": 500
+    },
+    "choose-correct-size": {
+      "x": 838,
+      "y": 490
+    },
+    "keep-receipt": {
+      "x": 858,
+      "y": 480
+    },
+    "pause-before-impulse-buy": {
+      "x": 877,
+      "y": 472
+    },
+    "use-coupon-code": {
+      "x": 898,
+      "y": 465
+    },
+    "compare-online-shipping-costs": {
+      "x": 681,
+      "y": 269
+    },
+    "compare-product-reviews": {
+      "x": 714,
+      "y": 250
+    },
+    "contact-customer-support": {
+      "x": 748,
+      "y": 234
+    },
+    "return-item-to-store": {
+      "x": 783,
+      "y": 219
+    },
+    "spot-fake-review": {
+      "x": 819,
+      "y": 207
     }
   }
 }

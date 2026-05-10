@@ -1,0 +1,54 @@
+{
+  "id": "send-clear-text-message",
+  "title": "Send a Clear Text Message",
+  "domain": "communication",
+  "summary": "Write a text message that is clear, polite, and easy to understand.",
+  "learnerPromise": "You will be able to send text messages that get your point across without confusion.",
+  "whyItMatters": "Most everyday communication happens through texting. Clear messages save time, reduce misunderstandings, and help you come across as respectful and competent.",
+  "realLifeUses": [
+    "Texting a friend to confirm plans for the weekend",
+    "Messaging a coworker about a shift change",
+    "Asking a teacher a quick question about an assignment",
+    "Letting a family member know you are running late"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A phone or device with messaging ability"
+  ],
+  "result": "A clear, polite text message sent to someone",
+  "youWillLearn": [
+    "Open a message with a greeting or context",
+    "State the main point in one or two sentences",
+    "Use punctuation and line breaks for clarity",
+    "Close with a polite sign-off when appropriate"
+  ],
+  "miniChallenge": "Send one text message to someone you know using a greeting, a clear point, and a closing line.",
+  "steps": [
+    "Decide who you are messaging and what you need to say",
+    "Write a short greeting or opening line",
+    "State your main point in one or two sentences",
+    "Read the message out loud to check for clarity",
+    "Send the message"
+  ],
+  "completionCriteria": [
+    "The message includes a greeting, a clear point, and a polite closing",
+    "The recipient understands what you are saying without needing to ask follow-up questions",
+    "You sent the message within 10 minutes"
+  ],
+  "commonProblems": [
+    "Trying to say too much in one message",
+    "Using slang or abbreviations the other person may not know",
+    "Forgetting to include important details like a time or place"
+  ],
+  "tips": [
+    "If you have several points, use line breaks or send separate messages",
+    "Reread your message before sending to catch typos or unclear wording",
+    "Match your tone to the person you are texting"
+  ],
+  "tags": ["texting", "messaging", "clarity", "digital-communication"]
+}

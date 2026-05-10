@@ -1,0 +1,66 @@
+{
+  "id": "prepare-for-interview",
+  "title": "Prepare for a Job Interview",
+  "domain": "career-work",
+  "summary": "Research a company and practice answers to common interview questions so you feel ready and confident.",
+  "learnerPromise": "You will be able to research a company, anticipate likely questions, and organize your thoughts so you can respond clearly in an interview.",
+  "whyItMatters": "Preparation reduces anxiety and helps you give stronger answers. Employers notice when a candidate has taken time to learn about the company.",
+  "realLifeUses": [
+    "Preparing for your first job interview at a retail store or restaurant",
+    "Getting ready for a phone screening with a company's human resources department",
+    "Researching a local business before a casual conversation about possible openings",
+    "Helping a friend practice by asking them common interview questions"
+  ],
+  "level": 3,
+  "difficulty": "hard",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "make-simple-resume",
+    "ask-for-reference"
+  ],
+  "xp": 25,
+  "estimatedMinutes": 30,
+  "materialsNeeded": [
+    "Internet access or company materials to research with",
+    "Notebook or notes app to organize your thoughts",
+    "A list of common interview questions"
+  ],
+  "result": "A one-page set of notes about the company and prepared talking points for likely questions.",
+  "youWillLearn": [
+    "How to find and use basic information about a company from its website or social media",
+    "How to prepare and practice concise answers to common questions like 'Tell me about yourself'",
+    "How to identify two or three of your own experiences that show your skills",
+    "How to prepare a few thoughtful questions to ask the interviewer"
+  ],
+  "miniChallenge": "Pick a real company you might want to work for. Spend 15 minutes learning about them, then write out answers to three common interview questions.",
+  "steps": [
+    "Visit the company's website or social media pages. Note what they do, their values, and recent news.",
+    "Read the job description carefully. Underline the skills and qualities they are looking for.",
+    "Write down three stories from your experience — school, work, or volunteering — that show you have those skills.",
+    "Practice answering these common questions out loud: 'Tell me about yourself,' 'Why do you want to work here?' and 'What are your strengths?'",
+    "Prepare one or two questions to ask the interviewer, such as 'What does a typical day look like?' or 'What do you enjoy most about working here?'"
+  ],
+  "completionCriteria": [
+    "You can explain in two sentences what the company does and what the role involves",
+    "You have practiced answers out loud to at least three common interview questions",
+    "You have at least one question ready to ask the interviewer"
+  ],
+  "commonProblems": [
+    "Memorizing word-for-word answers and then freezing — practice talking points, not scripts",
+    "Researching too much and getting overwhelmed — focus on basics: what the company does and what the job involves",
+    "Not having specific examples ready — prepare stories from real experiences instead of general statements",
+    "Forgetting to prepare questions to ask — interviewers expect you to have at least one"
+  ],
+  "tips": [
+    "Practice speaking your answers out loud, not just in your head — it feels different",
+    "Record yourself on your phone to notice filler words like 'um' and 'like'",
+    "Ask a friend or family member to do a mock interview with you",
+    "It is okay to take a breath before answering a question — pausing shows thoughtfulness"
+  ],
+  "tags": [
+    "interview",
+    "job-search",
+    "research",
+    "preparation"
+  ]
+}

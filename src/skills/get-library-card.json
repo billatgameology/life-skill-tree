@@ -1,0 +1,56 @@
+{
+  "id": "get-library-card",
+  "title": "Get a Library Card",
+  "domain": "civic-community",
+  "summary": "Apply for and receive a library card at your local library.",
+  "learnerPromise": "You will be able to apply for and use a library card to borrow books and access services.",
+  "whyItMatters": "A library card is your key to free books, digital resources, learning tools, and community programs. It is one of the most useful free cards you can have.",
+  "realLifeUses": [
+    "You want to borrow books, movies, or music for free",
+    "You need access to online learning platforms or e-books",
+    "You want to use library computers, printers, or meeting rooms",
+    "You are looking for free museum passes or event tickets"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "find-local-library"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Proof of address (mail, ID, or lease)",
+    "Photo ID or school ID if available"
+  ],
+  "result": "You have an active library card and know how to use it to borrow materials.",
+  "youWillLearn": [
+    "What documents you need to bring to apply",
+    "How to fill out a library card application",
+    "How to check out books and materials",
+    "How to keep track of due dates and avoid late fees"
+  ],
+  "miniChallenge": "Visit your local library with proof of address and apply for a library card. Check out one item before you leave.",
+  "steps": [
+    "Gather proof of address and any ID you have",
+    "Visit the library during open hours and find the front desk",
+    "Ask for a library card application and fill it out",
+    "Show your proof of address and receive your card",
+    "Check out one item and note the due date"
+  ],
+  "completionCriteria": [
+    "You have a physical or digital library card in your name",
+    "You have successfully checked out at least one item"
+  ],
+  "commonProblems": [
+    "You do not have proof of address — ask if a letter, school record, or digital bill works",
+    "The library requires a parent signature for younger applicants",
+    "You are not sure what you can borrow — ask staff for a quick tour"
+  ],
+  "tips": [
+    "Some libraries let you start the application online to save time",
+    "Ask about digital apps that let you borrow e-books and audiobooks from home",
+    "Write your PIN or password down somewhere safe if the card requires one"
+  ],
+  "tags": ["library", "community", "forms", "local-services"]
+}

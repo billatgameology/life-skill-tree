@@ -1,0 +1,53 @@
+{
+  "id": "notice-small-win",
+  "title": "Notice a Small Win",
+  "domain": "emotional-skills",
+  "summary": "Recognize and acknowledge a small personal accomplishment.",
+  "learnerPromise": "You will be able to spot and name a small thing you did well today.",
+  "whyItMatters": "Noticing small wins helps build confidence and balances out the natural tendency to focus on what went wrong. Over time, this habit can improve how you see yourself and your efforts.",
+  "realLifeUses": [
+    "You got out of bed on a difficult morning and acknowledge that as a win",
+    "You finished a task you had been avoiding and take a moment to recognize it",
+    "You tried something new, even if it did not go perfectly, and value the attempt",
+    "You handled a stressful moment better than you might have in the past and give yourself credit"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Paper, a notes app, or a voice memo app"
+  ],
+  "result": "A written or recorded small win from today.",
+  "youWillLearn": [
+    "How to define a 'small win' in your own life — it does not have to be big",
+    "How to pause and acknowledge your own effort rather than rushing past it",
+    "How this habit can shift your focus over time without ignoring real problems",
+    "How to celebrate without needing praise from other people"
+  ],
+  "miniChallenge": "Right now, think about your last 24 hours. Name one thing you did that took some effort, even if it was small. Write it down in a complete sentence starting with 'I...' and add one word of appreciation for yourself.",
+  "steps": [
+    "Take a quiet moment and think back over your day",
+    "Look for something you did, not just something that happened to you — an action you took",
+    "Write or say one sentence describing what you did: 'I...'",
+    "Add one feeling word: 'I feel...' or 'I am glad that...'",
+    "Keep the note somewhere or say it aloud — let the acknowledgment land"
+  ],
+  "completionCriteria": [
+    "You identified and wrote down one small win from the last 24 hours",
+    "You included at least one word of acknowledgment or appreciation for yourself"
+  ],
+  "commonProblems": [
+    "You might think your win is 'too small' to count — every effort counts",
+    "You may find it uncomfortable to praise yourself — this gets easier with practice",
+    "Your mind may jump to what you did not do — gently redirect back to what you did do"
+  ],
+  "tips": [
+    "Small wins can be: getting somewhere on time, trying again after a mistake, being kind to someone, finishing a chore, resting when you needed it",
+    "Doing this at the same time each day, like before bed, helps it become a habit",
+    "You can keep a small win list and read it when you need a reminder of your efforts"
+  ],
+  "tags": ["gratitude", "self-worth", "positivity", "reflection"]
+}

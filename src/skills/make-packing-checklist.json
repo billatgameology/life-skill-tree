@@ -1,0 +1,52 @@
+{
+  "id": "make-packing-checklist",
+  "title": "Make a Packing Checklist",
+  "domain": "organization",
+  "summary": "Write a checklist of items to pack so nothing essential is left behind.",
+  "learnerPromise": "You will be able to create a reusable checklist that covers the essentials for a trip, event, or daily outing so you pack with confidence.",
+  "whyItMatters": "A checklist reduces the mental load of remembering every item and lowers the chance of arriving without something you need. It also makes packing faster and less stressful.",
+  "realLifeUses": [
+    "Create a checklist for an overnight trip with clothes, toiletries, and chargers",
+    "List items needed for a sports practice or gym session",
+    "Make a daily checklist for school or work essentials",
+    "Prepare a checklist for a camping trip or outdoor activity"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["pack-for-trip"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["Paper and pen, or a notes app"],
+  "result": "A written checklist of items to pack, organized by category.",
+  "youWillLearn": [
+    "How to think through your trip or activity step by step to identify needed items",
+    "How to group items into categories like clothing, toiletries, and electronics",
+    "How to mark the most essential items so they are not forgotten",
+    "How to save your checklist for reuse on future trips"
+  ],
+  "miniChallenge": "Write a packing checklist for an upcoming trip or event, grouping items into categories.",
+  "steps": [
+    "Think through your trip or activity day by day and list everything you will need.",
+    "Group your items into categories like clothing, toiletries, electronics, documents, and extras.",
+    "Mark the items you absolutely cannot forget, like medication, ID, or tickets.",
+    "Check your list against the weather forecast and any special requirements.",
+    "Save the checklist so you can reuse or adapt it for next time."
+  ],
+  "completionCriteria": [
+    "Your checklist has at least 8 items grouped into categories",
+    "Essential items are clearly marked",
+    "You have checked the list against the actual weather or activity plan"
+  ],
+  "commonProblems": [
+    "Forgetting to check the weather and packing inappropriate clothes",
+    "Leaving the list too vague like 'clothes' instead of specific items",
+    "Not accounting for chargers, adapters, or batteries for devices"
+  ],
+  "tips": [
+    "Think through a typical day on your trip hour by hour to catch items you might miss",
+    "Keep a master packing list on your phone that you can copy and adjust for each trip",
+    "Check off items as you pack them so you do not second-guess yourself later"
+  ],
+  "tags": ["packing", "checklist", "travel", "preparation"]
+}

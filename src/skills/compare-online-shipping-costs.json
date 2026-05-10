@@ -1,0 +1,52 @@
+{
+  "id": "compare-online-shipping-costs",
+  "title": "Compare Online Shipping Costs",
+  "domain": "shopping-consumer",
+  "summary": "Compare total costs including shipping when shopping online.",
+  "learnerPromise": "You will be able to compare the true total cost of items across different websites, including shipping and fees.",
+  "whyItMatters": "A lower product price can become more expensive once shipping is added. Comparing total costs helps you find the better deal and avoid surprises at checkout.",
+  "realLifeUses": [
+    "Deciding whether to buy from Site A with free shipping or Site B with a lower product price",
+    "Checking if adding one more item gets you free shipping on an order",
+    "Comparing delivery speed options when you need something quickly",
+    "Noticing a hidden handling fee right before you pay and choosing a different seller"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-prices"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["A device with internet access", "An item you are considering buying online"],
+  "result": "A side-by-side comparison of total costs from at least two online sellers.",
+  "youWillLearn": [
+    "How to add an item to cart and check the full total including shipping",
+    "How to find free shipping thresholds and calculate whether they are worth meeting",
+    "How to spot extra fees like handling, insurance, or express charges",
+    "How to weigh cost against delivery time for your specific need"
+  ],
+  "miniChallenge": "Pick one item and add it to cart on two different websites. Write down the product price, shipping cost, and final total for each.",
+  "steps": [
+    "Search for the same item on two different online stores or marketplaces.",
+    "Add the item to your cart on each site and proceed to the checkout or shipping page.",
+    "Note the shipping cost, estimated delivery time, and any extra fees on each site.",
+    "Calculate the final total for each option and compare them side by side.",
+    "Choose the option that best balances total cost and delivery speed for your situation."
+  ],
+  "completionCriteria": [
+    "You compared total costs from at least two online sellers",
+    "You included shipping and any extra fees in your comparison",
+    "Your choice is based on total cost, not just the listed product price"
+  ],
+  "commonProblems": [
+    "Shipping is calculated late in checkout — keep going until you see the full total",
+    "Different sizes or colors have different shipping costs — check the exact item you want",
+    "Free shipping may mean slower delivery — check the estimated arrival date"
+  ],
+  "tips": [
+    "Some stores offer free shipping over a certain amount — see if buying an extra needed item saves money overall",
+    "Check if the store has a pickup option to avoid shipping entirely",
+    "Factor in return shipping costs if you are unsure about the item"
+  ],
+  "tags": ["online-shopping", "budgeting", "comparison", "shipping"]
+}

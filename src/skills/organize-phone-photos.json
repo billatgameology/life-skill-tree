@@ -1,0 +1,56 @@
+{
+  "id": "organize-phone-photos",
+  "title": "Organize Phone Photos",
+  "domain": "digital-basics",
+  "summary": "Sort photos into albums and delete blurry or duplicate images.",
+  "learnerPromise": "You will be able to sort your photos into albums and clean out the ones you no longer want to keep.",
+  "whyItMatters": "A well-organized photo library makes it much easier to find the pictures you care about. Deleting blurry shots and duplicates also frees up storage space.",
+  "realLifeUses": [
+    "You are looking for a specific photo and have to scroll through thousands of images",
+    "Your phone storage is almost full because of too many photos",
+    "You want to separate vacation photos from screenshots and random pictures",
+    "You need to quickly find and share photos of a specific person or event"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "manage-storage-space"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "A smartphone with a photo gallery app"
+  ],
+  "result": "A photo library with at least two new albums and at least ten unneeded photos deleted.",
+  "youWillLearn": [
+    "How to create a new album or folder in your photo gallery",
+    "How to select multiple photos and move them into an album",
+    "How to identify and delete blurry, duplicate, or unwanted photos",
+    "How to use search or auto-grouping features to find photos faster"
+  ],
+  "miniChallenge": "Create two photo albums with clear names and delete at least ten photos you no longer want.",
+  "steps": [
+    "Open your photo gallery and scroll through recent photos to get a sense of what you have",
+    "Create two new albums with specific names like 'Vacation 2024' or 'Recipes' or 'Family'",
+    "Select photos that belong in each album and move them into the correct folder",
+    "Go through your camera roll and delete blurry, duplicate, or irrelevant screenshots",
+    "Empty the 'Recently Deleted' folder to fully free up the space"
+  ],
+  "completionCriteria": [
+    "You created at least two named albums with photos sorted into them",
+    "You deleted at least ten unneeded photos and emptied the trash or recently deleted folder"
+  ],
+  "commonProblems": [
+    "Feeling overwhelmed by the number of photos — start with just the most recent month",
+    "Not sure which photos to delete — focus on obvious blurs, duplicates, and screenshots first",
+    "Accidentally deleting a wanted photo — most phones keep deleted photos for 30 days in a 'Recently Deleted' folder"
+  ],
+  "tips": [
+    "Start small — organize just one event or one month's worth of photos",
+    "Use your phone's built-in search to find screenshots, selfies, or photos of specific people",
+    "Many phones suggest duplicates to delete — look for this feature in your gallery app",
+    "Back up your photos to cloud storage before doing a big cleanup, just in case"
+  ],
+  "tags": ["photos", "organization", "albums", "storage", "cleanup"]
+}

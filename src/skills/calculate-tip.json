@@ -1,0 +1,51 @@
+{
+  "id": "calculate-tip",
+  "title": "Calculate a Tip",
+  "domain": "money-finance",
+  "summary": "Quickly figure out a fair tip at a restaurant or for a service.",
+  "learnerPromise": "You will be able to estimate a reasonable tip using mental math.",
+  "whyItMatters": "Tipping is a common way to show appreciation for good service, and knowing how to calculate it quickly helps you pay fairly without stress.",
+  "realLifeUses": [
+    "Leaving a tip after a meal at a sit-down restaurant",
+    "Tipping a hairdresser, delivery driver, or taxi driver",
+    "Splitting a bill and adding tip as a group",
+    "Checking that an automatic gratuity on a large bill is reasonable"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-prices"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["A calculator (optional)", "A sample bill total"],
+  "result": "You can calculate 10%, 15%, and 20% of a bill in under a minute.",
+  "youWillLearn": [
+    "Move the decimal to find 10% of any amount",
+    "Double the 10% amount to get 20%",
+    "Find the halfway point between 10% and 20% for 15%",
+    "Round to the nearest dollar for simplicity"
+  ],
+  "miniChallenge": "Pick a restaurant bill total and calculate 15% and 20% tip amounts.",
+  "steps": [
+    "Look at the pre-tax bill total (the subtotal for food and drinks).",
+    "Move the decimal point one place to the left to find 10%.",
+    "Decide whether service was standard (15%) or excellent (20%).",
+    "For 15%, take half of the 10% amount and add it to the 10%. For 20%, double the 10%.",
+    "Round to the nearest whole dollar if you prefer simple numbers."
+  ],
+  "completionCriteria": [
+    "You calculated a 15% and 20% tip for the same bill total",
+    "You can explain the trick to a friend in one sentence"
+  ],
+  "commonProblems": [
+    "Using the post-tax total instead of the pre-tax subtotal",
+    "Forgetting to check if gratuity was already added",
+    "Feeling unsure how much to tip for takeout or counter service"
+  ],
+  "tips": [
+    "It is okay to round; exact pennies are not required",
+    "Some people tip on the post-tax total for simplicity; either way is generally accepted",
+    "If the service was poor, it is reasonable to tip less or speak with a manager"
+  ],
+  "tags": ["tipping", "mental-math", "dining", "etiquette"]
+}

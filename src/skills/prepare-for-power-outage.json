@@ -1,0 +1,55 @@
+{
+  "id": "prepare-for-power-outage",
+  "title": "Prepare for a Power Outage",
+  "domain": "housing-living",
+  "summary": "Gather a small kit and make a simple plan for when the power goes out.",
+  "learnerPromise": "You will be able to put together a basic outage kit and know what to do during a power cut to stay safe and comfortable for several hours.",
+  "whyItMatters": "Power outages can happen during storms, heat waves, or grid failures. A small amount of preparation helps you stay calm, find supplies in the dark, and keep your phone charged for communication.",
+  "realLifeUses": [
+    "Build a kit with a flashlight, batteries, and a phone charger for storm season",
+    "Know where your circuit breaker is and how to check if the outage is just your home",
+    "Keep a list of emergency numbers and your utility company's outage line",
+    "Plan where to go if the outage lasts longer than a few hours and temperatures are extreme"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 20,
+  "estimatedMinutes": 25,
+  "materialsNeeded": ["Flashlight or headlamp", "Extra batteries", "Portable phone charger or power bank", "Small container or bag for the kit"],
+  "result": "A ready-to-use power outage kit stored in an easy-to-find location, plus a short plan.",
+  "youWillLearn": [
+    "Assemble a kit with light, power, and communication supplies",
+    "Check whether an outage affects only your home or the wider area",
+    "Find and safely reset a tripped circuit breaker",
+    "Decide when to call the utility company or leave for a safer location"
+  ],
+  "miniChallenge": "Gather a flashlight, a portable charger, and one other useful item into a bag or drawer. Label it 'outage kit' and tell someone in your home where it is.",
+  "steps": [
+    "Find a bag or box and label it clearly as your outage kit",
+    "Add a flashlight, extra batteries, and a fully charged portable phone charger",
+    "Write down the utility company's outage number and a few emergency contacts on paper",
+    "Find your circuit breaker and learn which switch controls which area",
+    "Store the kit in a place everyone in the home can find in the dark"
+  ],
+  "completionCriteria": [
+    "Your outage kit is assembled and stored in an agreed, easy-to-find location",
+    "You know where your circuit breaker is and can describe how to check it"
+  ],
+  "commonProblems": [
+    "Portable chargers are often dead because they were not recharged after last use",
+    "Flashlight batteries leak if left in the device for long periods",
+    "It can be hard to tell if the outage is just your home or the whole neighborhood"
+  ],
+  "tips": [
+    "Check and recharge your power bank every few months",
+    "Store batteries separately from the flashlight to prevent corrosion",
+    "Keep a small amount of cash in the kit since card readers may not work",
+    "If you rely on medical devices, talk to your doctor about a backup power plan"
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Call your utility company if the outage lasts more than a few hours, if you see downed power lines, or if someone in your home relies on electric medical equipment. For extended outages during extreme heat or cold, consider going to a public shelter or a friend's home.",
+  "tags": ["housing", "safety", "emergency-prep", "power", "home"]
+}

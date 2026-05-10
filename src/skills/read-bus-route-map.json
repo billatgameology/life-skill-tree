@@ -1,0 +1,54 @@
+{
+  "id": "read-bus-route-map",
+  "title": "Read a Bus Route Map",
+  "domain": "navigation",
+  "summary": "Read a bus route map to find stops, routes, and transfer points.",
+  "learnerPromise": "You will be able to read a bus route map and find your stop, route number, direction, and transfer points.",
+  "whyItMatters": "Bus maps help you get around without guessing. Knowing how to read one makes public transit less confusing and helps you feel more confident traveling on your own.",
+  "realLifeUses": [
+    "Finding the right bus stop near your home or school",
+    "Figuring out which route takes you to a shopping area or appointment",
+    "Locating where to switch buses to reach a farther destination",
+    "Checking if a bus route runs near a friend's neighborhood"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A printed or digital bus route map (from a transit website or app)"
+  ],
+  "result": "You can point out your start and end stops and name the route you would take.",
+  "youWillLearn": [
+    "How to locate bus stops on a map",
+    "How to follow a route line from start to finish",
+    "How to identify route numbers and names",
+    "How to spot transfer points where routes meet"
+  ],
+  "miniChallenge": "Use a bus route map for your area to trace a route from one familiar location to another. Name the route number and find one transfer point along the way.",
+  "steps": [
+    "Open or unfold the bus route map for your area.",
+    "Find the stop closest to where you would start your trip.",
+    "Trace the route line to see which direction it goes and where it ends.",
+    "Look for any transfer points where your route crosses or meets another route.",
+    "Name the route number and the final stop or transfer point you would use."
+  ],
+  "completionCriteria": [
+    "You identified the correct route number for your trip",
+    "You traced the full path from start to destination",
+    "You named at least one transfer point if one exists"
+  ],
+  "commonProblems": [
+    "Route lines overlap on busy maps and are hard to follow",
+    "Some maps use small print that is difficult to read",
+    "It is not always clear which direction the bus travels on the route"
+  ],
+  "tips": [
+    "Use your finger to trace the route line so you do not lose track",
+    "Look for a route legend or key that explains colors and symbols",
+    "Digital maps often let you zoom in and tap a stop for more details"
+  ],
+  "tags": ["transit", "bus", "map-reading", "public-transportation"]
+}

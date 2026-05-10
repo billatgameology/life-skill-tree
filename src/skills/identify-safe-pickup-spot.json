@@ -1,0 +1,52 @@
+{
+  "id": "identify-safe-pickup-spot",
+  "title": "Identify a Safe Pickup Spot",
+  "domain": "navigation",
+  "summary": "Choose a safe, well-lit, and easy-to-find spot for being picked up by car.",
+  "learnerPromise": "You will be able to choose a pickup spot that is safe, visible, and easy for a driver to locate.",
+  "whyItMatters": "A good pickup spot helps the driver find you quickly and keeps you out of traffic or unsafe areas. This reduces confusion and helps you feel secure while waiting.",
+  "realLifeUses": [
+    "Choosing where to stand when a parent or friend is picking you up from school",
+    "Finding a safe meeting point outside a busy concert or event venue",
+    "Selecting a spot at a transit station where someone can pull over safely",
+    "Arranging a pickup in an unfamiliar neighborhood after dark"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [],
+  "result": "You can describe a specific safe pickup spot to someone and explain why it works.",
+  "youWillLearn": [
+    "How to spot well-lit and highly visible locations",
+    "How to choose a place where vehicles can stop legally and safely",
+    "How to describe your location clearly so the driver can find you",
+    "How to avoid unsafe areas like busy roads or poorly lit corners"
+  ],
+  "miniChallenge": "Walk to a nearby public area and pick three possible pickup spots. Rate each one based on lighting, visibility, and ease of access for a car. Choose the best one and explain your choice.",
+  "steps": [
+    "Look for an area with good lighting and clear visibility from the road.",
+    "Check that cars can pull over or stop there without blocking traffic.",
+    "Pick a spot near a recognizable landmark like a store sign, bus stop, or building entrance.",
+    "Make sure the area feels safe to stand in while you wait.",
+    "Share the exact spot description with your driver, including the nearest address or landmark."
+  ],
+  "completionCriteria": [
+    "You selected a spot that is well-lit and visible",
+    "You confirmed cars can safely stop there",
+    "You described the spot using a clear landmark or address"
+  ],
+  "commonProblems": [
+    "Popular areas may have no legal parking or stopping zones",
+    "Some spots feel safe during the day but are poorly lit at night",
+    "It can be hard to describe your exact location without a nearby landmark"
+  ],
+  "tips": [
+    "Stand where you can see the car approaching and wave when you spot it",
+    "Avoid standing in driveways, bike lanes, or crosswalks",
+    "If possible, pick a spot with a bench or shelter so you have somewhere to wait"
+  ],
+  "tags": ["safety", "pickup", "street-awareness", "planning"]
+}

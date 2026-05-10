@@ -1,0 +1,66 @@
+{
+  "id": "arrive-for-interview",
+  "title": "Arrive for an Interview on Time",
+  "domain": "career-work",
+  "summary": "Plan your route and timing so you arrive at an interview calm, prepared, and a few minutes early.",
+  "learnerPromise": "You will be able to plan your travel, gather your materials, and arrive at an interview location with enough time to feel calm and collected.",
+  "whyItMatters": "Being late creates stress and a poor first impression. Arriving early gives you time to settle in and shows the employer you are reliable and respectful.",
+  "realLifeUses": [
+    "Getting to an in-person interview at a store or office you have never visited before",
+    "Arriving for a group interview or job fair with multiple employers",
+    "Planning around public transit schedules or traffic to be on time",
+    "Knowing what to bring and how to present yourself when you check in"
+  ],
+  "level": 3,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "prepare-for-interview",
+    "choose-interview-clothes"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Directions or map to the interview location",
+    "A copy of your resume",
+    "Notebook and pen",
+    "A phone with the contact number saved"
+  ],
+  "result": "A completed travel plan and a checklist of materials, with you arriving 10 to 15 minutes before the interview time.",
+  "youWillLearn": [
+    "How to plan your route and check travel times in advance",
+    "How to build in buffer time for delays like traffic or transit issues",
+    "What to bring and how to organize your materials",
+    "How to check in professionally and wait calmly"
+  ],
+  "miniChallenge": "Plan the route to a real or imaginary interview location. Check the travel time, decide when to leave, and pack a small bag with everything you would bring.",
+  "steps": [
+    "Look up the interview address and plan your route the day before. Check traffic or transit schedules for the time of day you will be traveling.",
+    "Aim to arrive 10 to 15 minutes early. Set a goal to leave your home with at least 15 minutes of extra buffer time built in.",
+    "Pack a folder or bag with two printed copies of your resume, a notepad and pen, your ID, and the interviewer's phone number.",
+    "Dress in your prepared outfit and do a final check in the mirror. Make sure you are clean, neat, and comfortable.",
+    "When you arrive, tell the receptionist or first person you see your name, who you are meeting, and the time of your interview. Turn your phone to silent."
+  ],
+  "completionCriteria": [
+    "You have a written route plan and know exactly when you need to leave to arrive 10 to 15 minutes early",
+    "You have a packed bag or folder with your resume copies, a pen, and the interviewer's contact number"
+  ],
+  "commonProblems": [
+    "Underestimating travel time — check the route at the same time of day as your interview, not at midnight",
+    "Forgetting to save the interviewer's phone number in case you are delayed",
+    "Arriving too early — more than 20 minutes can be awkward; wait in a nearby coffee shop if needed",
+    "Rushing and forgetting materials — pack your bag the night before"
+  ],
+  "tips": [
+    "Do a practice trip to the location a day or two before if it is nearby and unfamiliar",
+    "Set more than one alarm if the interview is early in the morning",
+    "Bring cash or a transit card in case of payment issues on the way",
+    "If you are running late despite your best effort, call the interviewer as soon as you know, explain briefly, and give a realistic arrival time"
+  ],
+  "tags": [
+    "interview",
+    "punctuality",
+    "planning",
+    "professionalism"
+  ]
+}

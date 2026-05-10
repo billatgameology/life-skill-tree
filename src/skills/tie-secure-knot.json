@@ -1,0 +1,54 @@
+{
+  "id": "tie-secure-knot",
+  "title": "Tie a Secure Knot",
+  "domain": "outdoor-everyday",
+  "summary": "Tie a basic knot that holds securely for everyday uses.",
+  "learnerPromise": "You will be able to tie a simple, secure knot that stays tight when you need it to and unties when you want it to.",
+  "whyItMatters": "A good knot helps you secure items, tie bags closed, fasten ropes, and handle simple tasks at home or outdoors. It is a small skill that comes in surprisingly often.",
+  "realLifeUses": [
+    "Tying a rope to secure items on a bike or cart",
+    "Closing a bag or bundle tightly so nothing falls out",
+    "Fastening a line to a post or railing for temporary use",
+    "Helping set up a tent or tarp with secure guy lines"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A piece of rope, cord, or sturdy string at least 2 feet long"
+  ],
+  "result": "A securely tied knot that holds under light tension.",
+  "youWillLearn": [
+    "How to tie a basic overhand or reef knot",
+    "How to tighten a knot so it does not slip loose",
+    "How to untie a knot without cutting the rope",
+    "How to choose a knot for the task at hand"
+  ],
+  "miniChallenge": "Using a piece of string or cord, tie a secure knot around a fixed object like a chair leg or handle. Pull on it to check that it holds. Then untie it without cutting.",
+  "steps": [
+    "Hold the two ends of the rope you want to join or fasten.",
+    "Cross the right end over the left end and tuck it underneath.",
+    "Cross the left end over the new right end and tuck it underneath again.",
+    "Pull both ends slowly to tighten the knot evenly.",
+    "Test the knot with a gentle pull. To untie, pull one of the loose ends free."
+  ],
+  "completionCriteria": [
+    "You tied a knot that held securely when pulled gently.",
+    "You were able to untie it without cutting the rope."
+  ],
+  "commonProblems": [
+    "The knot slips loose because it was not tightened enough",
+    "Creating a granny knot by mistake, which unties more easily",
+    "Pulling too hard and jamming the knot so it is hard to untie"
+  ],
+  "tips": [
+    "Right over left, then left over right makes a reef knot that holds well.",
+    "Wet or slippery rope may need an extra loop to stay tight.",
+    "Leave short tails on the ends so the knot does not slip out.",
+    "Practice on a thick, easy-to-handle cord first."
+  ],
+  "tags": ["knots", "rope", "practical", "outdoor"]
+}

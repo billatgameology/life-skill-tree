@@ -1,0 +1,54 @@
+{
+  "id": "take-screenshot",
+  "title": "Take a Screenshot",
+  "domain": "digital-basics",
+  "summary": "Capture what is on a device screen and save or share the image.",
+  "learnerPromise": "You will be able to capture a screenshot on your device, find it in your photos, and share it with someone.",
+  "whyItMatters": "Screenshots are useful for saving directions, error messages, receipts, and anything else you want to remember or show someone. It is often faster than writing down what you see.",
+  "realLifeUses": [
+    "You want to save a map with directions so you can view it offline",
+    "An app shows an error message and you need to ask for help fixing it",
+    "You want to keep a copy of a purchase confirmation or ticket",
+    "You found something online you want to remember or discuss with someone later"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A phone, tablet, or computer with a screen"
+  ],
+  "result": "A screenshot image saved to your device and successfully shared via message or email.",
+  "youWillLearn": [
+    "How to use the correct button combination or tool to take a screenshot on your device",
+    "How to find your screenshot in your photos or files app",
+    "How to crop or edit the screenshot if needed",
+    "How to share a screenshot through message, email, or another app"
+  ],
+  "miniChallenge": "Take a screenshot of anything on your screen, then send it to yourself in a message.",
+  "steps": [
+    "Find something on your screen you want to capture — a message, map, or webpage",
+    "Use the correct method for your device: press the volume and power buttons together on most phones, or use a keyboard shortcut on computers",
+    "Look for a brief flash or thumbnail to confirm the screenshot was taken",
+    "Open your Photos or Files app and find the screenshot in your screenshots folder",
+    "Share the screenshot to yourself via message or email to confirm it works"
+  ],
+  "completionCriteria": [
+    "You captured a screenshot successfully",
+    "You can find the screenshot in your photos or files and have shared it"
+  ],
+  "commonProblems": [
+    "The screenshot does not save — make sure you press both buttons at the same time",
+    "Cannot find the screenshot — check a folder named 'Screenshots' in your photos or files app",
+    "The screen turns off instead — you may be holding the wrong buttons for your device model"
+  ],
+  "tips": [
+    "On most Android phones: press Power + Volume Down at the same time",
+    "On most iPhones: press the Side button + Volume Up (or Home button + Power on older models)",
+    "On Windows: press Windows key + Shift + S for a partial screenshot",
+    "On Mac: press Command + Shift + 4 to select an area, or Command + Shift + 3 for the full screen"
+  ],
+  "tags": ["screenshot", "capture", "share", "device", "basics"]
+}

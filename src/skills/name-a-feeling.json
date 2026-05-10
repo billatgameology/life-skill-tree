@@ -1,0 +1,54 @@
+{
+  "id": "name-a-feeling",
+  "title": "Name a Feeling",
+  "domain": "emotional-skills",
+  "summary": "Identify and name the emotion you are experiencing right now.",
+  "learnerPromise": "You will be able to put what you are feeling into a simple, accurate word.",
+  "whyItMatters": "Naming a feeling helps you understand yourself better and makes it easier to decide what you need. It is often the first step toward handling a difficult moment well.",
+  "realLifeUses": [
+    "You feel uneasy before meeting new people and realize the word is 'nervous'",
+    "You are short-tempered after a long day and name it as 'frustrated'",
+    "You feel light and content after a good conversation and call it 'happy' or 'grateful'",
+    "You feel torn between two choices and recognize the feeling as 'conflicted'"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A list of emotion words (optional)",
+    "Paper or a notes app"
+  ],
+  "result": "A named emotion from a recent personal experience.",
+  "youWillLearn": [
+    "How to tell the difference between similar feelings like angry, frustrated, and disappointed",
+    "How to check in with yourself and find the right word",
+    "Why putting a name to a feeling can make it feel more manageable",
+    "How this skill helps when talking to others about what you need"
+  ],
+  "miniChallenge": "Think about the last 24 hours. What is one moment where you felt something strongly? Write down the situation and one word that describes what you felt.",
+  "steps": [
+    "Take a moment to pause and think about how you are feeling right now",
+    "Ask yourself: Is this feeling pleasant, unpleasant, or mixed?",
+    "Think about what caused the feeling — a person, a thought, or an event",
+    "Pick one word from the emotion list or from your own vocabulary that fits best",
+    "Write the feeling down and say it quietly to yourself"
+  ],
+  "completionCriteria": [
+    "You identified and wrote down one named emotion from a real experience",
+    "You can explain what made you feel that way"
+  ],
+  "commonProblems": [
+    "You might draw a blank and not know what word fits — this is common and gets easier",
+    "You may judge the feeling as good or bad — try to notice it without judging",
+    "Some feelings are mixed or complicated — one word may not cover everything, and that is okay"
+  ],
+  "tips": [
+    "Keep a short list of emotion words handy: happy, sad, angry, nervous, frustrated, relieved, grateful, lonely, excited, tired, conflicted",
+    "It is okay to feel more than one thing at once — name the strongest one first",
+    "The more you practice, the faster you will be able to name feelings in the moment"
+  ],
+  "tags": ["self-awareness", "emotions", "vocabulary", "reflection"]
+}

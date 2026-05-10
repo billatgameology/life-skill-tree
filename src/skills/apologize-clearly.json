@@ -1,0 +1,54 @@
+{
+  "id": "apologize-clearly",
+  "title": "Apologize Clearly",
+  "domain": "communication",
+  "summary": "Offer a sincere, specific apology without making excuses.",
+  "learnerPromise": "You will be able to apologize in a way that shows you understand what happened and genuinely want to make things right.",
+  "whyItMatters": "A real apology can repair trust and calm conflict. Vague or excuse-filled apologies usually make things worse and leave the other person feeling unheard.",
+  "realLifeUses": [
+    "Apologizing to a friend after being late to meet them",
+    "Saying sorry to a coworker for missing a deadline",
+    "Making amends with a family member after a disagreement",
+ "Acknowledging a mistake made in a group project"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "None"
+  ],
+  "result": "A sincere apology delivered to someone you affected",
+  "youWillLearn": [
+    "Name the specific thing you did wrong",
+    "Acknowledge how it affected the other person",
+    "Say 'I am sorry' without adding excuses",
+    "Offer to make it right if possible"
+  ],
+  "miniChallenge": "Think of a recent small mistake you made. Practice saying or writing a clear apology that names what you did, acknowledges the impact, and offers to fix it.",
+  "steps": [
+    "Think about exactly what happened and what you did wrong",
+    "Consider how your action affected the other person",
+    "Say or write 'I am sorry for' followed by the specific action",
+    "Add one sentence acknowledging their feelings or the impact",
+    "Offer to make it right or do better next time"
+  ],
+  "completionCriteria": [
+    "Your apology names a specific action you are sorry for",
+    "It includes no excuses or blame-shifting",
+    "The other person receives it and understands your intent"
+  ],
+  "commonProblems": [
+    "Saying 'I am sorry you feel that way' instead of owning the mistake",
+    "Adding excuses right after the apology, which weakens it",
+    "Being so vague that the other person does not know what you are apologizing for"
+  ],
+  "tips": [
+    "The words 'I am sorry' matter more than a long speech",
+    "Excuses cancel out apologies; save explanations for a separate conversation if needed",
+    "A small sincere apology is more powerful than a big insincere one"
+  ],
+  "tags": ["apology", "conflict", "relationships", "emotional-skills"]
+}

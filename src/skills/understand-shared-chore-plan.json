@@ -1,0 +1,52 @@
+{
+  "id": "understand-shared-chore-plan",
+  "title": "Understand a Shared Chore Plan",
+  "domain": "housing-living",
+  "summary": "Read and follow a shared household chore schedule fairly and reliably.",
+  "learnerPromise": "You will be able to read a chore schedule, know which tasks are yours, and complete them on time so shared spaces stay clean and comfortable.",
+  "whyItMatters": "Shared chore plans help prevent conflict in households. When everyone understands and follows the schedule, the home stays cleaner and relationships stay smoother.",
+  "realLifeUses": [
+    "Check the chore chart on the fridge and know it is your turn to take out the trash",
+    "Follow a rotating dish-washing schedule with roommates",
+    "Swap a chore with a household member when you are going to be away",
+    "Suggest a fair adjustment to the schedule when something is not working"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["The household chore schedule (paper, whiteboard, or digital)"],
+  "result": "You know your current and upcoming chores and when they need to be done.",
+  "youWillLearn": [
+    "Read a chore schedule and locate your name or assigned tasks",
+    "Understand how the schedule rotates or repeats from week to week",
+    "Mark or confirm when you have finished your chore",
+    "Communicate early if you need to swap or cannot complete a task on time"
+  ],
+  "miniChallenge": "Look at your household's chore schedule and tell someone (or write down) which chores are yours for this week and when they should be done.",
+  "steps": [
+    "Find the chore schedule and read the section that applies to this week or day",
+    "Identify your name or initials and the tasks assigned to you",
+    "Note the day or deadline for each of your tasks",
+    "Do your assigned chore and mark it complete if the schedule has a check-off system",
+    "If something is unclear or conflicts with your plans, mention it to a household member as soon as you can"
+  ],
+  "completionCriteria": [
+    "You can name your assigned chores for the current period",
+    "You complete at least one of your assigned chores and confirm it is done"
+  ],
+  "commonProblems": [
+    "Schedules get outdated and no one updates them",
+    "Some chores are vague like 'clean the kitchen' with no clear standard",
+    "One person ends up doing more than their share because others forget"
+  ],
+  "tips": [
+    "Take a photo of the schedule so you can check it even when you are not home",
+    "Set a phone reminder for your chore day if you tend to forget",
+    "If a chore feels unclear, ask what 'done' looks like so you meet expectations",
+    "Speak up early if you need to swap—waiting until the last minute creates tension"
+  ],
+  "tags": ["housing", "chores", "shared-living", "schedule", "roommates"]
+}

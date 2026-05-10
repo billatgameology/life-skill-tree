@@ -1,0 +1,56 @@
+{
+  "id": "cite-a-source",
+  "title": "Cite a Source",
+  "domain": "school-learning",
+  "summary": "Give proper credit to a source you used in a paper or project.",
+  "learnerPromise": "You will be able to list the key information about a source and format it correctly using a common citation style.",
+  "whyItMatters": "Citing sources shows respect for other people's work and helps readers find the same information. Most schools require proper citations and may lower grades for missing or incorrect ones.",
+  "realLifeUses": [
+    "Listing a book you used for a research paper in a bibliography",
+    "Adding an in-text citation when you quote a website in an essay",
+    "Creating a works cited page for a science project",
+    "Giving credit to an image or video you used in a presentation"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["summarize-a-reading"],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A source to cite (book, article, or website)",
+    "Your teacher's preferred citation style (MLA, APA, or Chicago)",
+    "Citation guide or template (from your teacher, school, or library)"
+  ],
+  "result": "One correctly formatted citation for a source you used",
+  "youWillLearn": [
+    "How to find the author, title, date, and publisher of a source",
+    "How to follow a citation style format your teacher expects",
+    "How to create an in-text citation and a full works cited entry",
+    "How to keep track of sources while researching so you do not lose them"
+  ],
+  "miniChallenge": "Pick one source you have used for school. Write a complete citation for it in the style your teacher requires (MLA, APA, or another format).",
+  "steps": [
+    "Identify the type of source: book, website, article, or video.",
+    "Find the key facts: author, title, date published, and where it was published.",
+    "Look up the correct format for that source type in your citation guide.",
+    "Fill in the information in the exact order the format requires.",
+    "Double-check spelling, dates, and punctuation against the original source."
+  ],
+  "completionCriteria": [
+    "Citation includes all required parts for the source type",
+    "Citation follows the correct order and punctuation for the style",
+    "Information matches the original source exactly"
+  ],
+  "commonProblems": [
+    "Missing information like the publication date or page number",
+    "Mixing up citation styles, such as using APA for an MLA assignment",
+    "Making up details when information is hard to find"
+  ],
+  "tips": [
+    "Write down source information as soon as you find it, before you forget",
+    "Many library websites and databases can generate a citation for you to check",
+    "If a website has no author, use the organization name or the article title"
+  ],
+  "tags": ["citation", "research", "writing", "academic-integrity"]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "read-public-notice",
+  "title": "Read a Public Notice",
+  "domain": "civic-community",
+  "summary": "Read a public notice or community bulletin and understand what it means.",
+  "learnerPromise": "You will be able to read a public notice and figure out what it is about, who it affects, and what action to take.",
+  "whyItMatters": "Public notices share important information about your community, from construction and road closures to meetings and services. Understanding them helps you stay informed and respond when needed.",
+  "realLifeUses": [
+    "A posted notice says water will be shut off in your building tomorrow",
+    "A bulletin board announces a free community health clinic",
+    "A notice invites residents to a town meeting about a new park",
+    "A flyer warns about upcoming road work and detours"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A public notice, bulletin, or community flyer to read"
+  ],
+  "result": "You can explain what the notice says, who posted it, and whether you need to do something.",
+  "youWillLearn": [
+    "How to spot the key facts in a notice: what, when, where, and who",
+    "How to tell if the notice requires action or is just informational",
+    "How to find contact information if you have questions",
+    "How to check if a notice is official or from a trusted source"
+  ],
+  "miniChallenge": "Find one public notice or community bulletin and answer three questions about it: What is it about? When does it take effect? Do you need to do anything?",
+  "steps": [
+    "Find a public notice on a bulletin board, website, mail, or building lobby",
+    "Read the headline or title to understand the topic",
+    "Look for dates, times, locations, and who posted it",
+    "Decide if the notice is informational or asks you to take action",
+    "Write down or share what you learned and whether you need to respond"
+  ],
+  "completionCriteria": [
+    "You can summarize what the notice is about in one sentence",
+    "You can identify at least one date, location, or contact detail from the notice"
+  ],
+  "commonProblems": [
+    "The notice uses unfamiliar words — look up terms or ask someone to explain",
+    "You are not sure if the notice is real — check for an official source or contact number",
+    "The notice does not say what to do — contact the listed organization for clarity"
+  ],
+  "tips": [
+    "Official notices usually include a government or organization name, date, and contact info",
+    "If a notice asks for money or personal info, verify it with the listed office before responding",
+    "Take a photo of important notices so you can refer to them later"
+  ],
+  "tags": ["reading", "community", "notices", "information"]
+}

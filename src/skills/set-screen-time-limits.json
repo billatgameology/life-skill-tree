@@ -1,0 +1,55 @@
+{
+  "id": "set-screen-time-limits",
+  "title": "Set Screen Time Limits",
+  "domain": "digital-basics",
+  "summary": "Set daily time limits for specific apps or overall device use.",
+  "learnerPromise": "You will be able to set daily limits for apps or overall screen time and understand how to adjust them as needed.",
+  "whyItMatters": "Being intentional about screen time can help you focus on schoolwork, sleep better, and make room for offline activities. Setting limits puts you in control of your device use.",
+  "realLifeUses": [
+    "You want to reduce time spent on social media during school days",
+    "You find yourself staying up late on your phone and want a bedtime reminder",
+    "You want to focus on homework without constant app notifications",
+    "You want to track how much time you actually spend on your device each day"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A smartphone, tablet, or computer",
+    "Access to device settings or a screen time management app"
+  ],
+  "result": "App or device time limits are active in your settings and a daily report is visible.",
+  "youWillLearn": [
+    "How to find the screen time or digital wellbeing settings on your device",
+    "How to set a daily time limit for a specific app or category of apps",
+    "How to schedule downtime or focus modes during certain hours",
+    "How to review your daily or weekly screen time report"
+  ],
+  "miniChallenge": "Set a daily time limit of your choice for one app and schedule a focus or downtime period.",
+  "steps": [
+    "Open your device settings and find the screen time, digital wellbeing, or app limits section",
+    "Turn on screen time tracking if it is not already enabled",
+    "Choose one app or app category and set a daily time limit that feels reasonable to you",
+    "Set up a focus mode or downtime period for times when you want fewer distractions",
+    "Check your screen time report after one day to see how the limits worked"
+  ],
+  "completionCriteria": [
+    "You have set at least one app time limit or scheduled downtime period",
+    "You can view your screen time report and understand how you are spending time on your device"
+  ],
+  "commonProblems": [
+    "The limit is too strict and you keep overriding it — try a more realistic limit and adjust over time",
+    "Limits apply to the wrong apps — double-check which apps are included in each category",
+    "Focus mode blocks apps you actually need — customize the allowed apps list"
+  ],
+  "tips": [
+    "Start with generous limits and tighten them gradually as you build new habits",
+    "Use focus modes that allow important contacts or apps while blocking distractions",
+    "Set up a bedtime reminder so your device dims or notifies you when it is time to wind down",
+    "Review your screen time report weekly to notice patterns and adjust your goals"
+  ],
+  "tags": ["screen-time", "digital-wellbeing", "focus", "habits", "self-management"]
+}

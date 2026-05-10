@@ -1,0 +1,57 @@
+{
+  "id": "shut-off-water-valve",
+  "title": "Shut Off a Local Water Valve",
+  "domain": "home-care",
+  "summary": "Locate and turn off a local water valve in case of a leak.",
+  "learnerPromise": "You will be able to locate and turn off a local water valve to stop water flow to a sink, toilet, or appliance during a leak.",
+  "whyItMatters": "Knowing how to shut off water quickly can prevent serious water damage during a leak or burst pipe. It is one of the most important emergency skills for any home.",
+  "realLifeUses": [
+    "Stopping a toilet that is overflowing",
+    "Responding to a leaking sink pipe under a cabinet",
+    "Turning off water before replacing a faucet or appliance",
+    "Reacting to a burst pipe or major leak until help arrives"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Flashlight (if the valve is in a dark area)",
+    "Adjustable wrench (optional, for stiff valves)"
+  ],
+  "result": "Water flow stopped at the local valve, confirmed by testing the fixture.",
+  "youWillLearn": [
+    "How to identify different types of water valves",
+    "How to turn a valve clockwise to shut off water",
+    "How to confirm water is off by testing the fixture",
+    "How to locate the main water shut-off for the whole home"
+  ],
+  "miniChallenge": "Find and identify the water shut-off valve under one sink or behind one toilet in your home. Turn it off and back on.",
+  "steps": [
+    "Locate the valve near the fixture — usually under sinks or behind toilets on the water supply line.",
+    "Identify the valve type: round wheel handle (gate valve) or flat lever (ball valve).",
+    "Turn the valve clockwise (to the right) until it is snug for a wheel handle, or turn the lever 90 degrees so it is perpendicular to the pipe.",
+    "Open the faucet or flush the toilet to confirm water flow has stopped.",
+    "When ready, turn the valve counterclockwise (to the left) or return the lever parallel to the pipe to restore water."
+  ],
+  "completionCriteria": [
+    "Water flow to the fixture is confirmed stopped after closing the valve",
+    "Water flow is restored smoothly after reopening the valve"
+  ],
+  "commonProblems": [
+    "Valve is stuck and will not turn — use an adjustable wrench carefully, or ask a plumber",
+    "Not sure if it is fully closed — test by running the faucet; if water stops, it is closed",
+    "Valve starts dripping when turned — it may be old; open and close it gently a few times"
+  ],
+  "tips": [
+    "Test local valves once a year to keep them from seizing shut",
+    "Know where the main water shut-off is in case local valves fail",
+    "If a pipe is actively spraying, shut off the main valve and call a professional immediately"
+  ],
+  "safetyLevel": "high",
+  "requiresSourceReview": true,
+  "helpBoundary": "If water is spraying, flooding, or the main valve will not turn, shut off what you can and call a plumber or emergency maintenance immediately. Do not attempt to repair pressurized pipes on your own.",
+  "tags": ["emergency", "plumbing", "safety", "water", "home-maintenance"]
+}

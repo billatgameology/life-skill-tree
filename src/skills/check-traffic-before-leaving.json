@@ -1,0 +1,56 @@
+{
+  "id": "check-traffic-before-leaving",
+  "title": "Check Traffic Before Leaving",
+  "domain": "navigation",
+  "summary": "Look up current traffic conditions to decide when to leave or which route to take.",
+  "learnerPromise": "You will be able to check traffic conditions on a map app and use that information to choose your departure time or route.",
+  "whyItMatters": "Checking traffic before you leave helps you avoid unexpected delays, reduce stress, and arrive closer to your planned time. It also helps you pick a faster or smoother route.",
+  "realLifeUses": [
+    "Checking if your school commute has heavy traffic so you can leave earlier",
+    "Comparing two routes to a doctor's appointment to pick the faster one",
+    "Seeing if an accident is blocking your usual route and choosing an alternative",
+    "Planning when to leave for an event to avoid rush hour delays"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "use-gps"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A smartphone or computer with a map app"
+  ],
+  "result": "You know the current traffic level and estimated travel time for your route.",
+  "youWillLearn": [
+    "How to read traffic color codes on a map (green, yellow, red)",
+    "How to compare estimated travel times for different routes",
+    "How to spot traffic incidents or road closures on the map",
+    "How to decide whether to leave earlier or take a different route"
+  ],
+  "miniChallenge": "Open a map app and check the traffic for a route you take regularly. Compare the usual route with one alternative route. Note the estimated time for each and any traffic delays shown.",
+  "steps": [
+    "Open your map app and enter your destination.",
+    "Turn on the traffic layer if it is not already visible.",
+    "Look at the color-coded roads along your route to spot delays.",
+    "Compare your usual route with any alternative routes the app suggests.",
+    "Note the estimated arrival time and decide if you should leave earlier or take a different route."
+  ],
+  "completionCriteria": [
+    "You viewed the traffic conditions for at least one route",
+    "You compared estimated times between two route options",
+    "You made a decision about when to leave or which route to take"
+  ],
+  "commonProblems": [
+    "Traffic data can be outdated or change suddenly after you check",
+    "Alternative routes may look shorter but take longer due to local roads",
+    "Apps sometimes suggest routes that involve difficult turns or tolls"
+  ],
+  "tips": [
+    "Check traffic five to ten minutes before you leave in case conditions change",
+    "Consider leaving earlier even if traffic looks light, just in case",
+    "Familiar routes with lighter traffic are often more reliable than unfamiliar shortcuts"
+  ],
+  "tags": ["traffic", "planning", "maps", "driving", "time-management"]
+}

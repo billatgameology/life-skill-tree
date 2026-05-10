@@ -1,0 +1,57 @@
+{
+  "id": "recognize-emergency-situation",
+  "title": "Recognize an Emergency Situation",
+  "domain": "health-safety",
+  "summary": "Recognize when a situation is a true emergency that requires calling for help.",
+  "learnerPromise": "You will be able to identify warning signs that indicate a situation is an emergency and needs immediate professional help.",
+  "whyItMatters": "Knowing when a situation is beyond what you can handle helps you get the right help faster, which can improve the outcome for everyone involved.",
+  "realLifeUses": [
+    "Deciding whether a bad fall needs an ambulance or just rest and ice",
+    "Recognizing signs of a severe allergic reaction after a bee sting",
+    "Knowing when chest pain or breathing trouble means calling emergency services",
+    "Reacting quickly when someone is unconscious and not responding"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["emergency-numbers"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Optional: printed or digital list of emergency warning signs from a trusted health source"
+  ],
+  "result": "You can list at least five warning signs of a medical emergency and explain when to call for help.",
+  "youWillLearn": [
+    "Identify common warning signs that suggest a medical emergency",
+    "Distinguish between a problem you can manage yourself and one that needs urgent help",
+    "Know the correct emergency number for your location",
+    "Stay calm enough to describe the situation and location to emergency responders"
+  ],
+  "miniChallenge": "Read a list of emergency warning signs from a trusted source. Write down five signs that would make you call for emergency help immediately.",
+  "steps": [
+    "Look up the emergency warning signs list from a trusted medical or government source.",
+    "Read through the signs carefully, such as trouble breathing, severe bleeding, or chest pain.",
+    "Think about situations where you might see each sign and what you would do.",
+    "Write down five signs that you would treat as an emergency.",
+    "Confirm the emergency number for your area and save it in your phone."
+  ],
+  "completionCriteria": [
+    "You can name at least five warning signs that require calling emergency services",
+    "You can explain the difference between a minor issue and a true emergency",
+    "You know the emergency number for your location"
+  ],
+  "commonProblems": [
+    "It can be hard to think clearly during a scary or chaotic moment",
+    "You might worry about overreacting and hesitate to call for help",
+    "Symptoms can look different in different people, especially children or older adults"
+  ],
+  "tips": [
+    "When in doubt, it is usually better to call and let the dispatcher guide you",
+    "Practice saying your address out loud so you can say it clearly under stress",
+    "Review the warning signs regularly so they stay fresh in your memory"
+  ],
+  "safetyLevel": "high",
+  "requiresSourceReview": true,
+  "helpBoundary": "Call your local emergency number immediately if you or someone nearby has trouble breathing, severe bleeding, chest pain, signs of a severe allergic reaction, is unconscious, or you feel the situation is life-threatening. Do not wait to finish this skill first.",
+  "tags": ["emergency", "recognition", "safety", "calling-for-help"]
+}

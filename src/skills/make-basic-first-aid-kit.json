@@ -1,0 +1,64 @@
+{
+  "id": "make-basic-first-aid-kit",
+  "title": "Make a Basic First Aid Kit",
+  "domain": "health-safety",
+  "summary": "Assemble a small first aid kit with essential supplies for minor injuries.",
+  "learnerPromise": "You will be able to gather and organize the basic supplies needed to treat small cuts, scrapes, and minor burns at home or on the go.",
+  "whyItMatters": "Having a simple first aid kit ready means you can respond quickly to small injuries instead of searching for supplies when you need them.",
+  "realLifeUses": [
+    "Treating a scraped knee after a fall at home",
+    "Cleaning and covering a small cut while on a day trip",
+    "Managing a minor burn from a hot pan or curling tool",
+    "Helping a friend who gets a small injury while you are together"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["wash-hands"],
+  "xp": 20,
+  "estimatedMinutes": 25,
+  "materialsNeeded": [
+    "Small box, pouch, or zip-top bag",
+    "Adhesive bandages in a few sizes",
+    "Sterile gauze pads or clean cloth squares",
+    "Adhesive tape",
+    "Antiseptic wipes or saline solution",
+    "Tweezers",
+    "Disposable gloves (one pair)",
+    "Optional: instant cold pack, scissors, mild soap"
+  ],
+  "result": "A portable first aid kit organized and ready to use for minor injuries.",
+  "youWillLearn": [
+    "Choose supplies that match the most common minor injuries you might face",
+    "Organize items so they are easy to grab quickly",
+    "Store the kit in a clean, dry, easy-to-reach place",
+    "Check expiration dates and replace used items"
+  ],
+  "miniChallenge": "Gather the basic supplies listed above and pack them into a container. Label it and decide where to store it.",
+  "steps": [
+    "Wash your hands before handling any supplies.",
+    "Choose a clean, dry container that closes securely.",
+    "Place bandages, gauze, tape, wipes, tweezers, and gloves inside.",
+    "Write a small list of what is inside and tape it to the lid.",
+    "Label the kit and store it somewhere everyone in your space knows about."
+  ],
+  "completionCriteria": [
+    "Your kit contains at least bandages, gauze, tape, antiseptic wipes, tweezers, and gloves",
+    "The kit is labeled and stored in an agreed-upon location",
+    "You can name at least two situations where you would use the kit"
+  ],
+  "commonProblems": [
+    "Supplies expire or dry out if not checked regularly",
+    "Items get used and not replaced, leaving the kit empty over time",
+    "The kit gets stored in a hard-to-reach spot during an urgent moment"
+  ],
+  "tips": [
+    "Check your kit every three to six months and replace anything expired or missing",
+    "Keep a smaller version with just bandages and wipes in your bag for outings",
+    "Include a basic instruction card inside if you are still learning how to use each item"
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Ask a medical professional or trained first aid instructor if you are unsure what supplies you need, how to use an item, or whether a wound needs more than basic care.",
+  "tags": ["first-aid", "kit", "supplies", "injury", "preparedness"]
+}

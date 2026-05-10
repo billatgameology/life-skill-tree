@@ -1,0 +1,52 @@
+{
+  "id": "create-simple-routine",
+  "title": "Create a Simple Routine",
+  "domain": "organization",
+  "summary": "Build a short daily or weekly routine for a common part of your day.",
+  "learnerPromise": "You will be able to design and write down a short, repeatable routine for a part of your day that often feels chaotic.",
+  "whyItMatters": "Routines reduce the number of decisions you have to make and create a sense of predictability. A simple routine can make mornings, bedtime, or after-school hours feel calmer and more manageable.",
+  "realLifeUses": [
+    "Create a morning routine that gets you out the door on time",
+    "Build a bedtime routine that helps you wind down and remember essentials",
+    "Design an after-school routine for homework, snacks, and downtime",
+    "Set up a weekly routine for laundry, cleaning, or planning the week ahead"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["Paper and pen, or a notes app"],
+  "result": "A written routine with 3 to 6 steps in a logical order.",
+  "youWillLearn": [
+    "How to choose one part of the day to focus on",
+    "How to list the essential tasks in the right order",
+    "How to estimate realistic time for each step",
+    "How to write the routine in a place where you will see it"
+  ],
+  "miniChallenge": "Write a simple 4-step routine for one part of your day and try it once today or tomorrow.",
+  "steps": [
+    "Pick one part of your day that often feels rushed or disorganized.",
+    "List the 3 to 6 most important things that need to happen during that time.",
+    "Put those items in the order they should happen.",
+    "Add a rough time estimate next to each step if that helps.",
+    "Write the final routine somewhere visible and try it out."
+  ],
+  "completionCriteria": [
+    "You have a written routine with clear steps in order",
+    "The routine covers a specific time of day",
+    "You have tried the routine at least once"
+  ],
+  "commonProblems": [
+    "Making the routine too ambitious with too many steps",
+    "Not accounting for transition time between activities",
+    "Giving up after one try instead of adjusting and repeating"
+  ],
+  "tips": [
+    "Start with just 3 steps and add more only after the routine feels natural",
+    "Attach your routine to something you already do, like right after breakfast",
+    "Adjust the timing after trying it once, most routines need a little tweaking"
+  ],
+  "tags": ["habits", "daily-routine", "planning", "consistency"]
+}

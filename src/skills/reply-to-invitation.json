@@ -1,0 +1,56 @@
+{
+  "id": "reply-to-invitation",
+  "title": "Reply to an Invitation",
+  "domain": "communication",
+  "summary": "Respond to an invitation promptly and clearly, accepting or declining politely.",
+  "learnerPromise": "You will be able to reply to invitations in a way that is respectful and easy for the host to understand.",
+  "whyItMatters": "Hosts need to know how many people to plan for. A timely reply shows respect and helps you build reliable relationships.",
+  "realLifeUses": [
+    "Replying to a birthday party invite from a friend",
+    "Responding to a family dinner invitation",
+    "Answering a wedding or formal event invitation",
+    "Confirming attendance at a work meeting or social event"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "send-clear-text-message"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A phone, computer, or paper to write a reply"
+  ],
+  "result": "A clear and polite response to an invitation sent to the host",
+  "youWillLearn": [
+    "Reply to an invitation within a reasonable time",
+    "Accept an invitation with warmth and gratitude",
+    "Decline an invitation politely without over-explaining",
+    "Include key details like who else is coming if asked"
+  ],
+  "miniChallenge": "Respond to one real or imaginary invitation. Write a short reply that clearly says whether you are coming and includes a thank-you.",
+  "steps": [
+    "Read the invitation carefully and note the date and details",
+    "Decide if you can attend or not",
+    "Write a short reply that says yes or no clearly",
+    "Add a line of thanks and any needed details",
+    "Send your reply to the host"
+  ],
+  "completionCriteria": [
+    "Your reply clearly states whether you are attending",
+    "The message is polite and includes a thank-you",
+    "You sent it within a day of receiving the invitation"
+  ],
+  "commonProblems": [
+    "Waiting too long to reply, which makes planning harder for the host",
+    "Giving a vague answer like 'maybe' without a follow-up plan",
+    "Over-explaining why you cannot attend"
+  ],
+  "tips": [
+    "Reply as soon as you know your answer, even if the deadline is far away",
+    "A simple 'Thank you for inviting me, I would love to come' is enough for an acceptance",
+    "For a decline, a brief 'Thank you for thinking of me, but I cannot make it' is sufficient"
+  ],
+  "tags": ["invitation", "etiquette", "social-skills", "messaging"]
+}

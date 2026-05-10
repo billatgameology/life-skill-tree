@@ -1,0 +1,56 @@
+{
+  "id": "practice-presentation",
+  "title": "Practice a Presentation",
+  "domain": "school-learning",
+  "summary": "Rehearse a presentation out loud to build confidence and timing.",
+  "learnerPromise": "You will be able to rehearse a presentation out loud, improve your delivery, and check that you can finish within the time limit.",
+  "whyItMatters": "Practicing out loud helps you find awkward spots, fix timing problems, and feel more confident when you present in front of others. Even one practice round makes a noticeable difference.",
+  "realLifeUses": [
+    "Rehearsing a class presentation before the real speaking day",
+    "Practicing a speech for a student council election",
+    "Running through a project demo with a timer",
+    "Recording yourself to check speaking speed and clarity"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["prepare-presentation"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Your presentation outline or notes",
+    "Timer",
+    "Mirror or phone for recording (optional)"
+  ],
+  "result": "At least one full out-loud practice run of your presentation with timing notes",
+  "youWillLearn": [
+    "How to speak at a pace that is easy to follow",
+    "How to use notes without reading every word",
+    "How to spot sections where you rush or stumble",
+    "How to adjust content to fit your time limit"
+  ],
+  "miniChallenge": "Do a full out-loud practice of a short presentation you have prepared. Time yourself and note which parts felt smooth and which need more work.",
+  "steps": [
+    "Set a timer and do a complete run-through out loud without stopping.",
+    "Note your total time and whether you were under or over the limit.",
+    "Identify 2-3 spots where you stumbled, rushed, or forgot what to say.",
+    "Practice those tricky sections two more times until they feel smoother.",
+    "Do a final timed run-through to check your improvement."
+  ],
+  "completionCriteria": [
+    "You completed at least one full out-loud practice run",
+    "You noted your time and at least two areas to improve",
+    "You practiced problem sections and did a final improved run-through"
+  ],
+  "commonProblems": [
+    "Speaking too fast because of nerves",
+    "Reading directly from notes instead of speaking naturally",
+    "Running over the time limit because of too much content"
+  ],
+  "tips": [
+    "Practicing in front of a mirror or recording yourself helps you notice habits",
+    "Pause between main points, it gives your audience time to absorb and calms you",
+    "If you go over time, cut your weakest point rather than rushing everything"
+  ],
+  "tags": ["presentation", "public-speaking", "rehearsal", "confidence"]
+}

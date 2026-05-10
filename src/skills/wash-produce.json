@@ -1,0 +1,64 @@
+{
+  "id": "wash-produce",
+  "title": "Wash Produce",
+  "domain": "food-cooking",
+  "summary": "Clean fruits and vegetables properly before eating or cooking.",
+  "learnerPromise": "You will be able to wash fruits and vegetables thoroughly to remove dirt and reduce surface contaminants before eating or cooking.",
+  "whyItMatters": "Fresh produce can carry dirt, bacteria, or residue on its surface. Washing reduces the chance of illness and makes food safer to eat raw or cooked.",
+  "realLifeUses": [
+    "Washing apples before packing them for lunch",
+    "Cleaning lettuce for a salad",
+    "Rinsing potatoes before baking or boiling",
+    "Washing berries before eating them as a snack"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "food-safety"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Fresh fruits or vegetables",
+    "Running water",
+    "Clean towel or paper towels",
+    "Optional: vegetable brush"
+  ],
+  "result": "Clean produce that is ready to eat or cook.",
+  "youWillLearn": [
+    "Rinse produce under cool running water",
+    "Use a brush on firm-skinned items like potatoes or carrots",
+    "Dry produce with a clean towel to remove extra moisture",
+    "Know which produce needs extra attention and which is pre-washed"
+  ],
+  "miniChallenge": "Wash three different fruits or vegetables from your kitchen using the proper method for each type.",
+  "steps": [
+    "Start with clean hands and a clean sink area.",
+    "Hold the produce under cool running water. Rub the surface gently with your fingers.",
+    "For firm produce like potatoes or cucumbers, use a clean brush to scrub the surface.",
+    "For leafy greens, separate the leaves and rinse each one individually.",
+    "Pat dry with a clean towel or paper towels. Use right away or store properly."
+  ],
+  "completionCriteria": [
+    "All visible dirt is removed from the produce",
+    "You rinsed every item under running water before eating or cooking",
+    "You dried the produce or used it promptly after washing"
+  ],
+  "commonProblems": [
+    "Washing produce with soap, which can leave residue",
+    "Not drying greens well, making salad dressing slide off",
+    "Washing berries too roughly and crushing them"
+  ],
+  "tips": [
+    "Wash produce right before you eat it, not when you bring it home\u2014extra moisture can speed spoilage.",
+    "Do not use soap, bleach, or commercial produce washes. Cool running water is enough.",
+    "Pre-washed bagged salads do not need to be washed again unless the package says to."
+  ],
+  "tags": [
+    "food-safety",
+    "hygiene",
+    "vegetables",
+    "fruits"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "use-library-catalog",
+  "title": "Use a Library Catalog",
+  "domain": "school-learning",
+  "summary": "Search a library catalog to find books and resources on a topic.",
+  "learnerPromise": "You will be able to search a library catalog by topic, title, or author and find resources you can borrow or use.",
+  "whyItMatters": "Library catalogs help you find reliable books and materials for school projects that may not be available online for free. Knowing how to search a catalog is a skill you can use at any library.",
+  "realLifeUses": [
+    "Searching for books about a country for a geography report",
+    "Finding novels by a specific author for a book review",
+    "Locating science books at your reading level for a research project",
+    "Checking if a book is available before visiting the library"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Library card or access to a library's online catalog",
+    "Device with internet access (computer, tablet, or phone)",
+    "A topic or book title to search for"
+  ],
+  "result": "A list of 2-3 relevant resources found in the catalog with their call numbers or locations",
+  "youWillLearn": [
+    "How to do a keyword search for a topic",
+    "How to read a search result and find the call number or location",
+    "How to tell if a book is currently available or checked out",
+    "How to refine your search if you get too many or too few results"
+  ],
+  "miniChallenge": "Search your school or local library catalog for a topic you are studying. Find 2-3 relevant resources and write down their titles and locations.",
+  "steps": [
+    "Go to your library's website and find the catalog search page.",
+    "Type a topic, title, or author name into the search box.",
+    "Look through the results and click on a promising item for details.",
+    "Write down the title, author, and call number or location.",
+    "If needed, try different keywords or use filters to narrow your results."
+  ],
+  "completionCriteria": [
+    "You found at least 2 resources related to your topic",
+    "You can locate each resource using the call number or location info",
+    "You tried at least one search technique like a keyword or filter"
+  ],
+  "commonProblems": [
+    "Getting too many results and feeling overwhelmed",
+    "Not finding anything because the search words were too specific",
+    "Not noticing that a book is checked out until you go to the shelf"
+  ],
+  "tips": [
+    "Start with broad keywords and narrow down if you get too many results",
+    "Write down call numbers before going to find the book on the shelf",
+    "Ask a librarian for help if you cannot find what you need, that is what they are there for"
+  ],
+  "tags": ["library", "research", "search", "information-literacy"]
+}

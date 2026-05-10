@@ -1,0 +1,61 @@
+{
+  "id": "check-food-expiration",
+  "title": "Check Food Expiration",
+  "domain": "food-cooking",
+  "summary": "Check expiration dates and know when food is no longer safe to eat.",
+  "learnerPromise": "You will be able to read date labels on food and know when an item is likely no longer safe to eat.",
+  "whyItMatters": "Understanding food dates helps you avoid eating spoiled food and reduce waste by using items while they are still good. It is a simple way to protect your health.",
+  "realLifeUses": [
+    "Checking milk before pouring it on cereal",
+    "Deciding whether leftover takeout is still good",
+    "Sorting through pantry items before shopping",
+    "Checking packaged meat before cooking dinner"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "food-safety"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Food packages from your fridge or pantry"
+  ],
+  "result": "You can check dates and signs of spoilage and decide if food is still usable.",
+  "youWillLearn": [
+    "Read and understand 'best by,' 'sell by,' and 'use by' dates",
+    "Check for signs of spoilage like smell, color, or texture changes",
+    "Know which foods are risky to eat past their date",
+    "Organize your fridge and pantry so older items get used first"
+  ],
+  "miniChallenge": "Go through your fridge and pantry. Check five items for their date labels. Set aside anything that is past date or shows signs of spoilage.",
+  "steps": [
+    "Pick five items from your fridge or pantry and find the date printed on each.",
+    "Learn the three common labels: 'best by' means quality, 'sell by' is for stores, and 'use by' is the safety date.",
+    "Look at the food itself. Check for mold, odd smells, or color changes.",
+    "Throw away anything that smells bad, looks wrong, or is past its 'use by' date.",
+    "Move older items to the front of your fridge or shelf so they get used first."
+  ],
+  "completionCriteria": [
+    "You checked at least five items for date labels",
+    "You identified at least one item to use soon or throw away",
+    "You can explain the difference between 'best by' and 'use by'"
+  ],
+  "commonProblems": [
+    "Confusing 'best by' with a safety date and throwing out good food",
+    "Not checking food that looks fine but smells off",
+    "Storing new items in front of old ones, so older food gets forgotten"
+  ],
+  "tips": [
+    "When in doubt, throw it out. It is better to waste a little food than risk getting sick.",
+    "Write the date you opened a package on the container with a marker.",
+    "Most canned goods last well past the 'best by' date if the can is not bulging or damaged."
+  ],
+  "tags": [
+    "food-safety",
+    "planning",
+    "health",
+    "storage"
+  ]
+}

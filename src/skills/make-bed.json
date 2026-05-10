@@ -1,0 +1,53 @@
+{
+  "id": "make-bed",
+  "title": "Make a Bed",
+  "domain": "home-care",
+  "summary": "Straighten sheets, arrange pillows, and make a bed look tidy.",
+  "learnerPromise": "You will be able to make a bed look neat and tidy in under three minutes.",
+  "whyItMatters": "A made bed makes a room feel calmer and more organized. It is a small habit that can set a positive tone for the rest of the day.",
+  "realLifeUses": [
+    "Starting the day with a quick win before leaving for school or work",
+    "Preparing a guest room before someone comes to visit",
+    "Tidying up before a video call so the background looks neat",
+    "Helping out with chores in a shared living space"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Pillows and pillowcases"
+  ],
+  "result": "A neatly made bed with smooth sheets and arranged pillows.",
+  "youWillLearn": [
+    "How to tuck in sheets smoothly without wrinkles",
+    "How to arrange pillows neatly against the headboard",
+    "How to straighten a duvet or comforter evenly",
+    "How to spot and fix lumpy or twisted bedding"
+  ],
+  "miniChallenge": "Make your own bed or a bed in your home today. Take a photo of the finished result.",
+  "steps": [
+    "Pull the fitted sheet tight and tuck any loose corners under the mattress.",
+    "Straighten the flat sheet or duvet so it hangs evenly on both sides.",
+    "Smooth out wrinkles with your hands, working from the head of the bed to the foot.",
+    "Arrange pillows flat against the headboard or propped neatly in a row.",
+    "Fold or lay any throw blanket evenly across the foot of the bed."
+  ],
+  "completionCriteria": [
+    "Sheets are tucked and the bed surface looks smooth",
+    "Pillows are arranged and the bed appears tidy from the doorway"
+  ],
+  "commonProblems": [
+    "Fitted sheet pops off the corner — try tucking it deeper under the mattress corner",
+    "Duvet looks lopsided — hold both top corners and give it a shake before laying it down",
+    "Lots of wrinkles — smooth with open palms, not fingers, for a flatter look"
+  ],
+  "tips": [
+    "Do it first thing in the morning before you leave the room",
+    "If making a bunk bed, work from the side you can reach most easily",
+    "For a faster job, focus on smoothness rather than military corners"
+  ],
+  "tags": ["bedroom", "cleaning", "daily-routine", "tidying"]
+}

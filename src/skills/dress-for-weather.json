@@ -1,0 +1,55 @@
+{
+  "id": "dress-for-weather",
+  "title": "Dress for the Weather",
+  "domain": "outdoor-everyday",
+  "summary": "Choose clothing appropriate for the current or expected weather conditions.",
+  "learnerPromise": "You will be able to pick clothing that keeps you comfortable and safe in common weather conditions.",
+  "whyItMatters": "Wearing the right clothing for the weather helps you stay comfortable, avoid getting too hot or too cold, and enjoy your time outside more.",
+  "realLifeUses": [
+    "Choosing layers for a cold morning that warms up later",
+    "Wearing breathable clothing on a hot day to stay cool",
+    "Picking waterproof shoes or a rain jacket when it is wet outside",
+    "Adding a hat and gloves when the temperature drops below freezing"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["check-weather-before-leaving"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "Clothing options for the expected weather",
+    "Optional: weather forecast for reference"
+  ],
+  "result": "An outfit chosen to match the current or expected weather.",
+  "youWillLearn": [
+    "How to dress in layers for changing temperatures",
+    "How to choose fabrics that breathe or insulate",
+    "How to add rain, wind, or sun protection when needed",
+    "How to adjust your outfit when the weather changes unexpectedly"
+  ],
+  "miniChallenge": "Look at today's weather and pick an outfit that matches it. Check that you have one item for warmth, one for comfort, and one for protection if needed.",
+  "steps": [
+    "Check the temperature, rain chance, and wind for the day.",
+    "Choose a base layer that matches the main temperature.",
+    "Add a mid-layer or outer layer if it will be cold or windy.",
+    "Include rain protection if showers are likely.",
+    "Do a quick comfort check in the mirror before leaving."
+  ],
+  "completionCriteria": [
+    "You chose an outfit based on the day's weather.",
+    "You felt comfortable outside for most of the day."
+  ],
+  "commonProblems": [
+    "Wearing too many layers and overheating",
+    "Forgetting rain protection when the chance of rain is low but real",
+    "Choosing style over comfort and being too cold or too hot"
+  ],
+  "tips": [
+    "Layers are easier to adjust than one heavy coat.",
+    "Cotton holds moisture, so choose synthetic or wool layers for active or wet days.",
+    "Keep a light jacket or umbrella in your bag during changing seasons.",
+    "If you are unsure, step outside for a moment before finalizing your choice."
+  ],
+  "tags": ["weather", "clothing", "comfort", "daily-routine"]
+}

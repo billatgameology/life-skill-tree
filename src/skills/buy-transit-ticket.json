@@ -1,0 +1,54 @@
+{
+  "id": "buy-transit-ticket",
+  "title": "Buy a Transit Ticket",
+  "domain": "navigation",
+  "summary": "Purchase a single transit ticket using a machine, app, or cash fare.",
+  "learnerPromise": "You will be able to buy a single transit ticket on your own using a ticket machine, mobile app, or cash payment.",
+  "whyItMatters": "Knowing how to buy a ticket removes stress when using public transit. It helps you board quickly and avoid holding up the line or getting a fine.",
+  "realLifeUses": [
+    "Buying a single-ride ticket at a train station kiosk before a trip",
+    "Using a transit app to purchase a digital bus pass",
+    "Paying cash fare when you board a bus that accepts it",
+    "Getting a ticket for a friend who is traveling with you"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A transit ticket machine, transit app, or exact cash fare",
+    "A payment method (cash, card, or phone)"
+  ],
+  "result": "You hold a valid transit ticket or pass ready to use.",
+  "youWillLearn": [
+    "How to select the right ticket type for your trip",
+    "How to use a ticket machine step by step",
+    "How to buy and activate a ticket in a transit app",
+    "How to keep your ticket ready for boarding or inspection"
+  ],
+  "miniChallenge": "Buy a single-ride transit ticket using a machine or app. Show the ticket or confirmation screen to a helper and explain what you chose and why.",
+  "steps": [
+    "Check the fare options and pick the ticket type that fits your trip (single ride, round trip, etc.).",
+    "Select your payment method: insert cash, tap a card, or confirm in-app payment.",
+    "Follow the on-screen prompts to complete the purchase.",
+    "Take your ticket or save the digital pass to your phone.",
+    "Keep the ticket visible or easily accessible for boarding or fare inspection."
+  ],
+  "completionCriteria": [
+    "You selected the correct ticket type for a single trip",
+    "You completed the purchase and received a ticket or digital confirmation"
+  ],
+  "commonProblems": [
+    "Ticket machines may not accept certain bills or cards",
+    "Apps sometimes require account setup before first purchase",
+    "It is easy to accidentally buy the wrong fare zone or ticket type"
+  ],
+  "tips": [
+    "Have your payment method ready before you approach the machine",
+    "If paying cash on a bus, carry exact change when possible",
+    "Screenshot your digital ticket in case your app loses connection"
+  ],
+  "tags": ["transit", "ticket", "payment", "public-transportation"]
+}

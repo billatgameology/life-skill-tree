@@ -1,0 +1,63 @@
+{
+  "id": "fill-out-job-application",
+  "title": "Fill Out a Job Application",
+  "domain": "career-work",
+  "summary": "Complete a paper or online job application form with accurate, well-organized information.",
+  "learnerPromise": "You will be able to fill out a job application form completely and accurately, with the information employers usually ask for ready in advance.",
+  "whyItMatters": "A neat, complete application makes a strong first impression and helps employers contact you. Many people lose opportunities because of blank fields or incorrect details.",
+  "realLifeUses": [
+    "Applying for a retail or food-service job in person",
+    "Submitting an online application for a warehouse or entry-level office position",
+    "Re-applying for seasonal work at a company you worked at before",
+    "Helping a friend or family member apply by knowing what information is needed"
+  ],
+  "level": 1,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": [
+    "Personal information (address, phone, email)",
+    "Work history with dates",
+    "Reference contact information",
+    "Pen (for paper forms) or device with internet (for online forms)"
+  ],
+  "result": "One fully completed job application form, either on paper or as a submitted online form.",
+  "youWillLearn": [
+    "How to gather the personal and work-history details most applications require",
+    "How to answer common questions about availability, eligibility, and education",
+    "How to check an application for missing or incorrect information before submitting",
+    "How to save or screenshot a submitted online application for your records"
+  ],
+  "miniChallenge": "Gather your work history, education details, and two references, then fill out a practice job application form for a store or restaurant near you.",
+  "steps": [
+    "Collect your key information: full name, address, phone, email, Social Security number or ID, and work history with exact dates.",
+    "Read the entire form before writing anything so you know what sections are required.",
+    "Fill in every field. If a question does not apply to you, write 'N/A' or 'Not applicable' instead of leaving it blank.",
+    "Double-check phone numbers, dates, and spelling of names, especially for references.",
+    "Review the form once more, then submit it or hand it in neatly. Keep a copy or photo for yourself."
+  ],
+  "completionCriteria": [
+    "Every required field on the application is filled in with accurate information",
+    "You have a copy or photo of the completed application saved for your records"
+  ],
+  "commonProblems": [
+    "Forgetting exact dates of previous jobs — write them down in advance and keep the list updated",
+    "Leaving fields blank because they seem optional — most employers expect every field completed",
+    "Typos in phone numbers or email addresses that prevent employers from reaching you",
+    "Not reading instructions carefully and checking wrong boxes or skipping signatures"
+  ],
+  "tips": [
+    "Carry a small card with your work-history dates and reference contacts when job searching",
+    "Use your same full name consistently across all job documents",
+    "If you have gaps in work history, a brief honest explanation is usually acceptable",
+    "Online applications often time out — consider typing longer answers in a notes app first, then pasting them in"
+  ],
+  "tags": [
+    "job-search",
+    "paperwork",
+    "employment",
+    "forms"
+  ]
+}

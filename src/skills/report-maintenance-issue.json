@@ -1,0 +1,52 @@
+{
+  "id": "report-maintenance-issue",
+  "title": "Report a Maintenance Issue",
+  "domain": "housing-living",
+  "summary": "Report a maintenance problem to a landlord or building manager in a clear and actionable way.",
+  "learnerPromise": "You will be able to describe a maintenance problem clearly, include the details needed for a quick fix, and send the report through the right channel.",
+  "whyItMatters": "Clear reports get faster repairs and help build a good relationship with your landlord or building manager. Vague reports often lead to delays and follow-up questions.",
+  "realLifeUses": [
+    "Report a leaking faucet before it causes water damage",
+    "Let your landlord know the heater is not working when temperatures drop",
+    "Document a broken appliance so it can be repaired or replaced",
+    "Explain a recurring issue with enough detail that it gets fixed the first time"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": ["write-professional-email", "ask-for-help"],
+  "xp": 20,
+  "estimatedMinutes": 20,
+  "materialsNeeded": ["Phone, email, or maintenance portal access", "Notes or photos of the problem"],
+  "result": "A written or spoken maintenance report that includes what, where, when, and how urgent the issue is.",
+  "youWillLearn": [
+    "Describe a problem in one or two clear sentences",
+    "Include location, when it started, and how serious it feels",
+    "Choose the right way to send the report (email, portal, phone, etc.)",
+    "Follow up politely if you do not hear back within a reasonable time"
+  ],
+  "miniChallenge": "Pick a small issue in your home (real or imagined) and write a short maintenance report that says what it is, where it is, and when it started.",
+  "steps": [
+    "Look at the problem and note exactly where it is and what is happening",
+    "Take a photo if possible and write down when you first noticed it",
+    "Open your lease or building info to find the correct contact method",
+    "Write or say: what the problem is, where it is, when it started, and how urgent it feels",
+    "Send the report and note the date so you can follow up if needed"
+  ],
+  "completionCriteria": [
+    "Your report includes what, where, and when for the problem",
+    "You send it through the channel your landlord or building manager prefers"
+  ],
+  "commonProblems": [
+    "It can be hard to tell if something is your responsibility or the landlord's",
+    "Some landlords are slow to respond even to well-written reports",
+    "Urgent issues may need a phone call instead of an email or portal message"
+  ],
+  "tips": [
+    "Keep your report short and factual—avoid emotional language",
+    "Photos help a lot, especially for leaks, mold, or damage",
+    "Always note the date you sent the report for your records",
+    "If it is urgent (no heat in winter, major leak), call instead of emailing"
+  ],
+  "tags": ["housing", "maintenance", "reporting", "communication", "renting"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "take-class-notes",
+  "title": "Take Class Notes",
+  "domain": "school-learning",
+  "summary": "Take clear, organized notes during a class or lecture that you can study from later.",
+  "learnerPromise": "You will be able to capture the most important information during a class in a format that helps you review later.",
+  "whyItMatters": "Good notes help you remember what you learned and save time when studying for quizzes or assignments. Most people forget details within a day without notes.",
+  "realLifeUses": [
+    "Writing down key points during a teacher's lecture on a new topic",
+    "Taking notes while watching an educational video for homework",
+    "Recording steps demonstrated in a math or science class",
+    "Keeping track of announcements about upcoming due dates"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Notebook or paper",
+    "Pen or pencil",
+    "Highlighter (optional)"
+  ],
+  "result": "One page of organized notes from a short lesson or video",
+  "youWillLearn": [
+    "How to listen for key ideas and skip minor details",
+    "How to use bullet points and spacing to keep notes readable",
+    "How to label notes with the date and topic",
+    "How to write quickly in short phrases instead of full sentences"
+  ],
+  "miniChallenge": "Watch a 5-minute educational video and take notes using bullet points. Label the top with the topic and today's date.",
+  "steps": [
+    "Write the date and topic at the top of your page.",
+    "Listen or watch for main ideas and write each as a short bullet.",
+    "Leave space between bullets so you can add details later.",
+    "Use abbreviations and short phrases instead of full sentences.",
+    "Review your notes within 24 hours to fill in anything you missed."
+  ],
+  "completionCriteria": [
+    "Notes include the date, topic, and at least 5 bullet points",
+    "Bullets are in short phrases you can understand later",
+    "Notes are neat enough that you could use them to study"
+  ],
+  "commonProblems": [
+    "Trying to write everything word for word and falling behind",
+    "Notes that are too messy to read the next day",
+    "Forgetting to write the topic and date, making notes hard to find later"
+  ],
+  "tips": [
+    "Use a new page for each topic or class session",
+    "If the teacher repeats something, it is probably important",
+    "Review and rewrite messy notes the same day while you still remember"
+  ],
+  "tags": ["notes", "listening", "organization", "study"]
+}

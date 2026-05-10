@@ -1,0 +1,58 @@
+{
+  "id": "reschedule-politely",
+  "title": "Reschedule Politely",
+  "domain": "communication",
+  "summary": "Ask to change a planned meeting or appointment without causing inconvenience.",
+  "learnerPromise": "You will be able to ask to reschedule in a way that respects the other person's time and keeps the relationship positive.",
+  "whyItMatters": "Plans change sometimes. Knowing how to reschedule politely protects your relationships and makes it more likely the other person will say yes.",
+  "realLifeUses": [
+    "Moving a meeting with a classmate to study together",
+    "Rescheduling a dentist appointment",
+    "Asking a friend to meet on a different day",
+    "Shifting a video call with a colleague to another time slot"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "reply-to-invitation",
+    "send-clear-text-message"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "A phone or messaging app",
+    "Your calendar or schedule"
+  ],
+  "result": "A polite message sent asking to reschedule, with an alternative time offered",
+  "youWillLearn": [
+    "Notify the other person as soon as you know you need to change plans",
+    "Apologize briefly for the inconvenience",
+    "Offer one or two alternative times that work for you",
+    "Confirm the new time once it is agreed on"
+  ],
+  "miniChallenge": "Send a message to someone you have plans with, asking to reschedule and offering two other times that work for you.",
+  "steps": [
+    "Check your calendar for two or three times you are free",
+    "Write a message saying you need to change the plan and briefly apologize",
+    "Offer alternative times clearly",
+    "Send the message as soon as possible",
+    "Once they reply, confirm the new time with a short message"
+  ],
+  "completionCriteria": [
+    "You sent the reschedule request before the original meeting time",
+    "Your message includes an apology and at least one alternative time",
+    "A new time is confirmed by both sides"
+  ],
+  "commonProblems": [
+    "Waiting until the last minute to ask for a change",
+    "Offering only one alternative time, which may not work for the other person",
+    "Forgetting to confirm the new plan once it is discussed"
+  ],
+  "tips": [
+    "The earlier you ask to reschedule, the more flexible the other person can be",
+    "Offering two or three options makes it easier for them to say yes",
+    "Keep the apology short and sincere; long explanations can sound like excuses"
+  ],
+  "tags": ["scheduling", "politeness", "messaging", "planning"]
+}

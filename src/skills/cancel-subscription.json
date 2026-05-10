@@ -1,0 +1,52 @@
+{
+  "id": "cancel-subscription",
+  "title": "Cancel a Subscription",
+  "domain": "money-finance",
+  "summary": "End a recurring subscription service without hassle.",
+  "learnerPromise": "You will be able to cancel an unwanted subscription and confirm it will not bill you again.",
+  "whyItMatters": "Unused subscriptions drain money every month, and knowing how to cancel them quickly helps you keep more of your money for things you actually use.",
+  "realLifeUses": [
+    "Ending a streaming service you finished watching",
+    "Canceling a free trial before it converts to a paid plan",
+    "Stopping a monthly app subscription you no longer need",
+    "Cutting back on expenses by removing duplicate services"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["compare-subscription-costs"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": ["Your phone or computer", "Login info for the subscription"],
+  "result": "You cancel one subscription and keep proof of cancellation.",
+  "youWillLearn": [
+    "Find the cancellation option in account or billing settings",
+    "Follow the cancellation steps even when the service tries to keep you",
+    "Confirm the cancellation with a screenshot or email",
+    "Check your bank account to make sure no further charges appear"
+  ],
+  "miniChallenge": "Cancel one subscription you are not actively using and take a screenshot of the confirmation.",
+  "steps": [
+    "Log into the subscription service on its website or app.",
+    "Go to account settings, billing, or membership and look for cancel or manage plan.",
+    "Follow the cancellation steps carefully; some services hide this behind multiple screens.",
+    "Save the confirmation screen, confirmation email, or cancellation number as proof.",
+    "Check your payment method in a few days to make sure no new charge appeared."
+  ],
+  "completionCriteria": [
+    "You found and used the cancellation flow for at least one subscription",
+    "You saved proof that the cancellation was completed"
+  ],
+  "commonProblems": [
+    "Services that make you call instead of canceling online",
+    "Offers of a discounted rate to tempt you to stay",
+    "Cancellation buttons hidden under layers of menus",
+    "Annual plans that may not offer a refund for remaining months"
+  ],
+  "tips": [
+    "If a service makes cancellation difficult, payment apps like PayPal or your bank may let you stop future payments directly",
+    "Some services stay active until the end of the current billing period even after you cancel",
+    "Set a calendar reminder to check your bank statement after the next billing date"
+  ],
+  "tags": ["subscriptions", "cancellation", "saving", "billing"]
+}

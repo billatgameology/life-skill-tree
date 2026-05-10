@@ -1,0 +1,62 @@
+{
+  "id": "track-work-hours",
+  "title": "Track Your Work Hours",
+  "domain": "career-work",
+  "summary": "Record the hours you work each shift accurately so your paycheck is correct.",
+  "learnerPromise": "You will be able to record your work hours accurately, compare them to your pay stub, and spot errors before they become problems.",
+  "whyItMatters": "Mistakes in payroll happen more often than people realize. Tracking your own hours helps you make sure you are paid fairly for the time you worked.",
+  "realLifeUses": [
+    "Writing down your clock-in and clock-out times in a notebook or notes app each day",
+    "Comparing your tracked hours to your paycheck or pay stub to check for errors",
+    "Recording overtime or extra hours that might be missed by an electronic system",
+    "Keeping a record in case of a payroll dispute or missing payment"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "Notebook, notes app, or spreadsheet",
+    "Your scheduled shift times",
+    "Your pay stub or pay record (to compare later)"
+  ],
+  "result": "A written or digital record of your work hours for at least one week, with dates, start times, and end times.",
+  "youWillLearn": [
+    "How to record your start and end times for every shift in a consistent format",
+    "How to note breaks, overtime, or extra hours separately from regular hours",
+    "How to add up your total hours for a pay period",
+    "How to compare your tracked hours to your pay stub and what to do if they do not match"
+  ],
+  "miniChallenge": "Create a simple hours-tracking sheet and record your work hours — real or imaginary — for one week. Add up the total and compare it to a sample pay stub.",
+  "steps": [
+    "Choose a tracking method: a small notebook, a notes app on your phone, or a simple spreadsheet.",
+    "For each workday, write the date, the time you started working, and the time you stopped.",
+    "Note any unpaid breaks separately and subtract them from your total if your workplace does not pay for break time.",
+    "At the end of each week, add up your total hours worked. Keep a running total for the pay period.",
+    "When you receive your pay stub, compare the hours listed to your own records. If they do not match, politely raise the issue with your supervisor or payroll department."
+  ],
+  "completionCriteria": [
+    "You have a complete record of hours worked for at least one week, with dates and times",
+    "You can accurately add up your total hours and explain how to compare them to a pay stub"
+  ],
+  "commonProblems": [
+    "Forgetting to record times right away — do it immediately when you start and end your shift",
+    "Not accounting for unpaid breaks, which can add up over a week",
+    "Losing track of the notebook or file — keep it somewhere you access regularly",
+    "Not speaking up about a discrepancy because it feels uncomfortable — small errors add up over time"
+  ],
+  "tips": [
+    "Set a phone reminder to log your hours at the end of each shift if you tend to forget",
+    "Keep your records for at least a few months in case a question comes up later",
+    "If your workplace uses a time-clock app, screenshot your recorded hours each week as backup",
+    "Approach payroll questions as requests for clarification, not accusations — most discrepancies are honest mistakes"
+  ],
+  "tags": [
+    "work-basics",
+    "money",
+    "organization",
+    "employment"
+  ]
+}

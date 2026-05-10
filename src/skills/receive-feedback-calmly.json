@@ -1,0 +1,57 @@
+{
+  "id": "receive-feedback-calmly",
+  "title": "Receive Feedback Calmly",
+  "domain": "communication",
+  "summary": "Listen to feedback without getting defensive and decide what to do with it.",
+  "learnerPromise": "You will be able to hear feedback, stay calm, and use it to improve instead of reacting with frustration or self-criticism.",
+  "whyItMatters": "Feedback is one of the best ways to grow. Learning to receive it well helps you improve faster and shows maturity. It also makes people more likely to give you honest input in the future.",
+  "realLifeUses": [
+    "Hearing a teacher's notes on an essay or project",
+    "Getting performance comments from a manager at work",
+    "Listening to a friend tell you how something you said affected them",
+    "Reading online reviews or comments about work you shared"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "suggestedPrerequisites": [
+    "give-useful-feedback",
+    "ask-clarifying-question"
+  ],
+  "xp": 20,
+  "estimatedMinutes": 15,
+  "materialsNeeded": [
+    "None"
+  ],
+  "result": "Feedback received and processed calmly, with at least one action decided on",
+  "youWillLearn": [
+    "Pause and breathe instead of reacting right away",
+    "Listen to the full message before responding",
+    "Ask a clarifying question if you do not fully understand",
+    "Pick one thing to try or change based on what you heard"
+  ],
+  "miniChallenge": "Think of the last time someone gave you feedback. Practice the steps: listen fully, ask one clarifying question, and pick one action to try. Write down the action.",
+  "steps": [
+    "Take a slow breath when you hear the feedback",
+    "Listen to the entire message without interrupting or arguing",
+    "Thank the person for sharing their perspective",
+    "Ask a clarifying question if something is unclear",
+    "Choose one part of the feedback to act on, and let the rest go if it does not fit"
+  ],
+  "completionCriteria": [
+    "You listened to the full feedback without interrupting defensively",
+    "You asked at least one clarifying question if needed",
+    "You identified one specific action to try based on the feedback"
+  ],
+  "commonProblems": [
+    "Interrupting to defend yourself before the person finishes",
+    "Taking all feedback personally and feeling bad about yourself",
+    "Ignoring useful feedback because you did not like how it was delivered"
+  ],
+  "tips": [
+    "Not all feedback is accurate; your job is to listen, then decide what to keep",
+    "A simple 'Thank you, I will think about that' is a strong response",
+    "If the feedback feels harsh, wait a day before deciding what to do with it"
+  ],
+  "tags": ["feedback", "listening", "growth", "emotional-skills"]
+}

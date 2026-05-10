@@ -1,0 +1,56 @@
+{
+  "id": "read-basic-trail-sign",
+  "title": "Read a Basic Trail Sign",
+  "domain": "outdoor-everyday",
+  "summary": "Read and follow trail markers or outdoor signs while hiking or walking.",
+  "learnerPromise": "You will be able to read common trail signs and markers so you can stay on the right path outdoors.",
+  "whyItMatters": "Trail signs and markers help you know where you are, which direction to go, and what to expect ahead. Reading them well helps you enjoy walks and hikes without getting lost.",
+  "realLifeUses": [
+    "Following color-coded trail markers on a hiking path",
+    "Reading a trailhead sign to check distance and difficulty",
+    "Understanding warning signs about steep drops or wildlife",
+    "Choosing between two paths at a trail junction"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": ["read-signs"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": [
+    "A trail, park, or path with posted signs or markers",
+    "Optional: a trail map from the park or a map app"
+  ],
+  "result": "You follow a trail correctly using its signs and markers.",
+  "youWillLearn": [
+    "How to read common trail sign symbols and colors",
+    "How to understand distance, direction, and difficulty info",
+    "How to follow blazes, cairns, or posted arrows",
+    "How to match trail signs to a map"
+  ],
+  "miniChallenge": "On your next walk in a park or trail, find one trail sign or marker. Read it and follow the direction it points for at least five minutes.",
+  "steps": [
+    "Look for trail signs at the entrance, junctions, or along the path.",
+    "Read the trail name, distance, and any difficulty or warning notes.",
+    "Notice markers like colored blazes on trees, arrows, or cairns of stacked stones.",
+    "Compare the sign to your map or app if you have one.",
+    "Follow the marked trail and keep watching for the next marker."
+  ],
+  "completionCriteria": [
+    "You found and read at least one trail sign or marker.",
+    "You followed the indicated trail for at least a short distance.",
+    "You recognized the type of marker used on that trail."
+  ],
+  "commonProblems": [
+    "Missing a marker and walking past a turn",
+    "Confusing one trail's markers with another nearby trail",
+    "Not noticing that a sign is old, faded, or damaged"
+  ],
+  "tips": [
+    "Look back at markers as you pass them so you recognize them on the return trip.",
+    "If you lose the trail, go back to the last marker you saw.",
+    "Take a photo of the trailhead sign so you have the map and info with you.",
+    "Different parks use different marker systems. Look for a legend at the trailhead."
+  ],
+  "tags": ["navigation", "outdoor", "hiking", "signs"]
+}

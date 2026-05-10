@@ -1,0 +1,52 @@
+{
+  "id": "use-timer",
+  "title": "Use a Timer to Stay Focused",
+  "domain": "organization",
+  "summary": "Use a timer to stay focused on a task for a set amount of time.",
+  "learnerPromise": "You will be able to use a timer to work in focused bursts and take breaks without losing track of time.",
+  "whyItMatters": "Timers create a clear start and end point for focused work. They help reduce distractions, make large tasks feel more manageable, and create a healthy rhythm of work and rest.",
+  "realLifeUses": [
+    "Set a 25-minute timer to focus on homework before a short break",
+    "Time a cleaning session so the task does not stretch on indefinitely",
+    "Use a timer to limit screen time or social media browsing",
+    "Set short timed intervals for studying different subjects"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "suggestedPrerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "materialsNeeded": ["Phone timer app, kitchen timer, or computer timer"],
+  "result": "You complete one focused timed work session followed by a short break.",
+  "youWillLearn": [
+    "How to choose a work interval length that fits your task",
+    "How to eliminate obvious distractions before starting the timer",
+    "How to stay with the task until the timer goes off",
+    "How to take a short, refreshing break before the next session"
+  ],
+  "miniChallenge": "Pick one task, set a timer for 15 to 25 minutes, work until it rings, then take a 5-minute break.",
+  "steps": [
+    "Pick one task to focus on and gather everything you need.",
+    "Set a timer for a focused work interval, like 15, 20, or 25 minutes.",
+    "Remove or silence obvious distractions like notifications.",
+    "Work only on that task until the timer rings.",
+    "When the timer goes off, take a short 5-minute break before deciding to continue or switch tasks."
+  ],
+  "completionCriteria": [
+    "You completed one full timed work session",
+    "You stayed focused on one task during the timer",
+    "You took a break when the timer ended"
+  ],
+  "commonProblems": [
+    "Setting the timer for too long and losing focus before it ends",
+    "Ignoring the timer and continuing to work without a break",
+    "Getting distracted by phone notifications despite the timer running"
+  ],
+  "tips": [
+    "Start with shorter intervals like 15 minutes and build up as your focus improves",
+    "Put your phone face down or in another room during the session",
+    "Use the break to stand up, stretch, or get water, not to scroll social media"
+  ],
+  "tags": ["focus", "time-management", "productivity", "pomodoro"]
+}
