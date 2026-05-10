@@ -23,7 +23,7 @@ export interface Skill {
   level: number;
   difficulty: Difficulty;
   status: SkillStatus;
-  prerequisites: string[];
+  suggestedPrerequisites: string[];
   xp: number;
   estimatedMinutes: number;
   youWillLearn: string[];

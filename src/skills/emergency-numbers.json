@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [],
+  "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
   "youWillLearn": [
@@ -45,5 +45,7 @@
     "Keep a written card with emergency numbers on the fridge or near the phone",
     "Some phones allow setting emergency info that shows on the lock screen",
     "Only call emergency numbers for real emergencies — use non-urgent lines for minor questions"
-  ]
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "Call emergency services immediately for life-threatening situations. This skill is about knowing the numbers, not diagnosing emergencies."
 }

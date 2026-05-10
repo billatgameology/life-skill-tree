@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "use-calendar"
   ],
   "xp": 15,

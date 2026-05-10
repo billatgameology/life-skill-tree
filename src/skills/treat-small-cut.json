@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "wash-hands"
   ],
   "xp": 15,
@@ -47,5 +47,8 @@
     "Keep a small first aid kit in an easy-to-reach place at home",
     "Change the bandage daily or anytime it gets wet",
     "Watch for increased redness, warmth, or swelling as signs to get medical help"
-  ]
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Ask a medical professional if the cut is deep, gaping, or still bleeding after 10 minutes of pressure."
 }

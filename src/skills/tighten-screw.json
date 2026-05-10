@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [],
+  "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
   "youWillLearn": [
@@ -44,5 +44,7 @@
     "Apply firm, steady pressure while turning to keep the screwdriver seated",
     "If a screw is hard to reach, a magnetic screwdriver can help hold the screw in place",
     "Keep a small set of screwdrivers in a handy spot for quick fixes"
-  ]
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "Ask for help if the screw keeps spinning or the material is damaged."
 }

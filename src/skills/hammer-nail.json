@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [],
+  "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
   "youWillLearn": [
@@ -44,5 +44,7 @@
     "Start with a larger nail; they are easier to hit than small finishing nails",
     "Use the weight of the hammer to do most of the work rather than swinging too hard",
     "Practice on a scrap piece of wood first to build confidence"
-  ]
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "Wear safety glasses if available. Ask for help if the surface is unstable or the nail is very large."
 }

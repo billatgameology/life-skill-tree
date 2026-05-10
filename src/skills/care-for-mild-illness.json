@@ -14,7 +14,7 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "emergency-numbers"
   ],
   "xp": 15,
@@ -47,5 +47,8 @@
     "Sleep is one of the best ways to help your body recover",
     "Warm liquids like soup or tea can soothe a sore throat and help with hydration",
     "Do not take more medicine than the label recommends, even if you feel very unwell"
-  ]
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Ask a medical professional if symptoms worsen or do not improve within a few days."
 }

@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "food-safety"
   ],
   "xp": 15,
@@ -46,5 +46,7 @@
     "Do not lift the lid during the 15-minute simmer; steam escapes and the rice dries out",
     "Use a pot with a tight-fitting lid to trap steam",
     "Brown rice needs more water and a longer cooking time than white rice"
-  ]
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "Ask for help if you are unsure how to use the stove. Turn pot handles inward so they do not get bumped."
 }

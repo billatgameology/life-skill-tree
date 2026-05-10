@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "medium",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "food-safety"
   ],
   "xp": 15,
@@ -46,5 +46,7 @@
     "Start slowly; speed comes with practice",
     "Use a sharp knife — it takes less force and gives you more control",
     "Cut round vegetables in half first to create a flat, stable side"
-  ]
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "Ask someone experienced to show you proper grip and cutting motion. Cut away from your body and keep fingers curled under."
 }

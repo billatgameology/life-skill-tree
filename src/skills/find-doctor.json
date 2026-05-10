@@ -14,7 +14,7 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "emergency-numbers"
   ],
   "xp": 15,
@@ -47,5 +47,8 @@
     "Ask a friend or family member for a doctor they trust",
     "Check if the clinic offers same-day or walk-in visits for urgent issues",
     "Keep the clinic's contact info saved in your phone or written in a safe place"
-  ]
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Call emergency services for life-threatening symptoms. Ask a trusted person for help finding the right doctor."
 }

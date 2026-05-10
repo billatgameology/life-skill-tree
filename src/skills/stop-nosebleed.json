@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [],
+  "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
   "youWillLearn": [
@@ -45,5 +45,8 @@
     "Tilting your head back can cause blood to run down the throat — lean forward instead",
     "Using a cool compress on the nose bridge may help while you pinch",
     "A small amount of saline gel inside the nostrils can help prevent dry-air nosebleeds"
-  ]
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Seek medical help if the nosebleed lasts longer than 20 minutes or follows a head injury."
 }

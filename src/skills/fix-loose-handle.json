@@ -14,7 +14,7 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "tighten-screw"
   ],
   "xp": 15,
@@ -47,5 +47,7 @@
     "If the screw is stripped, removing it and adding a small piece of toothpick can help",
     "Cabinet knobs usually have one screw from the inside of the door",
     "Door handles often have two screws on the base plate"
-  ]
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "Ask for help if the fixture is cracked or you need power tools."
 }

@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "food-safety"
   ],
   "xp": 15,
@@ -46,5 +46,7 @@
     "Use a pot that gives the pasta room to move around.",
     "Save a small cup of pasta water before draining — it helps sauce stick to the pasta.",
     "Olive oil, butter, or a jar of ready-made sauce are simple ways to finish the dish."
-  ]
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "Ask for help if you are unsure how to use the stove. Turn pot handles inward so they do not get bumped."
 }

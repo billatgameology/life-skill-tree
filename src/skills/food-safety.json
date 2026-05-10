@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [],
+  "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 15,
   "youWillLearn": [
@@ -44,5 +44,7 @@
     "Keep a marker near the fridge to write dates on leftovers",
     "Store raw meat on the bottom shelf so juices do not drip onto other foods",
     "Set a phone reminder to check dates once a week"
-  ]
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "When in doubt, throw it out. Ask a food safety professional if you are unsure about a specific food."
 }

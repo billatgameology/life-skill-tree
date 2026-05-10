@@ -73,7 +73,7 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
     highlightedSkillIds.add(selectedSkillId);
     const selectedSkill = positionedSkills.find(s => s.id === selectedSkillId);
     if (selectedSkill) {
-      for (const prereqId of selectedSkill.prerequisites) {
+      for (const prereqId of selectedSkill.suggestedPrerequisites) {
         highlightedSkillIds.add(prereqId);
       }
     }
@@ -274,12 +274,12 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
 
         {/* Connections — first pass: all dimmed */}
         {visibleSkills.map(skill => {
-          if (skill.prerequisites.length === 0) return null;
-          const parent = positionedSkills.find(s => s.id === skill.prerequisites[0]);
+          if (skill.suggestedPrerequisites.length === 0) return null;
+          const parent = positionedSkills.find(s => s.id === skill.suggestedPrerequisites[0]);
           if (!parent) return null;
 
           const isCompleted = completedIds.includes(skill.id);
-          const parentCompleted = completedIds.includes(skill.prerequisites[0]);
+          const parentCompleted = completedIds.includes(skill.suggestedPrerequisites[0]);
           const color = CATEGORIES[skill.domain].color;
 
           const path = `M ${parent.x} ${parent.y} C ${parent.x} ${(parent.y + skill.y) / 2} ${skill.x} ${(parent.y + skill.y) / 2} ${skill.x} ${skill.y}`;
@@ -324,8 +324,8 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
 
         {/* Connections — second pass: highlighted */}
         {selectedSkillId && visibleSkills.map(skill => {
-          if (skill.prerequisites.length === 0) return null;
-          const parentId = skill.prerequisites[0];
+          if (skill.suggestedPrerequisites.length === 0) return null;
+          const parentId = skill.suggestedPrerequisites[0];
           const parent = positionedSkills.find(s => s.id === parentId);
           if (!parent) return null;
 

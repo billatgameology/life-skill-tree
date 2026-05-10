@@ -14,7 +14,7 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "read-transit-schedules"
   ],
   "xp": 15,

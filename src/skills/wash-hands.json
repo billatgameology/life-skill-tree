@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [],
+  "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 5,
   "youWillLearn": [
@@ -45,5 +45,7 @@
     "Sing the happy birthday song twice to reach about 20 seconds",
     "Scrub under rings and nails where germs can hide",
     "Wash hands before eating, after using the restroom, and after touching shared surfaces"
-  ]
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "Ask a medical professional if you have a skin condition that makes hand-washing painful."
 }

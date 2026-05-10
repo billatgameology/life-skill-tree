@@ -78,7 +78,7 @@ export default function SkillDetailPanel({
 
   // Related skills
   const prerequisites = skill
-    ? skill.prerequisites.map(pid => ALL_SKILLS.find(s => s.id === pid)).filter(Boolean) as Skill[]
+    ? skill.suggestedPrerequisites.map(pid => ALL_SKILLS.find(s => s.id === pid)).filter(Boolean) as Skill[]
     : [];
   const unlocks = skill ? getChildren(skill.id) : [];
 

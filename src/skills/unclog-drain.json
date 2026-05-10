@@ -14,7 +14,7 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "prerequisites": [],
+  "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 20,
   "youWillLearn": [
@@ -45,5 +45,7 @@
     "Wear gloves when pulling debris from drains",
     "A simple zip-it tool or bent wire can grab hair clogs easily",
     "Avoid pouring grease down kitchen sinks to prevent future clogs"
-  ]
+  ],
+  "safetyLevel": "medium",
+  "helpBoundary": "Call a plumber if multiple drains are clogged or water is backing up. Do not mix different drain cleaners."
 }

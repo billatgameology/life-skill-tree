@@ -14,7 +14,7 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "manage-device-settings"
   ],
   "xp": 15,

@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [],
+  "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
   "youWillLearn": [
@@ -45,5 +45,8 @@
     "Do not use ice, butter, or toothpaste on a burn — these can make it worse",
     "Cool the burn for at least 10 to 20 minutes under running water",
     "Keep a few sterile non-stick dressings in a first aid kit"
-  ]
+  ],
+  "safetyLevel": "medium",
+  "requiresSourceReview": true,
+  "helpBoundary": "Seek medical help for burns larger than your palm, on the face, or caused by chemicals or electricity."
 }

@@ -14,7 +14,7 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "make-phone-call"
   ],
   "xp": 15,

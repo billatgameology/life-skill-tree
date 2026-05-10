@@ -156,7 +156,7 @@ function assignPositions(skills: Skill[]): PositionedSkill[] {
 
 export const ALL_SKILLS: PositionedSkill[] = assignPositions(rawSkills);
 export const SKILL_MAP: Record<string, PositionedSkill> = Object.fromEntries(ALL_SKILLS.map((s) => [s.id, s]));
-export function getChildren(skillId: string): Skill[] { return ALL_SKILLS.filter((s) => s.prerequisites.includes(skillId)); }
+export function getChildren(skillId: string): Skill[] { return ALL_SKILLS.filter((s) => s.suggestedPrerequisites.includes(skillId)); }
 export function getSkillState(_skill: Skill, completedIds: string[]): 'completed' | 'active' {
   return completedIds.includes(_skill.id) ? 'completed' : 'active';
 }

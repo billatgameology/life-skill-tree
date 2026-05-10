@@ -14,7 +14,7 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": [
+  "suggestedPrerequisites": [
     "food-safety"
   ],
   "xp": 15,
@@ -46,5 +46,7 @@
     "Use low heat for softer, creamier eggs.",
     "A silicone or rubber spatula works well for gentle stirring.",
     "You can add a pinch of salt or a splash of milk for extra flavor and softness."
-  ]
+  ],
+  "safetyLevel": "low",
+  "helpBoundary": "Ask for help if you are unsure how to use the stove. Turn pot handles inward so they do not get bumped."
 }
