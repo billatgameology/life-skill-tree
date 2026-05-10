@@ -1,0 +1,49 @@
+{
+  "id": "brush-floss",
+  "title": "Brush and Floss Your Teeth",
+  "domain": "health-safety",
+  "summary": "Build a simple daily routine to keep your teeth and gums clean and healthy with proper brushing and flossing.",
+  "learnerPromise": "Keep your teeth and gums healthy with a simple daily routine.",
+  "whyItMatters": "Brushing and flossing remove food and plaque that cause cavities and gum problems. A daily routine helps prevent tooth pain and expensive dental visits.",
+  "realLifeUses": [
+    "Cleaning teeth every morning and night",
+    "Removing food stuck between teeth after meals",
+    "Preventing bad breath throughout the day",
+    "Keeping gums from bleeding or getting swollen"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 5,
+  "youWillLearn": [
+    "How to brush each part of your mouth for the right amount of time",
+    "How to floss between teeth without hurting your gums",
+    "How often to brush and floss each day",
+    "When to replace your toothbrush"
+  ],
+  "miniChallenge": "Brush and floss once, paying attention to each tooth surface.",
+  "steps": [
+    "Wet your toothbrush and apply a pea-sized amount of toothpaste.",
+    "Brush the outer, inner, and chewing surfaces of all teeth for about two minutes total.",
+    "Use gentle circular motions and do not press too hard.",
+    "Take a piece of floss about the length of your forearm and wrap it around your fingers.",
+    "Slide the floss gently between each tooth and curve it around the tooth base to clean below the gum line."
+  ],
+  "completionCriteria": [
+    "You brushed all tooth surfaces for about two minutes",
+    "You flossed between your teeth gently",
+    "You did not press so hard that your gums hurt or bled"
+  ],
+  "commonProblems": [
+    "Your gums bleed when flossing \u2014 this often improves after a few days of regular flossing",
+    "You are not sure you brushed long enough \u2014 use a timer or a song",
+    "Floss feels hard to use \u2014 try floss picks or a water flosser as an alternative"
+  ],
+  "tips": [
+    "Brush for two minutes, twice a day",
+    "Replace your toothbrush about every three months or when the bristles look worn",
+    "Wait about 30 minutes after eating acidic foods before brushing"
+  ]
+}

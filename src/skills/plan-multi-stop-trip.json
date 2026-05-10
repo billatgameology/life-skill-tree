@@ -1,0 +1,48 @@
+{
+  "id": "plan-multi-stop-trip",
+  "title": "Plan a Multi-Stop Trip",
+  "domain": "navigation",
+  "summary": "Plan a route with multiple stops in the most efficient order.",
+  "learnerPromise": "Plan a route with multiple stops in the most efficient order.",
+  "whyItMatters": "Life is rarely a simple A-to-B trip. Errands, appointments, and social plans often mean multiple stops. Planning them well saves time.",
+  "realLifeUses": [
+    "Run errands — bank, grocery store, post office — in one efficient loop.",
+    "Plan a day of college visits or apartment viewings across town.",
+    "Organize a road trip with sightseeing stops along the way.",
+    "Deliver items to multiple friends or family members in one outing."
+  ],
+  "level": 3,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["use-gps", "read-transit-schedules"],
+  "xp": 15,
+  "estimatedMinutes": 25,
+  "youWillLearn": [
+    "List all your stops and estimate time at each one.",
+    "Order your stops to minimize backtracking.",
+    "Factor in transit schedules, traffic, and opening hours.",
+    "Build in buffer time for delays."
+  ],
+  "miniChallenge": "Plan a route to 2-3 places you need to go, ordering them by location.",
+  "steps": [
+    "Write down every stop you need to make and what you will do there.",
+    "Estimate how long each stop takes and check opening hours.",
+    "Look at a map. Order your stops to create the shortest overall loop.",
+    "Check transit times or traffic conditions between each pair of stops.",
+    "Build in 10-15 minutes of buffer time, then follow the plan."
+  ],
+  "completionCriteria": [
+    "You plan a route with 2-3 stops in an efficient order.",
+    "Your total travel time is less than doing the stops separately."
+  ],
+  "commonProblems": [
+    "One stop takes longer than expected — build buffer time into your plan.",
+    "A location is closed — check hours before you leave.",
+    "You backtrack because the route order was wrong — map it before you move."
+  ],
+  "tips": [
+    "Cluster nearby stops together to avoid criss-crossing the city.",
+    "Do the most time-sensitive stop first.",
+    "Keep a backup plan in case one stop gets delayed or canceled."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "emergency-numbers",
+  "title": "Know Emergency Numbers",
+  "domain": "health-safety",
+  "summary": "Learn when and how to call for help in an emergency, and keep important numbers and your address where you can find them quickly.",
+  "learnerPromise": "Know when and how to call for help in an emergency.",
+  "whyItMatters": "In an urgent situation, every second counts. Having emergency numbers and your address ready helps you get help faster and stay calmer.",
+  "realLifeUses": [
+    "Calling for help when someone is hurt and needs an ambulance",
+    "Reporting a fire or smelling smoke in a building",
+    "Contacting local police for a safety concern",
+    "Knowing who to call for a non-urgent medical question"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Your local emergency number and when to use it",
+    "How to explain your location to a dispatcher",
+    "The difference between emergency and non-urgent lines",
+    "How to store important numbers on your phone or a card"
+  ],
+  "miniChallenge": "Look up your local emergency number and write it down with your address.",
+  "steps": [
+    "Look up the emergency number for your country or region.",
+    "Write down your full address and keep it somewhere easy to find.",
+    "Save the emergency number and a local non-urgent health line in your phone.",
+    "Practice saying your address clearly out loud.",
+    "Tell a trusted person where you keep the emergency info."
+  ],
+  "completionCriteria": [
+    "You know your local emergency number by heart",
+    "Your address is written down and easy to find",
+    "You saved important numbers in your phone or on a card"
+  ],
+  "commonProblems": [
+    "You are not sure which number is for your area \u2014 search online or ask someone local",
+    "You do not know the full address \u2014 check a lease, mail, or ask a neighbor",
+    "You feel nervous about calling \u2014 remember that dispatchers are trained to help you"
+  ],
+  "tips": [
+    "Keep a written card with emergency numbers on the fridge or near the phone",
+    "Some phones allow setting emergency info that shows on the lock screen",
+    "Only call emergency numbers for real emergencies \u2014 use non-urgent lines for minor questions"
+  ]
+}

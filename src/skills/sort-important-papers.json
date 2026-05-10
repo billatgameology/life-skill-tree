@@ -1,0 +1,50 @@
+{
+  "id": "sort-important-papers",
+  "title": "Sort Important Papers",
+  "domain": "organization",
+  "summary": "Keep important papers and files where you can find them.",
+  "learnerPromise": "Keep important papers and files where you can find them.",
+  "whyItMatters": "Losing documents causes stress and delays. An organized system means you can find what you need faster.",
+  "realLifeUses": [
+    "Organize school transcripts and certificates.",
+    "Keep medical records and insurance papers sorted.",
+    "Store ID documents like passport and birth certificate safely.",
+    "Back up important files to the cloud."
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [
+    "prioritize-tasks"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "Sort documents into categories.",
+    "Use labeled folders for physical papers.",
+    "Create a simple folder system on your computer.",
+    "Back up important files digitally."
+  ],
+  "miniChallenge": "Gather 5 important papers and sort them into labeled piles or folders.",
+  "steps": [
+    "Gather all your important documents in one place.",
+    "Sort them into categories: personal, medical, financial, school, work.",
+    "Put each category into a labeled folder or envelope.",
+    "Create matching folders on your computer or cloud drive.",
+    "Scan or photograph the most important papers and save them digitally."
+  ],
+  "completionCriteria": [
+    "All physical documents are in labeled folders.",
+    "You have at least one digital backup of your most important document."
+  ],
+  "commonProblems": [
+    "Piling papers in a drawer and forgetting what is there.",
+    "Not having digital copies if originals are lost.",
+    "Creating too many categories and getting confused."
+  ],
+  "tips": [
+    "Use broad categories. Five folders is better than twenty.",
+    "Take a photo of your ID and insurance card on your phone.",
+    "Review your documents once a year and throw out what you no longer need."
+  ]
+}

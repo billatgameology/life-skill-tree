@@ -1,0 +1,48 @@
+{
+  "id": "make-scrambled-eggs",
+  "title": "Make Scrambled Eggs",
+  "domain": "food-cooking",
+  "summary": "Make scrambled eggs that taste good and are fully cooked.",
+  "learnerPromise": "Make scrambled eggs that taste good and are fully cooked.",
+  "whyItMatters": "Scrambled eggs are a quick, affordable meal you can make with just a pan and a stove. Learning the basic technique gives you a reliable option for breakfast, lunch, or dinner.",
+  "realLifeUses": [
+    "Making a quick breakfast before heading out.",
+    "Cooking a protein-rich meal when the fridge is almost empty.",
+    "Preparing a simple dinner when you do not feel like a complex recipe.",
+    "Adding eggs to rice, toast, or vegetables for a more filling dish."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["food-safety"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "Crack eggs cleanly into a bowl without shell pieces.",
+    "Whisk eggs until the yolk and white are fully mixed.",
+    "Cook eggs in a pan with the right heat and timing.",
+    "Tell when scrambled eggs are fully cooked and ready to eat."
+  ],
+  "miniChallenge": "Crack two eggs into a bowl, whisk them, and cook them in a pan.",
+  "steps": [
+    "Crack two eggs into a clean bowl. Check for shell pieces and remove ones you find.",
+    "Use a fork or whisk to beat the eggs until the yolks and whites are blended.",
+    "Place a non-stick pan on the stove over low to medium heat and add a small amount of butter or oil.",
+    "Pour the eggs into the pan. Let them sit for a few seconds, then gently stir with a spatula.",
+    "Keep stirring slowly until the eggs look firm and no longer runny. Remove from heat and serve."
+  ],
+  "completionCriteria": [
+    "The eggs are solid and no liquid is visible.",
+    "They are evenly cooked with no burnt or raw spots."
+  ],
+  "commonProblems": [
+    "The eggs are sticking to the pan — add more butter or oil, or lower the heat.",
+    "They are cooking too fast and browning — reduce the heat and stir more often.",
+    "The texture is rubbery — remove the eggs from heat just before they look fully done; they keep cooking on the plate."
+  ],
+  "tips": [
+    "Use low heat for softer, creamier eggs.",
+    "A silicone or rubber spatula works well for gentle stirring.",
+    "You can add a pinch of salt or a splash of milk for extra flavor and softness."
+  ]
+}

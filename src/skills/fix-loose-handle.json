@@ -1,0 +1,49 @@
+{
+  "id": "fix-loose-handle",
+  "title": "Fix a Loose Handle",
+  "domain": "home-care",
+  "summary": "Tighten or adjust a wobbly door handle, cabinet knob, or drawer pull so it feels solid and works smoothly.",
+  "learnerPromise": "Fix a wobbly door handle, cabinet knob, or drawer pull.",
+  "whyItMatters": "A loose handle can be frustrating to use and may eventually fall off. Fixing it early prevents damage and makes daily tasks easier.",
+  "realLifeUses": [
+    "Tightening a loose bathroom door handle",
+    "Fixing a kitchen cabinet knob that spins",
+    "Securing a drawer pull that wiggles",
+    "Helping a friend or family member with a quick repair"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["tighten-screw"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "How to find the screw or fastener on a handle",
+    "Which tool to use for most common handles",
+    "How to tighten without stripping the screw",
+    "When a handle may need replacement instead"
+  ],
+  "miniChallenge": "Check one handle or knob in your home and tighten or adjust it.",
+  "steps": [
+    "Find the loose handle, knob, or pull you want to fix.",
+    "Look for screws on the handle or on the plate behind it.",
+    "Choose the right screwdriver or tool that fits the screw head.",
+    "Turn the screw clockwise until it feels snug. Do not overtighten.",
+    "Test the handle to make sure it feels solid and moves smoothly."
+  ],
+  "completionCriteria": [
+    "You identified the screw or fastener on the handle",
+    "You tightened it securely without stripping",
+    "The handle no longer wobbles or spins"
+  ],
+  "commonProblems": [
+    "The screw keeps spinning and will not tighten — the threads may be stripped",
+    "The handle still wobbles after tightening — check for a second screw",
+    "You do not have the right tool — ask to borrow one or check a basic toolkit"
+  ],
+  "tips": [
+    "If the screw is stripped, removing it and adding a small piece of toothpick can help",
+    "Cabinet knobs usually have one screw from the inside of the door",
+    "Door handles often have two screws on the base plate"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "use-knife",
+  "title": "Use a Knife Safely",
+  "domain": "food-cooking",
+  "summary": "Hold a knife correctly, protect your fingers, and make clean cuts while preparing food.",
+  "learnerPromise": "Cut food safely and quickly without risking your fingers.",
+  "whyItMatters": "A sharp knife used well is safer than a dull one used poorly. Good knife skills speed up prep time and make cooking more enjoyable.",
+  "realLifeUses": [
+    "Chop vegetables for soups and salads",
+    "Slice bread, meat, or fruit neatly",
+    "Prepare ingredients evenly so they cook at the same rate",
+    "Build confidence in the kitchen"
+  ],
+  "level": 1,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["food-safety"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "How to hold a chef's knife by the handle, not the blade",
+    "The claw grip to protect your fingertips",
+    "How to slice with a smooth rocking motion",
+    "How to keep a knife sharp and when to hone it"
+  ],
+  "miniChallenge": "Practice the claw grip while slicing a carrot or cucumber.",
+  "steps": [
+    "Place a damp towel under your cutting board so it does not slide.",
+    "Hold the knife handle firmly with your dominant hand, resting your index finger on the side of the blade near the top.",
+    "Curl the fingertips of your other hand inward, tucking them under your knuckles — this is the claw grip.",
+    "Place the flat side of the vegetable against the board and slice downward while moving your fingers back slightly after each cut.",
+    "Continue slicing slowly and steadily, keeping the knife tip on the board and rocking the blade up and down."
+  ],
+  "completionCriteria": [
+    "Slices are mostly even in thickness",
+    "Fingers stay curled and protected throughout"
+  ],
+  "commonProblems": [
+    "Cutting board slides — place a damp towel underneath for grip",
+    "Pieces come out uneven — slow down and focus on consistent thickness",
+    "Knife feels dull — a dull knife slips more easily; hone it or ask someone to help sharpen it"
+  ],
+  "tips": [
+    "Start slowly; speed comes with practice",
+    "Use a sharp knife — it takes less force and gives you more control",
+    "Cut round vegetables in half first to create a flat, stable side"
+  ]
+}

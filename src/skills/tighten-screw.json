@@ -1,0 +1,48 @@
+{
+  "id": "tighten-screw",
+  "title": "Tighten a Loose Screw",
+  "domain": "home-care",
+  "summary": "Find the right screwdriver, fit it to the screw head, and tighten loose screws and small bolts around your home.",
+  "learnerPromise": "Use a screwdriver to tighten loose screws and small bolts.",
+  "whyItMatters": "Loose screws make furniture wobbly, cabinet doors saggy, and hinges squeaky. Knowing how to tighten them is a simple fix that makes things feel solid and safe again.",
+  "realLifeUses": [
+    "Fix a wobbly chair or table",
+    "Tighten a cabinet door that hangs crooked",
+    "Secure a loose door hinge",
+    "Assemble flat-pack furniture more securely"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "How to match a screwdriver type to a screw head",
+    "How to tell if a screw is a flathead or Phillips",
+    "How to tighten firmly without stripping the screw",
+    "When to stop tightening so you do not damage the material"
+  ],
+  "miniChallenge": "Find one loose screw in your home and tighten it with the right screwdriver.",
+  "steps": [
+    "Look around your home for one item with a loose screw \u2014 a hinge, handle, or piece of furniture.",
+    "Look at the screw head and choose a flathead or Phillips screwdriver that fits snugly into the grooves.",
+    "Insert the screwdriver tip fully into the screw head so it sits flush.",
+    "Turn the screwdriver clockwise to tighten until the screw feels firm.",
+    "Test the item to see if it feels more stable, and stop when it does \u2014 do not overtighten."
+  ],
+  "completionCriteria": [
+    "The screw is firmly tightened",
+    "The item feels more stable than before"
+  ],
+  "commonProblems": [
+    "Screwdriver keeps slipping \u2014 the size or type does not match; try a different one",
+    "Screw turns but does not tighten \u2014 the hole may be stripped; try a slightly larger screw",
+    "Not sure which screwdriver to use \u2014 compare the tip shape to the screw head grooves"
+  ],
+  "tips": [
+    "Apply firm, steady pressure while turning to keep the screwdriver seated",
+    "If a screw is hard to reach, a magnetic screwdriver can help hold the screw in place",
+    "Keep a small set of screwdrivers in a handy spot for quick fixes"
+  ]
+}

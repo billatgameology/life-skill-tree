@@ -1,0 +1,48 @@
+{
+  "id": "manage-device-settings",
+  "title": "Manage Device Settings",
+  "domain": "digital-basics",
+  "summary": "Change brightness, volume, storage, and notifications on your device.",
+  "learnerPromise": "Change brightness, volume, storage, and notifications on your device.",
+  "whyItMatters": "Your device works better when it is set up to fit your needs. Small adjustments can make the screen easier to read, save battery life, and reduce interruptions.",
+  "realLifeUses": [
+    "Lowering screen brightness before bed.",
+    "Turning off notifications during a meeting or class.",
+    "Freeing up storage space so your device runs more smoothly.",
+    "Adjusting text size so it is easier to read."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Open the main Settings app on your device.",
+    "Find and adjust display brightness and volume.",
+    "Check how much storage space is left.",
+    "Turn notifications on or off for specific apps."
+  ],
+  "miniChallenge": "Change one setting you have not touched before, then change it back.",
+  "steps": [
+    "Open the Settings app on your device.",
+    "Scroll through the menu and read the names of each section.",
+    "Pick one setting you want to change, such as brightness or sound.",
+    "Adjust it using the slider or toggle and notice what changes.",
+    "Change it back to its original position if you prefer the old setting."
+  ],
+  "completionCriteria": [
+    "You can find and open your device's Settings on your own.",
+    "You adjusted at least one setting and saw the result."
+  ],
+  "commonProblems": [
+    "There are too many options — start with Display or Sound, which are usually near the top.",
+    "You are not sure what a setting does — tap the small info icon or read the description below it.",
+    "You changed something by accident — most settings can be undone right away."
+  ],
+  "tips": [
+    "Make small changes one at a time so you know what caused the effect.",
+    "If your device feels slow, check Storage or Battery sections first.",
+    "Write down the original value of a setting before you change it, just in case."
+  ]
+}

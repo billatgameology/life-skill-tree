@@ -1,0 +1,48 @@
+{
+  "id": "make-phone-call",
+  "title": "Make a Phone Call Confidently",
+  "domain": "communication",
+  "summary": "Make a phone call without anxiety, knowing what to say.",
+  "learnerPromise": "Make a phone call without anxiety, knowing what to say.",
+  "whyItMatters": "Phone calls are still necessary for appointments, emergencies, and job opportunities. Confidence on the phone opens doors.",
+  "realLifeUses": [
+    "Call a doctor's office to book an appointment.",
+    "Phone a store to check if an item is in stock.",
+    "Call a landlord to report a problem.",
+    "Follow up on a job application by phone."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Introduce yourself clearly.",
+    "State the purpose of your call.",
+    "Ask questions politely.",
+    "End the call with a thank you."
+  ],
+  "miniChallenge": "Call a store or restaurant and ask one simple question, like their hours.",
+  "steps": [
+    "Before calling, write down what you need to ask.",
+    "Greet the person and say your name.",
+    "State why you are calling in one sentence.",
+    "Ask your question or make your request.",
+    "Thank the person and say goodbye before hanging up."
+  ],
+  "completionCriteria": [
+    "You make a call from start to finish without hanging up early.",
+    "You get the information or result you needed."
+  ],
+  "commonProblems": [
+    "Feeling nervous and forgetting what to say.",
+    "Talking too fast or too quietly.",
+    "Not having details ready when asked."
+  ],
+  "tips": [
+    "Practice what you will say out loud before dialing.",
+    "Smile while you talk. It makes your voice sound friendlier.",
+    "Have a pen and paper ready to take notes."
+  ]
+}

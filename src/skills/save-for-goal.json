@@ -1,0 +1,48 @@
+{
+  "id": "save-for-goal",
+  "title": "Save for a Goal",
+  "domain": "money-finance",
+  "summary": "Set a savings target and figure out how much to set aside.",
+  "learnerPromise": "Set a savings target and figure out how much to set aside.",
+  "whyItMatters": "Saving is not about having a lot of money. It is about having control. When you can save for a goal, you prove to yourself that you can delay gratification and make your future better.",
+  "realLifeUses": [
+    "Save $300 for a new phone in 3 months instead of buying on credit.",
+    "Build an emergency fund so a flat tire does not become a crisis.",
+    "Put aside money for a trip, a course, or starting a small business.",
+    "Save for holiday gifts so you are not broke in January."
+  ],
+  "level": 3,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["make-budget"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "Set a specific, measurable savings goal with a deadline.",
+    "Calculate how much to save per week or month.",
+    "Automate your savings so you do not have to think about it.",
+    "Track progress and adjust if you fall behind or get ahead."
+  ],
+  "miniChallenge": "Pick one thing you want to save for and calculate how much to save per week.",
+  "steps": [
+    "Pick one specific goal. Write down the exact amount you need.",
+    "Set a deadline. Divide the total by the number of weeks until then.",
+    "Open a dedicated savings account or envelope for this goal.",
+    "Set up an automatic transfer for that weekly amount — or do it manually every payday.",
+    "Check your progress every week. Celebrate milestones along the way."
+  ],
+  "completionCriteria": [
+    "You have a written savings goal with a target amount and deadline.",
+    "You are saving a fixed amount weekly and can show your progress toward the goal."
+  ],
+  "commonProblems": [
+    "The weekly amount feels too high — extend your deadline or reduce the goal amount.",
+    "You are tempted to spend the saved money — keep it in a separate account you cannot easily access.",
+    "Life happens and you miss a week — do not quit. Resume the next week and adjust if needed."
+  ],
+  "tips": [
+    "Name your savings account after your goal — 'New Laptop Fund' is harder to spend from.",
+    "Automate transfers on payday so you never see the money in your spending account.",
+    "Visual trackers help — draw a progress bar and fill it in as you save."
+  ]
+}

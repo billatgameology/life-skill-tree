@@ -1,0 +1,48 @@
+{
+  "id": "arrive-on-time",
+  "title": "Arrive on Time",
+  "domain": "organization",
+  "summary": "Plan when to leave so you are less likely to feel rushed.",
+  "learnerPromise": "Plan when to leave so you are less likely to feel rushed.",
+  "whyItMatters": "Being on time shows respect and reliability. It also reduces your own stress and gives you a calmer start.",
+  "realLifeUses": [
+    "Get to school or work on time.",
+    "Arrive at appointments without rushing.",
+    "Catch a bus, train, or flight without panic.",
+    "Meet friends or colleagues when you said you would."
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["make-todo-list"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Estimate travel time realistically.",
+    "Prepare the night before.",
+    "Set alarms and reminders.",
+    "Build buffer time into your plan."
+  ],
+  "miniChallenge": "Pick one upcoming event and calculate what time you need to leave with a 10-minute buffer.",
+  "steps": [
+    "Estimate how long it takes to get there. Add fifteen minutes for delays.",
+    "Prepare everything you need the night before.",
+    "Set an alarm to start getting ready, not just to leave.",
+    "Check traffic or transit schedules before you go.",
+    "Leave when your plan says leave, not when you feel ready."
+  ],
+  "completionCriteria": [
+    "You arrive early to one appointment.",
+    "You can estimate travel time for a new destination."
+  ],
+  "commonProblems": [
+    "Underestimating how long things take.",
+    "Getting distracted while getting ready.",
+    "Not accounting for traffic, weather, or transit delays."
+  ],
+  "tips": [
+    "Set two alarms: one to start preparing, one to leave.",
+    "Pack your bag and choose clothes the night before.",
+    "Build in a buffer so small delays do not make you late."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "read-street-map",
+  "title": "Read a Street Map",
+  "domain": "navigation",
+  "summary": "Understand the basics of a paper or digital map so you can find streets, landmarks, and plan a route.",
+  "learnerPromise": "Understand a paper or digital map well enough to find your way.",
+  "whyItMatters": "Maps help you figure out where you are and how to get where you want to go. This skill is useful when your phone battery is low or when you want a bigger picture of an area.",
+  "realLifeUses": [
+    "Finding your way around a new neighborhood",
+    "Planning a walking route to a nearby store",
+    "Understanding which direction to head after getting off a bus",
+    "Helping a friend find a meeting spot using a shared map"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "How to find north and orient a map",
+    "How to read street names and symbols on a map",
+    "How to estimate distance using the map scale",
+    "How to trace a simple route from point A to point B"
+  ],
+  "miniChallenge": "Open a map app or paper map and trace a route from where you are to a nearby landmark.",
+  "steps": [
+    "Open a map app on your phone or lay out a paper map.",
+    "Find a landmark you know, such as a park, store, or transit station.",
+    "Locate your current position on the map relative to that landmark.",
+    "Trace a path from where you are to the landmark, noting the street names along the way.",
+    "Estimate how far the route is using the scale bar or distance indicator."
+  ],
+  "completionCriteria": [
+    "You found at least one familiar landmark on the map",
+    "You traced a clear route from your position to the landmark",
+    "You noted the street names or turns along the way"
+  ],
+  "commonProblems": [
+    "The map is confusing at first — zoom in or unfold a smaller section to start",
+    "You are not sure which direction is north — look for a compass icon or ask someone",
+    "Street names are hard to read — zoom in or switch to a simpler map view"
+  ],
+  "tips": [
+    "Most map apps show a blue dot for your current location — use it as a starting point",
+    "Start with a short, familiar route to build confidence",
+    "On paper maps, north is usually at the top but check for a compass rose to be sure"
+  ]
+}

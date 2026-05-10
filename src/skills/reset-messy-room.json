@@ -1,0 +1,48 @@
+{
+  "id": "reset-messy-room",
+  "title": "Reset a Messy Room",
+  "domain": "home-care",
+  "summary": "Clear clutter, put items back where they belong, and make a messy room usable again in a short amount of time.",
+  "learnerPromise": "Turn a messy room into a usable space in under 20 minutes.",
+  "whyItMatters": "A cluttered room can feel overwhelming. A quick reset clears your head, makes it easier to find what you need, and turns a stressful space into a comfortable one.",
+  "realLifeUses": [
+    "Clean up a bedroom before guests come over",
+    "Clear a desk so you have space to work",
+    "Pick up a living room after a busy day",
+    "Reset a kitchen after cooking"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "How to sort items into categories: keep, trash, and relocate",
+    "Why working in a single direction keeps you focused",
+    "How to make a bed quickly and neatly",
+    "How to reset surfaces by returning items to their homes"
+  ],
+  "miniChallenge": "Set a timer for 20 minutes and reset one room. Stop when the timer ends.",
+  "steps": [
+    "Grab a trash bag and a laundry basket or box for items that belong in other rooms.",
+    "Set a timer for 20 minutes and pick a starting corner of the room.",
+    "Pick up each item you see and decide: trash it, keep it here, or move it to another room.",
+    "Place keep items where they belong, toss trash, and put relocate items in the basket.",
+    "When the timer ends, stop and take the trash and relocate basket to their proper places."
+  ],
+  "completionCriteria": [
+    "Floor and major surfaces are mostly clear",
+    "Trash and out-of-place items are removed from the room"
+  ],
+  "commonProblems": [
+    "Got distracted by a specific item \u2014 set it aside and come back to it later",
+    "Timer ran out before finishing \u2014 you made progress; do another session tomorrow",
+    "Not sure where something belongs \u2014 create a designated spot or ask where it lives"
+  ],
+  "tips": [
+    "Play music to make the time pass more quickly",
+    "Start with the biggest visible mess for the most immediate impact",
+    "Doing a quick reset every day keeps messes from building up"
+  ]
+}

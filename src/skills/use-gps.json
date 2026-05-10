@@ -1,0 +1,49 @@
+{
+  "id": "use-gps",
+  "title": "Use GPS for Directions",
+  "domain": "navigation",
+  "summary": "Use a map app on your phone to get turn-by-turn directions to a place you want to go.",
+  "learnerPromise": "Use a map app to get turn-by-turn directions.",
+  "whyItMatters": "GPS directions make it easier to travel to new places with confidence. Whether you are walking, driving, or taking transit, knowing how to use a map app helps you arrive on time and less stressed.",
+  "realLifeUses": [
+    "Getting directions to a friend's house",
+    "Finding the fastest route to a store or restaurant",
+    "Checking transit options for a trip across town",
+    "Sharing your location with someone so they can find you"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["read-street-map"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "How to open a map app and search for a destination",
+    "How to choose between walking, driving, and transit directions",
+    "How to follow turn-by-turn prompts",
+    "How to share your location or send directions to someone"
+  ],
+  "miniChallenge": "Use a map app to plan a route to a place you go to often.",
+  "steps": [
+    "Open a map app on your phone or device.",
+    "Tap the search bar and type the name or address of a place you go to often.",
+    "Select the place from the search results.",
+    "Tap the directions button and choose your travel mode: walking, driving, or transit.",
+    "Review the suggested route and estimated time, then start the navigation to hear or see turn-by-turn directions."
+  ],
+  "completionCriteria": [
+    "You searched for and found a destination in the map app",
+    "You selected a travel mode and reviewed the route",
+    "You started the turn-by-turn navigation"
+  ],
+  "commonProblems": [
+    "The app cannot find your location — make sure location services are turned on",
+    "The route looks wrong — check that you selected the correct destination",
+    "You lose signal during navigation — the app usually continues with downloaded directions"
+  ],
+  "tips": [
+    "Download offline maps for areas you visit often in case you lose signal",
+    "Check the estimated arrival time before leaving so you can plan ahead",
+    "You can share your live location with a trusted person so they know when you will arrive"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "simple-stir-fry",
+  "title": "Make a Simple Stir-Fry",
+  "domain": "food-cooking",
+  "summary": "Chop vegetables and protein, cook them quickly in a hot pan, and make a fast balanced meal.",
+  "learnerPromise": "Throw vegetables and protein into a hot pan and make a quick meal.",
+  "whyItMatters": "Stir-frying is one of the fastest ways to cook a full meal. It uses ingredients you probably already have and cleans up in one pan.",
+  "realLifeUses": [
+    "Use up vegetables before they go bad",
+    "Make dinner in under 30 minutes with minimal cleanup",
+    "Build a meal around protein and vegetables you enjoy",
+    "Adapt the recipe based on what is in your kitchen"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["food-safety"],
+  "xp": 15,
+  "estimatedMinutes": 25,
+  "youWillLearn": [
+    "How to chop vegetables and protein into similar-sized pieces",
+    "Why a hot pan matters for browning",
+    "The order to add ingredients so everything cooks evenly",
+    "How to season simply with oil, salt, and sauce"
+  ],
+  "miniChallenge": "Chop one vegetable and one protein, then cook them in a pan with oil.",
+  "steps": [
+    "Wash your hands and gather one vegetable, one protein, oil, salt, and a pan.",
+    "Chop the vegetable and protein into small, similar-sized pieces so they cook evenly.",
+    "Heat a drizzle of oil in the pan over medium-high heat until it shimmers.",
+    "Add the protein first and cook until it is mostly done, then remove it from the pan.",
+    "Add the vegetables, cook for 3 to 5 minutes until they are tender but still have some bite, then return the protein to the pan and season with salt or a splash of soy sauce."
+  ],
+  "completionCriteria": [
+    "Vegetables are tender but not mushy",
+    "Protein is fully cooked through"
+  ],
+  "commonProblems": [
+    "Pan is not hot enough — food steams instead of browning; let the pan heat longer",
+    "Pieces are different sizes — some burn while others stay raw; chop more evenly next time",
+    "Too much food in the pan at once — cook in batches if needed"
+  ],
+  "tips": [
+    "Pat protein dry with a paper towel before cooking so it browns better",
+    "Cut vegetables while the pan is heating to save time",
+    "Keep a bowl nearby for scraps and packaging to keep your workspace tidy"
+  ]
+}

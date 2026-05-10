@@ -1,0 +1,50 @@
+{
+  "id": "repair-small-disagreement",
+  "title": "Repair a Small Disagreement",
+  "domain": "communication",
+  "summary": "Handle a disagreement without making it worse.",
+  "learnerPromise": "Handle a disagreement without making it worse.",
+  "whyItMatters": "Disagreements happen. Handling them well keeps relationships strong and shows maturity.",
+  "realLifeUses": [
+    "Settle a dispute with a roommate about chores.",
+    "Resolve a group project conflict at school.",
+    "Talk through a misunderstanding with a friend.",
+    "Negotiate a fair solution with a coworker."
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": [
+    "introduce-yourself"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "Stay calm and listen to the other person.",
+    "Express your view without attacking.",
+    "Find common ground.",
+    "Agree on a next step."
+  ],
+  "miniChallenge": "Think of a recent small conflict and write down what you could have said differently.",
+  "steps": [
+    "Take a breath and stay calm. Do not raise your voice.",
+    "Listen to the other person fully before you respond.",
+    "Use 'I' statements like 'I felt upset when...' instead of 'You always...'",
+    "Look for something you both agree on.",
+    "Suggest a specific next step or compromise."
+  ],
+  "completionCriteria": [
+    "Both sides feel heard.",
+    "You agree on at least one action going forward."
+  ],
+  "commonProblems": [
+    "Getting emotional and raising your voice.",
+    "Interrupting instead of listening.",
+    "Trying to win instead of finding a solution."
+  ],
+  "tips": [
+    "If emotions are high, take a break and come back later.",
+    "Focus on the problem, not the person.",
+    "It is okay to agree to disagree on some things."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "compare-bank-accounts",
+  "title": "Compare Bank Accounts",
+  "domain": "money-finance",
+  "summary": "Use a bank account to keep money safe and track what you have.",
+  "learnerPromise": "Use a bank account to keep money safe and track what you have.",
+  "whyItMatters": "A bank account helps you keep money safe, receive payments, and track what you have.",
+  "realLifeUses": [
+    "Receive your paycheck via direct deposit instead of cash.",
+    "Pay rent and bills online without visiting an office.",
+    "Keep your savings separate from spending money so you do not accidentally spend it.",
+    "Build a banking history that helps you get loans or credit later."
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": [
+    "needs-vs-wants"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "Choose between a checking account and a savings account.",
+    "Open an account and understand the terms and fees.",
+    "Deposit, withdraw, and transfer money.",
+    "Monitor your balance and read a bank statement."
+  ],
+  "miniChallenge": "Compare two checking or savings accounts and write down one fee each may charge.",
+  "steps": [
+    "Research banks or credit unions near you. Compare fees and minimum balance requirements.",
+    "Choose a checking account for daily spending and a savings account for goals.",
+    "Gather your ID and proof of address. Visit a branch or apply online.",
+    "Set up online banking so you can check your balance and transfer money.",
+    "Make your first deposit. Set a reminder to check your account weekly."
+  ],
+  "completionCriteria": [
+    "You have an active bank account and know how to check your balance.",
+    "You can perform basic transactions \u2014 deposit, withdraw, and transfer \u2014 on your own."
+  ],
+  "commonProblems": [
+    "Monthly fees eat into your balance \u2014 choose a fee-free account or learn how to waive fees.",
+    "You forget to check your balance and overdraft \u2014 set up low-balance alerts.",
+    "You do not understand a charge on your statement \u2014 call your bank and ask, that is what they are for."
+  ],
+  "tips": [
+    "Credit unions often have better rates and fewer fees than big banks.",
+    "Never share your PIN or online banking password with anyone.",
+    "Set up account alerts for withdrawals, low balance, and deposits."
+  ]
+}

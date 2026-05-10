@@ -1,0 +1,48 @@
+{
+  "id": "give-instructions",
+  "title": "Give Clear Instructions",
+  "domain": "communication",
+  "summary": "Explain how to do something so the other person actually understands.",
+  "learnerPromise": "Explain how to do something so the other person actually understands.",
+  "whyItMatters": "Clear instructions save time, prevent mistakes, and reduce frustration for everyone involved.",
+  "realLifeUses": [
+    "Tell a classmate how to complete a shared project task.",
+    "Explain to a sibling how to cook a simple meal.",
+    "Direct a new employee through a work process.",
+    "Guide someone to your location over the phone."
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["introduce-yourself"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "State the goal clearly first.",
+    "Break the task into ordered steps.",
+    "Use simple, direct language.",
+    "Confirm the other person understands."
+  ],
+  "miniChallenge": "Teach someone how to do one simple task, step by step. Check they understood.",
+  "steps": [
+    "Start by stating the end goal: 'We are making a peanut butter sandwich.'",
+    "Break the task into steps. One action per step.",
+    "Use simple words. Avoid jargon.",
+    "Give the steps in the correct order.",
+    "Ask the person to repeat back the steps or try one."
+  ],
+  "completionCriteria": [
+    "The person can repeat the steps back to you.",
+    "They complete the task without confusion."
+  ],
+  "commonProblems": [
+    "Skipping steps that seem obvious to you.",
+    "Using words the other person does not know.",
+    "Giving too many steps at once."
+  ],
+  "tips": [
+    "Think like a beginner. Nothing is too obvious.",
+    "Number your steps: First, then, next, finally.",
+    "Watch their face. Confused looks mean you should slow down."
+  ]
+}

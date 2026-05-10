@@ -1,0 +1,48 @@
+{
+  "id": "cook-rice",
+  "title": "Cook Rice on the Stove",
+  "domain": "food-cooking",
+  "summary": "Learn the right ratio of rice to water and how to simmer it so it comes out fluffy and tender.",
+  "learnerPromise": "Cook rice that is fluffy, not mushy or crunchy.",
+  "whyItMatters": "Rice is a cheap, filling base for many meals. Knowing how to cook it well means you can make a satisfying dinner with just a few ingredients.",
+  "realLifeUses": [
+    "Make rice as a side dish for dinner",
+    "Prepare rice bowls with toppings you already have",
+    "Cook a big batch to use for several meals",
+    "Replace instant rice with better-tasting home-cooked rice"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["food-safety"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "How much water to use for different types of rice",
+    "Why rinsing rice matters",
+    "How to bring rice to a boil and then simmer it",
+    "How to tell when rice is done cooking"
+  ],
+  "miniChallenge": "Measure rice and water, bring to a boil, then simmer until tender.",
+  "steps": [
+    "Measure 1 cup of white rice and rinse it under cold water until the water runs mostly clear.",
+    "Put the rinsed rice in a pot with 2 cups of water and a small pinch of salt.",
+    "Place the pot on the stove, turn the heat to high, and bring it to a full boil.",
+    "Once boiling, reduce the heat to low, cover the pot with a lid, and set a timer for 15 minutes.",
+    "When the timer goes off, remove the pot from the heat and let it sit, still covered, for 5 minutes before fluffing with a fork."
+  ],
+  "completionCriteria": [
+    "Rice is tender and most of the water is absorbed",
+    "Rice is not burnt on the bottom of the pot"
+  ],
+  "commonProblems": [
+    "Rice is too crunchy — it likely needs a few more minutes of simmering with the lid on",
+    "Rice is mushy — too much water was used; try slightly less next time",
+    "Rice stuck to the bottom — the heat may have been too high after boiling"
+  ],
+  "tips": [
+    "Do not lift the lid during the 15-minute simmer; steam escapes and the rice dries out",
+    "Use a pot with a tight-fitting lid to trap steam",
+    "Brown rice needs more water and a longer cooking time than white rice"
+  ]
+}

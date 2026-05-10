@@ -1,0 +1,48 @@
+{
+  "id": "needs-vs-wants",
+  "title": "Distinguish Needs vs Wants",
+  "domain": "money-finance",
+  "summary": "Tell the difference between what you need and what you just want.",
+  "learnerPromise": "Tell the difference between what you need and what you just want.",
+  "whyItMatters": "Every dollar you spend on a want is a dollar that could have gone to a need or a savings goal. Knowing the difference gives you more power over your money.",
+  "realLifeUses": [
+    "Decide whether to buy new shoes because your old ones broke or because you like the style.",
+    "Choose between eating out and cooking at home when money is tight.",
+    "Explain to a friend why you are skipping an expensive outing this month.",
+    "Prioritize bills and groceries over impulse purchases."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["track-spending"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Define a need: something required for basic living or safety.",
+    "Define a want: something nice to have but not essential.",
+    "Apply the 48-hour rule to impulse purchases.",
+    "Review your spending and label each item as need or want."
+  ],
+  "miniChallenge": "Look at your last 5 purchases and label each as need or want.",
+  "steps": [
+    "Write down the last 5 things you spent money on.",
+    "Ask yourself for each one: 'Could I live safely and reasonably without this?'",
+    "If yes, it is a want. If no, it is a need. Label each one.",
+    "Count how many are wants. Notice the total amount.",
+    "Pick one want you could skip next time and redirect that money toward a goal."
+  ],
+  "completionCriteria": [
+    "You can look at a purchase and label it a need or a want.",
+    "You have identified at least one want you can reduce."
+  ],
+  "commonProblems": [
+    "You justify wants as needs — be honest with yourself.",
+    "You feel deprived calling something a want — remember, wants are fine in moderation.",
+    "Some items are both — when in doubt, ask if there is a cheaper alternative that meets the need."
+  ],
+  "tips": [
+    "The 48-hour rule: wait two days before a non-essential purchase. The urge often passes.",
+    "A need keeps you safe, healthy, or employed. Everything else is negotiable.",
+    "Frame it as a choice, not a sacrifice: 'I am choosing to save for X instead.'"
+  ]
+}

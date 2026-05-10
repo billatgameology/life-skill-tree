@@ -1,0 +1,48 @@
+{
+  "id": "hammer-nail",
+  "title": "Hammer a Nail",
+  "domain": "home-care",
+  "summary": "Hold a nail steady, aim the hammer, and drive a nail straight into wood without bending it or hitting your fingers.",
+  "learnerPromise": "Hammer a nail straight without bending it or hitting your fingers.",
+  "whyItMatters": "Hanging a picture, building a simple shelf, or fixing a loose board all start with driving a nail. It is a basic home skill that opens the door to many small projects.",
+  "realLifeUses": [
+    "Hang a picture frame or poster on a wall",
+    "Secure a loose piece of wood trim",
+    "Build a simple hook or bracket",
+    "Start a small woodworking project"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "How to hold a hammer by the end of the handle for better control",
+    "How to steady a nail with your fingers safely",
+    "How to tap lightly first to set the nail, then drive it in",
+    "How to aim so the nail goes in straight"
+  ],
+  "miniChallenge": "Hammer one nail into a piece of wood, keeping it straight.",
+  "steps": [
+    "Place the piece of wood on a firm, stable surface that can handle a few taps.",
+    "Hold the nail near the pointed end, not the head, and position the tip where you want it.",
+    "Grip the hammer near the end of the handle and give the nail head one or two light taps to set it in place.",
+    "Move your fingers away from the nail and drive it in with firm, straight strikes.",
+    "Check that the nail is going in straight, and stop when the head is flush with the wood surface."
+  ],
+  "completionCriteria": [
+    "The nail is mostly straight and securely in the wood",
+    "The nail head sits flush with or just above the surface"
+  ],
+  "commonProblems": [
+    "Nail bent to the side \u2014 it may have hit a knot or been struck at an angle; pull it out and try a new nail nearby",
+    "Hit fingers instead of the nail \u2014 use a clothespin or pliers to hold the nail for the first few taps",
+    "Nail goes in crooked \u2014 pause after each tap to check alignment and adjust your angle"
+  ],
+  "tips": [
+    "Start with a larger nail; they are easier to hit than small finishing nails",
+    "Use the weight of the hammer to do most of the work rather than swinging too hard",
+    "Practice on a scrap piece of wood first to build confidence"
+  ]
+}

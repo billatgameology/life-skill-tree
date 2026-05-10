@@ -1,0 +1,48 @@
+{
+  "id": "boil-pasta",
+  "title": "Boil Pasta",
+  "domain": "food-cooking",
+  "summary": "Boil pasta to the right texture and pair it with a simple sauce.",
+  "learnerPromise": "Boil pasta to the right texture and pair it with a simple sauce.",
+  "whyItMatters": "Pasta is an affordable, filling meal that stores well and cooks quickly. Knowing how to boil it properly means you can make a satisfying dinner with minimal ingredients.",
+  "realLifeUses": [
+    "Making a quick dinner from pantry staples.",
+    "Feeding several people with one pot and simple ingredients.",
+    "Preparing a meal ahead of time for busy days.",
+    "Building a base for adding vegetables, protein, or leftover sauces."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["food-safety"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "Boil water safely in a large pot.",
+    "Measure the right amount of pasta for one serving.",
+    "Test pasta for doneness before draining.",
+    "Combine pasta with a simple sauce and serve."
+  ],
+  "miniChallenge": "Boil a pot of water and cook a serving of pasta. Test for doneness.",
+  "steps": [
+    "Fill a large pot about two-thirds full with water and place it on the stove over high heat.",
+    "Add a small handful of salt once the water starts to simmer.",
+    "When the water reaches a rolling boil, add the pasta and stir gently to prevent sticking.",
+    "Set a timer for the minutes shown on the pasta package. Stir once or twice during cooking.",
+    "Before draining, taste one piece to check the texture. Drain the pasta, mix with sauce, and serve."
+  ],
+  "completionCriteria": [
+    "The pasta is tender but still has a slight firmness when you bite it.",
+    "You drained the water and mixed the pasta with sauce without burning yourself."
+  ],
+  "commonProblems": [
+    "The pot boils over — turn the heat down slightly and leave the lid off or partially on.",
+    "Pasta sticks together — stir it right after adding to the water and once more during cooking.",
+    "The pasta is too soft or too firm — adjust the cooking time by one or two minutes next time."
+  ],
+  "tips": [
+    "Use a pot that gives the pasta room to move around.",
+    "Save a small cup of pasta water before draining — it helps sauce stick to the pasta.",
+    "Olive oil, butter, or a jar of ready-made sauce are simple ways to finish the dish."
+  ]
+}

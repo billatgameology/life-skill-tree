@@ -1,0 +1,48 @@
+{
+  "id": "navigate-without-gps",
+  "title": "Navigate Without GPS",
+  "domain": "navigation",
+  "summary": "Find your way using landmarks, street signs, and common sense.",
+  "learnerPromise": "Find your way using landmarks, street signs, and common sense.",
+  "whyItMatters": "Phones die. Signals fail. Batteries run out. Knowing how to navigate without technology helps you stay self-reliant.",
+  "realLifeUses": [
+    "Your phone dies while you are exploring a new city.",
+    "You are in a remote area with no cell signal.",
+    "You want to save battery while hiking or traveling.",
+    "You need to give someone else directions without a map."
+  ],
+  "level": 3,
+  "difficulty": "hard",
+  "status": "available",
+  "prerequisites": ["use-gps"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "Use landmarks to orient yourself and remember routes.",
+    "Read street signs, building numbers, and directional markers.",
+    "Estimate direction using the sun and known reference points.",
+    "Ask locals for clear, useful directions."
+  ],
+  "miniChallenge": "Walk or ride to a familiar place without looking at your phone.",
+  "steps": [
+    "Before you leave, mentally note the major landmarks and street names along your route.",
+    "Start moving. Look up, not down — read street signs and building names.",
+    "Use the sun or a known landmark to confirm you are heading the right direction.",
+    "If lost, stop and observe. Find a major road or landmark to reorient yourself.",
+    "When needed, ask a local for directions using specific landmarks, not just street names."
+  ],
+  "completionCriteria": [
+    "You reach a destination without using a GPS or map app.",
+    "You can reorient yourself after getting lost using environmental cues."
+  ],
+  "commonProblems": [
+    "Everything looks the same — look for unique landmarks like towers, murals, or shops.",
+    "Street signs are missing or confusing — follow the traffic flow or head to a main road.",
+    "You are unsure about asking for help — locals usually know the fastest route."
+  ],
+  "tips": [
+    "Note landmarks on the way out so you can retrace your steps.",
+    "Major roads lead to other major roads — when lost, find the biggest street.",
+    "The sun rises in the east and sets in the west — use it as a compass."
+  ]
+}

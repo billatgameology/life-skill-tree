@@ -1,0 +1,48 @@
+{
+  "id": "connect-bluetooth",
+  "title": "Connect Bluetooth Devices",
+  "domain": "digital-basics",
+  "summary": "Pair wireless accessories like headphones or speakers with your device.",
+  "learnerPromise": "Pair wireless accessories without guessing through settings.",
+  "whyItMatters": "Bluetooth lets you use wireless headphones, speakers, keyboards, and more. Knowing how to pair devices means you can set them up yourself instead of relying on someone else.",
+  "realLifeUses": [
+    "Connecting wireless headphones to listen to music or take calls.",
+    "Pairing a portable speaker to play audio aloud.",
+    "Using a wireless keyboard or mouse with a tablet or computer.",
+    "Connecting to a car audio system for hands-free calling."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["manage-device-settings"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Turn Bluetooth on from your device settings.",
+    "Put an accessory into pairing mode.",
+    "Select the device from the list and complete the pairing.",
+    "Disconnect or unpair a device when you are done."
+  ],
+  "miniChallenge": "Pair one Bluetooth device and test that it works.",
+  "steps": [
+    "Open your device's Settings and find the Bluetooth section.",
+    "Turn Bluetooth on if it is not already.",
+    "Put your wireless accessory into pairing mode — usually by holding a button until a light blinks.",
+    "Look for the accessory name in the list on your device and tap it.",
+    "Wait for the word 'Connected' to appear, then test it by playing sound or pressing a key."
+  ],
+  "completionCriteria": [
+    "Your device shows the accessory as Connected.",
+    "You tested the connection and it responds — sound plays or input works."
+  ],
+  "commonProblems": [
+    "The device does not appear in the list — make sure it is in pairing mode and close by.",
+    "Pairing fails — turn Bluetooth off and on again on both devices.",
+    "The device was connected before but now is not — delete it from the list and pair it again."
+  ],
+  "tips": [
+    "Keep the accessory within a few feet of your device during pairing.",
+    "If a button combination is needed, check the accessory's manual or label for instructions.",
+    "Rename paired devices in your settings if you have several and want to tell them apart."
+  ]
+}

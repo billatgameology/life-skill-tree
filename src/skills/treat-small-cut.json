@@ -1,0 +1,51 @@
+{
+  "id": "treat-small-cut",
+  "title": "Treat a Small Cut",
+  "domain": "health-safety",
+  "summary": "Clean, cover, and check a small cut or scrape to help it heal and lower the chance of infection.",
+  "learnerPromise": "Clean and cover a small cut so it heals safely.",
+  "whyItMatters": "Small cuts happen often in daily life. Knowing how to treat one helps prevent infection and speeds up healing.",
+  "realLifeUses": [
+    "Cutting your finger while cooking",
+    "Scraping your knee outdoors",
+    "Getting a small paper cut",
+    "Helping a friend or family member with a minor cut"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [
+    "wash-hands"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "How to rinse a cut with clean water",
+    "How to apply gentle pressure to stop bleeding",
+    "How to cover the cut with a clean bandage",
+    "How to check the cut later for signs of infection"
+  ],
+  "miniChallenge": "Find a bandage and practice the clean-cover-check steps on a pretend spot.",
+  "steps": [
+    "Wash your hands with soap and water before touching the cut.",
+    "Rinse the cut gently under clean running water to remove dirt.",
+    "Apply gentle pressure with a clean cloth or gauze if the cut is bleeding.",
+    "Pat the area dry and cover it with a clean bandage or adhesive strip.",
+    "Check the cut daily and change the bandage if it gets wet or dirty."
+  ],
+  "completionCriteria": [
+    "You washed your hands before treating the cut",
+    "You rinsed and covered the cut with a clean bandage",
+    "You know how to check the cut daily for healing"
+  ],
+  "commonProblems": [
+    "The bleeding does not stop after several minutes of pressure \u2014 seek help",
+    "You do not have a bandage \u2014 clean gauze or a clean cloth can work",
+    "The cut is deep or gaping \u2014 this may need stitches from a medical professional"
+  ],
+  "tips": [
+    "Keep a small first aid kit in an easy-to-reach place at home",
+    "Change the bandage daily or anytime it gets wet",
+    "Watch for increased redness, warmth, or swelling as signs to get medical help"
+  ]
+}

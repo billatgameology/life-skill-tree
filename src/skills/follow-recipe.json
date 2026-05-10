@@ -1,0 +1,48 @@
+{
+  "id": "follow-recipe",
+  "title": "Follow a Recipe",
+  "domain": "food-cooking",
+  "summary": "Read a recipe all the way through, understand the steps, and cook a dish from start to finish.",
+  "learnerPromise": "Read and follow a recipe from start to finish without getting lost.",
+  "whyItMatters": "Recipes are roadmaps for cooking. Learning to read them carefully helps you understand timing, avoid mistakes, and feel more confident trying new dishes.",
+  "realLifeUses": [
+    "Cook a new dish you have never tried before",
+    "Understand cooking terms like simmer, saute, and fold",
+    "Estimate how long a meal will take to prepare",
+    "Scale a recipe up or down for more or fewer servings"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["make-scrambled-eggs"],
+  "xp": 15,
+  "estimatedMinutes": 30,
+  "youWillLearn": [
+    "How to read through a full recipe before starting",
+    "What mise en place means and why it helps",
+    "How to measure ingredients accurately",
+    "How to adjust timing based on what you see and smell"
+  ],
+  "miniChallenge": "Pick one simple recipe and make it, following each step in order.",
+  "steps": [
+    "Read the entire recipe from start to finish before touching any ingredients.",
+    "Gather every ingredient and tool listed — this is called mise en place.",
+    "Measure and prep each ingredient so it is ready to use when the recipe calls for it.",
+    "Follow the steps in order, paying attention to words like simmer, saute, and fold.",
+    "Taste as you go if it is safe to do so, and adjust seasoning near the end."
+  ],
+  "completionCriteria": [
+    "The dish is prepared in the correct order",
+    "All listed ingredients were used appropriately"
+  ],
+  "commonProblems": [
+    "Skipped reading ahead and got surprised by a long marinating or chilling step",
+    "Misread a measurement — double-check teaspoons versus tablespoons",
+    "Burned one component while prepping another — mise en place prevents this"
+  ],
+  "tips": [
+    "Start with recipes labeled easy or beginner",
+    "Read the notes section of a recipe for helpful substitutions",
+    "Set out a trash bowl next to your cutting board to keep your workspace clean"
+  ]
+}

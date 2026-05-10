@@ -1,0 +1,49 @@
+{
+  "id": "find-doctor",
+  "title": "Find a Doctor or Clinic",
+  "domain": "health-safety",
+  "summary": "Search for a nearby doctor or clinic, check their hours, and book an appointment when you need non-urgent care.",
+  "learnerPromise": "Find a doctor or clinic and book an appointment.",
+  "whyItMatters": "Having a regular doctor or clinic makes it easier to get care when you feel unwell. Knowing how to find one and book a visit gives you more control over your health.",
+  "realLifeUses": [
+    "Finding a doctor near your home or school",
+    "Booking a checkup or routine exam",
+    "Getting care for a lingering cough or cold",
+    "Finding a specialist for a specific health concern"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["emergency-numbers"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "How to search for doctors or clinics near you",
+    "What to check before choosing a clinic",
+    "How to call and book an appointment",
+    "What information to have ready for the call"
+  ],
+  "miniChallenge": "Search for one clinic near you and write down its phone number and hours.",
+  "steps": [
+    "Use a search engine, map app, or insurance directory to find clinics near you.",
+    "Check the clinic's hours, location, and the types of care they offer.",
+    "Read a few recent reviews to learn about other people's experiences.",
+    "Call the clinic and ask if they are accepting new patients.",
+    "Write down the clinic name, phone number, address, and hours for future reference."
+  ],
+  "completionCriteria": [
+    "You found at least one clinic or doctor near you",
+    "You wrote down the contact info and hours",
+    "You know whether they are accepting new patients"
+  ],
+  "commonProblems": [
+    "The clinic is not accepting new patients — try the next closest option",
+    "You are not sure if your insurance is accepted — call and ask before booking",
+    "The first available appointment is far away — ask to be put on a cancellation list"
+  ],
+  "tips": [
+    "Ask a friend or family member for a doctor they trust",
+    "Check if the clinic offers same-day or walk-in visits for urgent issues",
+    "Keep the clinic's contact info saved in your phone or written in a safe place"
+  ]
+}

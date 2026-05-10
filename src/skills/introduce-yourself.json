@@ -1,0 +1,48 @@
+{
+  "id": "introduce-yourself",
+  "title": "Introduce Yourself to Strangers",
+  "domain": "communication",
+  "summary": "Introduce yourself to someone new without feeling awkward.",
+  "learnerPromise": "Introduce yourself to someone new without feeling awkward.",
+  "whyItMatters": "First impressions happen fast. A good introduction builds trust and starts relationships on the right foot.",
+  "realLifeUses": [
+    "Meet a new classmate on the first day of school.",
+    "Introduce yourself at a job interview.",
+    "Meet a friend's parents for the first time.",
+    "Join a new club or team and meet members."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Make eye contact and offer a handshake or wave.",
+    "Say your name clearly.",
+    "Give a little context about yourself.",
+    "Ask the other person about themselves."
+  ],
+  "miniChallenge": "Practice a 15-second introduction out loud, including your name and one context.",
+  "steps": [
+    "Make eye contact and smile as you approach.",
+    "Offer a handshake or wave if it feels appropriate.",
+    "Say your name clearly: 'Hi, I am [Name].'",
+    "Add one piece of context: 'I am new here' or 'I am in your class.'",
+    "Ask them something: 'What is your name?' or 'How do you know the host?'"
+  ],
+  "completionCriteria": [
+    "You successfully introduce yourself to someone new.",
+    "The conversation lasts at least thirty seconds."
+  ],
+  "commonProblems": [
+    "Mumbling or speaking too quietly.",
+    "Forgetting the other person's name.",
+    "Not knowing what to say after the introduction."
+  ],
+  "tips": [
+    "Repeat the person's name right after they say it.",
+    "Stand up straight. Good posture shows confidence.",
+    "Have a follow-up question ready in advance."
+  ]
+}

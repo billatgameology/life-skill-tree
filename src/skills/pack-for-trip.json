@@ -1,0 +1,48 @@
+{
+  "id": "pack-for-trip",
+  "title": "Pack for a Trip",
+  "domain": "organization",
+  "summary": "Pack what you need without overpacking or forgetting essentials.",
+  "learnerPromise": "Pack what you need without overpacking or forgetting essentials.",
+  "whyItMatters": "Good packing saves space, reduces stress, and means you are prepared for your trip.",
+  "realLifeUses": [
+    "Pack for a weekend trip to visit family.",
+    "Prepare for a school field trip or camping.",
+    "Get ready for a work conference or internship.",
+    "Organize a carry-on bag for air travel."
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["make-todo-list"],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "Check the weather and plan outfits.",
+    "Make a packing list by category.",
+    "Roll clothes to save space.",
+    "Pack essentials in a carry-on."
+  ],
+  "miniChallenge": "Plan what you would pack for a one-night trip. Write the list.",
+  "steps": [
+    "Check the weather forecast for your destination.",
+    "List essentials: clothes, toiletries, documents, chargers, medications.",
+    "Plan outfits by day. Do not pack things you will not wear.",
+    "Roll clothes instead of folding to save space and reduce wrinkles.",
+    "Pack heavy items at the bottom and keep essentials easy to reach."
+  ],
+  "completionCriteria": [
+    "You create a complete packing list organized by category.",
+    "Everything fits in your bag without forcing it."
+  ],
+  "commonProblems": [
+    "Overpacking and bringing things you do not need.",
+    "Forgetting chargers, toiletries, or important documents.",
+    "Not checking the weather beforehand."
+  ],
+  "tips": [
+    "Pack outfits, not individual items.",
+    "Keep a toiletry bag packed and ready to go.",
+    "Always pack an extra pair of underwear and socks."
+  ]
+}

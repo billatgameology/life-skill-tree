@@ -1,0 +1,48 @@
+{
+  "id": "read-signs",
+  "title": "Read Signs & Wayfinding",
+  "domain": "navigation",
+  "summary": "Understand airport, hospital, and building signs to find your way.",
+  "learnerPromise": "Understand airport, hospital, and building signs to find your way.",
+  "whyItMatters": "Airports, hospitals, malls, and highways have their own sign systems. Understanding them keeps you calm, saves time, and helps prevent wrong turns in high-stakes places.",
+  "realLifeUses": [
+    "Find your gate at a busy airport during a tight layover.",
+    "Navigate a hospital to reach the right department or ward.",
+    "Read highway exit signs to know when to get off.",
+    "Find restrooms, exits, or elevators in a large shopping mall."
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["read-transit-schedules"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Recognize common sign types: directional, informational, regulatory.",
+    "Follow color-coded and symbol-based wayfinding systems.",
+    "Read airport and hospital signage accurately under pressure.",
+    "Identify exit routes and safety signs in a building."
+  ],
+  "miniChallenge": "Look up an airport terminal map online and trace a path from check-in to a gate.",
+  "steps": [
+    "When you enter a building, pause and look for the main directory or map.",
+    "Identify the color or symbol system — each may represent a different wing or floor.",
+    "Follow the signs toward your destination. Confirm each turn with the next sign.",
+    "If signs conflict or stop, return to the last main junction and look again.",
+    "Note the exit signs as you go so you know how to get back."
+  ],
+  "completionCriteria": [
+    "You can navigate an unfamiliar large building using its internal signage.",
+    "You can identify exit routes and safety signage in a public space."
+  ],
+  "commonProblems": [
+    "Signs point in conflicting directions — look for the most recent or most specific sign.",
+    "You missed a turn because you were rushing — slow down, signs are there to help.",
+    "The building has multiple wings or floors — confirm the zone or level."
+  ],
+  "tips": [
+    "Directories near entrances usually show 'you are here' — start there.",
+    "International symbols are consistent — learn the ones for exit, restroom, and elevator.",
+    "If you are lost in an airport, follow the crowd — most people are heading toward gates or baggage claim."
+  ]
+}

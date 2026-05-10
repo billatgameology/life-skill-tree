@@ -1,0 +1,50 @@
+{
+  "id": "shop-for-one-meal",
+  "title": "Shop for One Meal",
+  "domain": "food-cooking",
+  "summary": "Plan what you need, make a list, and buy food efficiently while staying within your budget.",
+  "learnerPromise": "Buy what you need without overspending or forgetting items.",
+  "whyItMatters": "A good shopping trip saves money, reduces food waste, and means you come home with ingredients you will actually use. Planning ahead turns a stressful errand into a quick, focused task.",
+  "realLifeUses": [
+    "Buy ingredients for a specific meal plan",
+    "Compare prices to stay within a budget",
+    "Read labels to choose fresher items",
+    "Avoid impulse buys by sticking to a list"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [
+    "boil-pasta"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 25,
+  "youWillLearn": [
+    "How to plan meals and turn them into a shopping list",
+    "How to compare unit prices on similar products",
+    "How to check produce for freshness",
+    "How to organize your list by store section to save time"
+  ],
+  "miniChallenge": "Make a list for one meal, then go to the store and buy only those items.",
+  "steps": [
+    "Pick one meal you want to make and write down every ingredient it calls for.",
+    "Check your kitchen to see which items you already own and cross them off.",
+    "Rewrite the remaining items as a neat, organized list grouped by category like produce, protein, and pantry.",
+    "At the store, pick up only the items on your list and compare similar products by price or unit cost.",
+    "Pay, pack your bags carefully, and head home."
+  ],
+  "completionCriteria": [
+    "All needed items for one meal are purchased",
+    "No unplanned impulse items are bought"
+  ],
+  "commonProblems": [
+    "Forgot to check what was already at home \u2014 take a quick pantry photo before leaving",
+    "Store was out of an item \u2014 ask a staff member about substitutes or check a different brand",
+    "Went over budget \u2014 set a cash limit or use a calculator while shopping"
+  ],
+  "tips": [
+    "Shop the outer edges of the store first; that is where fresh food is usually located",
+    "Avoid shopping when you are hungry; it is harder to resist extras",
+    "Bring reusable bags and keep a running list on your phone between trips"
+  ]
+}

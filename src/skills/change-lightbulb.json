@@ -1,0 +1,49 @@
+{
+  "id": "change-lightbulb",
+  "title": "Change a Light Bulb",
+  "domain": "home-care",
+  "summary": "Safely replace a burned-out light bulb with the correct type and wattage for the fixture.",
+  "learnerPromise": "Replace a burned-out light bulb safely and choose the right type.",
+  "whyItMatters": "A burned-out bulb makes it hard to see and can be unsafe. Knowing how to replace one keeps your space well-lit and comfortable.",
+  "realLifeUses": [
+    "Replacing a bulb in a bedroom lamp",
+    "Fixing a hallway light that went out",
+    "Swapping a kitchen bulb for a brighter one",
+    "Helping change a bulb in a hard-to-reach spot with a sturdy step stool"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "How to turn off power before changing a bulb",
+    "How to match the bulb base type and wattage",
+    "How to remove the old bulb and install the new one safely",
+    "What to do with the old bulb"
+  ],
+  "miniChallenge": "Replace one light bulb in your home, matching the wattage and base type.",
+  "steps": [
+    "Turn off the light switch and let the old bulb cool if it was just on.",
+    "Check the old bulb for the wattage and base type printed on it.",
+    "Get a new bulb that matches the wattage and base type.",
+    "Gently turn the old bulb counterclockwise to remove it.",
+    "Insert the new bulb and turn it clockwise until it is snug. Turn the switch on to test."
+  ],
+  "completionCriteria": [
+    "You matched the wattage and base type of the new bulb",
+    "You installed the new bulb without forcing it",
+    "The light turns on and works properly"
+  ],
+  "commonProblems": [
+    "The new bulb does not light up \u2014 try it in a different socket to test",
+    "The bulb breaks while removing it \u2014 turn off power and use gloves to remove the base",
+    "You are not sure of the wattage \u2014 check the fixture label or the old bulb carefully"
+  ],
+  "tips": [
+    "Use a sturdy step stool if the fixture is out of reach",
+    "LED bulbs use less energy and last longer than traditional ones",
+    "Never force a bulb \u2014 if it does not fit, double-check the base type"
+  ]
+}

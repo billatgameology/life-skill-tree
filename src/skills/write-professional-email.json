@@ -1,0 +1,48 @@
+{
+  "id": "write-professional-email",
+  "title": "Write a Professional Email",
+  "domain": "communication",
+  "summary": "Write an email that sounds clear, respectful, and confident.",
+  "learnerPromise": "Write an email that sounds clear, respectful, and confident.",
+  "whyItMatters": "Email is how schools, workplaces, and organizations communicate. A clear email gets you answers faster and shows you are serious.",
+  "realLifeUses": [
+    "Email a teacher about a missing assignment.",
+    "Ask a manager about a job opening.",
+    "Request information from an office.",
+    "Confirm an appointment by email."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "Write a clear subject line.",
+    "Use a polite greeting and closing.",
+    "Keep the body short and focused.",
+    "Proofread before sending."
+  ],
+  "miniChallenge": "Write a short email to a teacher, coach, or organizer asking one clear question.",
+  "steps": [
+    "Write a clear subject line that says what the email is about.",
+    "Start with a polite greeting like 'Hello Ms. Lee' or 'Hi Mr. Patel.'",
+    "State your purpose in the first sentence.",
+    "Keep the body short. One or two paragraphs is enough.",
+    "End with a polite closing like 'Thank you,' or 'Best,' followed by your name."
+  ],
+  "completionCriteria": [
+    "You write an email with a subject, greeting, body, and closing.",
+    "The email is polite and easy to understand."
+  ],
+  "commonProblems": [
+    "Forgetting the subject line.",
+    "Writing too much and losing the main point.",
+    "Using slang or being too casual."
+  ],
+  "tips": [
+    "Re-read your email before sending.",
+    "Use the person's name if you know it.",
+    "Keep it under five sentences when possible."
+  ]
+}

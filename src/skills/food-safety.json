@@ -1,0 +1,48 @@
+{
+  "id": "food-safety",
+  "title": "Keep Food Safe to Eat",
+  "domain": "food-cooking",
+  "summary": "Learn the basics of handling food so it stays safe to eat and does not make you sick.",
+  "learnerPromise": "Keep food safe to eat by handling it correctly.",
+  "whyItMatters": "Food that sits out too long or touches dirty surfaces can grow germs that make you sick. Small habits like washing hands and checking dates go a long way toward keeping meals safe.",
+  "realLifeUses": [
+    "Check if leftovers are still good before eating them",
+    "Wash hands properly before cooking",
+    "Know when to throw out expired items",
+    "Keep raw meat separate from ready-to-eat foods"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "How to read date labels on food",
+    "When to wash your hands while cooking",
+    "Which foods need refrigeration",
+    "How to avoid cross-contamination"
+  ],
+  "miniChallenge": "Check your fridge for one item past its date. Throw it out and wipe the spot.",
+  "steps": [
+    "Wash your hands with soap and warm water for 20 seconds.",
+    "Look through your fridge and find the date printed on at least three items.",
+    "Identify one item that is past its date and set it aside to throw away.",
+    "Wipe the empty shelf or spot with a clean cloth or paper towel.",
+    "Wash your hands again after handling old food."
+  ],
+  "completionCriteria": [
+    "At least one expired item is removed from the fridge",
+    "Hands are washed before and after handling food"
+  ],
+  "commonProblems": [
+    "Not sure if a date is a sell-by or use-by date — check the label wording carefully",
+    "Food looks and smells fine but the date passed — when in doubt, throw it out",
+    "Forgot to wash hands between handling raw and ready-to-eat foods"
+  ],
+  "tips": [
+    "Keep a marker near the fridge to write dates on leftovers",
+    "Store raw meat on the bottom shelf so juices do not drip onto other foods",
+    "Set a phone reminder to check dates once a week"
+  ]
+}

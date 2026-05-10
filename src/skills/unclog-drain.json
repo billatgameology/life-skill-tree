@@ -1,0 +1,49 @@
+{
+  "id": "unclog-drain",
+  "title": "Unclog a Drain",
+  "domain": "home-care",
+  "summary": "Clear a slow or blocked sink, shower, or tub drain using simple tools and household methods instead of harsh chemicals.",
+  "learnerPromise": "Clear a slow or blocked drain without harsh chemicals.",
+  "whyItMatters": "Drains can get clogged with hair, soap, and food over time. Knowing how to clear them keeps water flowing and can save a call to a plumber.",
+  "realLifeUses": [
+    "Clearing a bathroom sink that drains slowly",
+    "Fixing a shower drain clogged with hair",
+    "Helping a roommate or family member with a blocked tub",
+    "Preventing water from pooling in the sink"
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "How to safely remove a drain stopper or screen",
+    "How to use a simple tool to pull out clogs",
+    "How to flush the drain with hot water",
+    "When it is time to ask a plumber for help"
+  ],
+  "miniChallenge": "Find a sink or shower drain and identify the stopper or screen you would remove first.",
+  "steps": [
+    "Look at the drain and find the stopper, screen, or cover on top.",
+    "Remove the cover carefully. Some twist off, some lift out, and some need a screwdriver.",
+    "Use a tool or your fingers to pull out visible hair or debris near the top.",
+    "Pour hot water down the drain to help flush loosened buildup.",
+    "Replace the cover and test the drain by running water."
+  ],
+  "completionCriteria": [
+    "You identified how to remove the drain cover",
+    "You cleared visible debris from the drain opening",
+    "You tested the drain and water flowed better than before"
+  ],
+  "commonProblems": [
+    "The stopper will not come out \u2014 look for a small screw or tab holding it",
+    "The clog is deeper than you can reach \u2014 a simple drain snake may help",
+    "Water still backs up \u2014 this may need a plumber's help"
+  ],
+  "tips": [
+    "Wear gloves when pulling debris from drains",
+    "A simple zip-it tool or bent wire can grab hair clogs easily",
+    "Avoid pouring grease down kitchen sinks to prevent future clogs"
+  ]
+}

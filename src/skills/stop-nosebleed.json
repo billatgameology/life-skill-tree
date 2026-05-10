@@ -1,0 +1,49 @@
+{
+  "id": "stop-nosebleed",
+  "title": "Stop a Nosebleed",
+  "domain": "health-safety",
+  "summary": "Stop a nosebleed safely using the correct head position and pressure technique.",
+  "learnerPromise": "Stop a nosebleed quickly and safely.",
+  "whyItMatters": "Nosebleeds can happen from dry air, allergies, or minor bumps. Knowing the right way to handle one helps you stay calm and stop the bleeding faster.",
+  "realLifeUses": [
+    "Getting a nosebleed in dry winter weather",
+    "Having a minor nosebleed after sneezing repeatedly",
+    "Helping a friend or sibling who gets a nosebleed",
+    "Dealing with a nosebleed during sports or exercise"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "The correct sitting position for a nosebleed",
+    "Where to pinch the nose to slow bleeding",
+    "How long to hold pressure",
+    "What to do after the bleeding stops"
+  ],
+  "miniChallenge": "Practice the correct head position and pressure technique so you know it if it happens.",
+  "steps": [
+    "Sit up straight and lean slightly forward. Do not tilt your head back.",
+    "Pinch the soft part of your nose, just below the bony bridge, using your thumb and finger.",
+    "Hold steady pressure for at least 10 minutes without checking too often.",
+    "Breathe through your mouth while you wait.",
+    "After the bleeding stops, avoid blowing your nose or picking at it for several hours."
+  ],
+  "completionCriteria": [
+    "You know to lean forward, not backward",
+    "You can find the correct spot to pinch on the nose",
+    "You understand to hold pressure for at least 10 minutes"
+  ],
+  "commonProblems": [
+    "The bleeding does not stop after 15 to 20 minutes — seek medical help",
+    "You feel dizzy or lightheaded — sit down and ask someone nearby for help",
+    "Nosebleeds happen often — talk to a doctor about possible causes"
+  ],
+  "tips": [
+    "Tilting your head back can cause blood to run down the throat — lean forward instead",
+    "Using a cool compress on the nose bridge may help while you pinch",
+    "A small amount of saline gel inside the nostrils can help prevent dry-air nosebleeds"
+  ]
+}

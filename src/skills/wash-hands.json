@@ -1,0 +1,49 @@
+{
+  "id": "wash-hands",
+  "title": "Wash Your Hands",
+  "domain": "health-safety",
+  "summary": "Wash your hands the right way to lower the chance of getting sick or spreading germs to others.",
+  "learnerPromise": "Wash your hands properly to avoid getting sick or spreading germs.",
+  "whyItMatters": "Germs collect on your hands throughout the day from surfaces, food, and contact with others. Proper handwashing is one of the simplest ways to stay healthy.",
+  "realLifeUses": [
+    "Washing hands before eating or preparing food",
+    "Cleaning hands after using the restroom",
+    "Washing up after coming home from public places",
+    "Preventing the spread of germs to family or friends"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 5,
+  "youWillLearn": [
+    "When to wash your hands during the day",
+    "How long to scrub for effective cleaning",
+    "Which areas of the hands people often miss",
+    "How to dry hands after washing"
+  ],
+  "miniChallenge": "Wash your hands once, timing yourself for at least 20 seconds.",
+  "steps": [
+    "Wet your hands with clean running water.",
+    "Apply soap and rub your palms together to create a lather.",
+    "Scrub the backs of your hands, between your fingers, and under your nails for at least 20 seconds.",
+    "Rinse your hands well under clean running water.",
+    "Dry your hands with a clean towel or air dryer."
+  ],
+  "completionCriteria": [
+    "You wet, lathered, scrubbed, rinsed, and dried your hands",
+    "You scrubbed for at least 20 seconds",
+    "You cleaned between fingers and under nails"
+  ],
+  "commonProblems": [
+    "You are not sure you scrubbed long enough \u2014 hum a short song twice to time it",
+    "No soap is available \u2014 use hand sanitizer with at least 60 percent alcohol as a backup",
+    "Your hands get dry from frequent washing \u2014 apply lotion after drying"
+  ],
+  "tips": [
+    "Sing the happy birthday song twice to reach about 20 seconds",
+    "Scrub under rings and nails where germs can hide",
+    "Wash hands before eating, after using the restroom, and after touching shared surfaces"
+  ]
+}

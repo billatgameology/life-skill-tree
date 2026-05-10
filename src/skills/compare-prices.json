@@ -1,0 +1,48 @@
+{
+  "id": "compare-prices",
+  "title": "Compare Prices",
+  "domain": "money-finance",
+  "summary": "Check multiple places before buying so you can make a more confident decision.",
+  "learnerPromise": "Check multiple places before buying so you can make a more confident decision.",
+  "whyItMatters": "The same product can cost different amounts at different stores. A few minutes of comparison can save you money — each time you shop.",
+  "realLifeUses": [
+    "Save money on groceries by comparing unit prices on shelf labels.",
+    "Find the best phone plan by comparing what you actually get for the price.",
+    "Avoid overpaying for textbooks by checking multiple sellers online.",
+    "Negotiate a better price when you know what competitors charge."
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["track-spending"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "Check prices at least two places before buying.",
+    "Read and compare unit pricing on product labels.",
+    "Factor in shipping, taxes, and fees for the true total cost.",
+    "Use price comparison websites and apps effectively."
+  ],
+  "miniChallenge": "Pick one item you might buy soon and check its price at 2 different stores or sites.",
+  "steps": [
+    "Pick something you might buy in the next few days.",
+    "Check the price at your usual store or website.",
+    "Search the same item at one other store or website.",
+    "Compare the total cost including taxes, fees, and shipping.",
+    "Note which option costs less and by how much."
+  ],
+  "completionCriteria": [
+    "You compare prices across at least 2 sources for one item.",
+    "You understand unit pricing and can use it to find the better value."
+  ],
+  "commonProblems": [
+    "You assume the biggest store has the best price — not always true.",
+    "You ignore shipping costs — they can turn a 'deal' into the most expensive option.",
+    "You spend hours comparing to save a few cents — set a time limit of 10 minutes."
+  ],
+  "tips": [
+    "Look at the unit price on shelf labels — the bigger package is not always cheaper.",
+    "Sign up for price alerts on items you plan to buy later.",
+    "Do not let perfect be the enemy of good — a few minutes of comparison is enough."
+  ]
+}

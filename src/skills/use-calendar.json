@@ -1,0 +1,48 @@
+{
+  "id": "use-calendar",
+  "title": "Use a Calendar",
+  "domain": "organization",
+  "summary": "Keep track of events and deadlines so nothing catches you off guard.",
+  "learnerPromise": "Keep track of events and deadlines so nothing catches you off guard.",
+  "whyItMatters": "A calendar turns chaos into order. It reduces stress and helps you plan your time with more confidence.",
+  "realLifeUses": [
+    "Track assignment due dates for school.",
+    "Remember appointments and meetings.",
+    "Plan around upcoming events and deadlines.",
+    "Coordinate a time that works for a group."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Add events with dates and times.",
+    "Set reminders before deadlines.",
+    "Check your calendar daily.",
+    "Color-code different types of events."
+  ],
+  "miniChallenge": "Add one real event to your calendar and set a reminder for it.",
+  "steps": [
+    "Choose a calendar: paper, phone app, or computer.",
+    "Add every event you know about for the next week.",
+    "Set a reminder one day before each important event.",
+    "Pick a time each day to check your calendar.",
+    "Update it immediately when you learn about a new event."
+  ],
+  "completionCriteria": [
+    "Your calendar has at least five events entered.",
+    "You check it at least once per day for three days."
+  ],
+  "commonProblems": [
+    "Forgetting to check the calendar.",
+    "Not writing down events right away.",
+    "Setting too many reminders and ignoring them all."
+  ],
+  "tips": [
+    "Make checking your calendar part of your morning routine.",
+    "Set only important reminders so you pay attention to them.",
+    "Use different colors for school, work, and personal events."
+  ]
+}

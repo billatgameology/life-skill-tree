@@ -1,0 +1,48 @@
+{
+  "id": "track-spending",
+  "title": "Track Daily Spending",
+  "domain": "money-finance",
+  "summary": "See where your money is going by tracking what you spend.",
+  "learnerPromise": "See where your money is going by tracking what you spend.",
+  "whyItMatters": "Most people do not know where their money goes. Tracking spending is the first step to taking control of your finances. It is eye-opening and empowering.",
+  "realLifeUses": [
+    "Find out if small daily purchases are adding up to a big monthly total.",
+    "Identify one category where you can cut back.",
+    "Prove to yourself that you can stick to a money habit.",
+    "Build the foundation for creating your first budget."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "Choose a tracking method — notebook, spreadsheet, or app.",
+    "Record purchases with amount and what they were for.",
+    "Group expenses into categories like food, transport, and entertainment.",
+    "Review your data and spot your biggest spending area."
+  ],
+  "miniChallenge": "Write down your last 5 purchases and group them by category.",
+  "steps": [
+    "Pick your tracking tool — a notes app, a notebook, or a budgeting app.",
+    "Set three simple categories: needs, wants, and savings.",
+    "Write down your last 5 purchases with amount and what each was for.",
+    "Label each purchase into one of your three categories.",
+    "Look at the results. What category had the most spending?"
+  ],
+  "completionCriteria": [
+    "You have 5 purchases recorded with amounts and categories.",
+    "You can name your top spending category."
+  ],
+  "commonProblems": [
+    "You forget to record a purchase — make it a habit to record immediately, not later.",
+    "Cash is harder to track than cards — keep receipts or jot it down right away.",
+    "You feel guilty about some purchases — remember, tracking is not judging, it is just data."
+  ],
+  "tips": [
+    "Round to the nearest dollar — exact cents do not matter at this stage.",
+    "Be honest. The only person seeing this is you.",
+    "Set a daily phone reminder to review your spending each evening."
+  ]
+}

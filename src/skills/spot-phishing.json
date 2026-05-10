@@ -1,0 +1,48 @@
+{
+  "id": "spot-phishing",
+  "title": "Spot Phishing Messages",
+  "domain": "digital-basics",
+  "summary": "Recognize fake messages designed to steal your information.",
+  "learnerPromise": "Recognize fake messages designed to steal your information.",
+  "whyItMatters": "Scammers send fake emails and texts that look real to trick you into giving up passwords or money. Learning the warning signs helps you avoid falling for them.",
+  "realLifeUses": [
+    "Checking an email that claims to be from your bank.",
+    "Reviewing a text message about a package you were not expecting.",
+    "Deciding whether a link in a message is safe to click.",
+    "Warning a friend or family member about a suspicious message they received."
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["create-passwords"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "Identify common signs of a phishing message.",
+    "Check the sender's address for small spelling tricks.",
+    "Know what to do before clicking a link.",
+    "Report or delete a suspicious message safely."
+  ],
+  "miniChallenge": "Look at your email or texts and find one message that looks suspicious. Check the sender.",
+  "steps": [
+    "Open your email or messaging app and look at recent messages.",
+    "Read the sender's address carefully — not just the display name.",
+    "Look for urgent language like 'Act now' or 'Your account will be closed'.",
+    "Hover over or long-press a link to see the real web address before clicking.",
+    "If something feels off, delete the message or report it without responding."
+  ],
+  "completionCriteria": [
+    "You found at least one warning sign in a real or example message.",
+    "You can explain why you did or did not trust the message."
+  ],
+  "commonProblems": [
+    "The message looks very real — scammers copy logos and colors from real companies.",
+    "You are not sure about a link — when in doubt, open a browser and go to the site directly.",
+    "A message claims to be from someone you know — contact that person another way to check."
+  ],
+  "tips": [
+    "Real companies rarely ask for your password or card number by email.",
+    "Spelling mistakes and strange grammar are common in scam messages.",
+    "If a message creates panic or pressure, slow down and think before acting."
+  ]
+}

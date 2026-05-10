@@ -1,0 +1,48 @@
+{
+  "id": "connect-wifi",
+  "title": "Connect to Wi-Fi",
+  "domain": "digital-basics",
+  "summary": "Get your device online by finding and joining a wireless network.",
+  "learnerPromise": "Get your device online by finding and joining a wireless network.",
+  "whyItMatters": "Most apps, messages, and updates need an internet connection. Knowing how to join Wi-Fi lets you get online in new places like cafés, libraries, or a friend's home.",
+  "realLifeUses": [
+    "Getting online at a café or library.",
+    "Setting up internet on a new phone or laptop.",
+    "Helping a family member connect their device.",
+    "Switching to a stronger network when the current one is slow."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Open the Wi-Fi settings on your device.",
+    "Scan for nearby wireless networks.",
+    "Select a network and enter a password.",
+    "Know what to do when a network does not connect."
+  ],
+  "miniChallenge": "Connect your phone or laptop to a Wi-Fi network you have not used before.",
+  "steps": [
+    "Open your device's Settings app.",
+    "Tap the Wi-Fi section and make sure it is turned on.",
+    "Look at the list of available networks and pick the one you want.",
+    "Type the password carefully, checking for capital letters and numbers.",
+    "Wait a few seconds and look for the word 'Connected' or a checkmark."
+  ],
+  "completionCriteria": [
+    "Your device shows a Wi-Fi icon and says it is connected.",
+    "You can open a web page or app that needs internet."
+  ],
+  "commonProblems": [
+    "The password was typed incorrectly — try re-entering it slowly.",
+    "The network name looks similar to another one — double-check you picked the right one.",
+    "Wi-Fi is turned off — go back to settings and toggle it on."
+  ],
+  "tips": [
+    "Ask the owner or staff for the correct network name and password in a new place.",
+    "If the connection fails, move a bit closer to the router or access point.",
+    "Forget old networks you no longer use so your device does not keep trying them."
+  ]
+}

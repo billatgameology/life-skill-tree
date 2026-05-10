@@ -1,0 +1,50 @@
+{
+  "id": "restart-update-app",
+  "title": "Restart and Update an App",
+  "domain": "digital-basics",
+  "summary": "Fix common tech problems with a simple routine.",
+  "learnerPromise": "Fix common tech problems with a simple routine.",
+  "whyItMatters": "Devices sometimes freeze, crash, or slow down. Having a step-by-step routine saves frustration and often fixes the issue without needing outside help.",
+  "realLifeUses": [
+    "An app keeps crashing when you open it.",
+    "Your device is much slower than usual.",
+    "A web page will not load even though you have Wi-Fi.",
+    "Sound or video is not working during a call."
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": [
+    "manage-device-settings"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 20,
+  "youWillLearn": [
+    "Restart an app or device the right way.",
+    "Check if an update is available and install it.",
+    "Test whether the problem is the app, the device, or the connection.",
+    "Know when to ask for help after trying the basics."
+  ],
+  "miniChallenge": "Pick one app on your device and practice the restart-check-update routine.",
+  "steps": [
+    "Close the app completely and reopen it.",
+    "If the problem continues, restart your entire device.",
+    "Go to your app store or settings and check for available updates.",
+    "If the issue is with one app, uninstall and reinstall it.",
+    "Test the app again. If it still does not work, note the exact error message for when you ask for help."
+  ],
+  "completionCriteria": [
+    "You walked through the full restart-check-update-reinstall routine.",
+    "You can name which step helped or that the problem needs more support."
+  ],
+  "commonProblems": [
+    "The device feels frozen \u2014 hold the power button down until it restarts.",
+    "You cannot find the update section \u2014 look in Settings under System or Software Update.",
+    "Reinstalling the app did not help \u2014 the issue may be with the app itself and not your device."
+  ],
+  "tips": [
+    "Restarting fixes more problems than most people expect.",
+    "Check your internet connection first if only online features are broken.",
+    "Write down error messages exactly \u2014 they help when you talk to support."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "make-budget",
+  "title": "Make a Simple Budget",
+  "domain": "money-finance",
+  "summary": "Make a simple budget so you know where your money is going.",
+  "learnerPromise": "Make a simple budget so you know where your money is going.",
+  "whyItMatters": "A budget is not a restriction. It is a plan that makes sure your money goes where you actually want it to go. It turns anxiety into confidence.",
+  "realLifeUses": [
+    "Make sure rent and bills are covered before spending on fun.",
+    "Set aside money for savings every month.",
+    "Prepare for an irregular income from freelance or part-time work.",
+    "Save for a big purchase without going into debt."
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["needs-vs-wants"],
+  "xp": 15,
+  "estimatedMinutes": 25,
+  "youWillLearn": [
+    "Add up your total monthly income from all sources.",
+    "List all monthly expenses and separate needs from wants.",
+    "Use the 50/30/20 rule as a starting framework.",
+    "Track actual spending against your budget and adjust."
+  ],
+  "miniChallenge": "Create a simple budget for $20, $50, or your next paycheck.",
+  "steps": [
+    "Write down all money you expect to receive — every source.",
+    "List every expense you know is coming: rent, bills, groceries, transport.",
+    "Apply the 50/30/20 framework: 50% needs, 30% wants, 20% savings.",
+    "Adjust the percentages to fit your real life. Make sure needs are covered first.",
+    "Write the final budget down. Commit to checking it weekly."
+  ],
+  "completionCriteria": [
+    "You have a written budget with specific amounts for needs, wants, and savings.",
+    "Your budget totals match your expected income — every dollar is assigned."
+  ],
+  "commonProblems": [
+    "Your expenses are higher than your income — cut wants first, then find ways to reduce needs.",
+    "Irregular income makes budgeting hard — budget based on your lowest expected month.",
+    "You forget irregular expenses like annual subscriptions — divide yearly costs by 12."
+  ],
+  "tips": [
+    "Pay yourself first — put savings aside the day you get paid, not at the end of the month.",
+    "Use cash envelopes for wants if you tend to overspend with cards.",
+    "Review and adjust your budget every month. It is a living document, not a rule carved in stone."
+  ]
+}

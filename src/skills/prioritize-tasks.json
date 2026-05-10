@@ -1,0 +1,48 @@
+{
+  "id": "prioritize-tasks",
+  "title": "Prioritize Tasks",
+  "domain": "organization",
+  "summary": "Decide what matters most when you have too much to do.",
+  "learnerPromise": "Decide what matters most when you have too much to do.",
+  "whyItMatters": "Not all tasks are equal. Prioritizing helps you spend energy on what actually moves you forward.",
+  "realLifeUses": [
+    "Decide which homework to do first when you have multiple assignments.",
+    "Choose the most important errand when time is short.",
+    "Balance school, work, and personal commitments.",
+    "Prepare for a deadline that matters most."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["use-calendar"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "Tell the difference between urgent and important.",
+    "Use a simple priority system.",
+    "Reorder your to-do list by priority.",
+    "Focus on one high-priority task at a time."
+  ],
+  "miniChallenge": "Take your to-do list and rank the top 3 by what happens if you do not do them.",
+  "steps": [
+    "Look at your tasks and ask: What happens if I do not do this today?",
+    "Label each task as urgent, important, both, or neither.",
+    "Do urgent and important tasks first.",
+    "Schedule important but not urgent tasks for later.",
+    "Drop or delay tasks that are neither urgent nor important."
+  ],
+  "completionCriteria": [
+    "You can explain why your top task is the most important.",
+    "You complete your highest priority task before lower ones."
+  ],
+  "commonProblems": [
+    "Doing easy tasks first and ignoring hard but important ones.",
+    "Treating every task as equally urgent.",
+    "Getting distracted by new tasks that pop up."
+  ],
+  "tips": [
+    "The hardest task is usually the most important. Do it first.",
+    "Ask yourself what you would do if you could only do one thing today.",
+    "It is okay to say no to tasks that do not align with your goals."
+  ]
+}

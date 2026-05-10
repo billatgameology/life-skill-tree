@@ -1,0 +1,49 @@
+{
+  "id": "treat-minor-burn",
+  "title": "Treat a Minor Burn",
+  "domain": "health-safety",
+  "summary": "Cool and protect a minor burn from a hot pan, curling iron, or other everyday heat source to reduce pain and help the skin heal.",
+  "learnerPromise": "Cool and protect a minor burn to reduce pain and help healing.",
+  "whyItMatters": "Minor burns are common at home and can be painful. Treating them quickly helps the skin heal and lowers the chance of scarring or infection.",
+  "realLifeUses": [
+    "Touching a hot pan while cooking",
+    "Brushing against a hot hair styling tool",
+    "Getting a mild sunburn",
+    "Accidentally touching a hot mug of coffee or tea"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "How to cool a burn with running water",
+    "How to cover the burn with a clean, loose covering",
+    "What not to put on a burn",
+    "When a burn needs medical attention"
+  ],
+  "miniChallenge": "Learn the cool-cover-check routine and explain it to someone else.",
+  "steps": [
+    "Cool the burn under cool running water for several minutes as soon as possible.",
+    "Remove rings, watches, or tight items near the area before it swells.",
+    "Pat the area dry gently with a clean cloth.",
+    "Cover the burn with a clean, loose bandage or sterile non-stick dressing.",
+    "Check the area daily for signs of infection like growing redness or swelling."
+  ],
+  "completionCriteria": [
+    "You cooled the burn under running water right away",
+    "You covered it with a clean, loose dressing",
+    "You know to watch for signs that need medical care"
+  ],
+  "commonProblems": [
+    "The burn area is large or on the face — seek medical help",
+    "Blisters form — do not pop them; cover and protect them",
+    "The pain gets worse over time — this may need a doctor's care"
+  ],
+  "tips": [
+    "Do not use ice, butter, or toothpaste on a burn — these can make it worse",
+    "Cool the burn for at least 10 to 20 minutes under running water",
+    "Keep a few sterile non-stick dressings in a first aid kit"
+  ]
+}

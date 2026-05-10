@@ -1,0 +1,48 @@
+{
+  "id": "do-laundry",
+  "title": "Do Your Laundry",
+  "domain": "home-care",
+  "summary": "Sort clothes, choose the right washer settings, dry them properly, and fold so they are ready to wear.",
+  "learnerPromise": "Wash, dry, and fold clothes without shrinking or dyeing them.",
+  "whyItMatters": "Clean clothes feel better to wear and last longer. Learning the basics of laundry keeps your favorite items in good shape and prevents accidents like shrunken sweaters or pink-tinted whites.",
+  "realLifeUses": [
+    "Wash everyday clothes so they stay fresh",
+    "Save a favorite shirt from being ruined by hot water",
+    "Dry clothes efficiently without overloading the machine",
+    "Fold clothes so they are easy to find and put away"
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 30,
+  "youWillLearn": [
+    "How to sort clothes by color and fabric type",
+    "How to read clothing care labels",
+    "Which washer and dryer settings match your load",
+    "How to fold common items like shirts and pants"
+  ],
+  "miniChallenge": "Wash one small load from start to finish, including drying and folding.",
+  "steps": [
+    "Gather dirty clothes and sort them into piles: whites, darks, and delicates.",
+    "Check the care labels on a few items to confirm water temperature and dryer safety.",
+    "Load one pile into the washing machine, add detergent, and pick the matching cycle.",
+    "Move the washed clothes to the dryer or hang them to air dry if the label suggests it.",
+    "When dry, fold each item neatly and place it in a stack or basket to put away."
+  ],
+  "completionCriteria": [
+    "One complete load is washed, dried, and folded",
+    "No items were damaged by incorrect settings"
+  ],
+  "commonProblems": [
+    "Colors bled onto lighter clothes — wash darks and whites separately",
+    "Clothes came out shrunk — check labels and use cold water or air dry",
+    "Detergent left residue — use the recommended amount, not extra"
+  ],
+  "tips": [
+    "Turn printed t-shirts inside out before washing to protect the design",
+    "Remove clothes from the dryer slightly early to prevent wrinkles",
+    "Keep a small hamper or bin in your room so dirty clothes have a home"
+  ]
+}

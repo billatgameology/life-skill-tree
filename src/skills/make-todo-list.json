@@ -1,0 +1,48 @@
+{
+  "id": "make-todo-list",
+  "title": "Make a To-Do List",
+  "domain": "organization",
+  "summary": "Organize your tasks so you know what to do first.",
+  "learnerPromise": "Organize your tasks so you know what to do first.",
+  "whyItMatters": "Your brain is for thinking, not for storing tasks. Writing things down frees your mind and keeps you on track.",
+  "realLifeUses": [
+    "List homework assignments for the day.",
+    "Plan errands you need to run.",
+    "Track tasks for a group project.",
+    "Organize your morning routine."
+  ],
+  "level": 1,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["use-calendar"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Write down every task you need to do.",
+    "Break big tasks into smaller steps.",
+    "Check off completed items.",
+    "Review and update your list daily."
+  ],
+  "miniChallenge": "Write down everything you need to do today, then pick the top 3.",
+  "steps": [
+    "Write down every task on your mind. Do not worry about order yet.",
+    "Break large tasks into small, specific actions.",
+    "Pick your top three tasks for today.",
+    "Work through them one at a time.",
+    "Check off each item as you finish it and review what is left."
+  ],
+  "completionCriteria": [
+    "You create a list with at least five tasks.",
+    "You check off at least three tasks by the end of the day."
+  ],
+  "commonProblems": [
+    "Making tasks too vague or too big.",
+    "Creating a list that is unrealistically long.",
+    "Not looking at the list after writing it."
+  ],
+  "tips": [
+    "Write tasks as actions: 'Call dentist' not 'Dentist.'",
+    "Limit daily tasks to a realistic number.",
+    "Keep your list where you will see it all day."
+  ]
+}

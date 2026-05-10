@@ -1,0 +1,48 @@
+{
+  "id": "read-transit-schedules",
+  "title": "Read Transit Schedules",
+  "domain": "navigation",
+  "summary": "Decode bus and train schedules so you know when and where to go.",
+  "learnerPromise": "Decode bus and train schedules so you know when and where to go.",
+  "whyItMatters": "Public transit is often the cheapest way to get around. Reading schedules well means less waiting and more control over your time.",
+  "realLifeUses": [
+    "Catch the right bus to school or work.",
+    "Plan a train trip with a connection at a transfer station.",
+    "Figure out weekend or holiday service changes.",
+    "Help a friend navigate transit in your city."
+  ],
+  "level": 2,
+  "difficulty": "medium",
+  "status": "available",
+  "prerequisites": ["read-street-map"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "Read a timetable and find departure times for your stop.",
+    "Understand route numbers, direction labels, and terminal names.",
+    "Find platform, gate, or boarding location info.",
+    "Spot service exceptions like holidays or rush-hour only routes."
+  ],
+  "miniChallenge": "Find a bus or train schedule online and plan one trip using it.",
+  "steps": [
+    "Find the timetable for your route — paper, app, or website.",
+    "Identify your stop and the direction you are traveling.",
+    "Find the next departure time that fits your schedule.",
+    "Note the platform or stop location and any transfers needed.",
+    "Arrive at the stop a few minutes early. Board and confirm you are on the right route."
+  ],
+  "completionCriteria": [
+    "You can read a transit timetable and pick the correct departure time for your stop.",
+    "You can identify route numbers, directions, and transfer points."
+  ],
+  "commonProblems": [
+    "You are looking at the wrong direction — timetables are split by inbound and outbound.",
+    "Weekend schedules differ from weekday — check the day of the week.",
+    "The route has multiple variants — match the destination or terminal name, not just the number."
+  ],
+  "tips": [
+    "Have a backup route in case you miss your connection.",
+    "Use a transit app with real-time updates when available.",
+    "Snap a photo of the timetable so you have it offline."
+  ]
+}

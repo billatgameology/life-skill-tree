@@ -1,0 +1,48 @@
+{
+  "id": "store-food",
+  "title": "Store Food Properly",
+  "domain": "food-cooking",
+  "summary": "Put leftovers and ingredients in the right containers at the right temperature so they stay fresh and safe.",
+  "learnerPromise": "Store leftovers and ingredients so they stay fresh longer.",
+  "whyItMatters": "Good storage keeps food safe to eat, reduces waste, and saves money. A well-organized fridge also makes it easier to see what you have and plan meals around it.",
+  "realLifeUses": [
+    "Keep leftovers safe to eat for several days",
+    "Organize the fridge so older food gets used first",
+    "Freeze extra portions before they go bad",
+    "Know which foods go in the fridge, freezer, or pantry"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["use-knife"],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "How to choose airtight containers for different foods",
+    "Where to place items in the fridge for best temperature control",
+    "How to label containers with dates",
+    "The difference between fridge storage and freezer storage"
+  ],
+  "miniChallenge": "Move one leftover into an airtight container and label it with today's date.",
+  "steps": [
+    "Let hot leftovers cool on the counter for about 20 minutes before refrigerating.",
+    "Choose a clean, airtight container that fits the portion without too much empty space.",
+    "Transfer the food into the container and seal the lid tightly.",
+    "Write today's date on a piece of tape or a sticky note and attach it to the container.",
+    "Place the container in the fridge where you can see it, ideally on a middle shelf."
+  ],
+  "completionCriteria": [
+    "Leftover is sealed in an airtight container",
+    "Container is clearly labeled with today's date"
+  ],
+  "commonProblems": [
+    "Container is not truly airtight — check that the lid clicks or seals fully",
+    "Forgot what day the food was stored — labeling solves this",
+    "Fridge is too crowded — move older items to the front so they get used first"
+  ],
+  "tips": [
+    "Use clear containers so you can see what is inside without opening them",
+    "Store raw meat on the bottom shelf to prevent drips onto other foods",
+    "Keep the fridge at or below 40 degrees Fahrenheit for safe storage"
+  ]
+}

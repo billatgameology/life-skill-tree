@@ -1,0 +1,49 @@
+{
+  "id": "trash-recycling",
+  "title": "Sort Trash and Recycling",
+  "domain": "home-care",
+  "summary": "Learn which items go in the trash, recycling, or compost, and keep bins clean and organized.",
+  "learnerPromise": "Sort waste correctly and keep bins clean.",
+  "whyItMatters": "Sorting waste properly helps the environment, keeps your home tidy, and follows local rules. It also makes taking out the trash quicker and easier.",
+  "realLifeUses": [
+    "Sorting items after cooking a meal",
+    "Breaking down cardboard boxes from deliveries",
+    "Knowing which bin to use for empty bottles and cans",
+    "Keeping the kitchen trash area from smelling"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "How to read your local recycling guidelines",
+    "Which common items go in each bin",
+    "How to rinse containers before recycling",
+    "How to keep bins from smelling or attracting pests"
+  ],
+  "miniChallenge": "Look at your current trash and move one recyclable item to the right bin.",
+  "steps": [
+    "Find the recycling and trash bins in your home.",
+    "Look up your local recycling rules online or on a printed guide.",
+    "Check an item you are unsure about against the guide.",
+    "Rinse out food or liquid from containers before placing them in recycling.",
+    "Place the item in the correct bin and make sure the lid closes."
+  ],
+  "completionCriteria": [
+    "You checked your local recycling rules",
+    "You sorted at least one item correctly",
+    "Containers were rinsed before recycling"
+  ],
+  "commonProblems": [
+    "You are not sure if an item is recyclable \u2014 check your local guide or look it up",
+    "The recycling bin smells \u2014 rinse containers and take the bin out more often",
+    "Your building has different rules \u2014 ask a manager or look for posted signs"
+  ],
+  "tips": [
+    "When in doubt, throw it out \u2014 putting wrong items in recycling can ruin a whole batch",
+    "Flatten cardboard boxes to save space",
+    "Keep a small bin near where you cook or eat to make sorting easier"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "care-for-mild-illness",
+  "title": "Care for a Mild Illness",
+  "domain": "health-safety",
+  "summary": "Take care of yourself at home when you feel unwell by resting, staying hydrated, and using over-the-counter remedies safely.",
+  "learnerPromise": "Take care of yourself when you feel unwell.",
+  "whyItMatters": "Everyone feels sick sometimes. Knowing how to rest, hydrate, and use basic remedies helps you recover faster and feel more comfortable.",
+  "realLifeUses": [
+    "Resting at home with a cold or mild flu",
+    "Managing a headache with rest and hydration",
+    "Knowing what medicine to take for a mild fever",
+    "Deciding when to stay home instead of going out"
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": [
+    "emergency-numbers"
+  ],
+  "xp": 15,
+  "estimatedMinutes": 15,
+  "youWillLearn": [
+    "How to read an over-the-counter medicine label",
+    "Basic steps for resting and recovering at home",
+    "How to stay hydrated when you are sick",
+    "Warning signs that mean you should see a doctor"
+  ],
+  "miniChallenge": "Check your medicine cabinet for one item you are unsure about and read its label.",
+  "steps": [
+    "Find a comfortable place to rest with easy access to water and tissues.",
+    "Drink water, herbal tea, or broth regularly to stay hydrated.",
+    "Check your medicine cabinet for remedies that match your symptoms.",
+    "Read the label carefully for dosage, timing, and warnings.",
+    "Monitor how you feel and contact a doctor if symptoms get worse or last more than a few days."
+  ],
+  "completionCriteria": [
+    "You found a comfortable setup for resting",
+    "You read a medicine label and understood the dosage",
+    "You know at least one warning sign that means you should call a doctor"
+  ],
+  "commonProblems": [
+    "You are not sure which medicine to take \u2014 ask a pharmacist or read labels carefully",
+    "You feel too sick to prepare food or drinks \u2014 ask someone nearby to help",
+    "Symptoms are not improving after several days \u2014 contact a medical professional"
+  ],
+  "tips": [
+    "Sleep is one of the best ways to help your body recover",
+    "Warm liquids like soup or tea can soothe a sore throat and help with hydration",
+    "Do not take more medicine than the label recommends, even if you feel very unwell"
+  ]
+}

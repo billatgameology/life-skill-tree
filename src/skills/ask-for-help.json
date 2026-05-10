@@ -1,0 +1,48 @@
+{
+  "id": "ask-for-help",
+  "title": "Ask for Help Effectively",
+  "domain": "communication",
+  "summary": "Ask for help in a way that makes people want to say yes.",
+  "learnerPromise": "Ask for help in a way that makes people want to say yes.",
+  "whyItMatters": "Nobody does everything alone. Knowing how to ask for help saves time, reduces stress, and builds connections.",
+  "realLifeUses": [
+    "Ask a teacher to explain a concept you did not understand.",
+    "Request a coworker to show you how to use a tool.",
+    "Ask a neighbor to borrow something you need.",
+    "Get help from a friend when you are overwhelmed."
+  ],
+  "level": 2,
+  "difficulty": "easy",
+  "status": "available",
+  "prerequisites": ["make-phone-call"],
+  "xp": 15,
+  "estimatedMinutes": 10,
+  "youWillLearn": [
+    "Be specific about what you need.",
+    "Choose the right person to ask.",
+    "Ask politely and directly.",
+    "Show appreciation after receiving help."
+  ],
+  "miniChallenge": "Ask one person for help with something small today. Be specific.",
+  "steps": [
+    "Figure out exactly what you need help with.",
+    "Pick the person most likely able to help you.",
+    "Ask directly: 'Can you help me with [specific thing]?'",
+    "Explain briefly why you need help if it adds context.",
+    "Thank them, and follow up later if needed."
+  ],
+  "completionCriteria": [
+    "You ask one specific person for one specific thing.",
+    "You get a clear yes or no response."
+  ],
+  "commonProblems": [
+    "Being too vague about what you need.",
+    "Asking the wrong person.",
+    "Feeling guilty about asking."
+  ],
+  "tips": [
+    "People usually want to help. Asking is a compliment.",
+    "Ask when the person is not busy or stressed.",
+    "Always say thank you, even if they say no."
+  ]
+}
