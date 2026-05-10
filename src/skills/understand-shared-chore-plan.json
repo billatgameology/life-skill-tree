@@ -17,7 +17,9 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["The household chore schedule (paper, whiteboard, or digital)"],
+  "materialsNeeded": [
+    "The household chore schedule (paper, whiteboard, or digital)"
+  ],
   "result": "You know your current and upcoming chores and when they need to be done.",
   "youWillLearn": [
     "Read a chore schedule and locate your name or assigned tasks",
@@ -48,5 +50,13 @@
     "If a chore feels unclear, ask what 'done' looks like so you meet expectations",
     "Speak up early if you need to swap—waiting until the last minute creates tension"
   ],
-  "tags": ["housing", "chores", "shared-living", "schedule", "roommates"]
+  "tags": [
+    "housing",
+    "chores",
+    "shared-living",
+    "schedule",
+    "roommates"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

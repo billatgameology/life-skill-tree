@@ -14,10 +14,14 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["needs-vs-wants"],
+  "suggestedPrerequisites": [
+    "needs-vs-wants"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["None"],
+  "materialsNeeded": [
+    "None"
+  ],
   "result": "A personal pause habit that helps you make more intentional purchase decisions.",
   "youWillLearn": [
     "How to notice when you are about to make an unplanned purchase",
@@ -48,5 +52,12 @@
     "Unsubscribe from marketing emails that trigger frequent impulse urges",
     "Set a personal spending threshold where you always wait a day before deciding"
   ],
-  "tags": ["self-control", "budgeting", "decision-making", "habits"]
+  "tags": [
+    "self-control",
+    "budgeting",
+    "decision-making",
+    "habits"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

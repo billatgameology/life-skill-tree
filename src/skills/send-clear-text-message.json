@@ -50,5 +50,12 @@
     "Reread your message before sending to catch typos or unclear wording",
     "Match your tone to the person you are texting"
   ],
-  "tags": ["texting", "messaging", "clarity", "digital-communication"]
+  "tags": [
+    "texting",
+    "messaging",
+    "clarity",
+    "digital-communication"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

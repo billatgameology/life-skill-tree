@@ -14,10 +14,15 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["read-basic-bill"],
+  "suggestedPrerequisites": [
+    "read-basic-bill"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["A phone or computer with a calendar or reminder app", "One upcoming bill"],
+  "materialsNeeded": [
+    "A phone or computer with a calendar or reminder app",
+    "One upcoming bill"
+  ],
   "result": "You have at least one payment reminder set up for an upcoming bill.",
   "youWillLearn": [
     "Choose a reminder time that gives you a buffer before the due date",
@@ -47,5 +52,12 @@
     "If your bank or service offers auto-pay, pair it with a reminder so you know the money will leave your account",
     "Use different ring tones or labels for payment reminders so they stand out"
   ],
-  "tags": ["reminders", "bills", "organization", "late-fees"]
+  "tags": [
+    "reminders",
+    "bills",
+    "organization",
+    "late-fees"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

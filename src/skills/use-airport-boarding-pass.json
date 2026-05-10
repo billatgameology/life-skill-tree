@@ -52,5 +52,12 @@
     "Check the flight display screens regularly in case your gate changes",
     "Keep your boarding pass and ID easily accessible throughout the airport"
   ],
-  "tags": ["airport", "flying", "boarding-pass", "travel"]
+  "tags": [
+    "airport",
+    "flying",
+    "boarding-pass",
+    "travel"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -50,5 +50,7 @@
   ],
   "safetyLevel": "medium",
   "requiresSourceReview": true,
-  "helpBoundary": "Call emergency services for life-threatening symptoms. Ask a trusted person for help finding the right doctor."
+  "helpBoundary": "Call emergency services for life-threatening symptoms. Ask a trusted person for help finding the right doctor.",
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

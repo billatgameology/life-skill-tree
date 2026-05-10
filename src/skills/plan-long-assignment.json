@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["check-assignment-requirements"],
+  "suggestedPrerequisites": [
+    "check-assignment-requirements"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
   "materialsNeeded": [
@@ -52,5 +54,12 @@
     "Start with the hardest stage first if you can",
     "If you fall behind, adjust your plan instead of giving up"
   ],
-  "tags": ["planning", "time-management", "assignments", "organization"]
+  "tags": [
+    "planning",
+    "time-management",
+    "assignments",
+    "organization"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

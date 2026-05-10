@@ -51,5 +51,13 @@
     "Move photos and videos to cloud storage before deleting them from your device",
     "Set a monthly reminder to clean up storage before it becomes a problem"
   ],
-  "tags": ["storage", "cleanup", "device-maintenance", "phone", "computer"]
+  "tags": [
+    "storage",
+    "cleanup",
+    "device-maintenance",
+    "phone",
+    "computer"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

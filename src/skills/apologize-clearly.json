@@ -9,7 +9,7 @@
     "Apologizing to a friend after being late to meet them",
     "Saying sorry to a coworker for missing a deadline",
     "Making amends with a family member after a disagreement",
- "Acknowledging a mistake made in a group project"
+    "Acknowledging a mistake made in a group project"
   ],
   "level": 1,
   "difficulty": "easy",
@@ -50,5 +50,12 @@
     "Excuses cancel out apologies; save explanations for a separate conversation if needed",
     "A small sincere apology is more powerful than a big insincere one"
   ],
-  "tags": ["apology", "conflict", "relationships", "emotional-skills"]
+  "tags": [
+    "apology",
+    "conflict",
+    "relationships",
+    "emotional-skills"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

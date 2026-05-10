@@ -54,5 +54,12 @@
   "safetyLevel": "medium",
   "requiresSourceReview": true,
   "helpBoundary": "Ask a pharmacist or doctor before taking medicine if you are unsure about the dosage, have existing health conditions, take prescription medications, or are pregnant.",
-  "tags": ["health", "medicine", "reading", "safety"]
+  "tags": [
+    "health",
+    "medicine",
+    "reading",
+    "safety"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

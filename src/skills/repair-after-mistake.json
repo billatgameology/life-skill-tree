@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["repair-small-disagreement"],
+  "suggestedPrerequisites": [
+    "repair-small-disagreement"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -50,5 +52,12 @@
     "Do not over-apologize. One sincere apology and a repair action is enough",
     "If you cannot fix the mistake directly, ask sincerely what the other person needs"
   ],
-  "tags": ["responsibility", "apology", "repair", "accountability"]
+  "tags": [
+    "responsibility",
+    "apology",
+    "repair",
+    "accountability"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

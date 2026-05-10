@@ -51,5 +51,13 @@
     "Set up a bedtime reminder so your device dims or notifies you when it is time to wind down",
     "Review your screen time report weekly to notice patterns and adjust your goals"
   ],
-  "tags": ["screen-time", "digital-wellbeing", "focus", "habits", "self-management"]
+  "tags": [
+    "screen-time",
+    "digital-wellbeing",
+    "focus",
+    "habits",
+    "self-management"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

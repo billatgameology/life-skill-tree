@@ -49,5 +49,12 @@
     "If a notice asks for money or personal info, verify it with the listed office before responding",
     "Take a photo of important notices so you can refer to them later"
   ],
-  "tags": ["reading", "community", "notices", "information"]
+  "tags": [
+    "reading",
+    "community",
+    "notices",
+    "information"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

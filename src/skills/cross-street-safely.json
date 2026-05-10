@@ -54,5 +54,12 @@
   ],
   "safetyLevel": "medium",
   "helpBoundary": "If you are unsure whether a crossing is safe, look for a nearby crosswalk, pedestrian bridge, or traffic officer. Ask a trusted adult or local authority for guidance if a street feels too dangerous to cross.",
-  "tags": ["safety", "traffic", "walking", "awareness"]
+  "tags": [
+    "safety",
+    "traffic",
+    "walking",
+    "awareness"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

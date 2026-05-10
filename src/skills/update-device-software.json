@@ -55,5 +55,13 @@
     "Back up important files before major system updates, just in case",
     "If an update keeps failing, try restarting your device and attempting again"
   ],
-  "tags": ["updates", "software", "security", "device-maintenance", "system"]
+  "tags": [
+    "updates",
+    "software",
+    "security",
+    "device-maintenance",
+    "system"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

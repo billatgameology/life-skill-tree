@@ -17,7 +17,11 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["Trash bin or recycling bag", "A cloth or wipes for dusting", "Optional: drawer organizer or small containers"],
+  "materialsNeeded": [
+    "Trash bin or recycling bag",
+    "A cloth or wipes for dusting",
+    "Optional: drawer organizer or small containers"
+  ],
   "result": "A clean desk surface with clear space to work and organized supplies.",
   "youWillLearn": [
     "How to sort desk items into keep, trash, and relocate piles",
@@ -48,5 +52,12 @@
     "Leave the center of your desk open for the task at hand",
     "Spend two minutes at the end of each day resetting your desk"
   ],
-  "tags": ["workspace", "cleaning", "decluttering", "focus"]
+  "tags": [
+    "workspace",
+    "cleaning",
+    "decluttering",
+    "focus"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

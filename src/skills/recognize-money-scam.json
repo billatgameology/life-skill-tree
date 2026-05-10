@@ -14,10 +14,14 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["spot-phishing"],
+  "suggestedPrerequisites": [
+    "spot-phishing"
+  ],
   "xp": 20,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["None"],
+  "materialsNeeded": [
+    "None"
+  ],
   "result": "You can list the five most common scam warning signs and explain what to do if you encounter one.",
   "youWillLearn": [
     "Identify pressure tactics like urgent deadlines or threats",
@@ -48,5 +52,13 @@
     "If you are unsure, talk to a trusted adult, bank representative, or teacher before taking action"
   ],
   "helpBoundary": "If someone is pressuring you to send money quickly, or if you already shared financial information with a possible scammer, tell a trusted adult and contact your bank immediately. You are not in trouble; acting fast helps protect you.",
-  "tags": ["scams", "fraud", "safety", "security", "awareness"]
+  "tags": [
+    "scams",
+    "fraud",
+    "safety",
+    "security",
+    "awareness"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

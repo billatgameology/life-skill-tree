@@ -55,5 +55,12 @@
   "safetyLevel": "low",
   "requiresSourceReview": true,
   "helpBoundary": "Contact a medical professional if your temperature is very high, lasts more than a couple of days, or comes with severe symptoms like confusion, stiff neck, or trouble breathing.",
-  "tags": ["temperature", "thermometer", "fever", "health-monitoring"]
+  "tags": [
+    "temperature",
+    "thermometer",
+    "fever",
+    "health-monitoring"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

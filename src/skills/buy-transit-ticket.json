@@ -50,5 +50,12 @@
     "If paying cash on a bus, carry exact change when possible",
     "Screenshot your digital ticket in case your app loses connection"
   ],
-  "tags": ["transit", "ticket", "payment", "public-transportation"]
+  "tags": [
+    "transit",
+    "ticket",
+    "payment",
+    "public-transportation"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

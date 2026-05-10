@@ -17,7 +17,10 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Receipts you already have", "An envelope, folder, or digital storage like email or notes app"],
+  "materialsNeeded": [
+    "Receipts you already have",
+    "An envelope, folder, or digital storage like email or notes app"
+  ],
   "result": "A simple system for storing receipts so you can find them quickly later.",
   "youWillLearn": [
     "Which receipts are worth keeping and for how long",
@@ -48,5 +51,12 @@
     "Keep receipts for electronics and appliances at least until the warranty ends",
     "Review and clear out old receipts every few months to avoid clutter"
   ],
-  "tags": ["organization", "receipts", "money-tracking", "returns"]
+  "tags": [
+    "organization",
+    "receipts",
+    "money-tracking",
+    "returns"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

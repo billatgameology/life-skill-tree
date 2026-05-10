@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["find-doctor"],
+  "suggestedPrerequisites": [
+    "find-doctor"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
   "materialsNeeded": [
@@ -55,5 +57,13 @@
   ],
   "safetyLevel": "low",
   "helpBoundary": "Ask a trusted adult, caregiver, or clinic staff member for help if you do not have insurance information, are unsure which type of doctor to see, or feel overwhelmed by the booking process.",
-  "tags": ["appointment", "health", "phone", "planning", "organization"]
+  "tags": [
+    "appointment",
+    "health",
+    "phone",
+    "planning",
+    "organization"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -14,10 +14,15 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["compare-bank-accounts"],
+  "suggestedPrerequisites": [
+    "compare-bank-accounts"
+  ],
   "xp": 20,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["A bank account", "Banking app or online access"],
+  "materialsNeeded": [
+    "A bank account",
+    "Banking app or online access"
+  ],
   "result": "You have turned on at least one guardrail to prevent overdraft fees.",
   "youWillLearn": [
     "Check your available balance before spending",
@@ -47,5 +52,13 @@
     "A buffer of even $20–$50 in your account can prevent most accidental overdrafts",
     "If you do get an overdraft fee, calling your bank and asking politely may get it reversed, especially if it is your first time"
   ],
-  "tags": ["banking", "fees", "budgeting", "balance", "alerts"]
+  "tags": [
+    "banking",
+    "fees",
+    "budgeting",
+    "balance",
+    "alerts"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

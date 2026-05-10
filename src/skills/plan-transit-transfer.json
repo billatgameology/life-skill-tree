@@ -54,5 +54,13 @@
     "Check if your transfer stop has a shelter or indoor waiting area",
     "Have the next departure time ready in case you miss your first connection"
   ],
-  "tags": ["transit", "transfer", "planning", "public-transportation", "multi-route"]
+  "tags": [
+    "transit",
+    "transfer",
+    "planning",
+    "public-transportation",
+    "multi-route"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

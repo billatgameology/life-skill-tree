@@ -53,5 +53,13 @@
     "Label your external drives or USB sticks with the backup date so you know how recent they are",
     "Back up before traveling or before major device updates"
   ],
-  "tags": ["backup", "files", "storage", "safety", "recovery"]
+  "tags": [
+    "backup",
+    "files",
+    "storage",
+    "safety",
+    "recovery"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -52,5 +52,12 @@
     "Ask about digital apps that let you borrow e-books and audiobooks from home",
     "Write your PIN or password down somewhere safe if the card requires one"
   ],
-  "tags": ["library", "community", "forms", "local-services"]
+  "tags": [
+    "library",
+    "community",
+    "forms",
+    "local-services"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

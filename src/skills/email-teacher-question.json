@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["write-professional-email"],
+  "suggestedPrerequisites": [
+    "write-professional-email"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -51,5 +53,12 @@
     "Reread your email before sending to check for typos",
     "If it is urgent, mention a deadline, but give the teacher at least a day to reply"
   ],
-  "tags": ["email", "communication", "writing", "help-seeking"]
+  "tags": [
+    "email",
+    "communication",
+    "writing",
+    "help-seeking"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

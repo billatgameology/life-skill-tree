@@ -52,5 +52,13 @@
     "Use a color-safe cloth so you do not accidentally bleach a dark floor"
   ],
   "safetyLevel": "low",
-  "tags": ["cleaning", "floors", "mopping", "spills", "safety"]
+  "tags": [
+    "cleaning",
+    "floors",
+    "mopping",
+    "spills",
+    "safety"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

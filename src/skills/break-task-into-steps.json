@@ -17,7 +17,9 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Paper and pen, or a notes app"],
+  "materialsNeeded": [
+    "Paper and pen, or a notes app"
+  ],
   "result": "A written list of 3 to 7 small, specific steps for one task.",
   "youWillLearn": [
     "How to identify the first small action in a large task",
@@ -48,5 +50,12 @@
     "Start each step with a verb to make it feel actionable",
     "Focus on the first two or three steps to get started, you can plan the rest later"
   ],
-  "tags": ["task-planning", "procrastination", "project-management", "getting-started"]
+  "tags": [
+    "task-planning",
+    "procrastination",
+    "project-management",
+    "getting-started"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

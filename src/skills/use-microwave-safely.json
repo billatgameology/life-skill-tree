@@ -53,7 +53,7 @@
   "tips": [
     "When in doubt, transfer food to a ceramic or glass dish.",
     "Start with less time. You can always add more, but you cannot undo overcooking.",
-    "Let heated food sit for 30 seconds after the microwave stops\u2014heat continues to spread."
+    "Let heated food sit for 30 seconds after the microwave stops—heat continues to spread."
   ],
   "safetyLevel": "medium",
   "requiresSourceReview": true,
@@ -63,5 +63,7 @@
     "safety",
     "appliances",
     "heating"
-  ]
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

@@ -14,7 +14,10 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["notice-stress-signal", "take-calm-down-break"],
+  "suggestedPrerequisites": [
+    "notice-stress-signal",
+    "take-calm-down-break"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -51,5 +54,12 @@
     "If bad days are very frequent, consider talking to a trusted person or counselor for extra support"
   ],
   "helpBoundary": "If most days feel like bad days for several weeks in a row, reaching out to a counselor or trusted adult is a strong and healthy choice.",
-  "tags": ["recovery", "routine", "self-care", "stress-relief"]
+  "tags": [
+    "recovery",
+    "routine",
+    "self-care",
+    "stress-relief"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

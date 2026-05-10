@@ -14,10 +14,16 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["save-for-goal"],
+  "suggestedPrerequisites": [
+    "save-for-goal"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["Paper or a notes app", "A calculator", "Your income and expense estimates"],
+  "materialsNeeded": [
+    "Paper or a notes app",
+    "A calculator",
+    "Your income and expense estimates"
+  ],
   "result": "You have a written savings plan with a target amount, timeline, and regular contribution.",
   "youWillLearn": [
     "Pick a specific, realistic savings target",
@@ -47,5 +53,12 @@
     "Name your savings account after your goal to make it feel more real",
     "If you miss one week, do not give up; just continue the next week"
   ],
-  "tags": ["savings", "goals", "budgeting", "planning"]
+  "tags": [
+    "savings",
+    "goals",
+    "budgeting",
+    "planning"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

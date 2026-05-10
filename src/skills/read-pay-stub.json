@@ -14,10 +14,14 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["track-spending"],
+  "suggestedPrerequisites": [
+    "track-spending"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["A recent pay stub (paper or digital)"],
+  "materialsNeeded": [
+    "A recent pay stub (paper or digital)"
+  ],
   "result": "You can identify gross pay, each deduction, and net pay on any pay stub.",
   "youWillLearn": [
     "Locate gross pay (total earnings before anything is taken out)",
@@ -47,5 +51,12 @@
     "If a deduction looks wrong, ask your payroll department or manager",
     "Compare two consecutive pay stubs to spot unexpected changes"
   ],
-  "tags": ["paycheck", "employment", "taxes", "deductions"]
+  "tags": [
+    "paycheck",
+    "employment",
+    "taxes",
+    "deductions"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

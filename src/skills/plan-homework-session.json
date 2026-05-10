@@ -14,10 +14,16 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["break-task-into-steps", "use-timer"],
+  "suggestedPrerequisites": [
+    "break-task-into-steps",
+    "use-timer"
+  ],
   "xp": 20,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Homework list or assignment tracker", "Timer or clock"],
+  "materialsNeeded": [
+    "Homework list or assignment tracker",
+    "Timer or clock"
+  ],
   "result": "A written plan for your homework session with task order and time estimates.",
   "youWillLearn": [
     "How to list all assignments and estimate how long each one takes",
@@ -48,5 +54,12 @@
     "Add a 5-minute buffer to your time estimates for unexpected difficulty",
     "If a task takes much longer than planned, it is okay to adjust your plan midway"
   ],
-  "tags": ["homework", "study-planning", "time-management", "focus"]
+  "tags": [
+    "homework",
+    "study-planning",
+    "time-management",
+    "focus"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

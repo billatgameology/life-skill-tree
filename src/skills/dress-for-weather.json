@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["check-weather-before-leaving"],
+  "suggestedPrerequisites": [
+    "check-weather-before-leaving"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
   "materialsNeeded": [
@@ -51,5 +53,12 @@
     "Keep a light jacket or umbrella in your bag during changing seasons.",
     "If you are unsure, step outside for a moment before finalizing your choice."
   ],
-  "tags": ["weather", "clothing", "comfort", "daily-routine"]
+  "tags": [
+    "weather",
+    "clothing",
+    "comfort",
+    "daily-routine"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

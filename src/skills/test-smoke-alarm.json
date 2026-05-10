@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["replace-batteries"],
+  "suggestedPrerequisites": [
+    "replace-batteries"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -54,5 +56,12 @@
   "safetyLevel": "medium",
   "requiresSourceReview": true,
   "helpBoundary": "If an alarm continues to malfunction after battery replacement, or if you are unsure about electrical hardwired alarms, contact your landlord, a maintenance professional, or your local fire department for guidance.",
-  "tags": ["safety", "emergency", "maintenance", "fire-safety"]
+  "tags": [
+    "safety",
+    "emergency",
+    "maintenance",
+    "fire-safety"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

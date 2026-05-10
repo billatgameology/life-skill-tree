@@ -14,10 +14,14 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["track-spending"],
+  "suggestedPrerequisites": [
+    "track-spending"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["A recent utility, phone, or internet bill (paper or digital)"],
+  "materialsNeeded": [
+    "A recent utility, phone, or internet bill (paper or digital)"
+  ],
   "result": "You can explain each section of a bill and identify when and how to pay it.",
   "youWillLearn": [
     "Find the billing period and account number on any bill",
@@ -48,5 +52,12 @@
     "Many companies offer paperless billing and usage alerts through their apps",
     "If a charge looks wrong, call the company; billing errors are more common than you might expect"
   ],
-  "tags": ["bills", "utilities", "budgeting", "adulting"]
+  "tags": [
+    "bills",
+    "utilities",
+    "budgeting",
+    "adulting"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

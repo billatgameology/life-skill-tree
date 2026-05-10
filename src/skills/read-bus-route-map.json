@@ -50,5 +50,12 @@
     "Look for a route legend or key that explains colors and symbols",
     "Digital maps often let you zoom in and tap a stop for more details"
   ],
-  "tags": ["transit", "bus", "map-reading", "public-transportation"]
+  "tags": [
+    "transit",
+    "bus",
+    "map-reading",
+    "public-transportation"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

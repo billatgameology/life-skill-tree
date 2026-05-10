@@ -53,5 +53,13 @@
     "Reporting spam and scams helps the platform protect other users too",
     "Take a screenshot before deleting if you need to share it with someone for advice"
   ],
-  "tags": ["security", "phishing", "scams", "reporting", "safety"]
+  "tags": [
+    "security",
+    "phishing",
+    "scams",
+    "reporting",
+    "safety"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

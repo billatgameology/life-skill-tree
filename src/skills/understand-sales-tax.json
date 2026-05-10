@@ -14,10 +14,15 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["compare-prices"],
+  "suggestedPrerequisites": [
+    "compare-prices"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["A calculator (optional)", "A sample item price"],
+  "materialsNeeded": [
+    "A calculator (optional)",
+    "A sample item price"
+  ],
   "result": "You can estimate the final price of a $20 item including sales tax.",
   "youWillLearn": [
     "Explain what sales tax is and who collects it",
@@ -47,5 +52,12 @@
     "Some stores show pre-tax prices on shelves and add tax at the register",
     "Keep receipts to see exactly how much tax you paid on past purchases"
   ],
-  "tags": ["tax", "shopping", "budgeting", "estimation"]
+  "tags": [
+    "tax",
+    "shopping",
+    "budgeting",
+    "estimation"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["notice-stress-signal"],
+  "suggestedPrerequisites": [
+    "notice-stress-signal"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
   "materialsNeeded": [
@@ -50,5 +52,12 @@
     "Keep the break short — even two minutes can make a difference",
     "If one technique does not help, try a different one next time"
   ],
-  "tags": ["stress-management", "self-regulation", "calming", "breathing"]
+  "tags": [
+    "stress-management",
+    "self-regulation",
+    "calming",
+    "breathing"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

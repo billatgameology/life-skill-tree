@@ -17,7 +17,10 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["A device with internet access", "An item in your online shopping cart"],
+  "materialsNeeded": [
+    "A device with internet access",
+    "An item in your online shopping cart"
+  ],
   "result": "A completed checkout with a coupon code applied, showing the discount.",
   "youWillLearn": [
     "Where to look for coupon codes on a store's website or email",
@@ -48,5 +51,12 @@
     "Check the expiration date before relying on a code",
     "If one code does not work, try another — multiple codes may exist"
   ],
-  "tags": ["online-shopping", "saving-money", "coupons", "checkout"]
+  "tags": [
+    "online-shopping",
+    "saving-money",
+    "coupons",
+    "checkout"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

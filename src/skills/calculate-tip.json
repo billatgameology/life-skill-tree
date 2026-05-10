@@ -14,10 +14,15 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["compare-prices"],
+  "suggestedPrerequisites": [
+    "compare-prices"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["A calculator (optional)", "A sample bill total"],
+  "materialsNeeded": [
+    "A calculator (optional)",
+    "A sample bill total"
+  ],
   "result": "You can calculate 10%, 15%, and 20% of a bill in under a minute.",
   "youWillLearn": [
     "Move the decimal to find 10% of any amount",
@@ -47,5 +52,12 @@
     "Some people tip on the post-tax total for simplicity; either way is generally accepted",
     "If the service was poor, it is reasonable to tip less or speak with a manager"
   ],
-  "tags": ["tipping", "mental-math", "dining", "etiquette"]
+  "tags": [
+    "tipping",
+    "mental-math",
+    "dining",
+    "etiquette"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["summarize-a-reading"],
+  "suggestedPrerequisites": [
+    "summarize-a-reading"
+  ],
   "xp": 20,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -52,5 +54,12 @@
     "Many library websites and databases can generate a citation for you to check",
     "If a website has no author, use the organization name or the article title"
   ],
-  "tags": ["citation", "research", "writing", "academic-integrity"]
+  "tags": [
+    "citation",
+    "research",
+    "writing",
+    "academic-integrity"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

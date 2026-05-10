@@ -14,10 +14,15 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["calculate-tip"],
+  "suggestedPrerequisites": [
+    "calculate-tip"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["A calculator", "A sample bill or receipt"],
+  "materialsNeeded": [
+    "A calculator",
+    "A sample bill or receipt"
+  ],
   "result": "You can split any group bill fairly using one of two methods.",
   "youWillLearn": [
     "Split a total evenly by dividing by the number of people",
@@ -48,5 +53,12 @@
     "Apps like Venmo, Cash App, or Zelle make paying friends back quick",
     "If splitting by order feels too complicated, even splitting is usually fine among close friends"
   ],
-  "tags": ["group-dining", "splitting", "friends", "payment-apps"]
+  "tags": [
+    "group-dining",
+    "splitting",
+    "friends",
+    "payment-apps"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

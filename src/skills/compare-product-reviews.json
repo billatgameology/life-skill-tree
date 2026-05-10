@@ -14,10 +14,15 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["compare-prices"],
+  "suggestedPrerequisites": [
+    "compare-prices"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["A device with internet access", "A product you are considering buying"],
+  "materialsNeeded": [
+    "A device with internet access",
+    "A product you are considering buying"
+  ],
   "result": "A short list of pros and cons based on actual buyer reviews.",
   "youWillLearn": [
     "How to sort reviews by most recent and most helpful",
@@ -48,5 +53,12 @@
     "Check the review date — older reviews may reflect an older product version",
     "Pay attention to reviews from people who describe a use case similar to yours"
   ],
-  "tags": ["online-shopping", "reviews", "decision-making", "research"]
+  "tags": [
+    "online-shopping",
+    "reviews",
+    "decision-making",
+    "research"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

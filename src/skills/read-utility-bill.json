@@ -14,10 +14,14 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["track-spending"],
+  "suggestedPrerequisites": [
+    "track-spending"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["A recent utility bill (paper or digital)"],
+  "materialsNeeded": [
+    "A recent utility bill (paper or digital)"
+  ],
   "result": "You can locate the billing period, usage amount, total charges, and due date on most utility bills.",
   "youWillLearn": [
     "Locate the billing period and service address on a bill",
@@ -48,5 +52,13 @@
     "Keep at least two months of bills so you can compare trends",
     "Digital bills often have the same sections even if the layout looks different"
   ],
-  "tags": ["housing", "bills", "reading", "utilities", "independent-living"]
+  "tags": [
+    "housing",
+    "bills",
+    "reading",
+    "utilities",
+    "independent-living"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

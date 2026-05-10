@@ -17,7 +17,9 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 5,
-  "materialsNeeded": ["None"],
+  "materialsNeeded": [
+    "None"
+  ],
   "result": "All exterior doors and accessible windows are confirmed locked.",
   "youWillLearn": [
     "Check a door lock by physically testing the handle and bolt",
@@ -48,5 +50,13 @@
     "A sticky or loose lock is a maintenance issue—report it early",
     "Before bed, also check that any pet doors or basement access points are secure"
   ],
-  "tags": ["housing", "safety", "security", "routine", "daily-habits"]
+  "tags": [
+    "housing",
+    "safety",
+    "security",
+    "routine",
+    "daily-habits"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -14,10 +14,14 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["use-calendar"],
+  "suggestedPrerequisites": [
+    "use-calendar"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["Phone, tablet, or computer with a calendar or reminder app"],
+  "materialsNeeded": [
+    "Phone, tablet, or computer with a calendar or reminder app"
+  ],
   "result": "A working reminder that will notify you at the chosen date and time.",
   "youWillLearn": [
     "How to create a new reminder or event alert",
@@ -48,5 +52,12 @@
     "Use specific words like 'Bring permission slip to school' instead of 'Bring stuff'",
     "Consider setting a second reminder a few minutes earlier for extra important tasks"
   ],
-  "tags": ["calendar", "notifications", "time-management", "memory-aid"]
+  "tags": [
+    "calendar",
+    "notifications",
+    "time-management",
+    "memory-aid"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

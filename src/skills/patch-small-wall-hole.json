@@ -62,5 +62,7 @@
     "patching"
   ],
   "safetyLevel": "medium",
-  "helpBoundary": "Ask for help if the repair feels unsafe or requires a ladder or power tools you are not comfortable using."
+  "helpBoundary": "Ask for help if the repair feels unsafe or requires a ladder or power tools you are not comfortable using.",
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -51,5 +51,12 @@
     "Recycle old batteries at a designated drop-off rather than throwing them in regular trash"
   ],
   "safetyLevel": "low",
-  "tags": ["electronics", "maintenance", "safety", "daily-fix"]
+  "tags": [
+    "electronics",
+    "maintenance",
+    "safety",
+    "daily-fix"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["take-class-notes"],
+  "suggestedPrerequisites": [
+    "take-class-notes"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -52,5 +54,12 @@
     "If you get stuck, cover the text and explain what you read out loud",
     "Ask: if I told a friend one thing from this, what would it be?"
   ],
-  "tags": ["reading", "writing", "comprehension", "summary"]
+  "tags": [
+    "reading",
+    "writing",
+    "comprehension",
+    "summary"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

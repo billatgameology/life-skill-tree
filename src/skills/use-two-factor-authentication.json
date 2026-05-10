@@ -55,5 +55,13 @@
     "Consider using a password manager that also handles two-factor codes",
     "Enable 2FA on your most important accounts first: email, banking, and cloud storage"
   ],
-  "tags": ["security", "2fa", "authentication", "accounts", "passwords"]
+  "tags": [
+    "security",
+    "2fa",
+    "authentication",
+    "accounts",
+    "passwords"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

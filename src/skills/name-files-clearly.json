@@ -17,7 +17,9 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Computer, tablet, or phone with files to rename"],
+  "materialsNeeded": [
+    "Computer, tablet, or phone with files to rename"
+  ],
   "result": "At least 5 files renamed with a clear, consistent naming format.",
   "youWillLearn": [
     "How to choose a naming pattern that includes the topic and date",
@@ -48,5 +50,12 @@
     "Replace spaces with hyphens or underscores to keep names compatible everywhere",
     "Include a version number like v1 or v2 if you expect multiple drafts"
   ],
-  "tags": ["file-management", "naming", "digital-organization", "computer-skills"]
+  "tags": [
+    "file-management",
+    "naming",
+    "digital-organization",
+    "computer-skills"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

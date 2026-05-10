@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["emergency-numbers"],
+  "suggestedPrerequisites": [
+    "emergency-numbers"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -53,5 +55,12 @@
   ],
   "safetyLevel": "low",
   "helpBoundary": "Ask a trusted adult, caregiver, or support person for help if you are unsure which medical details to include or do not have anyone you feel comfortable listing as a contact.",
-  "tags": ["emergency", "contacts", "planning", "safety"]
+  "tags": [
+    "emergency",
+    "contacts",
+    "planning",
+    "safety"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

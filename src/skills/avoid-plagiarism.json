@@ -14,7 +14,10 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["cite-a-source", "summarize-a-reading"],
+  "suggestedPrerequisites": [
+    "cite-a-source",
+    "summarize-a-reading"
+  ],
   "xp": 20,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -52,5 +55,12 @@
     "If you are not sure whether something needs a citation, include one just in case",
     "Reading the source, covering it, and then writing helps you use your own words"
   ],
-  "tags": ["academic-integrity", "citation", "writing", "research"]
+  "tags": [
+    "academic-integrity",
+    "citation",
+    "writing",
+    "research"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

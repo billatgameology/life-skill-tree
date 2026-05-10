@@ -50,5 +50,7 @@
   ],
   "safetyLevel": "medium",
   "requiresSourceReview": true,
-  "helpBoundary": "Ask a medical professional if symptoms worsen or do not improve within a few days."
+  "helpBoundary": "Ask a medical professional if symptoms worsen or do not improve within a few days.",
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

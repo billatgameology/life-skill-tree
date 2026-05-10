@@ -47,5 +47,7 @@
     "Cluster nearby stops together to avoid criss-crossing the city.",
     "Do the most time-sensitive stop first.",
     "Keep a backup plan in case one stop gets delayed or canceled."
-  ]
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -14,10 +14,17 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["compare-bank-accounts"],
+  "suggestedPrerequisites": [
+    "compare-bank-accounts"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["A paper check", "A bank account", "A banking app or nearby ATM", "A pen"],
+  "materialsNeeded": [
+    "A paper check",
+    "A bank account",
+    "A banking app or nearby ATM",
+    "A pen"
+  ],
   "result": "You successfully deposit a paper check and confirm the funds appear in your account.",
   "youWillLearn": [
     "Endorse a check by signing the back correctly",
@@ -48,5 +55,12 @@
     "Deposit checks promptly; waiting too long can make them hard to cash",
     "If you do not have a bank account, some retailers or check-cashing services can help for a fee"
   ],
-  "tags": ["banking", "check", "mobile-app", "ATM"]
+  "tags": [
+    "banking",
+    "check",
+    "mobile-app",
+    "ATM"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -51,5 +51,12 @@
     "Do not write below the bottom inch of the envelope — that space is for postal barcodes",
     "If mailing internationally, write the country name on the last line in capital letters"
   ],
-  "tags": ["mail", "writing", "postal-service", "forms"]
+  "tags": [
+    "mail",
+    "writing",
+    "postal-service",
+    "forms"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

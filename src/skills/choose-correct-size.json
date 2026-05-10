@@ -17,7 +17,11 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["A measuring tape (flexible) or a ruler", "Your current body or foot measurements", "Access to a size chart on a website or in-store"],
+  "materialsNeeded": [
+    "A measuring tape (flexible) or a ruler",
+    "Your current body or foot measurements",
+    "Access to a size chart on a website or in-store"
+  ],
   "result": "A note with your key measurements and the correct size for a specific item you want to buy.",
   "youWillLearn": [
     "How to take basic body or foot measurements accurately",
@@ -48,5 +52,12 @@
     "If you are between sizes, check the fabric — stretchy fabrics may fit either size",
     "Keep a note of your measurements on your phone for quick reference when shopping"
   ],
-  "tags": ["clothing", "online-shopping", "measurement", "fit"]
+  "tags": [
+    "clothing",
+    "online-shopping",
+    "measurement",
+    "fit"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

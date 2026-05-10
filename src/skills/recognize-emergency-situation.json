@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["emergency-numbers"],
+  "suggestedPrerequisites": [
+    "emergency-numbers"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
   "materialsNeeded": [
@@ -53,5 +55,12 @@
   "safetyLevel": "high",
   "requiresSourceReview": true,
   "helpBoundary": "Call your local emergency number immediately if you or someone nearby has trouble breathing, severe bleeding, chest pain, signs of a severe allergic reaction, is unconscious, or you feel the situation is life-threatening. Do not wait to finish this skill first.",
-  "tags": ["emergency", "recognition", "safety", "calling-for-help"]
+  "tags": [
+    "emergency",
+    "recognition",
+    "safety",
+    "calling-for-help"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["summarize-a-reading"],
+  "suggestedPrerequisites": [
+    "summarize-a-reading"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
   "materialsNeeded": [
@@ -52,5 +54,12 @@
     "Put your most important point first or last so people remember it",
     "Practice transitions between sections so your talk flows smoothly"
   ],
-  "tags": ["presentation", "public-speaking", "planning", "organization"]
+  "tags": [
+    "presentation",
+    "public-speaking",
+    "planning",
+    "organization"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

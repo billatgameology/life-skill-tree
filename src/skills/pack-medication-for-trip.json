@@ -55,5 +55,12 @@
   ],
   "safetyLevel": "medium",
   "helpBoundary": "Talk to your doctor or pharmacist before traveling if you take prescription medications, need dose adjustments for time zones, or are traveling internationally where your medication may have different rules.",
-  "tags": ["travel", "medication", "planning", "organization"]
+  "tags": [
+    "travel",
+    "medication",
+    "planning",
+    "organization"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

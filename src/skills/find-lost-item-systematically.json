@@ -17,7 +17,9 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Optional: notepad to track searched areas"],
+  "materialsNeeded": [
+    "Optional: notepad to track searched areas"
+  ],
   "result": "You follow a structured search process and either find the item or determine where to look next.",
   "youWillLearn": [
     "How to pause and think before you start searching frantically",
@@ -48,5 +50,12 @@
     "Check unusual spots too, items often slide under furniture or fall behind things",
     "If searching a large area, mark sections you have already covered so you do not repeat"
   ],
-  "tags": ["problem-solving", "searching", "staying-calm", "lost-items"]
+  "tags": [
+    "problem-solving",
+    "searching",
+    "staying-calm",
+    "lost-items"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

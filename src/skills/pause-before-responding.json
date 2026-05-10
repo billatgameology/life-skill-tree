@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["name-a-feeling"],
+  "suggestedPrerequisites": [
+    "name-a-feeling"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
   "materialsNeeded": [
@@ -49,5 +51,12 @@
     "For digital messages, make it a rule to wait at least one minute before replying when upset",
     "A pause does not mean silence forever — it means you respond on purpose, not on impulse"
   ],
-  "tags": ["self-control", "impulse", "communication", "mindfulness"]
+  "tags": [
+    "self-control",
+    "impulse",
+    "communication",
+    "mindfulness"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

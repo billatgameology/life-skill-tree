@@ -5,7 +5,7 @@
   "summary": "Label a key so you know which lock it opens without having to guess.",
   "learnerPromise": "You will be able to label any key clearly and safely so you can tell it apart from others at a glance.",
   "whyItMatters": "Most people carry several keys. Clear labels save time, prevent you from trying the wrong lock, and help you return a lost key to its owner more easily.",
- "realLifeUses": [
+  "realLifeUses": [
     "Tell your front door key apart from your back door key in the dark",
     "Label a spare key you keep in a drawer so you remember what it opens",
     "Mark keys for a friend or family member who is watching your home while you are away",
@@ -17,7 +17,11 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["The key you want to label", "A key tag, label sticker, or permanent marker", "Optional: key ring or color-coded cover"],
+  "materialsNeeded": [
+    "The key you want to label",
+    "A key tag, label sticker, or permanent marker",
+    "Optional: key ring or color-coded cover"
+  ],
   "result": "A labeled key that you can identify by touch or sight without testing it in a lock.",
   "youWillLearn": [
     "Choose a labeling method that works for your situation",
@@ -48,5 +52,13 @@
     "If a key is shared, use a generic label that the owner still understands",
     "Check the label once a month and replace it if it is wearing out"
   ],
-  "tags": ["housing", "keys", "organization", "safety", "daily-life"]
+  "tags": [
+    "housing",
+    "keys",
+    "organization",
+    "safety",
+    "daily-life"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

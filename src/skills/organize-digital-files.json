@@ -14,10 +14,14 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["name-files-clearly"],
+  "suggestedPrerequisites": [
+    "name-files-clearly"
+  ],
   "xp": 15,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["Computer, tablet, or phone with a file manager app"],
+  "materialsNeeded": [
+    "Computer, tablet, or phone with a file manager app"
+  ],
   "result": "A folder system with sorted files and a clear structure you can keep using.",
   "youWillLearn": [
     "How to create top-level folders for broad categories",
@@ -48,5 +52,12 @@
     "Use broad category names for top folders and specific names for subfolders",
     "Set a monthly reminder to spend 10 minutes tidying your files"
   ],
-  "tags": ["digital-organization", "files", "folders", "computer-skills"]
+  "tags": [
+    "digital-organization",
+    "files",
+    "folders",
+    "computer-skills"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

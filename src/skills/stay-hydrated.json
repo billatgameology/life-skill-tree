@@ -53,5 +53,12 @@
   ],
   "safetyLevel": "low",
   "helpBoundary": "If you show signs of severe dehydration such as dizziness, very dark urine, rapid heartbeat, or confusion, contact a medical professional or urgent care.",
-  "tags": ["hydration", "water", "daily-habit", "health"]
+  "tags": [
+    "hydration",
+    "water",
+    "daily-habit",
+    "health"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

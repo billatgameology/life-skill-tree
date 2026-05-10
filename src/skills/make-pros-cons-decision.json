@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["prioritize-tasks"],
+  "suggestedPrerequisites": [
+    "prioritize-tasks"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -50,5 +52,12 @@
     "Talk your list through with a trusted person if you still feel stuck",
     "Set a deadline for the decision so the list does not become a way to delay"
   ],
-  "tags": ["decision-making", "planning", "clarity", "problem-solving"]
+  "tags": [
+    "decision-making",
+    "planning",
+    "clarity",
+    "problem-solving"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

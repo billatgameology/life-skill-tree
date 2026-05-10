@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["wash-hands"],
+  "suggestedPrerequisites": [
+    "wash-hands"
+  ],
   "xp": 20,
   "estimatedMinutes": 25,
   "materialsNeeded": [
@@ -60,5 +62,13 @@
   "safetyLevel": "medium",
   "requiresSourceReview": true,
   "helpBoundary": "Ask a medical professional or trained first aid instructor if you are unsure what supplies you need, how to use an item, or whether a wound needs more than basic care.",
-  "tags": ["first-aid", "kit", "supplies", "injury", "preparedness"]
+  "tags": [
+    "first-aid",
+    "kit",
+    "supplies",
+    "injury",
+    "preparedness"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

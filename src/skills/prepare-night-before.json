@@ -17,7 +17,10 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Bag, backpack, or tote", "Clothes you plan to wear"],
+  "materialsNeeded": [
+    "Bag, backpack, or tote",
+    "Clothes you plan to wear"
+  ],
   "result": "Everything needed for the next day is gathered, checked, and placed in one spot.",
   "youWillLearn": [
     "How to check the next day's schedule to know what you need",
@@ -48,5 +51,12 @@
     "Keep a small checklist near your door if you often forget the same things",
     "Set a phone alarm as a cue to start your nighttime prep if you tend to forget"
   ],
-  "tags": ["morning-routine", "planning", "daily-prep", "time-saving"]
+  "tags": [
+    "morning-routine",
+    "planning",
+    "daily-prep",
+    "time-saving"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

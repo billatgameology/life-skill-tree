@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["sweep-floor"],
+  "suggestedPrerequisites": [
+    "sweep-floor"
+  ],
   "xp": 15,
   "estimatedMinutes": 20,
   "materialsNeeded": [
@@ -50,5 +52,12 @@
     "Vacuum in two directions on thick carpet for a deeper clean",
     "Empty the bin after each use so it is ready for next time"
   ],
-  "tags": ["cleaning", "vacuum", "floors", "deep-cleaning"]
+  "tags": [
+    "cleaning",
+    "vacuum",
+    "floors",
+    "deep-cleaning"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

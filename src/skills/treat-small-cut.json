@@ -50,5 +50,7 @@
   ],
   "safetyLevel": "medium",
   "requiresSourceReview": true,
-  "helpBoundary": "Ask a medical professional if the cut is deep, gaping, or still bleeding after 10 minutes of pressure."
+  "helpBoundary": "Ask a medical professional if the cut is deep, gaping, or still bleeding after 10 minutes of pressure.",
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

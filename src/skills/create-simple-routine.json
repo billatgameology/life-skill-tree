@@ -17,7 +17,9 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["Paper and pen, or a notes app"],
+  "materialsNeeded": [
+    "Paper and pen, or a notes app"
+  ],
   "result": "A written routine with 3 to 6 steps in a logical order.",
   "youWillLearn": [
     "How to choose one part of the day to focus on",
@@ -48,5 +50,12 @@
     "Attach your routine to something you already do, like right after breakfast",
     "Adjust the timing after trying it once, most routines need a little tweaking"
   ],
-  "tags": ["habits", "daily-routine", "planning", "consistency"]
+  "tags": [
+    "habits",
+    "daily-routine",
+    "planning",
+    "consistency"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -17,7 +17,9 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["None"],
+  "materialsNeeded": [
+    "None"
+  ],
   "result": "A short checklist of electricity-saving habits you can use daily.",
   "youWillLearn": [
     "Identify which devices and lights use the most electricity in your home",
@@ -48,5 +50,13 @@
     "If you share a home, post a small reminder note near light switches or the door",
     "Small changes for a full month are more useful than perfect changes for one day"
   ],
-  "tags": ["housing", "electricity", "saving", "energy", "home-maintenance"]
+  "tags": [
+    "housing",
+    "electricity",
+    "saving",
+    "energy",
+    "home-maintenance"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

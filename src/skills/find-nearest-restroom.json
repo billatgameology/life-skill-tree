@@ -47,5 +47,12 @@
     "Some cities have public restroom locator apps or websites you can bookmark",
     "Carry a small pack of tissues in case a restroom is low on supplies"
   ],
-  "tags": ["public-facilities", "wayfinding", "daily-needs", "urban-navigation"]
+  "tags": [
+    "public-facilities",
+    "wayfinding",
+    "daily-needs",
+    "urban-navigation"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

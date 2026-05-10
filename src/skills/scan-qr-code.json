@@ -51,5 +51,13 @@
     "Be cautious with QR codes in public places — stickers can be placed over legitimate codes",
     "If scanning does not work, try cleaning your camera lens"
   ],
-  "tags": ["qr-code", "camera", "scanning", "links", "phone"]
+  "tags": [
+    "qr-code",
+    "camera",
+    "scanning",
+    "links",
+    "phone"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

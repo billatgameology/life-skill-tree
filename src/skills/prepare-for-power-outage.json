@@ -17,7 +17,12 @@
   "suggestedPrerequisites": [],
   "xp": 20,
   "estimatedMinutes": 25,
-  "materialsNeeded": ["Flashlight or headlamp", "Extra batteries", "Portable phone charger or power bank", "Small container or bag for the kit"],
+  "materialsNeeded": [
+    "Flashlight or headlamp",
+    "Extra batteries",
+    "Portable phone charger or power bank",
+    "Small container or bag for the kit"
+  ],
   "result": "A ready-to-use power outage kit stored in an easy-to-find location, plus a short plan.",
   "youWillLearn": [
     "Assemble a kit with light, power, and communication supplies",
@@ -51,5 +56,13 @@
   "safetyLevel": "medium",
   "requiresSourceReview": true,
   "helpBoundary": "Call your utility company if the outage lasts more than a few hours, if you see downed power lines, or if someone in your home relies on electric medical equipment. For extended outages during extreme heat or cold, consider going to a public shelter or a friend's home.",
-  "tags": ["housing", "safety", "emergency-prep", "power", "home"]
+  "tags": [
+    "housing",
+    "safety",
+    "emergency-prep",
+    "power",
+    "home"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

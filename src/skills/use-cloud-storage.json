@@ -51,5 +51,13 @@
     "Enable automatic photo backup so new pictures are saved to the cloud without extra steps",
     "Remember your login credentials or save them in a password manager"
   ],
-  "tags": ["cloud", "files", "backup", "storage", "sync"]
+  "tags": [
+    "cloud",
+    "files",
+    "backup",
+    "storage",
+    "sync"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

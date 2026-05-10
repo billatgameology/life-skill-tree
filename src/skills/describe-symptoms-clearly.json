@@ -53,5 +53,12 @@
   ],
   "safetyLevel": "low",
   "helpBoundary": "If your symptoms are severe, getting worse quickly, or you feel unsafe, contact emergency services or an urgent care center rather than waiting to describe them in a scheduled appointment.",
-  "tags": ["communication", "symptoms", "health", "doctor-visit"]
+  "tags": [
+    "communication",
+    "symptoms",
+    "health",
+    "doctor-visit"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

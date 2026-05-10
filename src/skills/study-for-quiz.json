@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["take-class-notes"],
+  "suggestedPrerequisites": [
+    "take-class-notes"
+  ],
   "xp": 15,
   "estimatedMinutes": 20,
   "materialsNeeded": [
@@ -52,5 +54,13 @@
     "Study in a quiet place and put your phone out of reach",
     "Sleep helps memory, so study the night before if you can"
   ],
-  "tags": ["study", "quiz", "memory", "review", "test-prep"]
+  "tags": [
+    "study",
+    "quiz",
+    "memory",
+    "review",
+    "test-prep"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

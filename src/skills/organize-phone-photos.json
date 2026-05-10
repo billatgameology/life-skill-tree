@@ -52,5 +52,13 @@
     "Many phones suggest duplicates to delete — look for this feature in your gallery app",
     "Back up your photos to cloud storage before doing a big cleanup, just in case"
   ],
-  "tags": ["photos", "organization", "albums", "storage", "cleanup"]
+  "tags": [
+    "photos",
+    "organization",
+    "albums",
+    "storage",
+    "cleanup"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

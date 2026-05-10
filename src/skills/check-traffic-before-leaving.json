@@ -52,5 +52,13 @@
     "Consider leaving earlier even if traffic looks light, just in case",
     "Familiar routes with lighter traffic are often more reliable than unfamiliar shortcuts"
   ],
-  "tags": ["traffic", "planning", "maps", "driving", "time-management"]
+  "tags": [
+    "traffic",
+    "planning",
+    "maps",
+    "driving",
+    "time-management"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

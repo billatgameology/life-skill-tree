@@ -49,5 +49,12 @@
     "Look for landmarks like water fountains or artwork to help remember your path",
     "Do not hesitate to ask a staff member or security guard if you are unsure"
   ],
-  "tags": ["wayfinding", "indoor-navigation", "signs", "buildings"]
+  "tags": [
+    "wayfinding",
+    "indoor-navigation",
+    "signs",
+    "buildings"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

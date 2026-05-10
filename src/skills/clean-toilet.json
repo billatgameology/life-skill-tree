@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["clean-bathroom-sink"],
+  "suggestedPrerequisites": [
+    "clean-bathroom-sink"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -54,5 +56,12 @@
     "Use a dedicated cloth or paper towel for toilets, not the one you use for sinks"
   ],
   "safetyLevel": "medium",
-  "tags": ["cleaning", "bathroom", "hygiene", "safety"]
+  "tags": [
+    "cleaning",
+    "bathroom",
+    "hygiene",
+    "safety"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

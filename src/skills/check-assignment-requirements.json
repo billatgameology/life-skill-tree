@@ -52,5 +52,12 @@
     "If a rubric is provided, read it before you start so you know how you will be graded",
     "Ask your teacher if any instruction is unclear, it is better to ask early"
   ],
-  "tags": ["reading", "instructions", "checklist", "attention-to-detail"]
+  "tags": [
+    "reading",
+    "instructions",
+    "checklist",
+    "attention-to-detail"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

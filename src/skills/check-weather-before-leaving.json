@@ -52,5 +52,12 @@
     "Keep a small umbrella or light jacket in your bag during unpredictable seasons.",
     "If forecasts often seem wrong for your area, try a different weather source."
   ],
-  "tags": ["weather", "planning", "daily-routine", "preparation"]
+  "tags": [
+    "weather",
+    "planning",
+    "daily-routine",
+    "preparation"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

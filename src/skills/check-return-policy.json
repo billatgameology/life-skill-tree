@@ -17,7 +17,9 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["A device with internet access or a visit to a physical store"],
+  "materialsNeeded": [
+    "A device with internet access or a visit to a physical store"
+  ],
   "result": "A clear understanding of the return window, refund type, and any conditions for a specific store.",
   "youWillLearn": [
     "How to find the return policy on a store's website or app",
@@ -48,5 +50,12 @@
     "Some items like food, swimwear, or opened electronics may have special return rules",
     "Gift receipts often have different return options — check those separately"
   ],
-  "tags": ["returns", "consumer-rights", "online-shopping", "in-store"]
+  "tags": [
+    "returns",
+    "consumer-rights",
+    "online-shopping",
+    "in-store"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -40,6 +40,8 @@ export interface Skill {
   commonProblems?: string[];
   tips?: string[];
   tags?: string[];
+  createdDate: string;      // ISO date, e.g. "2026-01-15"
+  publishedDate: string | null; // ISO date or null if not yet published
 }
 
 export interface Category {

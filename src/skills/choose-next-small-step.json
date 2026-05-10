@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["prioritize-tasks"],
+  "suggestedPrerequisites": [
+    "prioritize-tasks"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
   "materialsNeeded": [
@@ -50,5 +52,12 @@
     "Examples of truly small steps: open an email, find a phone number, write one sentence, put one item away",
     "If you keep going after the step, that is a bonus — not an expectation"
   ],
-  "tags": ["overwhelm", "action", "procrastination", "focus"]
+  "tags": [
+    "overwhelm",
+    "action",
+    "procrastination",
+    "focus"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

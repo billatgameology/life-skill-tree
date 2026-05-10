@@ -14,7 +14,10 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["use-tape-measure", "hammer-nail"],
+  "suggestedPrerequisites": [
+    "use-tape-measure",
+    "hammer-nail"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
   "materialsNeeded": [
@@ -54,5 +57,12 @@
     "Hold the frame up to the wall before committing to check if you like the placement",
     "Use painter's tape to mark corners lightly before making holes"
   ],
-  "tags": ["decorating", "tools", "walls", "diy"]
+  "tags": [
+    "decorating",
+    "tools",
+    "walls",
+    "diy"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

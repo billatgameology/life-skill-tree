@@ -53,5 +53,12 @@
     "If you share a mailbox, write initials on each piece so people know what is theirs",
     "Set a weekly time to review the 'keep for records' pile and move old items to a filing spot"
   ],
-  "tags": ["mail", "organization", "daily-tasks", "paperwork"]
+  "tags": [
+    "mail",
+    "organization",
+    "daily-tasks",
+    "paperwork"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

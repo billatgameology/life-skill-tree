@@ -53,5 +53,13 @@
   "safetyLevel": "high",
   "requiresSourceReview": true,
   "helpBoundary": "If water is spraying, flooding, or the main valve will not turn, shut off what you can and call a plumber or emergency maintenance immediately. Do not attempt to repair pressurized pipes on your own.",
-  "tags": ["emergency", "plumbing", "safety", "water", "home-maintenance"]
+  "tags": [
+    "emergency",
+    "plumbing",
+    "safety",
+    "water",
+    "home-maintenance"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

@@ -17,7 +17,9 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["Phone timer app, kitchen timer, or computer timer"],
+  "materialsNeeded": [
+    "Phone timer app, kitchen timer, or computer timer"
+  ],
   "result": "You complete one focused timed work session followed by a short break.",
   "youWillLearn": [
     "How to choose a work interval length that fits your task",
@@ -48,5 +50,12 @@
     "Put your phone face down or in another room during the session",
     "Use the break to stand up, stretch, or get water, not to scroll social media"
   ],
-  "tags": ["focus", "time-management", "productivity", "pomodoro"]
+  "tags": [
+    "focus",
+    "time-management",
+    "productivity",
+    "pomodoro"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

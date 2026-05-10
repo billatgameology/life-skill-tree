@@ -14,10 +14,15 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["compare-subscription-costs"],
+  "suggestedPrerequisites": [
+    "compare-subscription-costs"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Your phone or computer", "Login info for the subscription"],
+  "materialsNeeded": [
+    "Your phone or computer",
+    "Login info for the subscription"
+  ],
   "result": "You cancel one subscription and keep proof of cancellation.",
   "youWillLearn": [
     "Find the cancellation option in account or billing settings",
@@ -48,5 +53,12 @@
     "Some services stay active until the end of the current billing period even after you cancel",
     "Set a calendar reminder to check your bank statement after the next billing date"
   ],
-  "tags": ["subscriptions", "cancellation", "saving", "billing"]
+  "tags": [
+    "subscriptions",
+    "cancellation",
+    "saving",
+    "billing"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

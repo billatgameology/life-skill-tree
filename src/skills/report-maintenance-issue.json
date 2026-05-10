@@ -14,10 +14,16 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["write-professional-email", "ask-for-help"],
+  "suggestedPrerequisites": [
+    "write-professional-email",
+    "ask-for-help"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["Phone, email, or maintenance portal access", "Notes or photos of the problem"],
+  "materialsNeeded": [
+    "Phone, email, or maintenance portal access",
+    "Notes or photos of the problem"
+  ],
   "result": "A written or spoken maintenance report that includes what, where, when, and how urgent the issue is.",
   "youWillLearn": [
     "Describe a problem in one or two clear sentences",
@@ -48,5 +54,13 @@
     "Always note the date you sent the report for your records",
     "If it is urgent (no heat in winter, major leak), call instead of emailing"
   ],
-  "tags": ["housing", "maintenance", "reporting", "communication", "renting"]
+  "tags": [
+    "housing",
+    "maintenance",
+    "reporting",
+    "communication",
+    "renting"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

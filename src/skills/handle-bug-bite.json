@@ -55,5 +55,13 @@
   "safetyLevel": "medium",
   "requiresSourceReview": true,
   "helpBoundary": "Call emergency services immediately if someone shows signs of a severe allergic reaction such as trouble breathing, swelling of the face or throat, dizziness, or widespread hives. Seek medical care if the bite area becomes increasingly red, warm, painful, or produces pus over the next day or two.",
-  "tags": ["insects", "bites", "stings", "first-aid", "outdoor"]
+  "tags": [
+    "insects",
+    "bites",
+    "stings",
+    "first-aid",
+    "outdoor"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

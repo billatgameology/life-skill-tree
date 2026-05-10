@@ -50,5 +50,13 @@
     "Use your device's privacy dashboard to see which apps have accessed your data recently",
     "Be especially careful with apps that request access to contacts, microphone, or location"
   ],
-  "tags": ["privacy", "settings", "permissions", "data", "security"]
+  "tags": [
+    "privacy",
+    "settings",
+    "permissions",
+    "data",
+    "security"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

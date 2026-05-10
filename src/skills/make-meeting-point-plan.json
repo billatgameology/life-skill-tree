@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["avoid-getting-lost-crowd"],
+  "suggestedPrerequisites": [
+    "avoid-getting-lost-crowd"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
   "materialsNeeded": [
@@ -52,5 +54,12 @@
     "Set a time limit. If someone does not show up within 15 to 20 minutes, call or go to the backup spot.",
     "Write the meeting spot down or send it in a group message so everyone remembers."
   ],
-  "tags": ["planning", "groups", "safety", "communication"]
+  "tags": [
+    "planning",
+    "groups",
+    "safety",
+    "communication"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

@@ -196,7 +196,7 @@ When a learner clicks a skill, the panel should answer five questions quickly:
 type Skill = {
   id: string;                    // kebab-case, never changes
   title: string;                 // short display name
-  domain: SkillDomain;           // one of 8 domains
+  domain: SkillDomain;           // one of 15 domains
   summary: string;               // one sentence
 
   learnerPromise: string;        // what you will be able to do
@@ -228,6 +228,9 @@ type Skill = {
   helpBoundary?: string;         // when to ask someone nearby, a professional, or emergency services
 
   tags?: string[];               // future search/filter
+
+  createdDate: string;            // ISO date, e.g. "2026-01-15" — when the skill was authored
+  publishedDate: string | null;   // ISO date or null if not yet published
 };
 ```
 
@@ -363,6 +366,13 @@ Use these fields for health, safety, tools, heat, electricity, transportation, m
 - `helpBoundary` explains when to ask someone nearby, a professional, or emergency services
 
 Good help boundary: "Ask someone nearby who can help if the bulb is high, broken, hot, or hard to reach."
+
+### createdDate / publishedDate
+
+- `createdDate` — the day the skill was authored. ISO format: `2026-01-15`.
+- `publishedDate` — the day the skill went live on the site. ISO format, or `null` if it is not yet published.
+
+Skills with `requiresSourceReview: true` should stay at `publishedDate: null` until the content has been verified against an authoritative source.
 
 ---
 
@@ -512,3 +522,5 @@ Before adding a new skill, check:
 - [ ] Health/safety/tool skills include safety level, source review flag if needed, and a help boundary
 - [ ] Skill is reusable across multiple possible goal paths
 - [ ] ID is kebab-case and stable
+- [ ] createdDate is set to the authoring date
+- [ ] publishedDate is set to the go-live date, or null if pending source review

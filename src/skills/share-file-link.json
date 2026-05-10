@@ -53,5 +53,13 @@
     "Avoid sharing links to sensitive personal documents publicly",
     "You can turn off a link later if you no longer want people to access the file"
   ],
-  "tags": ["sharing", "files", "links", "cloud", "collaboration"]
+  "tags": [
+    "sharing",
+    "files",
+    "links",
+    "cloud",
+    "collaboration"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

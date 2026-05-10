@@ -14,10 +14,16 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["write-professional-email"],
+  "suggestedPrerequisites": [
+    "write-professional-email"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["A device with internet access or a phone", "Your order number or receipt", "A clear description of the issue"],
+  "materialsNeeded": [
+    "A device with internet access or a phone",
+    "Your order number or receipt",
+    "A clear description of the issue"
+  ],
   "result": "A completed support contact with a clear explanation of your issue and next steps.",
   "youWillLearn": [
     "How to find the right support channel: chat, email, or phone",
@@ -48,5 +54,12 @@
     "Include photos or screenshots if they help explain the issue",
     "If chat or email does not work, try phone support for urgent problems"
   ],
-  "tags": ["customer-service", "problem-solving", "communication", "returns"]
+  "tags": [
+    "customer-service",
+    "problem-solving",
+    "communication",
+    "returns"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

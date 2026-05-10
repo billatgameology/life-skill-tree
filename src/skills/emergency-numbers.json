@@ -47,5 +47,7 @@
     "Only call emergency numbers for real emergencies — use non-urgent lines for minor questions"
   ],
   "safetyLevel": "low",
-  "helpBoundary": "Call emergency services immediately for life-threatening situations. This skill is about knowing the numbers, not diagnosing emergencies."
+  "helpBoundary": "Call emergency services immediately for life-threatening situations. This skill is about knowing the numbers, not diagnosing emergencies.",
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

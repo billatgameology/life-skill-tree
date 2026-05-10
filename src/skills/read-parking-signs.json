@@ -47,5 +47,12 @@
     "Look up and down the block for additional signs that might affect your spot",
     "When in doubt, choose a different spot with clearer or more relaxed rules"
   ],
-  "tags": ["parking", "signs", "driving", "street-rules"]
+  "tags": [
+    "parking",
+    "signs",
+    "driving",
+    "street-rules"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

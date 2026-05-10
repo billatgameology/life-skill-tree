@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["cross-street-safely"],
+  "suggestedPrerequisites": [
+    "cross-street-safely"
+  ],
   "xp": 20,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -54,5 +56,12 @@
   ],
   "safetyLevel": "medium",
   "helpBoundary": "Ask a trusted adult, police officer, or transit worker for help if you feel unsafe on a route or if you are unsure which way to go in an unfamiliar area.",
-  "tags": ["safety", "navigation", "walking", "awareness"]
+  "tags": [
+    "safety",
+    "navigation",
+    "walking",
+    "awareness"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

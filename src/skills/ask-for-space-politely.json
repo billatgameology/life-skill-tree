@@ -14,7 +14,10 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["name-a-feeling", "pause-before-responding"],
+  "suggestedPrerequisites": [
+    "name-a-feeling",
+    "pause-before-responding"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
   "materialsNeeded": [
@@ -50,5 +53,12 @@
     "Examples: 'I need about 30 minutes to clear my head. Can we talk again at 4?' or 'I am feeling a bit overwhelmed. I would love to catch up tomorrow instead.'",
     "If someone needs space from you, respect it — they are practicing a healthy skill too"
   ],
-  "tags": ["boundaries", "communication", "self-care", "respect"]
+  "tags": [
+    "boundaries",
+    "communication",
+    "self-care",
+    "respect"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

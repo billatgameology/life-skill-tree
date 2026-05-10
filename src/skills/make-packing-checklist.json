@@ -14,10 +14,14 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["pack-for-trip"],
+  "suggestedPrerequisites": [
+    "pack-for-trip"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Paper and pen, or a notes app"],
+  "materialsNeeded": [
+    "Paper and pen, or a notes app"
+  ],
   "result": "A written checklist of items to pack, organized by category.",
   "youWillLearn": [
     "How to think through your trip or activity step by step to identify needed items",
@@ -48,5 +52,12 @@
     "Keep a master packing list on your phone that you can copy and adjust for each trip",
     "Check off items as you pack them so you do not second-guess yourself later"
   ],
-  "tags": ["packing", "checklist", "travel", "preparation"]
+  "tags": [
+    "packing",
+    "checklist",
+    "travel",
+    "preparation"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

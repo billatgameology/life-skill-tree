@@ -50,5 +50,13 @@
     "On Windows: press Windows key + Shift + S for a partial screenshot",
     "On Mac: press Command + Shift + 4 to select an area, or Command + Shift + 3 for the full screen"
   ],
-  "tags": ["screenshot", "capture", "share", "device", "basics"]
+  "tags": [
+    "screenshot",
+    "capture",
+    "share",
+    "device",
+    "basics"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

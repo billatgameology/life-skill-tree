@@ -52,5 +52,12 @@
     "Write down call numbers before going to find the book on the shelf",
     "Ask a librarian for help if you cannot find what you need, that is what they are there for"
   ],
-  "tags": ["library", "research", "search", "information-literacy"]
+  "tags": [
+    "library",
+    "research",
+    "search",
+    "information-literacy"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

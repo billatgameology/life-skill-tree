@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["prepare-presentation"],
+  "suggestedPrerequisites": [
+    "prepare-presentation"
+  ],
   "xp": 20,
   "estimatedMinutes": 20,
   "materialsNeeded": [
@@ -52,5 +54,12 @@
     "Pause between main points, it gives your audience time to absorb and calms you",
     "If you go over time, cut your weakest point rather than rushing everything"
   ],
-  "tags": ["presentation", "public-speaking", "rehearsal", "confidence"]
+  "tags": [
+    "presentation",
+    "public-speaking",
+    "rehearsal",
+    "confidence"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

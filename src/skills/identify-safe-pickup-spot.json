@@ -48,5 +48,12 @@
     "Avoid standing in driveways, bike lanes, or crosswalks",
     "If possible, pick a spot with a bench or shelter so you have somewhere to wait"
   ],
-  "tags": ["safety", "pickup", "street-awareness", "planning"]
+  "tags": [
+    "safety",
+    "pickup",
+    "street-awareness",
+    "planning"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

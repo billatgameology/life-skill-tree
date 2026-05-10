@@ -14,10 +14,14 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["compare-product-reviews"],
+  "suggestedPrerequisites": [
+    "compare-product-reviews"
+  ],
   "xp": 20,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["A device with internet access"],
+  "materialsNeeded": [
+    "A device with internet access"
+  ],
   "result": "A checklist of red flags you can use to judge review trustworthiness.",
   "youWillLearn": [
     "Common warning signs in fake reviews like vague praise or copied phrases",
@@ -48,5 +52,12 @@
     "A mix of positive and negative points in one review is often more honest",
     "If almost every review is 5 stars, be cautious — most products have at least some variation"
   ],
-  "tags": ["online-shopping", "reviews", "critical-thinking", "consumer-awareness"]
+  "tags": [
+    "online-shopping",
+    "reviews",
+    "critical-thinking",
+    "consumer-awareness"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

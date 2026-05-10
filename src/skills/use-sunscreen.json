@@ -53,5 +53,12 @@
   ],
   "safetyLevel": "low",
   "helpBoundary": "If you get a severe sunburn with blistering, fever, or extreme pain, contact a medical professional for guidance.",
-  "tags": ["sun", "skin-care", "prevention", "outdoor"]
+  "tags": [
+    "sun",
+    "skin-care",
+    "prevention",
+    "outdoor"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

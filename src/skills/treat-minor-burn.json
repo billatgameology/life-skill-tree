@@ -48,5 +48,7 @@
   ],
   "safetyLevel": "medium",
   "requiresSourceReview": true,
-  "helpBoundary": "Seek medical help for burns larger than your palm, on the face, or caused by chemicals or electricity."
+  "helpBoundary": "Seek medical help for burns larger than your palm, on the face, or caused by chemicals or electricity.",
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

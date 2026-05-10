@@ -17,7 +17,10 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Your backpack or bag", "Optional: small pouches or folders"],
+  "materialsNeeded": [
+    "Your backpack or bag",
+    "Optional: small pouches or folders"
+  ],
   "result": "A neatly organized backpack with designated spots for different types of items.",
   "youWillLearn": [
     "How to empty and assess what you are actually carrying",
@@ -48,5 +51,12 @@
     "Put items you need most often in the most accessible pocket",
     "Do a 30-second tidy every evening to maintain the system"
   ],
-  "tags": ["backpack", "bag", "daily-carry", "sorting"]
+  "tags": [
+    "backpack",
+    "bag",
+    "daily-carry",
+    "sorting"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

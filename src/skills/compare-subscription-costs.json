@@ -14,10 +14,15 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["needs-vs-wants"],
+  "suggestedPrerequisites": [
+    "needs-vs-wants"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["Paper or a notes app", "A calculator"],
+  "materialsNeeded": [
+    "Paper or a notes app",
+    "A calculator"
+  ],
   "result": "You create a simple comparison chart for two or more subscription options.",
   "youWillLearn": [
     "List the features you actually need before comparing prices",
@@ -47,5 +52,12 @@
     "Check if your school, library, or family plan offers the service for free or at a discount",
     "Review your subscriptions every few months and cancel the ones you are not actively using"
   ],
-  "tags": ["subscriptions", "comparison", "budgeting", "saving"]
+  "tags": [
+    "subscriptions",
+    "comparison",
+    "budgeting",
+    "saving"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

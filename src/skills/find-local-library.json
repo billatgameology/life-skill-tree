@@ -49,5 +49,12 @@
     "If you cannot get there easily, ask about book delivery or digital borrowing options",
     "Many libraries offer free Wi-Fi and computer use even without a card"
   ],
-  "tags": ["library", "community", "research", "local-services"]
+  "tags": [
+    "library",
+    "community",
+    "research",
+    "local-services"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

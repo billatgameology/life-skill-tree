@@ -48,5 +48,7 @@
   ],
   "safetyLevel": "medium",
   "requiresSourceReview": true,
-  "helpBoundary": "Seek medical help if the nosebleed lasts longer than 20 minutes or follows a head injury."
+  "helpBoundary": "Seek medical help if the nosebleed lasts longer than 20 minutes or follows a head injury.",
+  "createdDate": "2026-05-10",
+  "publishedDate": null
 }

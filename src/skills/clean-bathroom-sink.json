@@ -52,5 +52,12 @@
     "A daily quick wipe takes under a minute and prevents heavy buildup"
   ],
   "safetyLevel": "low",
-  "tags": ["cleaning", "bathroom", "daily-chore", "hygiene"]
+  "tags": [
+    "cleaning",
+    "bathroom",
+    "daily-chore",
+    "hygiene"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

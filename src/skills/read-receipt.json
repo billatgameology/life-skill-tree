@@ -14,10 +14,14 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["compare-prices"],
+  "suggestedPrerequisites": [
+    "compare-prices"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
-  "materialsNeeded": ["A recent paper or digital receipt"],
+  "materialsNeeded": [
+    "A recent paper or digital receipt"
+  ],
   "result": "You can explain each part of a receipt and identify one common error.",
   "youWillLearn": [
     "Locate the date, store name, and transaction number on a receipt",
@@ -47,5 +51,12 @@
     "Take a photo of paper receipts so you have a backup",
     "If something looks wrong, ask the store before you leave"
   ],
-  "tags": ["receipt", "shopping", "checking", "budgeting"]
+  "tags": [
+    "receipt",
+    "shopping",
+    "checking",
+    "budgeting"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

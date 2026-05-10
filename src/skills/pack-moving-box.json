@@ -14,10 +14,17 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["pack-for-trip"],
+  "suggestedPrerequisites": [
+    "pack-for-trip"
+  ],
   "xp": 20,
   "estimatedMinutes": 25,
-  "materialsNeeded": ["Sturdy cardboard box", "Packing tape", "Padding material (bubble wrap, towels, or paper)", "Permanent marker"],
+  "materialsNeeded": [
+    "Sturdy cardboard box",
+    "Packing tape",
+    "Padding material (bubble wrap, towels, or paper)",
+    "Permanent marker"
+  ],
   "result": "One sealed, labeled, and properly packed moving box ready for transport.",
   "youWillLearn": [
     "Choose which items go together in one box by weight and fragility",
@@ -48,5 +55,13 @@
     "Write labels on two sides plus the top so they are visible even when stacked",
     "Pack a separate overnight bag with essentials so you do not need to open boxes your first night"
   ],
-  "tags": ["housing", "moving", "packing", "organization", "logistics"]
+  "tags": [
+    "housing",
+    "moving",
+    "packing",
+    "organization",
+    "logistics"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

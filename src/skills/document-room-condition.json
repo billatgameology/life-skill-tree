@@ -17,7 +17,11 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["Phone or camera", "Notepad or notes app", "Pen (if using paper)"],
+  "materialsNeeded": [
+    "Phone or camera",
+    "Notepad or notes app",
+    "Pen (if using paper)"
+  ],
   "result": "A dated set of room-by-room notes and photos showing the condition of walls, floors, fixtures, and appliances.",
   "youWillLearn": [
     "Systematically check each area of a room for existing damage or wear",
@@ -48,5 +52,13 @@
     "If you are moving in, try to do this before you bring in furniture",
     "Send a copy to your landlord or roommate so everyone has the same record"
   ],
-  "tags": ["housing", "moving", "documentation", "renting", "protection"]
+  "tags": [
+    "housing",
+    "moving",
+    "documentation",
+    "renting",
+    "protection"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

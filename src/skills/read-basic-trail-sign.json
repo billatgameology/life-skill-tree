@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["read-signs"],
+  "suggestedPrerequisites": [
+    "read-signs"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
   "materialsNeeded": [
@@ -52,5 +54,12 @@
     "Take a photo of the trailhead sign so you have the map and info with you.",
     "Different parks use different marker systems. Look for a legend at the trailhead."
   ],
-  "tags": ["navigation", "outdoor", "hiking", "signs"]
+  "tags": [
+    "navigation",
+    "outdoor",
+    "hiking",
+    "signs"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

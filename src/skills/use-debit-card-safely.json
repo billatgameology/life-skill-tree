@@ -14,10 +14,14 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["compare-bank-accounts"],
+  "suggestedPrerequisites": [
+    "compare-bank-accounts"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["A debit card"],
+  "materialsNeeded": [
+    "A debit card"
+  ],
   "result": "You know how to use a debit card securely and what to do if something goes wrong.",
   "youWillLearn": [
     "Cover the keypad when entering your PIN",
@@ -48,5 +52,13 @@
     "If your bank offers transaction alerts, turn them on for instant notifications",
     "Memorize your PIN instead of writing it down or storing it with your card"
   ],
-  "tags": ["debit-card", "banking", "security", "PIN", "fraud"]
+  "tags": [
+    "debit-card",
+    "banking",
+    "security",
+    "PIN",
+    "fraud"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

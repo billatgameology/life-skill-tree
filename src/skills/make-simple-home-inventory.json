@@ -17,7 +17,10 @@
   "suggestedPrerequisites": [],
   "xp": 15,
   "estimatedMinutes": 20,
-  "materialsNeeded": ["Phone or camera", "Notes app or notebook"],
+  "materialsNeeded": [
+    "Phone or camera",
+    "Notes app or notebook"
+  ],
   "result": "A dated list of your most important items with descriptions, approximate values, and photos.",
   "youWillLearn": [
     "Decide which items are worth listing (high value or hard to replace)",
@@ -48,5 +51,13 @@
     "Email the list to yourself or use a cloud service so it is accessible from anywhere",
     "Receipts and warranties are useful—photo them and add them to your inventory file"
   ],
-  "tags": ["housing", "inventory", "insurance", "organization", "moving"]
+  "tags": [
+    "housing",
+    "inventory",
+    "insurance",
+    "organization",
+    "moving"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

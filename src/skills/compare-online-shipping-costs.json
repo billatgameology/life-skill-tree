@@ -14,10 +14,15 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "suggestedPrerequisites": ["compare-prices"],
+  "suggestedPrerequisites": [
+    "compare-prices"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
-  "materialsNeeded": ["A device with internet access", "An item you are considering buying online"],
+  "materialsNeeded": [
+    "A device with internet access",
+    "An item you are considering buying online"
+  ],
   "result": "A side-by-side comparison of total costs from at least two online sellers.",
   "youWillLearn": [
     "How to add an item to cart and check the full total including shipping",
@@ -48,5 +53,12 @@
     "Check if the store has a pickup option to avoid shipping entirely",
     "Factor in return shipping costs if you are unsure about the item"
   ],
-  "tags": ["online-shopping", "budgeting", "comparison", "shipping"]
+  "tags": [
+    "online-shopping",
+    "budgeting",
+    "comparison",
+    "shipping"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

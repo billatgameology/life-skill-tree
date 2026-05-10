@@ -55,5 +55,12 @@
     "If the item is valuable, ask about tracking numbers and insurance options",
     "Take a photo of the sealed, labeled package before you drop it off for your records"
   ],
-  "tags": ["mail", "postal-service", "shipping", "logistics"]
+  "tags": [
+    "mail",
+    "postal-service",
+    "shipping",
+    "logistics"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }

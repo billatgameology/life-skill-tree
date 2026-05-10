@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "suggestedPrerequisites": ["shut-off-water-valve"],
+  "suggestedPrerequisites": [
+    "shut-off-water-valve"
+  ],
   "xp": 20,
   "estimatedMinutes": 15,
   "materialsNeeded": [
@@ -53,5 +55,12 @@
   ],
   "safetyLevel": "medium",
   "helpBoundary": "If the toilet is overflowing and you cannot stop it, or if plunging does not work after several attempts, turn off the water valve behind the toilet and call a plumber. Do not use chemical drain cleaners in toilets.",
-  "tags": ["plumbing", "emergency", "toilet", "diy"]
+  "tags": [
+    "plumbing",
+    "emergency",
+    "toilet",
+    "diy"
+  ],
+  "createdDate": "2026-05-10",
+  "publishedDate": "2026-05-10"
 }
