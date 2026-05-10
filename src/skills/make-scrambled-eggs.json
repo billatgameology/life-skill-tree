@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": ["food-safety"],
+  "prerequisites": [
+    "food-safety"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "youWillLearn": [

@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "prerequisites": ["make-todo-list"],
+  "prerequisites": [
+    "make-todo-list"
+  ],
   "xp": 15,
   "estimatedMinutes": 20,
   "youWillLearn": [

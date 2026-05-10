@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": ["use-knife"],
+  "prerequisites": [
+    "use-knife"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "youWillLearn": [

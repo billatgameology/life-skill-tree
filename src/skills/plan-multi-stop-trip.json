@@ -14,7 +14,10 @@
   "level": 3,
   "difficulty": "medium",
   "status": "available",
-  "prerequisites": ["use-gps", "read-transit-schedules"],
+  "prerequisites": [
+    "use-gps",
+    "read-transit-schedules"
+  ],
   "xp": 15,
   "estimatedMinutes": 25,
   "youWillLearn": [

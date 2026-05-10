@@ -14,7 +14,9 @@
   "level": 3,
   "difficulty": "hard",
   "status": "available",
-  "prerequisites": ["use-gps"],
+  "prerequisites": [
+    "use-gps"
+  ],
   "xp": 15,
   "estimatedMinutes": 20,
   "youWillLearn": [

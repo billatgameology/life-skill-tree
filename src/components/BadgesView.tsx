@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Lock } from 'lucide-react';
 import type { UserData } from '@/lib/types';
-import { CATEGORIES, CATEGORY_KEYS } from '@/skills';
+import { CATEGORIES, CATEGORY_KEYS } from '@/data/skills';
 
 interface BadgesViewProps {
   user: UserData | null;

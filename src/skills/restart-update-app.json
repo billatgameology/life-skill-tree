@@ -38,13 +38,13 @@
     "You can name which step helped or that the problem needs more support."
   ],
   "commonProblems": [
-    "The device feels frozen \u2014 hold the power button down until it restarts.",
-    "You cannot find the update section \u2014 look in Settings under System or Software Update.",
-    "Reinstalling the app did not help \u2014 the issue may be with the app itself and not your device."
+    "The device feels frozen — hold the power button down until it restarts.",
+    "You cannot find the update section — look in Settings under System or Software Update.",
+    "Reinstalling the app did not help — the issue may be with the app itself and not your device."
   ],
   "tips": [
     "Restarting fixes more problems than most people expect.",
     "Check your internet connection first if only online features are broken.",
-    "Write down error messages exactly \u2014 they help when you talk to support."
+    "Write down error messages exactly — they help when you talk to support."
   ]
 }

@@ -33,8 +33,6 @@ export interface Skill {
   commonProblems?: string[];
   tips?: string[];
   tags?: string[];
-  x: number;
-  y: number;
 }
 
 export interface Category {

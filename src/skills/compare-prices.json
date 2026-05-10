@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": ["track-spending"],
+  "prerequisites": [
+    "track-spending"
+  ],
   "xp": 15,
   "estimatedMinutes": 15,
   "youWillLearn": [

@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import confetti from 'canvas-confetti';
-import { Check, GripVertical } from 'lucide-react';
+import { Check, GripVertical, ArrowRight } from 'lucide-react';
 import type { Skill } from '@/lib/types';
-import { CATEGORIES } from '@/skills';
+import { CATEGORIES, ALL_SKILLS, getChildren } from '@/data/skills';
 
 interface SkillDetailPanelProps {
   skill: Skill | null;
@@ -75,6 +75,12 @@ export default function SkillDetailPanel({
 
   const isCompleted = skill ? completedIds.includes(skill.id) : false;
   const category = skill ? CATEGORIES[skill.domain] : null;
+
+  // Related skills
+  const prerequisites = skill
+    ? skill.prerequisites.map(pid => ALL_SKILLS.find(s => s.id === pid)).filter(Boolean) as Skill[]
+    : [];
+  const unlocks = skill ? getChildren(skill.id) : [];
 
   const triggerConfetti = () => {
     if (!category) return;
@@ -304,6 +310,60 @@ export default function SkillDetailPanel({
                   {problem}
                 </li>
               ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Builds On */}
+        {prerequisites.length > 0 && (
+          <div className="space-y-1.5">
+            <h3 className="font-heading font-bold text-ink text-xs uppercase tracking-wider">
+              Builds On
+            </h3>
+            <ul className="space-y-1">
+              {prerequisites.map(pre => {
+                const preDone = completedIds.includes(pre.id);
+                const preCat = CATEGORIES[pre.domain];
+                return (
+                  <li key={pre.id} className="flex items-center gap-2 text-xs font-body">
+                    <span className={`flex-shrink-0 w-4 h-4 rounded-full flex items-center justify-center ${preDone ? 'bg-glow-green/20 text-glow-green' : 'bg-surface-raised border border-border text-ink-dim'}`}>
+                      {preDone ? <Check size={8} strokeWidth={3} /> : <span className="text-[8px]">○</span>}
+                    </span>
+                    <span className={preDone ? 'text-ink-dim line-through opacity-60' : 'text-ink-muted'}>
+                      {pre.title}
+                    </span>
+                    <span className="ml-auto text-[10px] px-1.5 py-0.5 rounded bg-surface-raised border border-border text-ink-dim/60">
+                      {preCat.name}
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )}
+
+        {/* Leads To */}
+        {unlocks.length > 0 && (
+          <div className="space-y-1.5">
+            <h3 className="font-heading font-bold text-ink text-xs uppercase tracking-wider">
+              Leads To
+            </h3>
+            <ul className="space-y-1">
+              {unlocks.map(child => {
+                const childDone = completedIds.includes(child.id);
+                const childCat = CATEGORIES[child.domain];
+                return (
+                  <li key={child.id} className="flex items-center gap-2 text-xs font-body">
+                    <ArrowRight size={10} className="flex-shrink-0 text-ink-dim/40" />
+                    <span className={childDone ? 'text-glow-gold' : 'text-ink-muted'}>
+                      {child.title}
+                    </span>
+                    <span className="ml-auto text-[10px] px-1.5 py-0.5 rounded bg-surface-raised border border-border text-ink-dim/60">
+                      {childCat.name}
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         )}

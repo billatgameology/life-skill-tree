@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "prerequisites": ["make-scrambled-eggs"],
+  "prerequisites": [
+    "make-scrambled-eggs"
+  ],
   "xp": 15,
   "estimatedMinutes": 30,
   "youWillLearn": [

@@ -14,7 +14,9 @@
   "level": 1,
   "difficulty": "easy",
   "status": "available",
-  "prerequisites": ["read-street-map"],
+  "prerequisites": [
+    "read-street-map"
+  ],
   "xp": 15,
   "estimatedMinutes": 10,
   "youWillLearn": [

@@ -14,7 +14,9 @@
   "level": 2,
   "difficulty": "medium",
   "status": "available",
-  "prerequisites": ["needs-vs-wants"],
+  "prerequisites": [
+    "needs-vs-wants"
+  ],
   "xp": 15,
   "estimatedMinutes": 25,
   "youWillLearn": [

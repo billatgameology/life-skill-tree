@@ -1,0 +1,224 @@
+{
+  "tree": {
+    "arrive-on-time": {
+      "x": 469,
+      "y": 481
+    },
+    "ask-for-help": {
+      "x": 681,
+      "y": 1331
+    },
+    "boil-pasta": {
+      "x": 1290,
+      "y": 974
+    },
+    "brush-floss": {
+      "x": 672,
+      "y": 882
+    },
+    "care-for-mild-illness": {
+      "x": 398,
+      "y": 950
+    },
+    "change-lightbulb": {
+      "x": 1083,
+      "y": 1134
+    },
+    "compare-bank-accounts": {
+      "x": 1602,
+      "y": 650
+    },
+    "compare-prices": {
+      "x": 1620,
+      "y": 800
+    },
+    "connect-bluetooth": {
+      "x": 908,
+      "y": 431
+    },
+    "connect-wifi": {
+      "x": 1000,
+      "y": 420
+    },
+    "cook-rice": {
+      "x": 1174,
+      "y": 1090
+    },
+    "create-passwords": {
+      "x": 850,
+      "y": 198
+    },
+    "do-laundry": {
+      "x": 917,
+      "y": 1134
+    },
+    "emergency-numbers": {
+      "x": 672,
+      "y": 718
+    },
+    "find-doctor": {
+      "x": 398,
+      "y": 650
+    },
+    "fix-loose-handle": {
+      "x": 1150,
+      "y": 1402
+    },
+    "follow-recipe": {
+      "x": 1531,
+      "y": 1119
+    },
+    "food-safety": {
+      "x": 1369,
+      "y": 1021
+    },
+    "give-instructions": {
+      "x": 562,
+      "y": 1238
+    },
+    "hammer-nail": {
+      "x": 1105,
+      "y": 1223
+    },
+    "introduce-yourself": {
+      "x": 804,
+      "y": 1126
+    },
+    "make-budget": {
+      "x": 1602,
+      "y": 950
+    },
+    "make-phone-call": {
+      "x": 731,
+      "y": 1069
+    },
+    "make-scrambled-eggs": {
+      "x": 1221,
+      "y": 1169
+    },
+    "make-todo-list": {
+      "x": 674,
+      "y": 604
+    },
+    "manage-device-settings": {
+      "x": 1092,
+      "y": 431
+    },
+    "navigate-without-gps": {
+      "x": 1381,
+      "y": 166
+    },
+    "needs-vs-wants": {
+      "x": 1369,
+      "y": 708
+    },
+    "pack-for-trip": {
+      "x": 562,
+      "y": 362
+    },
+    "plan-multi-stop-trip": {
+      "x": 1634,
+      "y": 419
+    },
+    "prioritize-tasks": {
+      "x": 731,
+      "y": 531
+    },
+    "read-signs": {
+      "x": 1319,
+      "y": 269
+    },
+    "read-street-map": {
+      "x": 1196,
+      "y": 474
+    },
+    "read-transit-schedules": {
+      "x": 1531,
+      "y": 481
+    },
+    "repair-small-disagreement": {
+      "x": 469,
+      "y": 1119
+    },
+    "reset-messy-room": {
+      "x": 895,
+      "y": 1223
+    },
+    "restart-update-app": {
+      "x": 1000,
+      "y": 180
+    },
+    "save-for-goal": {
+      "x": 1740,
+      "y": 800
+    },
+    "shop-for-one-meal": {
+      "x": 1438,
+      "y": 1238
+    },
+    "simple-stir-fry": {
+      "x": 1447,
+      "y": 1069
+    },
+    "sort-important-papers": {
+      "x": 681,
+      "y": 269
+    },
+    "spot-phishing": {
+      "x": 1150,
+      "y": 198
+    },
+    "stop-nosebleed": {
+      "x": 583,
+      "y": 904
+    },
+    "store-food": {
+      "x": 1319,
+      "y": 1331
+    },
+    "tighten-screw": {
+      "x": 1000,
+      "y": 1310
+    },
+    "track-spending": {
+      "x": 1369,
+      "y": 892
+    },
+    "trash-recycling": {
+      "x": 1000,
+      "y": 1420
+    },
+    "treat-minor-burn": {
+      "x": 583,
+      "y": 696
+    },
+    "treat-small-cut": {
+      "x": 494,
+      "y": 926
+    },
+    "unclog-drain": {
+      "x": 850,
+      "y": 1402
+    },
+    "use-calendar": {
+      "x": 804,
+      "y": 474
+    },
+    "use-gps": {
+      "x": 1326,
+      "y": 604
+    },
+    "use-knife": {
+      "x": 1269,
+      "y": 1247
+    },
+    "wash-hands": {
+      "x": 494,
+      "y": 674
+    },
+    "write-professional-email": {
+      "x": 674,
+      "y": 996
+    }
+  }
+}

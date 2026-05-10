@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Star, Award, Zap, TrendingUp } from 'lucide-react';
 import type { UserData } from '@/lib/types';
-import { CATEGORIES, CATEGORY_KEYS, ALL_SKILLS } from '@/skills';
+import { CATEGORIES, CATEGORY_KEYS, ALL_SKILLS } from '@/data/skills';
 
 interface ProfileModalProps {
   user: UserData | null;

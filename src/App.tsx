@@ -1,26 +1,47 @@
 import { useState, useCallback } from 'react';
 import StarfieldBackground from '@/components/StarfieldBackground';
 import SkillTreeCanvas from '@/components/SkillTreeCanvas';
-import Navbar from '@/components/Navbar';
+import TreeSidebar from '@/components/TreeSidebar';
+
 import SkillDetailPanel from '@/components/SkillDetailPanel';
+import PathDetailPanel from '@/components/PathDetailPanel';
 import ProfileModal from '@/components/ProfileModal';
 import BadgesView from '@/components/BadgesView';
 import CelebrationOverlay from '@/components/CelebrationOverlay';
 import XPToast from '@/components/XPToast';
 import { useUserData } from '@/hooks/useUserData';
-import type { View, Skill } from '@/lib/types';
+import { PATH_MAP } from '@/data/paths';
+import { CATEGORY_KEYS } from '@/data/skills';
+import type { View, Skill, DomainKey } from '@/lib/types';
 
 export default function App() {
   const { user, loaded, completeSkill } = useUserData();
 
   const [activeView, setActiveView] = useState<View>('home');
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
+  const [selectedPathId, setSelectedPathId] = useState<string | null>(null);
+  const [activeCategories, setActiveCategories] = useState<Set<DomainKey>>(new Set(CATEGORY_KEYS));
   const [showCelebration, setShowCelebration] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const [showToast, setShowToast] = useState(false);
 
   const handleSelectSkill = useCallback((skill: Skill) => {
     setSelectedSkill(skill);
+    setSelectedPathId(null);
+  }, []);
+
+  const handleSelectPath = useCallback((pathId: string | null) => {
+    setSelectedPathId(pathId);
+    setSelectedSkill(null);
+  }, []);
+
+  const handleToggleCategory = useCallback((cat: DomainKey) => {
+    setActiveCategories(prev => {
+      const next = new Set(prev);
+      if (next.has(cat)) { if (next.size > 1) next.delete(cat); }
+      else next.add(cat);
+      return next;
+    });
   }, []);
 
   const handleShowCelebration = useCallback(() => {
@@ -56,25 +77,45 @@ export default function App() {
     <div className="fixed inset-0 flex overflow-hidden bg-void">
       <StarfieldBackground />
 
-      {/* Main layout: tree canvas fills left, persistent panel on right */}
+      {/* Main layout: sidebar | tree canvas | detail panel */}
       <div className="flex w-full h-full relative z-[1]">
+        {/* Left sidebar: filters + paths + nav */}
+        <TreeSidebar
+          activeCategories={activeCategories}
+          onToggleCategory={handleToggleCategory}
+          selectedPathId={selectedPathId}
+          onSelectPath={handleSelectPath}
+          activeView={activeView}
+          onChangeView={handleNavChange}
+        />
+
         {/* Tree canvas */}
         <div className="flex-1 h-full min-w-0">
           <SkillTreeCanvas
             completedIds={user?.completedSkillIds || []}
             onSelectSkill={handleSelectSkill}
             selectedSkillId={selectedSkill?.id || null}
+            selectedPathId={selectedPathId}
+            activeCategories={activeCategories}
           />
         </div>
 
-        {/* Persistent skill detail panel */}
-        <SkillDetailPanel
-          skill={selectedSkill}
-          completedIds={user?.completedSkillIds || []}
-          onComplete={completeSkill}
-          onShowCelebration={handleShowCelebration}
-          onShowToast={handleShowToast}
-        />
+        {/* Detail panel: skill or path */}
+        {selectedPathId ? (
+          <PathDetailPanel
+            path={PATH_MAP[selectedPathId] || null}
+            completedIds={user?.completedSkillIds || []}
+            onSelectSkill={handleSelectSkill}
+          />
+        ) : (
+          <SkillDetailPanel
+            skill={selectedSkill}
+            completedIds={user?.completedSkillIds || []}
+            onComplete={completeSkill}
+            onShowCelebration={handleShowCelebration}
+            onShowToast={handleShowToast}
+          />
+        )}
       </div>
 
       {/* Profile modal */}
@@ -101,8 +142,6 @@ export default function App() {
         onDone={handleToastDone}
       />
 
-      {/* Navigation */}
-      <Navbar activeView={activeView} onChange={handleNavChange} />
     </div>
   );
 }

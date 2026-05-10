@@ -1,22 +1,26 @@
 import { useRef, useState, useCallback, useEffect } from 'react';
 import { Plus, Minus, Crosshair } from 'lucide-react';
-import { ALL_SKILLS, CATEGORIES, CATEGORY_KEYS, getSkillState } from '@/skills';
-import type { Skill, DomainKey } from '@/lib/types';
+import { ALL_SKILLS, CATEGORIES, getSkillState, getChildren } from '@/data/skills';
+import type { PositionedSkill } from '@/data/skills';
+import { LEARNING_PATHS } from '@/data/paths';
+import type { DomainKey } from '@/lib/types';
 
 interface SkillTreeCanvasProps {
   completedIds: string[];
-  onSelectSkill: (skill: Skill) => void;
+  onSelectSkill: (skill: PositionedSkill) => void;
   selectedSkillId: string | null;
+  selectedPathId: string | null;
+  activeCategories: Set<DomainKey>;
 }
 
 // --- Canvas dimensions (matches ALL_SKILLS from skillData) ---
-const SKILL_WIDTH = 1400;
-const SKILL_HEIGHT = 1100;
+const SKILL_WIDTH = 2000;
+const SKILL_HEIGHT = 1600;
 const CX = SKILL_WIDTH / 2;
 const CY = SKILL_HEIGHT / 2;
 
 // Pre-computed positioned skills from data file
-const positionedSkills = ALL_SKILLS;
+const positionedSkills: PositionedSkill[] = ALL_SKILLS;
 
 // --- Node components ---
 const NODE_RADIUS_T1 = 18;
@@ -24,40 +28,65 @@ const NODE_RADIUS_T2 = 15;
 const NODE_RADIUS_T3 = 13;
 const ROOT_RADIUS = 24;
 
-function getNodeRadius(skill: Skill): number {
+function getNodeRadius(skill: PositionedSkill): number {
   if (skill.id === 'root') return ROOT_RADIUS;
   if (skill.level === 1) return NODE_RADIUS_T1;
   if (skill.level === 2) return NODE_RADIUS_T2;
   return NODE_RADIUS_T3;
 }
 
-export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedSkillId }: SkillTreeCanvasProps) {
-  const [activeCategories, setActiveCategories] = useState<Set<DomainKey>>(new Set(CATEGORY_KEYS));
+const MINI_MAP_WIDTH = 200;
+const MINI_MAP_HEIGHT = 160;
+
+export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedSkillId, selectedPathId, activeCategories }: SkillTreeCanvasProps) {
   const [pan, setPan] = useState({ x: 0, y: 0 });
-  const [zoom, setZoom] = useState(0.85);
+  const [zoom, setZoom] = useState(0.6);
   const [isDragging, setIsDragging] = useState(false);
+  const [containerSize, setContainerSize] = useState({ width: 0, height: 0 });
   const dragStart = useRef({ x: 0, y: 0 });
   const panStart = useRef({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
+
+  // Measure container size for mini-map viewport rect
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(entries => {
+      const cr = entries[0].contentRect;
+      setContainerSize({ width: cr.width, height: cr.height });
+    });
+    ro.observe(el);
+    setContainerSize({ width: el.clientWidth, height: el.clientHeight });
+    return () => ro.disconnect();
+  }, []);
+
+  const activePath = selectedPathId ? LEARNING_PATHS.find(p => p.id === selectedPathId) : null;
+  const pathSkillIds = activePath ? new Set(activePath.skillIds) : null;
 
   const visibleSkills = positionedSkills.filter(
     s => s.id === 'root' || activeCategories.has(s.domain)
   );
 
-  const toggleCategory = (cat: DomainKey) => {
-    setActiveCategories(prev => {
-      const next = new Set(prev);
-      if (next.has(cat)) { if (next.size > 1) next.delete(cat); }
-      else next.add(cat);
-      return next;
-    });
-  };
+  // Compute highlighted skills when one is selected
+  const highlightedSkillIds = new Set<string>();
+  if (selectedSkillId) {
+    highlightedSkillIds.add(selectedSkillId);
+    const selectedSkill = positionedSkills.find(s => s.id === selectedSkillId);
+    if (selectedSkill) {
+      for (const prereqId of selectedSkill.prerequisites) {
+        highlightedSkillIds.add(prereqId);
+      }
+    }
+    for (const child of getChildren(selectedSkillId)) {
+      highlightedSkillIds.add(child.id);
+    }
+  }
 
   // Center the view on mount
   useEffect(() => {
     const vw = window.innerWidth;
     const vh = window.innerHeight;
-    const initialPan = { x: vw / 2 - CX * 0.85, y: vh / 2 - CY * 0.85 };
+    const initialPan = { x: vw / 2 - CX * 0.6, y: vh / 2 - CY * 0.6 };
     setPan(initialPan);
     panStart.current = initialPan;
   }, []);
@@ -112,56 +141,6 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
     setPan({ x: vw / 2 - CX * zoom, y: vh / 2 - CY * zoom });
   };
 
-  const renderConnection = (skill: Skill & { x: number; y: number }) => {
-    if (skill.prerequisites.length === 0) return null;
-    const parent = positionedSkills.find(s => s.id === skill.prerequisites[0]);
-    if (!parent) return null;
-
-    const isCompleted = completedIds.includes(skill.id);
-    const parentCompleted = completedIds.includes(skill.prerequisites[0]);
-    const color = CATEGORIES[skill.domain].color;
-
-    // Bezier curve
-    const path = `M ${parent.x} ${parent.y} C ${parent.x} ${(parent.y + skill.y) / 2} ${skill.x} ${(parent.y + skill.y) / 2} ${skill.x} ${skill.y}`;
-
-    if (isCompleted && parentCompleted) {
-      return (
-        <path
-          key={`conn-${skill.id}`}
-          d={path}
-          fill="none"
-          stroke="#D4AF37"
-          strokeWidth={1.5}
-          strokeOpacity={0.6}
-        />
-      );
-    }
-    if (parentCompleted) {
-      return (
-        <path
-          key={`conn-${skill.id}`}
-          d={path}
-          fill="none"
-          stroke={color}
-          strokeWidth={1.5}
-          strokeOpacity={0.35}
-          strokeDasharray="6 4"
-        />
-      );
-    }
-    return (
-      <path
-        key={`conn-${skill.id}`}
-        d={path}
-        fill="none"
-        stroke="#4A4858"
-        strokeWidth={1}
-        strokeOpacity={0.25}
-        strokeDasharray="3 4"
-      />
-    );
-  };
-
   return (
     <div
       ref={containerRef}
@@ -173,28 +152,6 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
       onPointerCancel={handlePointerUp}
       style={{ touchAction: 'none', userSelect: 'none', background: '#0D0E17' }}
     >
-      {/* Category filter pills */}
-      <div className="absolute top-4 left-4 z-10 flex gap-1.5 flex-wrap max-w-[50vw]">
-        {CATEGORY_KEYS.map(cat => {
-          const catData = CATEGORIES[cat];
-          const isActive = activeCategories.has(cat);
-          return (
-            <button
-              key={cat}
-              onClick={e => { e.stopPropagation(); toggleCategory(cat); }}
-              className="px-3 py-1 rounded-full text-[11px] font-heading font-semibold border transition-all cursor-pointer"
-              style={{
-                backgroundColor: isActive ? `${catData.color}20` : 'transparent',
-                color: isActive ? catData.color : '#4A4858',
-                borderColor: isActive ? `${catData.color}50` : '#2A2A3A',
-              }}
-            >
-              {catData.name}
-            </button>
-          );
-        })}
-      </div>
-
       {/* Zoom controls */}
       <div className="absolute top-4 right-4 z-10 flex flex-col gap-1">
         <button onClick={zoomIn} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
@@ -207,6 +164,84 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
           <Minus size={16} />
         </button>
       </div>
+
+      {/* Mini-map */}
+      {containerSize.width > 0 && (
+        <div className="absolute bottom-4 right-4 z-10 rounded-lg border border-border overflow-hidden bg-surface-raised/90 backdrop-blur-sm select-none"
+          style={{ width: MINI_MAP_WIDTH, height: MINI_MAP_HEIGHT }}
+        >
+          <svg
+            viewBox={`0 0 ${SKILL_WIDTH} ${SKILL_HEIGHT}`}
+            width={MINI_MAP_WIDTH}
+            height={MINI_MAP_HEIGHT}
+            className="cursor-pointer"
+            onClick={(e) => {
+              const rect = e.currentTarget.getBoundingClientRect();
+              const mx = e.clientX - rect.left;
+              const my = e.clientY - rect.top;
+              // Map mini-map pixel to tree coordinate
+              const treeX = (mx / MINI_MAP_WIDTH) * SKILL_WIDTH;
+              const treeY = (my / MINI_MAP_HEIGHT) * SKILL_HEIGHT;
+              // Center viewport on that point
+              setPan({
+                x: containerSize.width / 2 - treeX * zoom,
+                y: containerSize.height / 2 - treeY * zoom,
+              });
+            }}
+          >
+            {/* Background */}
+            <rect width={SKILL_WIDTH} height={SKILL_HEIGHT} fill="#0D0E17" />
+
+            {/* All skills as tiny dots */}
+            {positionedSkills.map(skill => {
+              const cat = CATEGORIES[skill.domain];
+              const inPath = pathSkillIds ? pathSkillIds.has(skill.id) : true;
+              const opacity = !pathSkillIds || inPath ? 0.6 : 0.15;
+              return (
+                <circle
+                  key={skill.id}
+                  cx={skill.x}
+                  cy={skill.y}
+                  r={skill.level === 1 ? 5 : skill.level === 2 ? 4 : 3}
+                  fill={cat.color}
+                  opacity={opacity}
+                />
+              );
+            })}
+
+            {/* Viewport rectangle */}
+            {(() => {
+              const vx = Math.max(0, -pan.x / zoom);
+              const vy = Math.max(0, -pan.y / zoom);
+              const vw = Math.min(SKILL_WIDTH - vx, containerSize.width / zoom);
+              const vh = Math.min(SKILL_HEIGHT - vy, containerSize.height / zoom);
+              if (vw <= 0 || vh <= 0) return null;
+              return (
+                <>
+                  <rect
+                    x={vx}
+                    y={vy}
+                    width={vw}
+                    height={vh}
+                    fill="none"
+                    stroke="#D4AF37"
+                    strokeWidth={3}
+                    opacity={0.6}
+                  />
+                  <rect
+                    x={vx}
+                    y={vy}
+                    width={vw}
+                    height={vh}
+                    fill="#D4AF37"
+                    opacity={0.05}
+                  />
+                </>
+              );
+            })()}
+          </svg>
+        </div>
+      )}
 
       {/* Zoom indicator */}
       <div className="absolute bottom-4 left-4 z-10 text-[10px] text-ink-dim font-mono select-none pointer-events-none">
@@ -237,8 +272,95 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
           </filter>
         </defs>
 
-        {/* Connections */}
-        {visibleSkills.map(skill => renderConnection(skill))}
+        {/* Connections — first pass: all dimmed */}
+        {visibleSkills.map(skill => {
+          if (skill.prerequisites.length === 0) return null;
+          const parent = positionedSkills.find(s => s.id === skill.prerequisites[0]);
+          if (!parent) return null;
+
+          const isCompleted = completedIds.includes(skill.id);
+          const parentCompleted = completedIds.includes(skill.prerequisites[0]);
+          const color = CATEGORIES[skill.domain].color;
+
+          const path = `M ${parent.x} ${parent.y} C ${parent.x} ${(parent.y + skill.y) / 2} ${skill.x} ${(parent.y + skill.y) / 2} ${skill.x} ${skill.y}`;
+
+          if (isCompleted && parentCompleted) {
+            return (
+              <path
+                key={`conn-bg-${skill.id}`}
+                d={path}
+                fill="none"
+                stroke="#D4AF37"
+                strokeWidth={1.5}
+                strokeOpacity={0.15}
+              />
+            );
+          }
+          if (parentCompleted) {
+            return (
+              <path
+                key={`conn-bg-${skill.id}`}
+                d={path}
+                fill="none"
+                stroke={color}
+                strokeWidth={1.5}
+                strokeOpacity={0.15}
+                strokeDasharray="6 4"
+              />
+            );
+          }
+          return (
+            <path
+              key={`conn-bg-${skill.id}`}
+              d={path}
+              fill="none"
+              stroke="#4A4858"
+              strokeWidth={1}
+              strokeOpacity={0.15}
+              strokeDasharray="3 4"
+            />
+          );
+        })}
+
+        {/* Connections — second pass: highlighted */}
+        {selectedSkillId && visibleSkills.map(skill => {
+          if (skill.prerequisites.length === 0) return null;
+          const parentId = skill.prerequisites[0];
+          const parent = positionedSkills.find(s => s.id === parentId);
+          if (!parent) return null;
+
+          const isChildHighlighted = highlightedSkillIds.has(skill.id);
+          const isParentHighlighted = highlightedSkillIds.has(parentId);
+          if (!isChildHighlighted && !isParentHighlighted) return null;
+
+          const isDirectlyConnected = skill.id === selectedSkillId || parentId === selectedSkillId;
+          const color = CATEGORIES[skill.domain].color;
+
+          const path = `M ${parent.x} ${parent.y} C ${parent.x} ${(parent.y + skill.y) / 2} ${skill.x} ${(parent.y + skill.y) / 2} ${skill.x} ${skill.y}`;
+
+          if (isDirectlyConnected) {
+            return (
+              <path
+                key={`conn-hl-${skill.id}`}
+                d={path}
+                fill="none"
+                stroke={color}
+                strokeWidth={2.5}
+                strokeOpacity={0.9}
+              />
+            );
+          }
+          return (
+            <path
+              key={`conn-hl-${skill.id}`}
+              d={path}
+              fill="none"
+              stroke={color}
+              strokeWidth={1.5}
+              strokeOpacity={0.6}
+            />
+          );
+        })}
 
         {/* Nodes */}
         {visibleSkills.map(skill => {
@@ -247,18 +369,32 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
           const r = getNodeRadius(skill);
           const isSelected = skill.id === selectedSkillId;
           const isRoot = skill.id === 'root';
+          const isHighlighted = selectedSkillId ? highlightedSkillIds.has(skill.id) : false;
+          const inActivePath = pathSkillIds ? pathSkillIds.has(skill.id) : true;
+
+          let nodeOpacity: number;
+          if (selectedSkillId) {
+            nodeOpacity = isSelected || isHighlighted ? 1.0 : 0.35;
+          } else if (pathSkillIds) {
+            nodeOpacity = inActivePath ? 1.0 : 0.12;
+          } else {
+            nodeOpacity = 1.0;
+          }
 
           if (isRoot) {
             return (
               <g key="root" onClick={e => { e.stopPropagation(); onSelectSkill(skill); }} className="cursor-pointer">
-                <circle cx={skill.x} cy={skill.y} r={r + 4} fill="none" stroke="#D4AF37" strokeWidth={2} strokeOpacity={0.4}>
+                {isHighlighted && !isSelected && (
+                  <circle cx={skill.x} cy={skill.y} r={r + 6} fill="none" stroke="#D4AF37" strokeWidth={1} opacity={0.35} />
+                )}
+                <circle cx={skill.x} cy={skill.y} r={r + 4} fill="none" stroke="#D4AF37" strokeWidth={2} strokeOpacity={0.4} opacity={nodeOpacity}>
                   <animateTransform attributeName="transform" type="rotate" from={`0 ${skill.x} ${skill.y}`} to={`360 ${skill.x} ${skill.y}`} dur="20s" repeatCount="indefinite" />
                 </circle>
-                <circle cx={skill.x} cy={skill.y} r={r} fill="#1C1D2B" stroke="#D4AF37" strokeWidth={2} />
-                <text x={skill.x} y={skill.y + 4} textAnchor="middle" fill="#D4AF37" fontSize={12} fontWeight={700} fontFamily="Inter, sans-serif">
+                <circle cx={skill.x} cy={skill.y} r={r} fill="#1C1D2B" stroke="#D4AF37" strokeWidth={2} opacity={nodeOpacity} />
+                <text x={skill.x} y={skill.y + 4} textAnchor="middle" fill="#D4AF37" fontSize={12} fontWeight={700} fontFamily="Inter, sans-serif" opacity={nodeOpacity}>
                   ROOT
                 </text>
-                <text x={skill.x} y={skill.y + r + 18} textAnchor="middle" fill="#7A7887" fontSize={11} fontWeight={600} fontFamily="Inter, sans-serif">
+                <text x={skill.x} y={skill.y + r + 18} textAnchor="middle" fill="#7A7887" fontSize={11} fontWeight={600} fontFamily="Inter, sans-serif" opacity={nodeOpacity}>
                   {skill.title}
                 </text>
               </g>
@@ -278,12 +414,16 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
                     <animateTransform attributeName="transform" type="rotate" from={`0 ${skill.x} ${skill.y}`} to={`360 ${skill.x} ${skill.y}`} dur="10s" repeatCount="indefinite" />
                   </circle>
                 )}
+                {/* Highlight glow ring */}
+                {isHighlighted && !isSelected && (
+                  <circle cx={skill.x} cy={skill.y} r={r + 6} fill="none" stroke={category.color} strokeWidth={1} opacity={0.35} />
+                )}
                 {/* Glow ring */}
-                <circle cx={skill.x} cy={skill.y} r={r + 3} fill="none" stroke="#5B9B6B" strokeWidth={1.5} opacity={0.5} filter="url(#glow-gold)" />
+                <circle cx={skill.x} cy={skill.y} r={r + 3} fill="none" stroke="#5B9B6B" strokeWidth={1.5} opacity={0.5 * nodeOpacity} filter="url(#glow-gold)" />
                 {/* Filled node */}
-                <circle cx={skill.x} cy={skill.y} r={r} fill="#D4AF37" stroke="#B8964A" strokeWidth={1.5} />
+                <circle cx={skill.x} cy={skill.y} r={r} fill="#D4AF37" stroke="#B8964A" strokeWidth={1.5} opacity={nodeOpacity} />
                 {/* Label */}
-                <NodeLabel skill={skill} category={category} isCompleted />
+                <NodeLabel skill={skill} category={category} isCompleted opacity={nodeOpacity} />
               </g>
             );
           }
@@ -301,12 +441,16 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
                   <animateTransform attributeName="transform" type="rotate" from={`0 ${skill.x} ${skill.y}`} to={`360 ${skill.x} ${skill.y}`} dur="10s" repeatCount="indefinite" />
                 </circle>
               )}
+              {/* Highlight glow ring */}
+              {isHighlighted && !isSelected && (
+                <circle cx={skill.x} cy={skill.y} r={r + 6} fill="none" stroke={category.color} strokeWidth={1} opacity={0.35} />
+              )}
               {/* Subtle glow */}
-              <circle cx={skill.x} cy={skill.y} r={r + 4} fill="none" stroke={category.color} strokeWidth={1} opacity={0.25} />
+              <circle cx={skill.x} cy={skill.y} r={r + 4} fill="none" stroke={category.color} strokeWidth={1} opacity={0.25 * nodeOpacity} />
               {/* Filled node */}
-              <circle cx={skill.x} cy={skill.y} r={r} fill={`${category.color}30`} stroke={category.color} strokeWidth={1.5} />
+              <circle cx={skill.x} cy={skill.y} r={r} fill={`${category.color}30`} stroke={category.color} strokeWidth={1.5} opacity={nodeOpacity} />
               {/* Label */}
-              <NodeLabel skill={skill} category={category} isCompleted={false} />
+              <NodeLabel skill={skill} category={category} isCompleted={false} opacity={nodeOpacity} />
             </g>
           );
         })}
@@ -317,10 +461,11 @@ export default function SkillTreeCanvas({ completedIds, onSelectSkill, selectedS
 
 // --- Text label component ---
 // Uses foreignObject for HTML text wrapping — full names, never truncated
-function NodeLabel({ skill, category, isCompleted }: {
-  skill: Skill & { x: number; y: number };
+function NodeLabel({ skill, category, isCompleted, opacity = 1 }: {
+  skill: PositionedSkill;
   category: { color: string; name: string };
   isCompleted: boolean;
+  opacity?: number;
 }) {
   const r = getNodeRadius(skill);
   const width = 120;
@@ -329,7 +474,7 @@ function NodeLabel({ skill, category, isCompleted }: {
   const y = skill.y + r + 4;
 
   return (
-    <foreignObject x={x} y={y} width={width} height={height} style={{ pointerEvents: 'none', overflow: 'visible' }}>
+    <foreignObject x={x} y={y} width={width} height={height} style={{ pointerEvents: 'none', overflow: 'visible' }} opacity={opacity}>
       <div
         style={{
           width: '100%',

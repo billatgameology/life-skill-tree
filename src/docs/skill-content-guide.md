@@ -102,9 +102,64 @@ Skills needing source review: Treat a Small Cut, Treat a Minor Burn, Stop a Nose
 
 All skills visible from the start. No locked/hidden content. The learner should browse freely.
 
+Prerequisites are **suggested preparation**, not gates. They may guide learners toward helpful earlier skills, but they should not prevent access to a skill.
+
+### 2.9 Skills are reusable components
+
+A skill is an individual reusable capability component. It should not be written as if it belongs to only one tree branch, one goal, or one path.
+
+A single skill can belong to many goal-oriented paths.
+
+Example: **Write a Professional Email** could appear in:
+- First Job Readiness
+- School Independence
+- Volunteer Application
+- Handle a Problem Politely
+
+Do not duplicate a skill just because it appears in a new goal. Reuse the same skill unless the steps, risk level, or completion criteria are meaningfully different.
+
+### 2.10 Giant tree first, multiple views later
+
+The giant skill tree remains the default main view. It is the primary visual identity of the product.
+
+However, skill data should be view-agnostic. The same skills should also be able to appear in:
+- Goal path cards
+- Table view
+- Search results
+- Domain dashboards
+- Suggested starter lists
+- "What can I try today?" lists
+
+Tree position, path grouping, table sorting, and featured cards are display choices. They should not change the core meaning of a skill.
+
 ---
 
-## 3. Skill Panel Experience
+## 3. Main Experience: Giant Tree + Goal Path Cards
+
+The default experience is still a giant connected skill tree. The tree gives the product its video-game map feeling and lets learners browse freely.
+
+At the top of the experience, the app may show **goal path cards** that highlight useful bundles of basic skills. These cards help learners who arrive with a target in mind.
+
+Examples:
+- First Job Readiness
+- Cook One Simple Meal
+- Go Somewhere on Your Own
+- Manage Your Own Money
+- Take Care of Your Space
+- Handle a Small Home Problem
+
+A path is guidance, not a lock. Learners can open a path, see the recommended skills, and still jump around the full tree.
+
+Recommended home experience:
+
+1. Goal path cards at the top for common learner goals
+2. Giant skill tree as the main default view
+3. Skill panel opens when a learner clicks any skill
+4. Optional filters/search/table views can be added later
+
+---
+
+## 4. Skill Panel Experience
 
 When a learner clicks a skill, the panel should answer five questions quickly:
 
@@ -133,7 +188,9 @@ When a learner clicks a skill, the panel should answer five questions quickly:
 
 ---
 
-## 4. Schema
+## 5. Schema
+
+### Skill schema
 
 ```ts
 type Skill = {
@@ -141,24 +198,62 @@ type Skill = {
   title: string;                 // short display name
   domain: SkillDomain;           // one of 8 domains
   summary: string;               // one sentence
+
   learnerPromise: string;        // what you will be able to do
   whyItMatters: string;          // 1-2 sentences
   realLifeUses: string[];        // 4 specific situations
-  level: 1 | 2 | 3;              // tree depth
+
+  level: 0 | 1 | 2 | 3 | 4;      // visual depth / suggested complexity, not access control
   difficulty: "easy" | "medium" | "hard";
-  status: "available" | "locked" | "completed";
-  prerequisites: string[];       // skill IDs that unlock this
-  xp: number;                    // 15 (visual flavor)
+  status: "available" | "completed";
+
+  suggestedPrerequisites: string[]; // helpful earlier skills, not locks
+
+  xp: number;                    // visual flavor
   estimatedMinutes: number;      // 10-30
+
+  materialsNeeded?: string[];    // physical/digital things used by the skill
+  result?: string;               // visible outcome or artifact produced by the skill
+
   youWillLearn: string[];        // 4 concrete abilities
   miniChallenge: string;         // one tiny action
   steps: string[];               // 5 step checklist
   completionCriteria: string[];  // observable signs
+
   commonProblems?: string[];     // likely things that go wrong
   tips?: string[];               // practical advice
+
+  safetyLevel?: "low" | "medium" | "high";
+  requiresSourceReview?: boolean;
+  helpBoundary?: string;         // when to ask someone nearby, a professional, or emergency services
+
   tags?: string[];               // future search/filter
-  x: number;                     // runtime tree position
-  y: number;                     // runtime tree position
+};
+```
+
+### Goal path schema
+
+Paths are goal-oriented bundles of reusable skills. They help learners start from a target and discover the skills that support that target.
+
+```ts
+type SkillPath = {
+  id: string;
+  title: string;
+  summary: string;
+  learnerGoal: string;           // written from the learner's point of view
+
+  pathType: "goal" | "situation" | "starter" | "challenge";
+  difficulty: "easy" | "medium" | "hard";
+
+  skillIds: string[];            // skills included in this path
+  recommendedOrder?: string[];   // optional suggested order, not a lock
+
+  realLifeOutcome: string;       // what this path helps the learner do
+  whenThisHelps: string[];       // specific situations where the path is useful
+
+  featured?: boolean;            // can appear as a card above the tree
+  estimatedTotalMinutes?: number;
+  tags?: string[];
 };
 ```
 
@@ -180,11 +275,25 @@ type SkillDomain =
 
 Primary: **"I did it"** — feels like marking a real-world accomplishment, not submitting schoolwork.
 
-Stuck option: **"I tried but got stuck"** — should show common problems, tips, and prerequisite suggestions.
+Stuck option: **"I tried but got stuck"** — should show common problems, tips, and suggested prerequisite skills.
+
+### Status and suggested prerequisites
+
+Use `status: "available"` for new authored skills. Do not use locked content in the skill data.
+
+Use `suggestedPrerequisites` only when an earlier skill directly helps the learner succeed. Leave it empty when the relationship is weak.
+
+Bad suggested prerequisite: `do-laundry` before `tighten-a-loose-screw`
+
+Good suggested prerequisite: `wash-hands` before `treat-a-small-cut`
+
+### Layout data
+
+Skill content does not include display position. Layout data lives in `src/data/skill-layouts.json`, organized by view type. Today only the `tree` view has positions; future views like `table` or `cards` can add their own sections without changing skill content.
 
 ---
 
-## 5. Field Writing Guide
+## 6. Field Writing Guide
 
 ### learnerPromise
 Short, confidence-building. "You will be able to..." not "You will learn about..."
@@ -232,9 +341,32 @@ Practical, short advice.
 
 Good: "Keep the devices close together while pairing."
 
+### materialsNeeded
+Physical or digital things the learner needs to try the skill. This keeps skills grounded and helps future filters like "skills I can try right now."
+
+Good: `["phone", "Bluetooth accessory"]`
+Good: `["clean clothes", "washer", "detergent"]`
+
+### result
+The visible outcome, artifact, or finished state.
+
+Good: "A folded small load of laundry."
+Good: "A short email draft with a subject, greeting, clear request, and closing."
+
+### safetyLevel / requiresSourceReview / helpBoundary
+Use these fields for health, safety, tools, heat, electricity, transportation, money, or anything where poor guidance could create risk.
+
+- `safetyLevel: "low"` for ordinary low-risk practice
+- `safetyLevel: "medium"` for skills needing extra caution or helper guidance
+- `safetyLevel: "high"` only when the skill should mostly focus on recognizing limits and getting appropriate help
+- `requiresSourceReview: true` for health/safety content that should be verified before publishing
+- `helpBoundary` explains when to ask someone nearby, a professional, or emergency services
+
+Good help boundary: "Ask someone nearby who can help if the bulb is high, broken, hot, or hard to reach."
+
 ---
 
-## 6. Review History
+## 7. Review History
 
 ### Review 1 — Content Quality Pass
 
@@ -291,17 +423,44 @@ Good: "Keep the devices close together while pairing."
 
 ---
 
-## 7. Future Considerations
+## 8. Future Considerations
 
-### Add later: `realWorldObject` field
+### Separate layout data (done)
+
+Skill coordinates have been moved out of individual skill files into `src/data/skill-layouts.json`. This keeps skill content view-agnostic and lets the same skills appear in the giant tree, path cards, table views, and search results.
+
+The layout file is organized by view so future displays (table, cards, dashboard) can add their own metadata without interfering with existing views.
+
+Current files:
 
 ```ts
-realWorldObject?: string[];
+// src/data/skill-layouts.json
+{
+  "tree": {
+    "connect-wifi": { "x": 1000, "y": 420 },
+    ...
+  },
+  "table": {      // future
+    "defaultSort": "domain",
+    "columns": ["title", "domain", "difficulty", "estimatedMinutes"]
+  }
+}
 ```
 
-Example: `["screwdriver", "loose screw", "cabinet handle"]`
+```txt
+src/skills/*.json            = reusable skill content (no position)
+src/data/skill-layouts.json  = display metadata by view type
+src/data/skills.ts           = skills index: imports, layouts, and exports
+paths.json                   = goal-oriented skill bundles (future)
+```
 
-This keeps every skill grounded. If a skill does not have a clear object, tool, situation, or output, it may still be too abstract.
+### Add later: richer path cards
+
+Path cards can become a stronger entry point without replacing the giant tree. A path card might show progress, starter skills, estimated total time, and the next suggested skill.
+
+### Add later: table view
+
+Table view can help with authoring, review, sorting, and filtering. Useful columns include title, domain, difficulty, time, safety level, materials, mini-challenge, and suggested prerequisites.
 
 ### Add later: Preview / Practice mode separation
 
@@ -318,7 +477,23 @@ Before publishing to a real audience, verify health/safety skill steps against:
 
 ---
 
-## 8. Quality Checklist
+## 9. Batch Generation Guardrails
+
+When using this guide to generate many skills:
+
+- Do not invent suggested prerequisites just to make the tree connected.
+- Prefer empty `suggestedPrerequisites` over weak relationships.
+- Do not use locked status.
+- Do not make broad category skills. Split broad ideas into smaller real-world actions.
+- Do not create multi-day habits as mini-challenges.
+- Do not duplicate a skill for each path. Reuse skills across paths.
+- Do not make a path-specific skill unless the steps, risk level, or completion criteria are meaningfully different.
+- Do not include medical, legal, or financial advice beyond basic preparation unless source-reviewed.
+- If unsure whether a skill is too broad, split it.
+
+---
+
+## 10. Quality Checklist
 
 Before adding a new skill, check:
 
@@ -326,11 +501,14 @@ Before adding a new skill, check:
 - [ ] Mini-challenge is doable today in one sitting
 - [ ] No "any," "always," "never," "without help"
 - [ ] Title matches the mini-challenge scope
-- [ ] Prerequisites are directly meaningful (or empty)
+- [ ] Suggested prerequisites are directly meaningful guidance, not locks (or empty)
 - [ ] Tone is clear, calm, respectful — not childish, not lecturing
 - [ ] Health/safety skills teach low-risk actions only
 - [ ] Completion criteria are observable
 - [ ] Steps are short and action-oriented
 - [ ] Domain matches spec enum exactly
 - [ ] Status is "available"
+- [ ] Materials needed and result are included when useful
+- [ ] Health/safety/tool skills include safety level, source review flag if needed, and a help boundary
+- [ ] Skill is reusable across multiple possible goal paths
 - [ ] ID is kebab-case and stable
