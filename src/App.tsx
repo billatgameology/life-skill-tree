@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { PanelLeftOpen, PanelRightOpen } from 'lucide-react';
 import StarfieldBackground from '@/components/StarfieldBackground';
 import TrellisView from '@/components/TrellisView';
@@ -18,12 +18,14 @@ import { useUserData } from '@/hooks/useUserData';
 import { PATH_MAP } from '@/data/paths';
 import { ALL_SKILLS, CATEGORY_KEYS } from '@/data/skills';
 import type { View, Skill, DomainKey } from '@/lib/types';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 type VizMode = 'mosaic' | 'trellis' | 'registry';
 
 export default function App() {
   const { authError, clearAuthError, currentUser, signOutUser } = useAuth();
   const { user, loaded, syncError, completeSkill, toggleFavorite } = useUserData();
+  const isMobile = useIsMobile();
 
   const [activeView, setActiveView] = useState<View>('home');
   const [isAuthOpen, setIsAuthOpen] = useState(false);
@@ -36,6 +38,16 @@ export default function App() {
   const [showCelebration, setShowCelebration] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const [showToast, setShowToast] = useState(false);
+
+  useEffect(() => {
+    if (isMobile) {
+      setIsSidebarOpen(false);
+      setIsDetailPanelOpen(false);
+    } else {
+      setIsSidebarOpen(true);
+      setIsDetailPanelOpen(true);
+    }
+  }, [isMobile]);
 
   const handleSelectSkill = useCallback((skill: Skill) => {
     setSelectedSkill(skill);
@@ -106,25 +118,42 @@ export default function App() {
 
       {/* Main layout: sidebar | tree canvas | detail panel */}
       <div className="flex w-full h-full relative z-[1]">
+        {isMobile && isSidebarOpen && (
+          <button
+            onClick={() => setIsSidebarOpen(false)}
+            className="absolute inset-0 z-30 bg-black/45"
+            aria-label="Close sidebar backdrop"
+          />
+        )}
+        {isMobile && isDetailPanelOpen && (
+          <button
+            onClick={() => setIsDetailPanelOpen(false)}
+            className="absolute inset-0 z-40 bg-black/45"
+            aria-label="Close details backdrop"
+          />
+        )}
         {/* Left sidebar: filters + paths + nav */}
         {isSidebarOpen ? (
-          <TreeSidebar
-            activeCategories={activeCategories}
-            onToggleCategory={handleToggleCategory}
-            onShowAllCategories={handleShowAllCategories}
-            selectedPathId={selectedPathId}
-            onSelectPath={handleSelectPath}
-            activeView={activeView}
-            onChangeView={handleNavChange}
-            authUser={currentUser}
-            onOpenAuth={() => setIsAuthOpen(true)}
-            onSignOut={signOutUser}
-            vizMode={vizMode}
-            onChangeVizMode={setVizMode}
-            onCollapse={() => setIsSidebarOpen(false)}
-            favoriteSkills={favoriteSkills}
-            onSelectFavoriteSkill={handleSelectSkill}
-          />
+          <div className={isMobile ? 'absolute inset-x-0 bottom-0 h-[72dvh] z-40 rounded-t-2xl overflow-hidden shadow-2xl border-t border-border' : ''}>
+            <TreeSidebar
+              activeCategories={activeCategories}
+              onToggleCategory={handleToggleCategory}
+              onShowAllCategories={handleShowAllCategories}
+              selectedPathId={selectedPathId}
+              onSelectPath={handleSelectPath}
+              activeView={activeView}
+              onChangeView={handleNavChange}
+              authUser={currentUser}
+              onOpenAuth={() => setIsAuthOpen(true)}
+              onSignOut={signOutUser}
+              vizMode={vizMode}
+              onChangeVizMode={setVizMode}
+              onCollapse={() => setIsSidebarOpen(false)}
+              favoriteSkills={favoriteSkills}
+              onSelectFavoriteSkill={handleSelectSkill}
+              isMobile={isMobile}
+            />
+          </div>
         ) : (
           <button
             onClick={() => setIsSidebarOpen(true)}
@@ -168,23 +197,29 @@ export default function App() {
         {/* Detail panel: skill or path */}
         {isDetailPanelOpen ? (
           selectedPathId ? (
-            <PathDetailPanel
-              path={PATH_MAP[selectedPathId] || null}
-              completedIds={user?.completedSkillIds || []}
-              onSelectSkill={handleSelectSkill}
-              onCollapse={() => setIsDetailPanelOpen(false)}
-            />
+            <div className={isMobile ? 'absolute inset-x-0 bottom-0 h-[78dvh] z-50 rounded-t-2xl overflow-hidden shadow-2xl border-t border-border' : ''}>
+              <PathDetailPanel
+                path={PATH_MAP[selectedPathId] || null}
+                completedIds={user?.completedSkillIds || []}
+                onSelectSkill={handleSelectSkill}
+                onCollapse={() => setIsDetailPanelOpen(false)}
+                isMobile={isMobile}
+              />
+            </div>
           ) : (
-            <SkillDetailPanel
-              skill={selectedSkill}
-              completedIds={user?.completedSkillIds || []}
-              onComplete={handleCompleteSkill}
-              onShowCelebration={handleShowCelebration}
-              onShowToast={handleShowToast}
-              onCollapse={() => setIsDetailPanelOpen(false)}
-              favoriteIds={user?.favorite || []}
-              onToggleFavorite={toggleFavorite}
-            />
+            <div className={isMobile ? 'absolute inset-x-0 bottom-0 h-[78dvh] z-50 rounded-t-2xl overflow-hidden shadow-2xl border-t border-border' : ''}>
+              <SkillDetailPanel
+                skill={selectedSkill}
+                completedIds={user?.completedSkillIds || []}
+                onComplete={handleCompleteSkill}
+                onShowCelebration={handleShowCelebration}
+                onShowToast={handleShowToast}
+                onCollapse={() => setIsDetailPanelOpen(false)}
+                favoriteIds={user?.favorite || []}
+                onToggleFavorite={toggleFavorite}
+                isMobile={isMobile}
+              />
+            </div>
           )
         ) : (
           <button

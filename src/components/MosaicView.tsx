@@ -179,6 +179,11 @@ export default function MosaicView({
   const [isDragging, setIsDragging] = useState(false);
   const dragStart = useRef({ x: 0, y: 0 });
   const panStart = useRef({ x: 0, y: 0 });
+  const activePointers = useRef(new Map<number, { x: number; y: number }>());
+  const pinchStartDistance = useRef(0);
+  const pinchStartZoom = useRef(zoom);
+  const pinchMidpoint = useRef({ x: 0, y: 0 });
+  const pinchStartPan = useRef({ x: 0, y: 0 });
 
   const pathSkillIds = useMemo(() => {
     if (!selectedPathId) return null;
@@ -239,22 +244,73 @@ export default function MosaicView({
   }, [zoom, pan]);
 
   const handlePointerDown = useCallback((e: React.PointerEvent) => {
-    if (e.button !== 0) return;
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
     (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
-    setIsDragging(true);
-    dragStart.current = { x: e.clientX, y: e.clientY };
-    panStart.current = { x: pan.x, y: pan.y };
+    activePointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+    if (activePointers.current.size === 1) {
+      setIsDragging(true);
+      dragStart.current = { x: e.clientX, y: e.clientY };
+      panStart.current = { x: pan.x, y: pan.y };
+      return;
+    }
+
+    if (activePointers.current.size === 2) {
+      setIsDragging(false);
+      const [p1, p2] = Array.from(activePointers.current.values());
+      pinchStartDistance.current = Math.hypot(p2.x - p1.x, p2.y - p1.y);
+      pinchStartZoom.current = zoom;
+      pinchMidpoint.current = { x: (p1.x + p2.x) / 2, y: (p1.y + p2.y) / 2 };
+      pinchStartPan.current = { ...pan };
+    }
   }, [pan]);
 
   const handlePointerMove = useCallback((e: React.PointerEvent) => {
-    if (!isDragging) return;
-    setPan({
-      x: panStart.current.x + (e.clientX - dragStart.current.x),
-      y: panStart.current.y + (e.clientY - dragStart.current.y),
-    });
+    if (!activePointers.current.has(e.pointerId)) return;
+    activePointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+    if (activePointers.current.size === 1 && isDragging) {
+      setPan({
+        x: panStart.current.x + (e.clientX - dragStart.current.x),
+        y: panStart.current.y + (e.clientY - dragStart.current.y),
+      });
+      return;
+    }
+
+    if (activePointers.current.size === 2) {
+      const [p1, p2] = Array.from(activePointers.current.values());
+      const currentDistance = Math.hypot(p2.x - p1.x, p2.y - p1.y);
+      if (pinchStartDistance.current <= 0) return;
+
+      const nextZoom = Math.max(0.1, Math.min(3.0, pinchStartZoom.current * (currentDistance / pinchStartDistance.current)));
+      const ratio = nextZoom / pinchStartZoom.current;
+      const rect = containerRef.current?.getBoundingClientRect();
+      if (!rect) return;
+
+      const startMid = pinchMidpoint.current;
+      const mx = startMid.x - rect.left;
+      const my = startMid.y - rect.top;
+      setZoom(nextZoom);
+      setPan({
+        x: mx - (mx - pinchStartPan.current.x) * ratio,
+        y: my - (my - pinchStartPan.current.y) * ratio,
+      });
+    }
   }, [isDragging]);
 
-  const handlePointerUp = useCallback(() => setIsDragging(false), []);
+  const handlePointerUp = useCallback((e: React.PointerEvent) => {
+    activePointers.current.delete(e.pointerId);
+
+    if (activePointers.current.size === 1) {
+      const [remaining] = Array.from(activePointers.current.values());
+      setIsDragging(true);
+      dragStart.current = { x: remaining.x, y: remaining.y };
+      panStart.current = { ...pan };
+      return;
+    }
+
+    setIsDragging(false);
+  }, [pan]);
 
   const zoomIn = () => setZoom(z => Math.min(3.0, z * 1.2));
   const zoomOut = () => setZoom(z => Math.max(0.1, z / 1.2));
