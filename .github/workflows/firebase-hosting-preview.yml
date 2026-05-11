@@ -49,4 +49,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LIFE_SKILL_ATLAS }}
           projectId: life-skill-atlas
           channelId: preview
-          expires: 7d
+          expires: 30d
