@@ -16,14 +16,14 @@ import XPToast from '@/components/XPToast';
 import { useAuth } from '@/hooks/useAuth';
 import { useUserData } from '@/hooks/useUserData';
 import { PATH_MAP } from '@/data/paths';
-import { CATEGORY_KEYS } from '@/data/skills';
+import { ALL_SKILLS, CATEGORY_KEYS } from '@/data/skills';
 import type { View, Skill, DomainKey } from '@/lib/types';
 
 type VizMode = 'mosaic' | 'trellis' | 'registry';
 
 export default function App() {
   const { authError, clearAuthError, currentUser, signOutUser } = useAuth();
-  const { user, loaded, syncError, completeSkill } = useUserData();
+  const { user, loaded, syncError, completeSkill, toggleFavorite } = useUserData();
 
   const [activeView, setActiveView] = useState<View>('home');
   const [isAuthOpen, setIsAuthOpen] = useState(false);
@@ -86,6 +86,10 @@ export default function App() {
     setActiveView(view);
   }, []);
 
+  const favoriteSkills = (user?.favorite || [])
+    .map((id) => ALL_SKILLS.find((skill) => skill.id === id))
+    .filter(Boolean) as Skill[];
+
   if (!loaded) {
     return (
       <div className="fixed inset-0 bg-void flex items-center justify-center">
@@ -118,6 +122,8 @@ export default function App() {
             vizMode={vizMode}
             onChangeVizMode={setVizMode}
             onCollapse={() => setIsSidebarOpen(false)}
+            favoriteSkills={favoriteSkills}
+            onSelectFavoriteSkill={handleSelectSkill}
           />
         ) : (
           <button
@@ -176,6 +182,8 @@ export default function App() {
               onShowCelebration={handleShowCelebration}
               onShowToast={handleShowToast}
               onCollapse={() => setIsDetailPanelOpen(false)}
+              favoriteIds={user?.favorite || []}
+              onToggleFavorite={toggleFavorite}
             />
           )
         ) : (

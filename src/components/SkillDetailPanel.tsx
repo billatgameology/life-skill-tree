@@ -1,6 +1,6 @@
 import { useState, useCallback, useRef } from 'react';
 import confetti from 'canvas-confetti';
-import { Check, GripVertical, ArrowRight, PanelRightClose } from 'lucide-react';
+import { Check, GripVertical, ArrowRight, PanelRightClose, Star } from 'lucide-react';
 import type { Skill } from '@/lib/types';
 import { CATEGORIES, ALL_SKILLS, getChildren } from '@/data/skills';
 
@@ -11,6 +11,8 @@ interface SkillDetailPanelProps {
   onShowCelebration: () => void;
   onShowToast: (msg: string) => void;
   onCollapse: () => void;
+  favoriteIds: string[];
+  onToggleFavorite: (skillId: string) => boolean;
 }
 
 const MIN_WIDTH = 320;
@@ -24,6 +26,8 @@ export default function SkillDetailPanel({
   onShowCelebration,
   onShowToast,
   onCollapse,
+  favoriteIds,
+  onToggleFavorite,
 }: SkillDetailPanelProps) {
   const [justCompletedSkillId, setJustCompletedSkillId] = useState<string | null>(null);
   const [width, setWidth] = useState(DEFAULT_WIDTH);
@@ -71,6 +75,7 @@ export default function SkillDetailPanel({
   }, [width, handleMouseMove, handleMouseUp]);
 
   const isCompleted = skill ? completedIds.includes(skill.id) : false;
+  const isFavorite = skill ? favoriteIds.includes(skill.id) : false;
   const justCompleted = Boolean(skill && justCompletedSkillId === skill.id);
   const category = skill ? CATEGORIES[skill.domain] : null;
 
@@ -97,6 +102,11 @@ export default function SkillDetailPanel({
     triggerConfetti();
     onShowCelebration();
     onShowToast(`+${skill.xp} XP earned!`);
+  };
+
+  const handleToggleFavorite = () => {
+    if (!skill) return;
+    onToggleFavorite(skill.id);
   };
 
   const resizeHandle = (
@@ -188,6 +198,17 @@ export default function SkillDetailPanel({
         <span className="inline-flex items-center gap-1 bg-surface-raised text-glow-gold font-heading font-bold text-[11px] px-3 py-0.5 rounded-full border border-border">
           +{skill.xp} XP
         </span>
+        <button
+          onClick={handleToggleFavorite}
+          className={`mt-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full border text-[11px] font-heading font-semibold ${
+            isFavorite
+              ? 'bg-glow-gold/15 border-glow-gold/50 text-glow-gold'
+              : 'bg-surface-raised border-border text-ink-dim hover:text-ink'
+          }`}
+        >
+          <Star size={11} className={isFavorite ? 'fill-glow-gold' : ''} />
+          {isFavorite ? 'Favorited' : 'Add to Favorites'}
+        </button>
       </div>
 
       {/* Scrollable content */}

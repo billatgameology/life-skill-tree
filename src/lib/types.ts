@@ -56,6 +56,7 @@ export type View = 'home' | 'profile' | 'badges';
 export interface UserData {
   xp: number;
   completedSkillIds: string[];
+  favorite: string[];
   badges: string[];
   firstVisitDate: string;
   currentStreak: number;
