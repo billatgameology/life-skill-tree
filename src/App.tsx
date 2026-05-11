@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { PanelLeftOpen, PanelRightOpen } from 'lucide-react';
 import StarfieldBackground from '@/components/StarfieldBackground';
 import TrellisView from '@/components/TrellisView';
@@ -18,12 +18,14 @@ import { useUserData } from '@/hooks/useUserData';
 import { PATH_MAP } from '@/data/paths';
 import { ALL_SKILLS, CATEGORY_KEYS } from '@/data/skills';
 import type { View, Skill, DomainKey } from '@/lib/types';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 type VizMode = 'mosaic' | 'trellis' | 'registry';
 
 export default function App() {
   const { authError, clearAuthError, currentUser, signOutUser } = useAuth();
   const { user, loaded, syncError, completeSkill, toggleFavorite } = useUserData();
+  const isMobile = useIsMobile();
 
   const [activeView, setActiveView] = useState<View>('home');
   const [isAuthOpen, setIsAuthOpen] = useState(false);
@@ -31,11 +33,18 @@ export default function App() {
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
   const [selectedPathId, setSelectedPathId] = useState<string | null>(null);
   const [activeCategories, setActiveCategories] = useState<Set<DomainKey>>(new Set(CATEGORY_KEYS));
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [isDetailPanelOpen, setIsDetailPanelOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isDetailPanelOpen, setIsDetailPanelOpen] = useState(false);
   const [showCelebration, setShowCelebration] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const [showToast, setShowToast] = useState(false);
+
+  useEffect(() => {
+    if (isMobile) {
+      setIsSidebarOpen(false);
+      setIsDetailPanelOpen(false);
+    }
+  }, [isMobile]);
 
   const handleSelectSkill = useCallback((skill: Skill) => {
     setSelectedSkill(skill);
@@ -106,37 +115,71 @@ export default function App() {
 
       {/* Main layout: sidebar | tree canvas | detail panel */}
       <div className="flex w-full h-full relative z-[1]">
+        <div className="absolute top-3 left-1/2 -translate-x-1/2 z-[70] flex items-center gap-2 rounded-xl border border-border bg-surface-raised/85 px-2 py-1.5 backdrop-blur">
+          <button
+            onClick={() => setIsSidebarOpen((v) => !v)}
+            className="h-8 px-3 rounded-lg border border-border text-xs text-ink-muted hover:text-ink hover:bg-surface-high transition-colors flex items-center gap-1.5"
+            title="Toggle controls"
+          >
+            <PanelLeftOpen size={14} />
+            Controls
+          </button>
+          <button
+            onClick={() => setIsDetailPanelOpen((v) => !v)}
+            className="h-8 px-3 rounded-lg border border-border text-xs text-ink-muted hover:text-ink hover:bg-surface-high transition-colors flex items-center gap-1.5"
+            title="Toggle details"
+          >
+            <PanelRightOpen size={14} />
+            Details
+          </button>
+        </div>
+
+        {isMobile && isSidebarOpen && (
+          <button
+            onClick={() => setIsSidebarOpen(false)}
+            className="absolute inset-0 z-30 bg-black/45"
+            aria-label="Close sidebar backdrop"
+          />
+        )}
+        {isMobile && isDetailPanelOpen && (
+          <button
+            onClick={() => setIsDetailPanelOpen(false)}
+            className="absolute inset-0 z-40 bg-black/45"
+            aria-label="Close details backdrop"
+          />
+        )}
         {/* Left sidebar: filters + paths + nav */}
         {isSidebarOpen ? (
-          <TreeSidebar
-            activeCategories={activeCategories}
-            onToggleCategory={handleToggleCategory}
-            onShowAllCategories={handleShowAllCategories}
-            selectedPathId={selectedPathId}
-            onSelectPath={handleSelectPath}
-            activeView={activeView}
-            onChangeView={handleNavChange}
-            authUser={currentUser}
-            onOpenAuth={() => setIsAuthOpen(true)}
-            onSignOut={signOutUser}
-            vizMode={vizMode}
-            onChangeVizMode={setVizMode}
-            onCollapse={() => setIsSidebarOpen(false)}
-            favoriteSkills={favoriteSkills}
-            onSelectFavoriteSkill={handleSelectSkill}
-          />
-        ) : (
-          <button
-            onClick={() => setIsSidebarOpen(true)}
-            className="absolute left-3 top-4 z-20 w-9 h-9 rounded-lg bg-surface-raised/85 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors"
-            title="Show sidebar"
-          >
-            <PanelLeftOpen size={17} />
-          </button>
-        )}
+          <div className={isMobile ? 'absolute inset-x-0 top-14 h-[48dvh] z-40 rounded-b-2xl overflow-hidden shadow-2xl border-b border-border' : 'absolute left-3 top-14 h-[70dvh] w-[320px] z-40 rounded-2xl overflow-hidden shadow-2xl border border-border'}>
+            <TreeSidebar
+              activeCategories={activeCategories}
+              onToggleCategory={handleToggleCategory}
+              onShowAllCategories={handleShowAllCategories}
+              selectedPathId={selectedPathId}
+              onSelectPath={handleSelectPath}
+              activeView={activeView}
+              onChangeView={handleNavChange}
+              authUser={currentUser}
+              onOpenAuth={() => setIsAuthOpen(true)}
+              onSignOut={signOutUser}
+              vizMode={vizMode}
+              onChangeVizMode={setVizMode}
+              onCollapse={() => setIsSidebarOpen(false)}
+              favoriteSkills={favoriteSkills}
+              onSelectFavoriteSkill={handleSelectSkill}
+              isMobile={isMobile}
+            />
+          </div>
+        ) : null}
 
         {/* Main visualization area */}
-        <div className="flex-1 h-full min-w-0">
+        <div
+          className="flex-1 h-full min-w-0 transition-[padding] duration-200"
+          style={{
+            paddingTop: isMobile && isSidebarOpen ? '48dvh' : 0,
+            paddingBottom: isMobile && isDetailPanelOpen ? '50dvh' : 0,
+          }}
+        >
           {vizMode === 'mosaic' && (
             <MosaicView
               completedIds={user?.completedSkillIds || []}
@@ -168,33 +211,31 @@ export default function App() {
         {/* Detail panel: skill or path */}
         {isDetailPanelOpen ? (
           selectedPathId ? (
-            <PathDetailPanel
-              path={PATH_MAP[selectedPathId] || null}
-              completedIds={user?.completedSkillIds || []}
-              onSelectSkill={handleSelectSkill}
-              onCollapse={() => setIsDetailPanelOpen(false)}
-            />
+            <div className={isMobile ? 'absolute inset-x-0 bottom-0 h-[50dvh] z-50 rounded-t-2xl overflow-hidden shadow-2xl border-t border-border' : 'absolute right-3 top-14 h-[70dvh] z-50 rounded-2xl overflow-hidden shadow-2xl border border-border'}>
+              <PathDetailPanel
+                path={PATH_MAP[selectedPathId] || null}
+                completedIds={user?.completedSkillIds || []}
+                onSelectSkill={handleSelectSkill}
+                onCollapse={() => setIsDetailPanelOpen(false)}
+                isMobile={isMobile}
+              />
+            </div>
           ) : (
-            <SkillDetailPanel
-              skill={selectedSkill}
-              completedIds={user?.completedSkillIds || []}
-              onComplete={handleCompleteSkill}
-              onShowCelebration={handleShowCelebration}
-              onShowToast={handleShowToast}
-              onCollapse={() => setIsDetailPanelOpen(false)}
-              favoriteIds={user?.favorite || []}
-              onToggleFavorite={toggleFavorite}
-            />
+            <div className={isMobile ? 'absolute inset-x-0 bottom-0 h-[50dvh] z-50 rounded-t-2xl overflow-hidden shadow-2xl border-t border-border' : 'absolute right-3 top-14 h-[70dvh] z-50 rounded-2xl overflow-hidden shadow-2xl border border-border'}>
+              <SkillDetailPanel
+                skill={selectedSkill}
+                completedIds={user?.completedSkillIds || []}
+                onComplete={handleCompleteSkill}
+                onShowCelebration={handleShowCelebration}
+                onShowToast={handleShowToast}
+                onCollapse={() => setIsDetailPanelOpen(false)}
+                favoriteIds={user?.favorite || []}
+                onToggleFavorite={toggleFavorite}
+                isMobile={isMobile}
+              />
+            </div>
           )
-        ) : (
-          <button
-            onClick={() => setIsDetailPanelOpen(true)}
-            className="absolute right-3 top-4 z-20 w-9 h-9 rounded-lg bg-surface-raised/85 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors"
-            title="Show detail panel"
-          >
-            <PanelRightOpen size={17} />
-          </button>
-        )}
+        ) : null}
       </div>
 
       {/* Profile modal */}

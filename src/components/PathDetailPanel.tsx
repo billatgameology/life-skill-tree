@@ -9,6 +9,7 @@ interface PathDetailPanelProps {
   completedIds: string[];
   onSelectSkill: (skill: Skill) => void;
   onCollapse: () => void;
+  isMobile?: boolean;
 }
 
 const MIN_WIDTH = 320;
@@ -20,6 +21,7 @@ export default function PathDetailPanel({
   completedIds,
   onSelectSkill,
   onCollapse,
+  isMobile = false,
 }: PathDetailPanelProps) {
   const [width, setWidth] = useState(DEFAULT_WIDTH);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -65,7 +67,7 @@ export default function PathDetailPanel({
     document.addEventListener('mouseup', handleMouseUp);
   }, [width, handleMouseMove, handleMouseUp]);
 
-  const ResizeHandle = () => (
+  const ResizeHandle = () => !isMobile && (
     <div
       onMouseDown={handleMouseDown}
       className="absolute left-0 top-0 bottom-0 w-4 -translate-x-1/2 cursor-col-resize z-20 group flex items-center justify-center"
@@ -81,7 +83,7 @@ export default function PathDetailPanel({
       <div
         ref={panelRef}
         className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col items-center justify-center text-center px-8 select-none relative"
-        style={{ width }}
+        style={{ width: isMobile ? '100vw' : width }}
       >
         <ResizeHandle />
         <button
@@ -111,7 +113,7 @@ export default function PathDetailPanel({
     <div
       ref={panelRef}
       className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col overflow-hidden relative"
-      style={{ width }}
+      style={{ width: isMobile ? '100vw' : width }}
     >
       <ResizeHandle />
       <button
