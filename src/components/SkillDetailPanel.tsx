@@ -13,6 +13,7 @@ interface SkillDetailPanelProps {
   onCollapse: () => void;
   favoriteIds: string[];
   onToggleFavorite: (skillId: string) => boolean;
+  isMobile?: boolean;
 }
 
 const MIN_WIDTH = 320;
@@ -28,6 +29,7 @@ export default function SkillDetailPanel({
   onCollapse,
   favoriteIds,
   onToggleFavorite,
+  isMobile = false,
 }: SkillDetailPanelProps) {
   const [justCompletedSkillId, setJustCompletedSkillId] = useState<string | null>(null);
   const [width, setWidth] = useState(DEFAULT_WIDTH);
@@ -109,7 +111,7 @@ export default function SkillDetailPanel({
     onToggleFavorite(skill.id);
   };
 
-  const resizeHandle = (
+  const resizeHandle = !isMobile && (
     <div
       onMouseDown={handleMouseDown}
       className="absolute left-0 top-0 bottom-0 w-4 -translate-x-1/2 cursor-col-resize z-20 group flex items-center justify-center"
@@ -125,8 +127,8 @@ export default function SkillDetailPanel({
     return (
       <div
         ref={panelRef}
-        className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col items-center justify-center text-center px-8 select-none relative"
-        style={{ width }}
+        className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col items-center justify-center text-center px-5 select-none relative"
+        style={{ width: isMobile ? '100vw' : width }}
       >
         {resizeHandle}
         <button
@@ -152,7 +154,7 @@ export default function SkillDetailPanel({
     <div
       ref={panelRef}
       className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col overflow-hidden relative"
-      style={{ width }}
+      style={{ width: isMobile ? '100vw' : width }}
     >
       {resizeHandle}
       <button
@@ -164,7 +166,7 @@ export default function SkillDetailPanel({
       </button>
       {/* Header with category color */}
       <div
-        className="relative flex-shrink-0 pt-6 pb-4 px-5 text-center"
+        className={`relative flex-shrink-0 text-center ${isMobile ? 'pt-4 pb-3 px-3.5' : 'pt-6 pb-4 px-5'}`}
         style={{ backgroundColor: `${category.color}10`, borderBottom: `1px solid ${category.color}30` }}
       >
         <span
@@ -175,7 +177,7 @@ export default function SkillDetailPanel({
         </span>
 
         <div
-          className="w-14 h-14 rounded-full mx-auto mb-3 flex items-center justify-center text-lg relative"
+          className={`rounded-full mx-auto flex items-center justify-center text-lg relative ${isMobile ? 'w-12 h-12 mb-2' : 'w-14 h-14 mb-3'}`}
           style={{
             backgroundColor: isCompleted ? '#D4AF3720' : `${category.color}20`,
             border: isCompleted ? '2px solid #D4AF37' : `2px solid ${category.color}60`,
@@ -191,7 +193,7 @@ export default function SkillDetailPanel({
           )}
         </div>
 
-        <h2 className="font-heading text-base text-ink font-semibold mb-2 leading-tight">
+        <h2 className={`font-heading text-ink font-semibold leading-tight ${isMobile ? 'text-sm mb-1.5' : 'text-base mb-2'}`}>
           {skill.title}
         </h2>
 
@@ -200,7 +202,7 @@ export default function SkillDetailPanel({
         </span>
         <button
           onClick={handleToggleFavorite}
-          className={`mt-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full border text-[11px] font-heading font-semibold ${
+          className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full border text-[11px] font-heading font-semibold ${isMobile ? 'mt-2' : 'mt-3'} ${
             isFavorite
               ? 'bg-glow-gold/15 border-glow-gold/50 text-glow-gold'
               : 'bg-surface-raised border-border text-ink-dim hover:text-ink'
@@ -212,7 +214,7 @@ export default function SkillDetailPanel({
       </div>
 
       {/* Scrollable content */}
-      <div className="flex-1 overflow-y-auto px-5 py-4 space-y-4 no-scrollbar">
+      <div className={`flex-1 overflow-y-auto no-scrollbar ${isMobile ? 'px-3.5 py-2.5 space-y-2.5' : 'px-5 py-4 space-y-4'}`}>
         {/* Learner Promise */}
         <p className="text-ink font-body text-sm leading-relaxed font-medium">
           {skill.learnerPromise}
@@ -421,7 +423,7 @@ export default function SkillDetailPanel({
       </div>
 
       {/* Footer action button */}
-      <div className="flex-shrink-0 p-4 border-t border-border bg-surface">
+      <div className={`flex-shrink-0 border-t border-border bg-surface ${isMobile ? 'p-2.5' : 'p-4'}`}>
         <button
           onClick={handleComplete}
           disabled={isCompleted || justCompleted}
