@@ -38,6 +38,7 @@ interface TreeSidebarProps {
   onCollapse: () => void;
   favoriteSkills: Skill[];
   onSelectFavoriteSkill: (skill: Skill) => void;
+  isMobile?: boolean;
 }
 
 const MIN_WIDTH = 200;
@@ -60,6 +61,7 @@ export default function TreeSidebar({
   onCollapse,
   favoriteSkills,
   onSelectFavoriteSkill,
+  isMobile = false,
 }: TreeSidebarProps) {
   const [width, setWidth] = useState(DEFAULT_WIDTH);
   const [groupsOpen, setGroupsOpen] = useState(false);
@@ -113,16 +115,18 @@ export default function TreeSidebar({
     <div
       ref={panelRef}
       className="flex-shrink-0 h-full bg-surface border-r border-border flex flex-col overflow-hidden relative select-none"
-      style={{ width }}
+      style={{ width: isMobile ? '100%' : width }}
     >
-      <div
-        onMouseDown={handleMouseDown}
-        className="absolute right-0 top-0 bottom-0 w-4 translate-x-1/2 cursor-col-resize z-20 group flex items-center justify-center"
-        title="Drag to resize"
-      >
-        <div className="w-px h-8 rounded-full bg-border group-hover:bg-glow-gold/50 transition-colors" />
-        <GripVertical size={10} className="absolute text-ink-dim/30 group-hover:text-glow-gold/60 transition-colors" />
-      </div>
+      {!isMobile && (
+        <div
+          onMouseDown={handleMouseDown}
+          className="absolute right-0 top-0 bottom-0 w-4 translate-x-1/2 cursor-col-resize z-20 group flex items-center justify-center"
+          title="Drag to resize"
+        >
+          <div className="w-px h-8 rounded-full bg-border group-hover:bg-glow-gold/50 transition-colors" />
+          <GripVertical size={10} className="absolute text-ink-dim/30 group-hover:text-glow-gold/60 transition-colors" />
+        </div>
+      )}
 
       <div className="flex-shrink-0 px-4 py-3 border-b border-border flex items-center justify-between">
         <span className="font-heading font-bold text-ink text-[11px] uppercase tracking-wider">

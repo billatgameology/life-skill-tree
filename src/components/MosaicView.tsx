@@ -2,6 +2,7 @@ import { useRef, useState, useCallback, useEffect, useMemo } from 'react';
 import { Plus, Minus, Crosshair } from 'lucide-react';
 import { ALL_SKILLS, CATEGORIES, CATEGORY_KEYS, getSkillState } from '@/data/skills';
 import type { Skill, DomainKey } from '@/lib/types';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 interface MosaicViewProps {
   completedIds: string[];
@@ -173,12 +174,18 @@ export default function MosaicView({
   activeCategories,
   selectedPathId,
 }: MosaicViewProps) {
+  const isMobile = useIsMobile();
   const containerRef = useRef<HTMLDivElement>(null);
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [zoom, setZoom] = useState(0.55);
   const [isDragging, setIsDragging] = useState(false);
   const dragStart = useRef({ x: 0, y: 0 });
   const panStart = useRef({ x: 0, y: 0 });
+  const activePointers = useRef(new Map<number, { x: number; y: number }>());
+  const pinchStartDistance = useRef(0);
+  const pinchStartZoom = useRef(zoom);
+  const pinchMidpoint = useRef({ x: 0, y: 0 });
+  const pinchStartPan = useRef({ x: 0, y: 0 });
 
   const pathSkillIds = useMemo(() => {
     if (!selectedPathId) return null;
@@ -239,22 +246,73 @@ export default function MosaicView({
   }, [zoom, pan]);
 
   const handlePointerDown = useCallback((e: React.PointerEvent) => {
-    if (e.button !== 0) return;
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
     (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
-    setIsDragging(true);
-    dragStart.current = { x: e.clientX, y: e.clientY };
-    panStart.current = { x: pan.x, y: pan.y };
+    activePointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+    if (activePointers.current.size === 1) {
+      setIsDragging(true);
+      dragStart.current = { x: e.clientX, y: e.clientY };
+      panStart.current = { x: pan.x, y: pan.y };
+      return;
+    }
+
+    if (activePointers.current.size === 2) {
+      setIsDragging(false);
+      const [p1, p2] = Array.from(activePointers.current.values());
+      pinchStartDistance.current = Math.hypot(p2.x - p1.x, p2.y - p1.y);
+      pinchStartZoom.current = zoom;
+      pinchMidpoint.current = { x: (p1.x + p2.x) / 2, y: (p1.y + p2.y) / 2 };
+      pinchStartPan.current = { ...pan };
+    }
   }, [pan]);
 
   const handlePointerMove = useCallback((e: React.PointerEvent) => {
-    if (!isDragging) return;
-    setPan({
-      x: panStart.current.x + (e.clientX - dragStart.current.x),
-      y: panStart.current.y + (e.clientY - dragStart.current.y),
-    });
+    if (!activePointers.current.has(e.pointerId)) return;
+    activePointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+    if (activePointers.current.size === 1 && isDragging) {
+      setPan({
+        x: panStart.current.x + (e.clientX - dragStart.current.x),
+        y: panStart.current.y + (e.clientY - dragStart.current.y),
+      });
+      return;
+    }
+
+    if (activePointers.current.size === 2) {
+      const [p1, p2] = Array.from(activePointers.current.values());
+      const currentDistance = Math.hypot(p2.x - p1.x, p2.y - p1.y);
+      if (pinchStartDistance.current <= 0) return;
+
+      const nextZoom = Math.max(0.1, Math.min(3.0, pinchStartZoom.current * (currentDistance / pinchStartDistance.current)));
+      const ratio = nextZoom / pinchStartZoom.current;
+      const rect = containerRef.current?.getBoundingClientRect();
+      if (!rect) return;
+
+      const startMid = pinchMidpoint.current;
+      const mx = startMid.x - rect.left;
+      const my = startMid.y - rect.top;
+      setZoom(nextZoom);
+      setPan({
+        x: mx - (mx - pinchStartPan.current.x) * ratio,
+        y: my - (my - pinchStartPan.current.y) * ratio,
+      });
+    }
   }, [isDragging]);
 
-  const handlePointerUp = useCallback(() => setIsDragging(false), []);
+  const handlePointerUp = useCallback((e: React.PointerEvent) => {
+    activePointers.current.delete(e.pointerId);
+
+    if (activePointers.current.size === 1) {
+      const [remaining] = Array.from(activePointers.current.values());
+      setIsDragging(true);
+      dragStart.current = { x: remaining.x, y: remaining.y };
+      panStart.current = { ...pan };
+      return;
+    }
+
+    setIsDragging(false);
+  }, [pan]);
 
   const zoomIn = () => setZoom(z => Math.min(3.0, z * 1.2));
   const zoomOut = () => setZoom(z => Math.max(0.1, z / 1.2));
@@ -283,17 +341,19 @@ export default function MosaicView({
       onPointerCancel={handlePointerUp}
       style={{ touchAction: 'none', userSelect: 'none' }}
     >
-      <div className="absolute top-4 right-4 z-10 flex flex-col gap-1">
-        <button onClick={zoomIn} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
-          <Plus size={16} />
-        </button>
-        <button onClick={recenter} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
-          <Crosshair size={14} />
-        </button>
-        <button onClick={zoomOut} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
-          <Minus size={16} />
-        </button>
-      </div>
+      {!isMobile && (
+        <div className="absolute top-4 right-4 z-10 flex flex-col gap-1">
+          <button onClick={zoomIn} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
+            <Plus size={16} />
+          </button>
+          <button onClick={recenter} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
+            <Crosshair size={14} />
+          </button>
+          <button onClick={zoomOut} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
+            <Minus size={16} />
+          </button>
+        </div>
+      )}
 
       <div className="absolute bottom-4 left-4 z-10 text-[10px] text-ink-dim font-mono select-none pointer-events-none">
         {Math.round(zoom * 100)}%
