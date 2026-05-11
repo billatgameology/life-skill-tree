@@ -13,11 +13,12 @@ import {
   PanelLeftClose,
   Table,
   User,
+  Star,
 } from 'lucide-react';
 import type { User as FirebaseUser } from 'firebase/auth';
 import { CATEGORIES, CATEGORY_KEYS } from '@/data/skills';
 import { LEARNING_PATHS } from '@/data/paths';
-import type { DomainKey, View } from '@/lib/types';
+import type { DomainKey, Skill, View } from '@/lib/types';
 
 type VizMode = 'mosaic' | 'trellis' | 'registry';
 
@@ -35,6 +36,8 @@ interface TreeSidebarProps {
   vizMode: VizMode;
   onChangeVizMode: (mode: VizMode) => void;
   onCollapse: () => void;
+  favoriteSkills: Skill[];
+  onSelectFavoriteSkill: (skill: Skill) => void;
 }
 
 const MIN_WIDTH = 200;
@@ -55,10 +58,13 @@ export default function TreeSidebar({
   vizMode,
   onChangeVizMode,
   onCollapse,
+  favoriteSkills,
+  onSelectFavoriteSkill,
 }: TreeSidebarProps) {
   const [width, setWidth] = useState(DEFAULT_WIDTH);
   const [groupsOpen, setGroupsOpen] = useState(false);
   const [pathsOpen, setPathsOpen] = useState(false);
+  const [favoritesOpen, setFavoritesOpen] = useState(true);
   const panelRef = useRef<HTMLDivElement>(null);
   const isResizingRef = useRef(false);
   const startXRef = useRef(0);
@@ -254,6 +260,39 @@ export default function TreeSidebar({
                   </button>
                 );
               })}
+            </div>
+          )}
+        </div>
+
+        <div className="rounded-lg border border-border bg-surface-raised/30 overflow-hidden">
+          <button
+            onClick={() => setFavoritesOpen(open => !open)}
+            className="w-full px-3 py-2 flex items-center gap-2 text-left hover:bg-surface-raised/60 transition-colors"
+          >
+            {favoritesOpen ? <ChevronDown size={14} className="text-ink-dim" /> : <ChevronRight size={14} className="text-ink-dim" />}
+            <span className="font-heading font-bold text-ink text-[11px] uppercase tracking-wider flex-1">
+              Favorites
+            </span>
+            <span className="text-[10px] text-ink-dim">{favoriteSkills.length}</span>
+          </button>
+          {favoritesOpen && (
+            <div className="px-3 pb-3 space-y-1.5">
+              {favoriteSkills.length === 0 ? (
+                <p className="text-[11px] text-ink-dim py-1">No favorites yet.</p>
+              ) : (
+                favoriteSkills.map(skill => (
+                  <button
+                    key={skill.id}
+                    onClick={() => onSelectFavoriteSkill(skill)}
+                    className="w-full text-left px-3 py-2 rounded-lg border transition-all cursor-pointer bg-[#151621] border-[#2A2A3A] hover:border-glow-gold/40"
+                  >
+                    <div className="flex items-center gap-2">
+                      <Star size={11} className="text-glow-gold flex-shrink-0" />
+                      <span className="text-[11px] font-semibold text-[#B8B5C3] truncate">{skill.title}</span>
+                    </div>
+                  </button>
+                ))
+              )}
             </div>
           )}
         </div>

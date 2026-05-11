@@ -27,6 +27,7 @@ function createEmptyUser(): UserData {
   return {
     xp: 0,
     completedSkillIds: [],
+    favorite: [],
     badges: [],
     firstVisitDate: new Date().toISOString(),
     currentStreak: 0,
@@ -39,6 +40,7 @@ function normalizeUserData(data: Partial<UserData> | undefined, fallback: UserDa
   return {
     xp: typeof data?.xp === 'number' ? data.xp : fallback.xp,
     completedSkillIds: fallback.completedSkillIds,
+    favorite: Array.isArray(data?.favorite) ? data.favorite : fallback.favorite,
     badges: Array.isArray(data?.badges) ? data.badges : fallback.badges,
     firstVisitDate: typeof data?.firstVisitDate === 'string' ? data.firstVisitDate : fallback.firstVisitDate,
     currentStreak: typeof data?.currentStreak === 'number' ? data.currentStreak : fallback.currentStreak,
@@ -201,6 +203,7 @@ export function useUserData() {
         email: currentUser.email,
         displayName: currentUser.displayName || '',
         badges: nextUser.badges,
+        favorite: nextUser.favorite,
         firstVisitDate: nextUser.firstVisitDate,
         currentStreak: nextUser.currentStreak,
         longestStreak: nextUser.longestStreak,
@@ -251,10 +254,48 @@ export function useUserData() {
     return true;
   }, [currentUser]);
 
+  const toggleFavorite = useCallback((skillId: string) => {
+    if (!currentUser || !db) return false;
+
+    setUser((prev) => {
+      if (!prev) return prev;
+      const alreadyFavorite = prev.favorite.includes(skillId);
+      const nextFavorite = alreadyFavorite
+        ? prev.favorite.filter((id) => id !== skillId)
+        : [...prev.favorite, skillId];
+      return {
+        ...prev,
+        favorite: nextFavorite,
+      };
+    });
+
+    const userRef = doc(db, 'users', currentUser.uid);
+    void runTransaction(db, async (transaction) => {
+      const snapshot = await transaction.get(userRef);
+      const data = snapshot.exists() ? snapshot.data() as Partial<UserData> : {};
+      const favorite = Array.isArray(data.favorite) ? data.favorite : [];
+      const nextFavorite = favorite.includes(skillId)
+        ? favorite.filter((id) => id !== skillId)
+        : [...favorite, skillId];
+
+      transaction.set(userRef, {
+        favorite: nextFavorite,
+        updatedAt: serverTimestamp(),
+      }, { merge: true });
+    }).catch((error: unknown) => {
+      const message = error instanceof Error ? error.message : 'Firestore sync failed.';
+      setSyncError(message);
+      console.error('Firestore sync failed', error);
+    });
+
+    return true;
+  }, [currentUser]);
+
   return {
     user,
     loaded,
     syncError,
     completeSkill,
+    toggleFavorite,
   };
 }
