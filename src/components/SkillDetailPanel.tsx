@@ -1,15 +1,16 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import confetti from 'canvas-confetti';
-import { Check, GripVertical, ArrowRight } from 'lucide-react';
+import { Check, GripVertical, ArrowRight, PanelRightClose } from 'lucide-react';
 import type { Skill } from '@/lib/types';
 import { CATEGORIES, ALL_SKILLS, getChildren } from '@/data/skills';
 
 interface SkillDetailPanelProps {
   skill: Skill | null;
   completedIds: string[];
-  onComplete: (skillId: string, xp: number) => void;
+  onComplete: (skillId: string, xp: number) => boolean;
   onShowCelebration: () => void;
   onShowToast: (msg: string) => void;
+  onCollapse: () => void;
 }
 
 const MIN_WIDTH = 320;
@@ -22,17 +23,14 @@ export default function SkillDetailPanel({
   onComplete,
   onShowCelebration,
   onShowToast,
+  onCollapse,
 }: SkillDetailPanelProps) {
-  const [justCompleted, setJustCompleted] = useState(false);
+  const [justCompletedSkillId, setJustCompletedSkillId] = useState<string | null>(null);
   const [width, setWidth] = useState(DEFAULT_WIDTH);
   const panelRef = useRef<HTMLDivElement>(null);
   const isResizingRef = useRef(false);
   const startXRef = useRef(0);
   const startWidthRef = useRef(DEFAULT_WIDTH);
-
-  useEffect(() => {
-    setJustCompleted(false);
-  }, [skill?.id]);
 
   const stopResize = useCallback(() => {
     if (!isResizingRef.current) return;
@@ -58,7 +56,6 @@ export default function SkillDetailPanel({
   const handleMouseUp = useCallback(() => {
     stopResize();
     document.removeEventListener('mousemove', handleMouseMove);
-    document.removeEventListener('mouseup', handleMouseUp);
   }, [handleMouseMove, stopResize]);
 
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
@@ -70,10 +67,11 @@ export default function SkillDetailPanel({
     document.body.style.cursor = 'col-resize';
     document.body.style.userSelect = 'none';
     document.addEventListener('mousemove', handleMouseMove);
-    document.addEventListener('mouseup', handleMouseUp);
+    document.addEventListener('mouseup', handleMouseUp, { once: true });
   }, [width, handleMouseMove, handleMouseUp]);
 
   const isCompleted = skill ? completedIds.includes(skill.id) : false;
+  const justCompleted = Boolean(skill && justCompletedSkillId === skill.id);
   const category = skill ? CATEGORIES[skill.domain] : null;
 
   // Related skills
@@ -92,15 +90,16 @@ export default function SkillDetailPanel({
 
   const handleComplete = () => {
     if (!skill || isCompleted || justCompleted) return;
-    setJustCompleted(true);
-    onComplete(skill.id, skill.xp);
+    const completed = onComplete(skill.id, skill.xp);
+    if (!completed) return;
+
+    setJustCompletedSkillId(skill.id);
     triggerConfetti();
     onShowCelebration();
     onShowToast(`+${skill.xp} XP earned!`);
   };
 
-  // Resize handle component
-  const ResizeHandle = () => (
+  const resizeHandle = (
     <div
       onMouseDown={handleMouseDown}
       className="absolute left-0 top-0 bottom-0 w-4 -translate-x-1/2 cursor-col-resize z-20 group flex items-center justify-center"
@@ -119,7 +118,14 @@ export default function SkillDetailPanel({
         className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col items-center justify-center text-center px-8 select-none relative"
         style={{ width }}
       >
-        <ResizeHandle />
+        {resizeHandle}
+        <button
+          onClick={onCollapse}
+          className="absolute right-4 top-4 w-8 h-8 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-raised transition-colors"
+          title="Hide detail panel"
+        >
+          <PanelRightClose size={16} />
+        </button>
         <div className="w-16 h-16 rounded-full bg-surface-raised border border-border flex items-center justify-center mb-4">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4A4858" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
             <circle cx="12" cy="12" r="3" />
@@ -138,7 +144,14 @@ export default function SkillDetailPanel({
       className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col overflow-hidden relative"
       style={{ width }}
     >
-      <ResizeHandle />
+      {resizeHandle}
+      <button
+        onClick={onCollapse}
+        className="absolute right-4 top-4 z-20 w-8 h-8 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-raised transition-colors"
+        title="Hide detail panel"
+      >
+        <PanelRightClose size={16} />
+      </button>
       {/* Header with category color */}
       <div
         className="relative flex-shrink-0 pt-6 pb-4 px-5 text-center"

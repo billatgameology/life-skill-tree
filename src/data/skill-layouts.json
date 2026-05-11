@@ -932,5 +932,939 @@
       "x": 819,
       "y": 207
     }
+  },
+  "sunburst": {
+    "connect-bluetooth": {
+      "angle": 12,
+      "radius": 183
+    },
+    "connect-wifi": {
+      "angle": 12,
+      "radius": 208
+    },
+    "manage-device-settings": {
+      "angle": 12,
+      "radius": 233
+    },
+    "take-screenshot": {
+      "angle": 12,
+      "radius": 258
+    },
+    "back-up-files": {
+      "angle": 7.5,
+      "radius": 298
+    },
+    "create-passwords": {
+      "angle": 16.5,
+      "radius": 298
+    },
+    "manage-storage-space": {
+      "angle": 7.5,
+      "radius": 315
+    },
+    "organize-phone-photos": {
+      "angle": 16.5,
+      "radius": 315
+    },
+    "report-suspicious-message": {
+      "angle": 7.5,
+      "radius": 332
+    },
+    "restart-update-app": {
+      "angle": 16.5,
+      "radius": 332
+    },
+    "scan-qr-code": {
+      "angle": 7.5,
+      "radius": 348
+    },
+    "set-screen-time-limits": {
+      "angle": 16.5,
+      "radius": 348
+    },
+    "share-file-link": {
+      "angle": 7.5,
+      "radius": 365
+    },
+    "spot-phishing": {
+      "angle": 16.5,
+      "radius": 365
+    },
+    "update-device-software": {
+      "angle": 7.5,
+      "radius": 382
+    },
+    "use-cloud-storage": {
+      "angle": 16.5,
+      "radius": 382
+    },
+    "check-privacy-settings": {
+      "angle": 7.5,
+      "radius": 460
+    },
+    "use-two-factor-authentication": {
+      "angle": 16.5,
+      "radius": 460
+    },
+    "ask-for-directions": {
+      "angle": 36,
+      "radius": 176
+    },
+    "buy-transit-ticket": {
+      "angle": 36,
+      "radius": 187
+    },
+    "check-traffic-before-leaving": {
+      "angle": 36,
+      "radius": 198
+    },
+    "find-nearest-restroom": {
+      "angle": 36,
+      "radius": 209
+    },
+    "identify-safe-pickup-spot": {
+      "angle": 36,
+      "radius": 220
+    },
+    "read-bus-route-map": {
+      "angle": 36,
+      "radius": 231
+    },
+    "read-parking-signs": {
+      "angle": 36,
+      "radius": 242
+    },
+    "read-street-map": {
+      "angle": 36,
+      "radius": 253
+    },
+    "use-gps": {
+      "angle": 36,
+      "radius": 264
+    },
+    "navigate-large-building": {
+      "angle": 31.5,
+      "radius": 303
+    },
+    "pack-carry-on-bag": {
+      "angle": 40.5,
+      "radius": 303
+    },
+    "plan-transit-transfer": {
+      "angle": 31.5,
+      "radius": 328
+    },
+    "read-signs": {
+      "angle": 40.5,
+      "radius": 328
+    },
+    "read-transit-schedules": {
+      "angle": 31.5,
+      "radius": 353
+    },
+    "use-airport-boarding-pass": {
+      "angle": 40.5,
+      "radius": 353
+    },
+    "use-rideshare-pickup": {
+      "angle": 31.5,
+      "radius": 378
+    },
+    "navigate-without-gps": {
+      "angle": 31.5,
+      "radius": 460
+    },
+    "plan-multi-stop-trip": {
+      "angle": 40.5,
+      "radius": 460
+    },
+    "needs-vs-wants": {
+      "angle": 60,
+      "radius": 195
+    },
+    "track-spending": {
+      "angle": 60,
+      "radius": 245
+    },
+    "avoid-overdraft-fees": {
+      "angle": 55.5,
+      "radius": 296
+    },
+    "calculate-tip": {
+      "angle": 64.5,
+      "radius": 296
+    },
+    "cancel-subscription": {
+      "angle": 55.5,
+      "radius": 307
+    },
+    "compare-bank-accounts": {
+      "angle": 64.5,
+      "radius": 307
+    },
+    "compare-prices": {
+      "angle": 55.5,
+      "radius": 318
+    },
+    "compare-subscription-costs": {
+      "angle": 64.5,
+      "radius": 318
+    },
+    "deposit-check": {
+      "angle": 55.5,
+      "radius": 329
+    },
+    "make-budget": {
+      "angle": 64.5,
+      "radius": 329
+    },
+    "make-simple-savings-plan": {
+      "angle": 55.5,
+      "radius": 340
+    },
+    "read-basic-bill": {
+      "angle": 64.5,
+      "radius": 340
+    },
+    "read-pay-stub": {
+      "angle": 55.5,
+      "radius": 351
+    },
+    "read-receipt": {
+      "angle": 64.5,
+      "radius": 351
+    },
+    "recognize-money-scam": {
+      "angle": 55.5,
+      "radius": 362
+    },
+    "set-payment-reminder": {
+      "angle": 64.5,
+      "radius": 362
+    },
+    "split-bill": {
+      "angle": 55.5,
+      "radius": 373
+    },
+    "understand-sales-tax": {
+      "angle": 64.5,
+      "radius": 373
+    },
+    "use-debit-card-safely": {
+      "angle": 55.5,
+      "radius": 384
+    },
+    "save-for-goal": {
+      "angle": 60,
+      "radius": 460
+    },
+    "boil-pasta": {
+      "angle": 84,
+      "radius": 173
+    },
+    "check-food-expiration": {
+      "angle": 84,
+      "radius": 180
+    },
+    "clean-kitchen-counter": {
+      "angle": 84,
+      "radius": 187
+    },
+    "cook-rice": {
+      "angle": 84,
+      "radius": 193
+    },
+    "food-safety": {
+      "angle": 84,
+      "radius": 200
+    },
+    "heat-leftovers": {
+      "angle": 84,
+      "radius": 207
+    },
+    "make-grocery-list": {
+      "angle": 84,
+      "radius": 213
+    },
+    "make-sandwich": {
+      "angle": 84,
+      "radius": 220
+    },
+    "make-scrambled-eggs": {
+      "angle": 84,
+      "radius": 227
+    },
+    "measure-ingredients": {
+      "angle": 84,
+      "radius": 233
+    },
+    "pack-lunch": {
+      "angle": 84,
+      "radius": 240
+    },
+    "simple-stir-fry": {
+      "angle": 84,
+      "radius": 247
+    },
+    "use-knife": {
+      "angle": 84,
+      "radius": 253
+    },
+    "wash-dishes": {
+      "angle": 84,
+      "radius": 260
+    },
+    "wash-produce": {
+      "angle": 84,
+      "radius": 267
+    },
+    "compare-grocery-unit-prices": {
+      "angle": 79.5,
+      "radius": 300
+    },
+    "follow-recipe": {
+      "angle": 88.5,
+      "radius": 300
+    },
+    "make-salad": {
+      "angle": 79.5,
+      "radius": 320
+    },
+    "read-nutrition-label": {
+      "angle": 88.5,
+      "radius": 320
+    },
+    "shop-for-one-meal": {
+      "angle": 79.5,
+      "radius": 340
+    },
+    "store-food": {
+      "angle": 88.5,
+      "radius": 340
+    },
+    "use-microwave-safely": {
+      "angle": 79.5,
+      "radius": 360
+    },
+    "use-oven-safely": {
+      "angle": 88.5,
+      "radius": 360
+    },
+    "use-stove-safely": {
+      "angle": 79.5,
+      "radius": 380
+    },
+    "change-lightbulb": {
+      "angle": 108,
+      "radius": 173
+    },
+    "change-trash-bag": {
+      "angle": 108,
+      "radius": 180
+    },
+    "clean-bathroom-sink": {
+      "angle": 108,
+      "radius": 187
+    },
+    "clean-toilet": {
+      "angle": 108,
+      "radius": 193
+    },
+    "do-laundry": {
+      "angle": 108,
+      "radius": 200
+    },
+    "hammer-nail": {
+      "angle": 108,
+      "radius": 207
+    },
+    "make-bed": {
+      "angle": 108,
+      "radius": 213
+    },
+    "mop-small-spill": {
+      "angle": 108,
+      "radius": 220
+    },
+    "replace-batteries": {
+      "angle": 108,
+      "radius": 227
+    },
+    "replace-toilet-paper-roll": {
+      "angle": 108,
+      "radius": 233
+    },
+    "reset-messy-room": {
+      "angle": 108,
+      "radius": 240
+    },
+    "sweep-floor": {
+      "angle": 108,
+      "radius": 247
+    },
+    "test-smoke-alarm": {
+      "angle": 108,
+      "radius": 253
+    },
+    "tighten-screw": {
+      "angle": 108,
+      "radius": 260
+    },
+    "use-tape-measure": {
+      "angle": 108,
+      "radius": 267
+    },
+    "fix-loose-handle": {
+      "angle": 103.5,
+      "radius": 300
+    },
+    "hang-picture-frame": {
+      "angle": 112.5,
+      "radius": 300
+    },
+    "patch-small-wall-hole": {
+      "angle": 103.5,
+      "radius": 320
+    },
+    "plunge-toilet": {
+      "angle": 112.5,
+      "radius": 320
+    },
+    "replace-air-filter": {
+      "angle": 103.5,
+      "radius": 340
+    },
+    "shut-off-water-valve": {
+      "angle": 112.5,
+      "radius": 340
+    },
+    "trash-recycling": {
+      "angle": 103.5,
+      "radius": 360
+    },
+    "unclog-drain": {
+      "angle": 112.5,
+      "radius": 360
+    },
+    "vacuum-room": {
+      "angle": 103.5,
+      "radius": 380
+    },
+    "apologize-clearly": {
+      "angle": 132,
+      "radius": 176
+    },
+    "ask-clarifying-question": {
+      "angle": 132,
+      "radius": 187
+    },
+    "introduce-yourself": {
+      "angle": 132,
+      "radius": 198
+    },
+    "leave-voicemail": {
+      "angle": 132,
+      "radius": 209
+    },
+    "make-phone-call": {
+      "angle": 132,
+      "radius": 220
+    },
+    "reply-to-invitation": {
+      "angle": 132,
+      "radius": 231
+    },
+    "reschedule-politely": {
+      "angle": 132,
+      "radius": 242
+    },
+    "send-clear-text-message": {
+      "angle": 132,
+      "radius": 253
+    },
+    "write-professional-email": {
+      "angle": 132,
+      "radius": 264
+    },
+    "ask-for-help": {
+      "angle": 127.5,
+      "radius": 300
+    },
+    "disagree-respectfully": {
+      "angle": 136.5,
+      "radius": 300
+    },
+    "end-conversation-politely": {
+      "angle": 127.5,
+      "radius": 320
+    },
+    "give-instructions": {
+      "angle": 136.5,
+      "radius": 320
+    },
+    "give-useful-feedback": {
+      "angle": 127.5,
+      "radius": 340
+    },
+    "make-small-talk": {
+      "angle": 136.5,
+      "radius": 340
+    },
+    "receive-feedback-calmly": {
+      "angle": 127.5,
+      "radius": 360
+    },
+    "repair-small-disagreement": {
+      "angle": 136.5,
+      "radius": 360
+    },
+    "set-boundary-respectfully": {
+      "angle": 127.5,
+      "radius": 380
+    },
+    "brush-floss": {
+      "angle": 156,
+      "radius": 175
+    },
+    "check-temperature": {
+      "angle": 156,
+      "radius": 184
+    },
+    "emergency-numbers": {
+      "angle": 156,
+      "radius": 193
+    },
+    "handle-bug-bite": {
+      "angle": 156,
+      "radius": 202
+    },
+    "make-emergency-contact-card": {
+      "angle": 156,
+      "radius": 211
+    },
+    "stay-hydrated": {
+      "angle": 156,
+      "radius": 220
+    },
+    "stop-nosebleed": {
+      "angle": 156,
+      "radius": 229
+    },
+    "treat-minor-burn": {
+      "angle": 156,
+      "radius": 238
+    },
+    "treat-small-cut": {
+      "angle": 156,
+      "radius": 247
+    },
+    "use-sunscreen": {
+      "angle": 156,
+      "radius": 256
+    },
+    "wash-hands": {
+      "angle": 156,
+      "radius": 265
+    },
+    "care-for-mild-illness": {
+      "angle": 151.5,
+      "radius": 303
+    },
+    "describe-symptoms-clearly": {
+      "angle": 160.5,
+      "radius": 303
+    },
+    "find-doctor": {
+      "angle": 151.5,
+      "radius": 328
+    },
+    "make-basic-first-aid-kit": {
+      "angle": 160.5,
+      "radius": 328
+    },
+    "pack-medication-for-trip": {
+      "angle": 151.5,
+      "radius": 353
+    },
+    "read-medicine-label": {
+      "angle": 160.5,
+      "radius": 353
+    },
+    "recognize-emergency-situation": {
+      "angle": 151.5,
+      "radius": 378
+    },
+    "schedule-doctor-appointment": {
+      "angle": 160.5,
+      "radius": 378
+    },
+    "break-task-into-steps": {
+      "angle": 180,
+      "radius": 175
+    },
+    "clean-desk": {
+      "angle": 180,
+      "radius": 184
+    },
+    "find-lost-item-systematically": {
+      "angle": 180,
+      "radius": 193
+    },
+    "make-todo-list": {
+      "angle": 180,
+      "radius": 202
+    },
+    "name-files-clearly": {
+      "angle": 180,
+      "radius": 211
+    },
+    "organize-backpack": {
+      "angle": 180,
+      "radius": 220
+    },
+    "prepare-night-before": {
+      "angle": 180,
+      "radius": 229
+    },
+    "prioritize-tasks": {
+      "angle": 180,
+      "radius": 238
+    },
+    "set-reminder": {
+      "angle": 180,
+      "radius": 247
+    },
+    "use-calendar": {
+      "angle": 180,
+      "radius": 256
+    },
+    "use-timer": {
+      "angle": 180,
+      "radius": 265
+    },
+    "arrive-on-time": {
+      "angle": 175.5,
+      "radius": 303
+    },
+    "create-simple-routine": {
+      "angle": 184.5,
+      "radius": 303
+    },
+    "make-packing-checklist": {
+      "angle": 175.5,
+      "radius": 328
+    },
+    "organize-digital-files": {
+      "angle": 184.5,
+      "radius": 328
+    },
+    "pack-for-trip": {
+      "angle": 175.5,
+      "radius": 353
+    },
+    "plan-homework-session": {
+      "angle": 184.5,
+      "radius": 353
+    },
+    "sort-important-papers": {
+      "angle": 175.5,
+      "radius": 378
+    },
+    "fill-out-job-application": {
+      "angle": 204,
+      "radius": 187
+    },
+    "read-work-schedule": {
+      "angle": 204,
+      "radius": 220
+    },
+    "track-work-hours": {
+      "angle": 204,
+      "radius": 253
+    },
+    "ask-for-reference": {
+      "angle": 199.5,
+      "radius": 307
+    },
+    "call-out-sick-politely": {
+      "angle": 208.5,
+      "radius": 307
+    },
+    "choose-interview-clothes": {
+      "angle": 199.5,
+      "radius": 340
+    },
+    "make-simple-resume": {
+      "angle": 208.5,
+      "radius": 340
+    },
+    "request-shift-change": {
+      "angle": 199.5,
+      "radius": 373
+    },
+    "answer-interview-question": {
+      "angle": 197.3,
+      "radius": 460
+    },
+    "arrive-for-interview": {
+      "angle": 201.8,
+      "radius": 460
+    },
+    "prepare-for-interview": {
+      "angle": 206.3,
+      "radius": 460
+    },
+    "write-thank-you-message": {
+      "angle": 210.8,
+      "radius": 460
+    },
+    "ask-teacher-for-help": {
+      "angle": 228,
+      "radius": 177
+    },
+    "check-assignment-requirements": {
+      "angle": 228,
+      "radius": 191
+    },
+    "email-teacher-question": {
+      "angle": 228,
+      "radius": 206
+    },
+    "study-for-quiz": {
+      "angle": 228,
+      "radius": 220
+    },
+    "summarize-a-reading": {
+      "angle": 228,
+      "radius": 234
+    },
+    "take-class-notes": {
+      "angle": 228,
+      "radius": 249
+    },
+    "use-library-catalog": {
+      "angle": 228,
+      "radius": 263
+    },
+    "avoid-plagiarism": {
+      "angle": 223.5,
+      "radius": 307
+    },
+    "cite-a-source": {
+      "angle": 232.5,
+      "radius": 307
+    },
+    "plan-long-assignment": {
+      "angle": 223.5,
+      "radius": 340
+    },
+    "practice-presentation": {
+      "angle": 232.5,
+      "radius": 340
+    },
+    "prepare-presentation": {
+      "angle": 223.5,
+      "radius": 373
+    },
+    "address-envelope": {
+      "angle": 252,
+      "radius": 176
+    },
+    "contact-local-office": {
+      "angle": 252,
+      "radius": 187
+    },
+    "copy-important-document": {
+      "angle": 252,
+      "radius": 198
+    },
+    "fill-out-simple-form": {
+      "angle": 252,
+      "radius": 209
+    },
+    "find-local-library": {
+      "angle": 252,
+      "radius": 220
+    },
+    "get-library-card": {
+      "angle": 252,
+      "radius": 231
+    },
+    "keep-id-safe": {
+      "angle": 252,
+      "radius": 242
+    },
+    "read-public-notice": {
+      "angle": 252,
+      "radius": 253
+    },
+    "sort-mail": {
+      "angle": 252,
+      "radius": 264
+    },
+    "mail-package": {
+      "angle": 252,
+      "radius": 340
+    },
+    "ask-for-space-politely": {
+      "angle": 276,
+      "radius": 175
+    },
+    "choose-next-small-step": {
+      "angle": 276,
+      "radius": 185
+    },
+    "make-pros-cons-decision": {
+      "angle": 276,
+      "radius": 195
+    },
+    "name-a-feeling": {
+      "angle": 276,
+      "radius": 205
+    },
+    "notice-small-win": {
+      "angle": 276,
+      "radius": 215
+    },
+    "notice-stress-signal": {
+      "angle": 276,
+      "radius": 225
+    },
+    "pause-before-responding": {
+      "angle": 276,
+      "radius": 235
+    },
+    "repair-after-mistake": {
+      "angle": 276,
+      "radius": 245
+    },
+    "reset-after-bad-day": {
+      "angle": 276,
+      "radius": 255
+    },
+    "take-calm-down-break": {
+      "angle": 276,
+      "radius": 265
+    },
+    "avoid-getting-lost-crowd": {
+      "angle": 300,
+      "radius": 176
+    },
+    "check-weather-before-leaving": {
+      "angle": 300,
+      "radius": 189
+    },
+    "dress-for-weather": {
+      "angle": 300,
+      "radius": 201
+    },
+    "make-meeting-point-plan": {
+      "angle": 300,
+      "radius": 214
+    },
+    "pack-water-bottle": {
+      "angle": 300,
+      "radius": 226
+    },
+    "read-basic-trail-sign": {
+      "angle": 300,
+      "radius": 239
+    },
+    "tie-secure-knot": {
+      "angle": 300,
+      "radius": 251
+    },
+    "use-flashlight": {
+      "angle": 300,
+      "radius": 264
+    },
+    "cross-street-safely": {
+      "angle": 295.5,
+      "radius": 340
+    },
+    "identify-safer-walking-route": {
+      "angle": 304.5,
+      "radius": 340
+    },
+    "check-door-is-locked": {
+      "angle": 324,
+      "radius": 183
+    },
+    "label-house-key": {
+      "angle": 324,
+      "radius": 208
+    },
+    "save-electricity-at-home": {
+      "angle": 324,
+      "radius": 233
+    },
+    "understand-shared-chore-plan": {
+      "angle": 324,
+      "radius": 258
+    },
+    "document-room-condition": {
+      "angle": 319.5,
+      "radius": 307
+    },
+    "make-simple-home-inventory": {
+      "angle": 328.5,
+      "radius": 307
+    },
+    "pack-moving-box": {
+      "angle": 319.5,
+      "radius": 340
+    },
+    "prepare-for-power-outage": {
+      "angle": 328.5,
+      "radius": 340
+    },
+    "read-utility-bill": {
+      "angle": 319.5,
+      "radius": 373
+    },
+    "report-maintenance-issue": {
+      "angle": 328.5,
+      "radius": 373
+    },
+    "check-return-policy": {
+      "angle": 348,
+      "radius": 180
+    },
+    "choose-correct-size": {
+      "angle": 348,
+      "radius": 200
+    },
+    "keep-receipt": {
+      "angle": 348,
+      "radius": 220
+    },
+    "pause-before-impulse-buy": {
+      "angle": 348,
+      "radius": 240
+    },
+    "use-coupon-code": {
+      "angle": 348,
+      "radius": 260
+    },
+    "compare-online-shipping-costs": {
+      "angle": 343.5,
+      "radius": 307
+    },
+    "compare-product-reviews": {
+      "angle": 352.5,
+      "radius": 307
+    },
+    "contact-customer-support": {
+      "angle": 343.5,
+      "radius": 340
+    },
+    "return-item-to-store": {
+      "angle": 352.5,
+      "radius": 340
+    },
+    "spot-fake-review": {
+      "angle": 343.5,
+      "radius": 373
+    }
   }
 }

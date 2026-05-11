@@ -9,8 +9,11 @@ function asSkill(data: any): Skill {
 export type SkillPosition = { x: number; y: number };
 export type PositionedSkill = Skill & SkillPosition;
 
+export type SunburstPosition = { angle: number; radius: number };
+
 export type SkillLayoutData = {
   tree: Record<string, SkillPosition>;
+  sunburst: Record<string, SunburstPosition>;
 };
 
 export const SKILL_LAYOUTS: SkillLayoutData = skillLayouts;

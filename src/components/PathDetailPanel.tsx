@@ -1,5 +1,5 @@
 import { useRef, useState, useCallback } from 'react';
-import { Check, GripVertical, Map, Clock, ArrowRight } from 'lucide-react';
+import { Check, GripVertical, Map, Clock, ArrowRight, PanelRightClose } from 'lucide-react';
 import type { LearningPath } from '@/data/paths';
 import { ALL_SKILLS, CATEGORIES } from '@/data/skills';
 import type { Skill } from '@/lib/types';
@@ -8,6 +8,7 @@ interface PathDetailPanelProps {
   path: LearningPath | null;
   completedIds: string[];
   onSelectSkill: (skill: Skill) => void;
+  onCollapse: () => void;
 }
 
 const MIN_WIDTH = 320;
@@ -18,6 +19,7 @@ export default function PathDetailPanel({
   path,
   completedIds,
   onSelectSkill,
+  onCollapse,
 }: PathDetailPanelProps) {
   const [width, setWidth] = useState(DEFAULT_WIDTH);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -82,6 +84,13 @@ export default function PathDetailPanel({
         style={{ width }}
       >
         <ResizeHandle />
+        <button
+          onClick={onCollapse}
+          className="absolute right-4 top-4 w-8 h-8 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-raised transition-colors"
+          title="Hide detail panel"
+        >
+          <PanelRightClose size={16} />
+        </button>
         <div className="w-16 h-16 rounded-full bg-surface-raised border border-border flex items-center justify-center mb-4">
           <Map size={28} className="text-ink-dim/40" />
         </div>
@@ -105,6 +114,13 @@ export default function PathDetailPanel({
       style={{ width }}
     >
       <ResizeHandle />
+      <button
+        onClick={onCollapse}
+        className="absolute right-4 top-4 z-20 w-8 h-8 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-raised transition-colors"
+        title="Hide detail panel"
+      >
+        <PanelRightClose size={16} />
+      </button>
 
       {/* Header */}
       <div

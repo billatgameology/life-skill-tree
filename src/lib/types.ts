@@ -58,4 +58,7 @@ export interface UserData {
   completedSkillIds: string[];
   badges: string[];
   firstVisitDate: string;
+  currentStreak: number;
+  longestStreak: number;
+  lastCompletionDate: string | null;
 }
