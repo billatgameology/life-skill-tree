@@ -2,6 +2,7 @@ import { useRef, useState, useCallback, useEffect, useMemo } from 'react';
 import { Plus, Minus, Crosshair } from 'lucide-react';
 import { ALL_SKILLS, CATEGORIES, CATEGORY_KEYS, getSkillState } from '@/data/skills';
 import type { Skill, DomainKey } from '@/lib/types';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 interface MosaicViewProps {
   completedIds: string[];
@@ -173,6 +174,7 @@ export default function MosaicView({
   activeCategories,
   selectedPathId,
 }: MosaicViewProps) {
+  const isMobile = useIsMobile();
   const containerRef = useRef<HTMLDivElement>(null);
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [zoom, setZoom] = useState(0.55);
@@ -339,17 +341,19 @@ export default function MosaicView({
       onPointerCancel={handlePointerUp}
       style={{ touchAction: 'none', userSelect: 'none' }}
     >
-      <div className="absolute top-4 right-4 z-10 flex flex-col gap-1">
-        <button onClick={zoomIn} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
-          <Plus size={16} />
-        </button>
-        <button onClick={recenter} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
-          <Crosshair size={14} />
-        </button>
-        <button onClick={zoomOut} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
-          <Minus size={16} />
-        </button>
-      </div>
+      {!isMobile && (
+        <div className="absolute top-4 right-4 z-10 flex flex-col gap-1">
+          <button onClick={zoomIn} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
+            <Plus size={16} />
+          </button>
+          <button onClick={recenter} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
+            <Crosshair size={14} />
+          </button>
+          <button onClick={zoomOut} className="w-8 h-8 rounded-lg bg-surface-raised/80 border border-border flex items-center justify-center text-ink-muted hover:text-ink hover:bg-surface-high transition-colors cursor-pointer">
+            <Minus size={16} />
+          </button>
+        </div>
+      )}
 
       <div className="absolute bottom-4 left-4 z-10 text-[10px] text-ink-dim font-mono select-none pointer-events-none">
         {Math.round(zoom * 100)}%
