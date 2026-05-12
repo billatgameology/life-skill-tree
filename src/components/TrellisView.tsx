@@ -1,5 +1,6 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { ALL_SKILLS, CATEGORIES, CATEGORY_KEYS, getSkillState } from '@/data/skills';
+import { PATH_MAP } from '@/data/paths';
 import type { Skill, DomainKey } from '@/lib/types';
 
 
@@ -33,10 +34,12 @@ export default function TrellisView({
   activeCategories,
   selectedPathId,
 }: TrellisViewProps) {
+  const selectedSkillRef = useRef<HTMLButtonElement | null>(null);
+
   const pathSkillIds = useMemo(() => {
     if (!selectedPathId) return null;
-    const path = ALL_SKILLS.find(s => s.id === selectedPathId);
-    return path ? new Set([selectedPathId]) : null;
+    const path = PATH_MAP[selectedPathId];
+    return path ? new Set(path.skillIds) : null;
   }, [selectedPathId]);
 
   const lanes = useMemo(() => {
@@ -51,6 +54,15 @@ export default function TrellisView({
       return { domain: cat, byLevel };
     });
   }, [activeCategories]);
+
+  useEffect(() => {
+    if (!selectedSkillId || !selectedSkillRef.current) return;
+    selectedSkillRef.current.scrollIntoView({
+      block: 'center',
+      inline: 'center',
+      behavior: 'smooth',
+    });
+  }, [selectedSkillId, lanes]);
 
   return (
     <div className="w-full h-full overflow-auto bg-void p-6">
@@ -83,11 +95,15 @@ export default function TrellisView({
                         return (
                           <button
                             key={skill.id}
+                            ref={isSelected ? selectedSkillRef : undefined}
                             onClick={() => onSelectSkill(skill)}
                             className="px-2 py-1 rounded-md text-[11px] font-body font-medium border transition-all cursor-pointer"
                             style={{
                               backgroundColor: isSelected ? `${cat.color}25` : state === 'completed' ? `${cat.color}26` : '#151621',
-                              borderColor: isSelected ? cat.color : state === 'completed' ? `${cat.color}99` : '#2A2A3A',
+                              borderColor: isSelected ? '#FFF7D1' : state === 'completed' ? `${cat.color}99` : '#2A2A3A',
+                              boxShadow: isSelected
+                                ? `0 0 0 2px #0D0E17, 0 0 0 4px #FFF7D1, 0 0 18px ${cat.color}, 0 0 28px rgba(255,255,255,0.35)`
+                                : 'none',
                               color: dimmed ? '#4A4858' : state === 'completed' ? getReadableTextColor(cat.color) : '#B8B5C3',
                               opacity: dimmed ? 0.4 : 1,
                             }}

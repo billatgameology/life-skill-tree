@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { Award, Info, LogIn, LogOut, Menu, User, X } from 'lucide-react';
 import StarfieldBackground from '@/components/StarfieldBackground';
 import TrellisView from '@/components/TrellisView';
@@ -35,9 +35,11 @@ export default function App() {
   const [activeCategories, setActiveCategories] = useState<Set<DomainKey>>(new Set(CATEGORY_KEYS));
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isDetailPanelOpen, setIsDetailPanelOpen] = useState(false);
+  const [isMobileDetailExpanded, setIsMobileDetailExpanded] = useState(false);
   const [showCelebration, setShowCelebration] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const [showToast, setShowToast] = useState(false);
+  const sheetDragStartYRef = useRef<number | null>(null);
 
   useEffect(() => {
     if (!isMobile) return;
@@ -52,12 +54,50 @@ export default function App() {
     setSelectedSkill(skill);
     setSelectedPathId(null);
     setIsDetailPanelOpen(true);
-  }, []);
+    if (isMobile) setIsMobileDetailExpanded(false);
+  }, [isMobile]);
+
+  const handleSelectSkillFromPath = useCallback((skill: Skill) => {
+    setSelectedSkill(skill);
+    setIsDetailPanelOpen(true);
+    if (isMobile) setIsMobileDetailExpanded(false);
+  }, [isMobile]);
 
   const handleSelectPath = useCallback((pathId: string | null) => {
     setSelectedPathId(pathId);
     setSelectedSkill(null);
+    setIsDetailPanelOpen(Boolean(pathId));
+    if (isMobile) {
+      setIsMobileDetailExpanded(false);
+      if (pathId) setIsSidebarOpen(false);
+    }
+  }, [isMobile]);
+
+  const handleMobileSheetPointerDown = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
+    sheetDragStartYRef.current = e.clientY;
+    e.currentTarget.setPointerCapture(e.pointerId);
   }, []);
+
+  const handleMobileSheetPointerUp = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
+    const startY = sheetDragStartYRef.current;
+    sheetDragStartYRef.current = null;
+    e.currentTarget.releasePointerCapture(e.pointerId);
+    if (startY === null) {
+      setIsMobileDetailExpanded(open => !open);
+      return;
+    }
+
+    const deltaY = e.clientY - startY;
+    if (deltaY < -40) {
+      setIsMobileDetailExpanded(true);
+    } else if (deltaY > 70 && !isMobileDetailExpanded) {
+      setIsDetailPanelOpen(false);
+    } else if (deltaY > 40) {
+      setIsMobileDetailExpanded(false);
+    } else {
+      setIsMobileDetailExpanded(open => !open);
+    }
+  }, [isMobileDetailExpanded]);
 
   const handleToggleCategory = useCallback((cat: DomainKey) => {
     setActiveCategories(prev =>
@@ -98,7 +138,21 @@ export default function App() {
     .map((id) => ALL_SKILLS.find((skill) => skill.id === id))
     .filter(Boolean) as Skill[];
   const topChromeHeight = isMobile ? '3.5rem' : '4.5rem';
-  const openSheetHeight = isMobile ? (isSidebarOpen ? '48dvh' : isDetailPanelOpen ? '50dvh' : '0px') : '0px';
+  const openSheetHeight = isMobile ? (isSidebarOpen ? '48dvh' : '0px') : '0px';
+  const mobileDetailSheetHeight = isMobileDetailExpanded ? 'h-[86dvh]' : 'h-[54dvh]';
+  const mobileDetailSheetClass = `absolute inset-x-0 bottom-0 ${mobileDetailSheetHeight} z-50 rounded-t-2xl overflow-hidden border-t-2 border-glow-gold/35 shadow-[0_-18px_34px_rgba(0,0,0,0.65)] transition-[height] duration-200`;
+  const desktopDetailPanelClass = 'absolute right-3 top-[4.75rem] h-[70dvh] z-50 rounded-2xl overflow-hidden shadow-2xl border border-border';
+  const mobileSheetHandle = isMobile ? (
+    <button
+      onPointerDown={handleMobileSheetPointerDown}
+      onPointerUp={handleMobileSheetPointerUp}
+      className="absolute left-1/2 top-1.5 z-40 flex h-5 w-20 -translate-x-1/2 items-start justify-center rounded-full"
+      title={isMobileDetailExpanded ? 'Collapse details' : 'Expand details'}
+      aria-label={isMobileDetailExpanded ? 'Collapse details' : 'Expand details'}
+    >
+      <span className="mt-1 block h-1.5 w-11 rounded-full bg-ink-dim/45" />
+    </button>
+  ) : null;
 
   if (!loaded) {
     return (
@@ -252,8 +306,9 @@ export default function App() {
 
         {/* Detail panel: skill or path */}
         {isDetailPanelOpen ? (
-          selectedPathId ? (
-            <div className={isMobile ? 'absolute inset-x-0 top-14 h-[50dvh] z-50 rounded-b-2xl overflow-hidden border-b-2 border-glow-gold/35 shadow-[0_18px_34px_rgba(0,0,0,0.65)]' : 'absolute right-3 top-[4.75rem] h-[70dvh] z-50 rounded-2xl overflow-hidden shadow-2xl border border-border'}>
+          selectedPathId && !selectedSkill ? (
+            <div className={isMobile ? mobileDetailSheetClass : desktopDetailPanelClass}>
+              {mobileSheetHandle}
               <button
                 onClick={() => setIsDetailPanelOpen(false)}
                 className="absolute right-3 top-3 z-30 flex h-7 w-7 items-center justify-center rounded-md border border-border bg-surface-raised/90 text-ink-dim transition-colors hover:bg-surface-high hover:text-ink"
@@ -265,12 +320,13 @@ export default function App() {
               <PathDetailPanel
                 path={PATH_MAP[selectedPathId] || null}
                 completedIds={user?.completedSkillIds || []}
-                onSelectSkill={handleSelectSkill}
+                onSelectSkill={handleSelectSkillFromPath}
                 isMobile={isMobile}
               />
             </div>
           ) : (
-            <div className={isMobile ? 'absolute inset-x-0 top-14 h-[50dvh] z-50 rounded-b-2xl overflow-hidden border-b-2 border-glow-gold/35 shadow-[0_18px_34px_rgba(0,0,0,0.65)]' : 'absolute right-3 top-[4.75rem] h-[70dvh] z-50 rounded-2xl overflow-hidden shadow-2xl border border-border'}>
+            <div className={isMobile ? mobileDetailSheetClass : desktopDetailPanelClass}>
+              {mobileSheetHandle}
               <button
                 onClick={() => setIsDetailPanelOpen(false)}
                 className="absolute right-3 top-3 z-30 flex h-7 w-7 items-center justify-center rounded-md border border-border bg-surface-raised/90 text-ink-dim transition-colors hover:bg-surface-high hover:text-ink"

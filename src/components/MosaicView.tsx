@@ -1,6 +1,7 @@
 import { useRef, useState, useCallback, useEffect, useMemo } from 'react';
 import { Plus, Minus, Crosshair } from 'lucide-react';
 import { ALL_SKILLS, CATEGORIES, CATEGORY_KEYS, getSkillState } from '@/data/skills';
+import { PATH_MAP } from '@/data/paths';
 import type { Skill, DomainKey } from '@/lib/types';
 import { useIsMobile } from '@/hooks/use-mobile';
 
@@ -22,6 +23,8 @@ const ROW_STEP = HEX_R * 1.5;
 // small no-hex title slot, while side cells remain available as bridges so rows
 // and columns of categories stay connected.
 const CANVAS_PAD = 80;
+const LOCAL_FUTURE_HEX_STROKE_ALPHA = '55';
+const GLOBAL_FUTURE_HEX_STROKE_ALPHA = '4D';
 
 const NEIGHBORS: [number, number][] = [
   [1, 0], [1, -1], [0, -1], [-1, 0], [-1, 1], [0, 1],
@@ -97,23 +100,60 @@ interface CategoryRegion {
   labelPixel: { x: number; y: number };
 }
 
+interface FutureCell {
+  q: number;
+  r: number;
+  domain: DomainKey;
+}
+
+function getRegionCenter(region: CategoryRegion): { col: number; row: number } {
+  return {
+    col: region.startCol + (region.cols - 1) / 2,
+    row: region.startRow + (region.rows - 1) / 2,
+  };
+}
+
 const CATEGORY_PLACEMENTS: Record<DomainKey, { col: number; row: number }> = {
   'digital-basics': { col: 0, row: 0 },
-  'navigation': { col: 6, row: 0 },
-  'money-finance': { col: 12, row: 0 },
-  'food-cooking': { col: 18, row: 0 },
-  'communication': { col: 0, row: 6 },
-  'health-safety': { col: 6, row: 6 },
-  'organization': { col: 12, row: 6 },
-  'home-care': { col: 18, row: 6 },
-  'civic-community': { col: 0, row: 12 },
-  'emotional-skills': { col: 5, row: 12 },
-  'career-work': { col: 10, row: 12 },
-  'school-learning': { col: 15, row: 12 },
-  'shopping-consumer': { col: 20, row: 12 },
-  'outdoor-everyday': { col: 4, row: 17 },
-  'housing-living': { col: 9, row: 17 },
+  'navigation': { col: 6, row: 3 },
+  'money-finance': { col: 12, row: 1 },
+  'food-cooking': { col: 18, row: 3 },
+  'communication': { col: 1, row: 8 },
+  'health-safety': { col: 7, row: 9 },
+  'organization': { col: 13, row: 8 },
+  'home-care': { col: 19, row: 9 },
+  'civic-community': { col: 0, row: 14 },
+  'emotional-skills': { col: 5, row: 15 },
+  'career-work': { col: 10, row: 14 },
+  'school-learning': { col: 15, row: 15 },
+  'shopping-consumer': { col: 20, row: 14 },
+  'outdoor-everyday': { col: 5, row: 19 },
+  'housing-living': { col: 10, row: 20 },
 };
+
+const CATEGORY_CONNECTIONS: [DomainKey, DomainKey][] = [
+  ['digital-basics', 'navigation'],
+  ['navigation', 'money-finance'],
+  ['money-finance', 'food-cooking'],
+  ['communication', 'health-safety'],
+  ['health-safety', 'organization'],
+  ['organization', 'home-care'],
+  ['civic-community', 'emotional-skills'],
+  ['emotional-skills', 'career-work'],
+  ['career-work', 'school-learning'],
+  ['school-learning', 'shopping-consumer'],
+  ['outdoor-everyday', 'housing-living'],
+  ['digital-basics', 'communication'],
+  ['navigation', 'health-safety'],
+  ['money-finance', 'organization'],
+  ['food-cooking', 'home-care'],
+  ['communication', 'civic-community'],
+  ['health-safety', 'career-work'],
+  ['organization', 'school-learning'],
+  ['civic-community', 'outdoor-everyday'],
+  ['career-work', 'housing-living'],
+  ['school-learning', 'housing-living'],
+];
 
 function offsetToAxial(col: number, row: number): { q: number; r: number } {
   return { q: col - Math.floor(row / 2), r: row };
@@ -193,6 +233,7 @@ export default function MosaicView({
   const containerRef = useRef<HTMLDivElement>(null);
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [zoom, setZoom] = useState(0.55);
+  const zoomRef = useRef(zoom);
   const [isDragging, setIsDragging] = useState(false);
   const dragStart = useRef({ x: 0, y: 0 });
   const panStart = useRef({ x: 0, y: 0 });
@@ -204,26 +245,59 @@ export default function MosaicView({
 
   const pathSkillIds = useMemo(() => {
     if (!selectedPathId) return null;
-    return new Set([selectedPathId]);
+    const path = PATH_MAP[selectedPathId];
+    return path ? new Set(path.skillIds) : null;
   }, [selectedPathId]);
+
+  useEffect(() => {
+    zoomRef.current = zoom;
+  }, [zoom]);
 
   const regions = useMemo(() => buildRegions(), []);
   const globalFutureCells = useMemo(() => {
     const occupied = new Set<string>();
     regions.forEach(region => region.cells.forEach(cell => occupied.add(`${cell.col},${cell.row}`)));
-    const cells: { q: number; r: number; domain: DomainKey }[] = [];
+    const cells: FutureCell[] = [];
+    const addFutureCell = (col: number, row: number, domain: DomainKey) => {
+      const key = `${col},${row}`;
+      if (occupied.has(key)) return;
+      occupied.add(key);
+      const { q, r } = offsetToAxial(col, row);
+      cells.push({ q, r, domain });
+    };
+
     regions.forEach((region) => {
       if (!activeCategories.has(region.domain)) return;
       for (let row = region.startRow - 1; row <= region.startRow + region.rows; row++) {
         for (let col = region.startCol - 1; col <= region.startCol + region.cols; col++) {
-          const key = `${col},${row}`;
-          if (occupied.has(key)) continue;
-          occupied.add(key);
-          const { q, r } = offsetToAxial(col, row);
-          cells.push({ q, r, domain: region.domain });
+          addFutureCell(col, row, region.domain);
         }
       }
     });
+
+    const regionsByDomain = Object.fromEntries(
+      regions.map(region => [region.domain, region])
+    ) as Record<DomainKey, CategoryRegion>;
+    CATEGORY_CONNECTIONS.forEach(([fromDomain, toDomain]) => {
+      if (!activeCategories.has(fromDomain) || !activeCategories.has(toDomain)) return;
+
+      const from = regionsByDomain[fromDomain];
+      const to = regionsByDomain[toDomain];
+      const fromCenter = getRegionCenter(from);
+      const toCenter = getRegionCenter(to);
+      const steps = Math.max(
+        Math.abs(Math.round(toCenter.col - fromCenter.col)),
+        Math.abs(Math.round(toCenter.row - fromCenter.row)),
+      );
+
+      for (let i = 1; i < steps; i++) {
+        const t = i / steps;
+        const col = Math.round(fromCenter.col + (toCenter.col - fromCenter.col) * t);
+        const row = Math.round(fromCenter.row + (toCenter.row - fromCenter.row) * t);
+        addFutureCell(col, row, fromDomain);
+      }
+    });
+
     return cells;
   }, [activeCategories, regions]);
 
@@ -247,6 +321,18 @@ export default function MosaicView({
     };
   }, [regions]);
 
+  const skillPositions = useMemo(() => {
+    const positions: Record<string, { x: number; y: number }> = {};
+    regions.forEach((region) => {
+      region.cells.forEach((cell) => {
+        if (!cell.skill) return;
+        const { x, y } = axialToPixel(cell.q, cell.r);
+        positions[cell.skill.id] = { x: x + tx, y: y + ty };
+      });
+    });
+    return positions;
+  }, [regions, tx, ty]);
+
   // Initial fit-to-screen
   useEffect(() => {
     const cw = containerRef.current?.clientWidth || window.innerWidth;
@@ -259,6 +345,25 @@ export default function MosaicView({
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    if (!selectedSkillId || isDragging) return;
+    const position = skillPositions[selectedSkillId];
+    const container = containerRef.current;
+    if (!position || !container) return;
+
+    const cw = container.clientWidth || window.innerWidth;
+    const ch = container.clientHeight || window.innerHeight;
+    const focusZoom = Math.min(1.15, Math.max(zoomRef.current, isMobile ? 0.92 : 0.78));
+    const focusX = cw / 2;
+    const focusY = isMobile ? ch * 0.28 : ch / 2;
+
+    setZoom(focusZoom);
+    setPan({
+      x: focusX - position.x * focusZoom,
+      y: focusY - position.y * focusZoom,
+    });
+  }, [isDragging, isMobile, selectedSkillId, skillPositions]);
 
   const handleWheel = useCallback((e: React.WheelEvent) => {
     e.preventDefault();
@@ -402,6 +507,13 @@ export default function MosaicView({
           transition: isDragging ? 'none' : 'transform 0.15s ease-out',
         }}
       >
+        <defs>
+          <filter id="selected-skill-glow" x="-60%" y="-60%" width="220%" height="220%">
+            <feDropShadow dx="0" dy="0" stdDeviation="7" floodColor="#F8F2C8" floodOpacity="0.95" />
+            <feDropShadow dx="0" dy="0" stdDeviation="14" floodColor="#D4AF37" floodOpacity="0.7" />
+            <feDropShadow dx="0" dy="0" stdDeviation="22" floodColor="#FFFFFF" floodOpacity="0.35" />
+          </filter>
+        </defs>
         {regions.map(region => {
           const cat = CATEGORIES[region.domain];
           const isActive = activeCategories.has(region.domain);
@@ -424,8 +536,8 @@ export default function MosaicView({
                       key={`empty-${region.domain}-${ci}`}
                       points={hexPoints(hx, hy, HEX_R - 4)}
                       fill="none"
-                      stroke={`${cat.color}26`}
-                      strokeWidth={1}
+                      stroke={`${cat.color}${LOCAL_FUTURE_HEX_STROKE_ALPHA}`}
+                      strokeWidth={1.35}
                       strokeDasharray="3 4"
                     />
                   );
@@ -453,13 +565,29 @@ export default function MosaicView({
                     opacity={skillOpacity}
                   >
                     {isSelected && (
-                      <polygon
-                        points={hexPoints(hx, hy, HEX_R + 3)}
-                        fill="none"
-                        stroke="#D4AF37"
-                        strokeWidth={2}
-                        strokeDasharray="5 3"
-                      />
+                      <>
+                        <polygon
+                          points={hexPoints(hx, hy, HEX_R + 5)}
+                          fill="rgba(212,175,55,0.08)"
+                          stroke="#FFF7D1"
+                          strokeWidth={3.2}
+                          filter="url(#selected-skill-glow)"
+                        />
+                        <polygon
+                          points={hexPoints(hx, hy, HEX_R + 1.5)}
+                          fill="none"
+                          stroke="#0D0E17"
+                          strokeWidth={2}
+                        />
+                        <polygon
+                          points={hexPoints(hx, hy, HEX_R + 7)}
+                          fill="none"
+                          stroke="#D4AF37"
+                          strokeWidth={1.8}
+                          strokeDasharray="7 4"
+                          opacity={0.95}
+                        />
+                      </>
                     )}
                     <polygon
                       points={hexPoints(hx, hy, HEX_R - 1.5)}
@@ -521,8 +649,8 @@ export default function MosaicView({
               key={`global-future-${cell.domain}-${i}`}
               points={hexPoints(x + tx, y + ty, HEX_R - 5)}
               fill="none"
-              stroke={`${cat.color}20`}
-              strokeWidth={1}
+              stroke={`${cat.color}${GLOBAL_FUTURE_HEX_STROKE_ALPHA}`}
+              strokeWidth={1.25}
               strokeDasharray="4 4"
             />
           );
