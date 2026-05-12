@@ -59,6 +59,21 @@ function wrapLabel(text: string, maxLines: number, maxCharsPerLine: number): str
   return lines;
 }
 
+function hexToRgb(hex: string): { r: number; g: number; b: number } | null {
+  const normalized = hex.replace('#', '');
+  if (normalized.length !== 6) return null;
+  const value = Number.parseInt(normalized, 16);
+  if (Number.isNaN(value)) return null;
+  return { r: (value >> 16) & 255, g: (value >> 8) & 255, b: value & 255 };
+}
+
+function getReadableTextColor(backgroundHex: string): string {
+  const rgb = hexToRgb(backgroundHex);
+  if (!rgb) return '#0D0E17';
+  const luminance = (0.2126 * rgb.r + 0.7152 * rgb.g + 0.0722 * rgb.b) / 255;
+  return luminance > 0.52 ? '#0D0E17' : '#F6F4FF';
+}
+
 interface ClusterCell {
   q: number;        // global axial
   r: number;
@@ -193,6 +208,24 @@ export default function MosaicView({
   }, [selectedPathId]);
 
   const regions = useMemo(() => buildRegions(), []);
+  const globalFutureCells = useMemo(() => {
+    const occupied = new Set<string>();
+    regions.forEach(region => region.cells.forEach(cell => occupied.add(`${cell.col},${cell.row}`)));
+    const cells: { q: number; r: number; domain: DomainKey }[] = [];
+    regions.forEach((region) => {
+      if (!activeCategories.has(region.domain)) return;
+      for (let row = region.startRow - 1; row <= region.startRow + region.rows; row++) {
+        for (let col = region.startCol - 1; col <= region.startCol + region.cols; col++) {
+          const key = `${col},${row}`;
+          if (occupied.has(key)) continue;
+          occupied.add(key);
+          const { q, r } = offsetToAxial(col, row);
+          cells.push({ q, r, domain: region.domain });
+        }
+      }
+    });
+    return cells;
+  }, [activeCategories, regions]);
 
   // Canvas extents — derived from every cell's pixel bound.
   const { totalW, totalH, tx, ty } = useMemo(() => {
@@ -430,15 +463,15 @@ export default function MosaicView({
                     )}
                     <polygon
                       points={hexPoints(hx, hy, HEX_R - 1.5)}
-                      fill={state === 'completed' ? '#D4AF37' : `${cat.color}22`}
-                      stroke={state === 'completed' ? '#B8964A' : cat.color}
+                      fill={state === 'completed' ? cat.color : `${cat.color}22`}
+                      stroke={state === 'completed' ? `${cat.color}CC` : cat.color}
                       strokeWidth={1.6}
                     />
                     <text
                       textAnchor="middle"
                       fontSize={fs}
                       fontWeight={600}
-                      fill={state === 'completed' ? '#0D0E17' : cat.color}
+                      fill={state === 'completed' ? getReadableTextColor(cat.color) : cat.color}
                       fontFamily="Inter, sans-serif"
                       style={{ pointerEvents: 'none' }}
                     >
@@ -478,6 +511,20 @@ export default function MosaicView({
                 {completedCount}/{region.totalSkills} completed
               </text>
             </g>
+          );
+        })}
+        {globalFutureCells.map((cell, i) => {
+          const { x, y } = axialToPixel(cell.q, cell.r);
+          const cat = CATEGORIES[cell.domain];
+          return (
+            <polygon
+              key={`global-future-${cell.domain}-${i}`}
+              points={hexPoints(x + tx, y + ty, HEX_R - 5)}
+              fill="none"
+              stroke={`${cat.color}20`}
+              strokeWidth={1}
+              strokeDasharray="4 4"
+            />
           );
         })}
       </svg>
