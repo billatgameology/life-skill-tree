@@ -1,6 +1,6 @@
 import { useState, useCallback, useRef } from 'react';
 import confetti from 'canvas-confetti';
-import { Check, GripVertical, ArrowRight, PanelRightClose, Star } from 'lucide-react';
+import { Check, GripVertical, ArrowRight, Star } from 'lucide-react';
 import type { Skill } from '@/lib/types';
 import { CATEGORIES, ALL_SKILLS, getChildren } from '@/data/skills';
 
@@ -10,7 +10,6 @@ interface SkillDetailPanelProps {
   onComplete: (skillId: string, xp: number) => boolean;
   onShowCelebration: () => void;
   onShowToast: (msg: string) => void;
-  onCollapse: () => void;
   favoriteIds: string[];
   onToggleFavorite: (skillId: string) => boolean;
   isMobile?: boolean;
@@ -26,7 +25,6 @@ export default function SkillDetailPanel({
   onComplete,
   onShowCelebration,
   onShowToast,
-  onCollapse,
   favoriteIds,
   onToggleFavorite,
   isMobile = false,
@@ -69,7 +67,7 @@ export default function SkillDetailPanel({
     e.stopPropagation();
     isResizingRef.current = true;
     startXRef.current = e.clientX;
-    startWidthRef.current = width;
+    startWidthRef.current = panelRef.current?.getBoundingClientRect().width || width;
     document.body.style.cursor = 'col-resize';
     document.body.style.userSelect = 'none';
     document.addEventListener('mousemove', handleMouseMove);
@@ -79,6 +77,7 @@ export default function SkillDetailPanel({
   const isCompleted = skill ? completedIds.includes(skill.id) : false;
   const isFavorite = skill ? favoriteIds.includes(skill.id) : false;
   const justCompleted = Boolean(skill && justCompletedSkillId === skill.id);
+  const isEffectivelyCompleted = isCompleted || justCompleted;
   const category = skill ? CATEGORIES[skill.domain] : null;
 
   // Related skills
@@ -99,6 +98,10 @@ export default function SkillDetailPanel({
     if (!skill || isCompleted || justCompleted) return;
     const completed = onComplete(skill.id, skill.xp);
     if (!completed) return;
+
+    if (isFavorite) {
+      onToggleFavorite(skill.id);
+    }
 
     setJustCompletedSkillId(skill.id);
     triggerConfetti();
@@ -128,16 +131,9 @@ export default function SkillDetailPanel({
       <div
         ref={panelRef}
         className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col items-center justify-center text-center px-5 select-none relative"
-        style={{ width: isMobile ? '100vw' : width }}
+        style={{ width: isMobile ? '100vw' : `clamp(300px, 37vw, ${width}px)` }}
       >
         {resizeHandle}
-        <button
-          onClick={onCollapse}
-          className="absolute right-4 top-4 w-8 h-8 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-raised transition-colors"
-          title="Hide detail panel"
-        >
-          <PanelRightClose size={16} />
-        </button>
         <div className="w-16 h-16 rounded-full bg-surface-raised border border-border flex items-center justify-center mb-4">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4A4858" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
             <circle cx="12" cy="12" r="3" />
@@ -154,69 +150,135 @@ export default function SkillDetailPanel({
     <div
       ref={panelRef}
       className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col overflow-hidden relative"
-      style={{ width: isMobile ? '100vw' : width }}
+      style={{ width: isMobile ? '100vw' : `clamp(300px, 37vw, ${width}px)` }}
     >
       {resizeHandle}
-      <button
-        onClick={onCollapse}
-        className="absolute right-4 top-4 z-20 w-8 h-8 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-raised transition-colors"
-        title="Hide detail panel"
-      >
-        <PanelRightClose size={16} />
-      </button>
       {/* Header with category color */}
       <div
-        className={`relative flex-shrink-0 text-center ${isMobile ? 'pt-4 pb-3 px-3.5' : 'pt-6 pb-4 px-5'}`}
+        className={`relative flex-shrink-0 ${isMobile ? 'px-3.5 py-3 pr-12 text-left' : 'pt-6 pb-4 px-5 text-center'}`}
         style={{ backgroundColor: `${category.color}10`, borderBottom: `1px solid ${category.color}30` }}
       >
-        <span
-          className="inline-block px-3 py-0.5 rounded-full text-[11px] font-heading font-semibold text-white mb-3"
-          style={{ backgroundColor: `${category.color}90` }}
-        >
-          {category.name}
-        </span>
+        {isMobile ? (
+          <>
+            <div className="flex items-start gap-3">
+              <div
+                className="w-9 h-9 rounded-full flex flex-shrink-0 items-center justify-center text-sm relative mt-0.5"
+                style={{
+                  backgroundColor: isCompleted ? '#D4AF3720' : `${category.color}20`,
+                  border: isCompleted ? '2px solid #D4AF37' : `2px solid ${category.color}60`,
+                  boxShadow: isCompleted
+                    ? '0 0 10px rgba(212,175,55,0.18)'
+                    : `0 0 10px ${category.color}18`,
+                }}
+              >
+                {isCompleted ? (
+                  <Check size={18} strokeWidth={3} className="text-glow-gold" />
+                ) : (
+                  <span style={{ color: category.color }}>{category.icon}</span>
+                )}
+              </div>
 
-        <div
-          className={`rounded-full mx-auto flex items-center justify-center text-lg relative ${isMobile ? 'w-12 h-12 mb-2' : 'w-14 h-14 mb-3'}`}
-          style={{
-            backgroundColor: isCompleted ? '#D4AF3720' : `${category.color}20`,
-            border: isCompleted ? '2px solid #D4AF37' : `2px solid ${category.color}60`,
-            boxShadow: isCompleted
-              ? '0 0 12px rgba(212,175,55,0.2)'
-              : `0 0 12px ${category.color}20`,
-          }}
-        >
-          {isCompleted ? (
-            <Check size={24} strokeWidth={3} className="text-glow-gold" />
-          ) : (
-            <span style={{ color: category.color }}>{category.icon}</span>
-          )}
-        </div>
+              <div className="min-w-0 flex-1">
+                <div className="flex min-w-0 items-center gap-2">
+                  <h2 className="min-w-0 truncate font-heading text-ink font-semibold leading-snug text-[13px]">
+                    {skill.title}
+                  </h2>
+                  <span
+                    className="inline-block max-w-[42%] flex-shrink-0 truncate px-2 py-0.5 rounded-full text-[9px] font-heading font-semibold text-white"
+                    style={{ backgroundColor: `${category.color}90` }}
+                  >
+                    {category.name}
+                  </span>
+                </div>
+                <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
+                  <span className="inline-flex items-center gap-1 bg-surface-raised text-glow-gold font-heading font-bold text-[10px] px-2 py-0.5 rounded-full border border-border">
+                    +{skill.xp} XP
+                  </span>
+                  {!isEffectivelyCompleted && (
+                    <>
+                      <button
+                        onClick={handleToggleFavorite}
+                        className={`inline-flex h-6 items-center justify-center rounded-full border px-2 text-[10px] font-heading font-bold transition-colors ${
+                          isFavorite
+                            ? 'bg-glow-gold/15 border-glow-gold/50 text-glow-gold'
+                            : 'bg-surface-raised border-border text-ink-dim hover:text-ink'
+                        }`}
+                        title={isFavorite ? 'Favorited' : 'Add to favorites'}
+                        aria-label={isFavorite ? 'Favorited' : 'Add to favorites'}
+                      >
+                        {isFavorite ? 'Favorited' : 'Favorite'}
+                      </button>
+                      <button
+                        onClick={handleComplete}
+                        className="inline-flex h-6 items-center justify-center rounded-full bg-glow-gold px-2.5 text-[10px] font-heading font-bold text-void transition-all cursor-pointer hover:brightness-110 active:brightness-90"
+                      >
+                        I Did It!
+                      </button>
+                    </>
+                  )}
+                  {isEffectivelyCompleted && (
+                    <span className="inline-flex h-6 items-center justify-center rounded-full bg-glow-green/20 px-2.5 text-[10px] font-heading font-bold text-glow-green">
+                      Completed
+                    </span>
+                  )}
+                </div>
+              </div>
+            </div>
+          </>
+        ) : (
+          <>
+            <span
+              className="inline-block px-3 py-0.5 rounded-full text-[11px] font-heading font-semibold text-white mb-3"
+              style={{ backgroundColor: `${category.color}90` }}
+            >
+              {category.name}
+            </span>
 
-        <h2 className={`font-heading text-ink font-semibold leading-tight ${isMobile ? 'text-sm mb-1.5' : 'text-base mb-2'}`}>
-          {skill.title}
-        </h2>
+            <div
+              className="w-14 h-14 rounded-full mx-auto flex items-center justify-center text-lg relative mb-3"
+              style={{
+                backgroundColor: isCompleted ? '#D4AF3720' : `${category.color}20`,
+                border: isCompleted ? '2px solid #D4AF37' : `2px solid ${category.color}60`,
+                boxShadow: isCompleted
+                  ? '0 0 12px rgba(212,175,55,0.2)'
+                  : `0 0 12px ${category.color}20`,
+              }}
+            >
+              {isCompleted ? (
+                <Check size={24} strokeWidth={3} className="text-glow-gold" />
+              ) : (
+                <span style={{ color: category.color }}>{category.icon}</span>
+              )}
+            </div>
 
-        <span className="inline-flex items-center gap-1 bg-surface-raised text-glow-gold font-heading font-bold text-[11px] px-3 py-0.5 rounded-full border border-border">
-          +{skill.xp} XP
-        </span>
-        <button
-          onClick={handleToggleFavorite}
-          className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full border text-[11px] font-heading font-semibold ${isMobile ? 'mt-2' : 'mt-3'} ${
-            isFavorite
-              ? 'bg-glow-gold/15 border-glow-gold/50 text-glow-gold'
-              : 'bg-surface-raised border-border text-ink-dim hover:text-ink'
-          }`}
-        >
-          <Star size={11} className={isFavorite ? 'fill-glow-gold' : ''} />
-          {isFavorite ? 'Favorited' : 'Add to Favorites'}
-        </button>
+            <h2 className="font-heading text-ink font-semibold leading-tight text-base mb-2">
+              {skill.title}
+            </h2>
+
+            <span className="inline-flex items-center gap-1 bg-surface-raised text-glow-gold font-heading font-bold text-[11px] px-3 py-0.5 rounded-full border border-border">
+              +{skill.xp} XP
+            </span>
+            {!isEffectivelyCompleted && (
+              <button
+                onClick={handleToggleFavorite}
+                className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full border text-[11px] font-heading font-semibold mt-3 ${
+                  isFavorite
+                    ? 'bg-glow-gold/15 border-glow-gold/50 text-glow-gold'
+                    : 'bg-surface-raised border-border text-ink-dim hover:text-ink'
+                }`}
+              >
+                <Star size={11} className={isFavorite ? 'fill-glow-gold' : ''} />
+                {isFavorite ? 'Favorited' : 'Add to Favorites'}
+              </button>
+            )}
+          </>
+        )}
       </div>
 
       {/* Scrollable content */}
-      <div className={`flex-1 overflow-y-auto no-scrollbar ${isMobile ? 'px-3.5 py-2.5 space-y-2.5' : 'px-5 py-4 space-y-4'}`}>
+      <div className={`detail-scrollbar flex-1 overflow-y-auto ${isMobile ? 'px-3.5 py-2.5 pr-2.5 space-y-2' : 'px-5 py-4 pr-4 space-y-4'}`}>
         {/* Learner Promise */}
-        <p className="text-ink font-body text-sm leading-relaxed font-medium">
+        <p className={`text-ink font-body font-medium ${isMobile ? 'text-[13px] leading-snug' : 'text-sm leading-relaxed'}`}>
           {skill.learnerPromise}
         </p>
 
@@ -423,11 +485,11 @@ export default function SkillDetailPanel({
       </div>
 
       {/* Footer action button */}
-      <div className={`flex-shrink-0 border-t border-border bg-surface ${isMobile ? 'p-2.5' : 'p-4'}`}>
+      <div className={`flex-shrink-0 border-t border-border bg-surface ${isMobile || isEffectivelyCompleted ? 'hidden' : 'p-4'}`}>
         <button
           onClick={handleComplete}
           disabled={isCompleted || justCompleted}
-          className={`w-full py-3 rounded-xl font-heading font-bold text-sm transition-all cursor-pointer ${
+          className={`w-full font-heading font-bold transition-all cursor-pointer ${isMobile ? 'py-2 rounded-lg text-xs' : 'py-3 rounded-xl text-sm'} ${
             isCompleted || justCompleted
               ? 'bg-glow-green/20 text-glow-green cursor-default'
               : 'bg-glow-gold text-void hover:brightness-110 active:brightness-90'
