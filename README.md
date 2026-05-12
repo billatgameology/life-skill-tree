@@ -47,6 +47,12 @@ Design the system so content growth stays clean and maintainable:
 
 Broadly useful for anyone, especially people under 20 building everyday independence.
 
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
+
+You may view, share, and adapt this project for personal, educational, and other non-commercial purposes. Commercial use, resale, paid hosting, or incorporation into paid products or services is not permitted without written permission.
+
 ## Initial Domain Examples
 
 - Basic Electronics & Troubleshooting
