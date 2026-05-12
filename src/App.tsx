@@ -51,10 +51,8 @@ export default function App() {
   const handleSelectSkill = useCallback((skill: Skill) => {
     setSelectedSkill(skill);
     setSelectedPathId(null);
-    if (isMobile && !isSidebarOpen && !isDetailPanelOpen) {
-      setIsDetailPanelOpen(true);
-    }
-  }, [isDetailPanelOpen, isMobile, isSidebarOpen]);
+    setIsDetailPanelOpen(true);
+  }, []);
 
   const handleSelectPath = useCallback((pathId: string | null) => {
     setSelectedPathId(pathId);

@@ -2,6 +2,22 @@ import { useMemo } from 'react';
 import { ALL_SKILLS, CATEGORIES, CATEGORY_KEYS, getSkillState } from '@/data/skills';
 import type { Skill, DomainKey } from '@/lib/types';
 
+
+function hexToRgb(hex: string): { r: number; g: number; b: number } | null {
+  const normalized = hex.replace('#', '');
+  if (normalized.length !== 6) return null;
+  const value = Number.parseInt(normalized, 16);
+  if (Number.isNaN(value)) return null;
+  return { r: (value >> 16) & 255, g: (value >> 8) & 255, b: value & 255 };
+}
+
+function getReadableTextColor(backgroundHex: string): string {
+  const rgb = hexToRgb(backgroundHex);
+  if (!rgb) return '#0D0E17';
+  const luminance = (0.2126 * rgb.r + 0.7152 * rgb.g + 0.0722 * rgb.b) / 255;
+  return luminance > 0.52 ? '#0D0E17' : '#F6F4FF';
+}
+
 interface TrellisViewProps {
   completedIds: string[];
   onSelectSkill: (skill: Skill) => void;
@@ -70,9 +86,9 @@ export default function TrellisView({
                             onClick={() => onSelectSkill(skill)}
                             className="px-2 py-1 rounded-md text-[11px] font-body font-medium border transition-all cursor-pointer"
                             style={{
-                              backgroundColor: isSelected ? `${cat.color}25` : state === 'completed' ? '#D4AF3720' : '#151621',
-                              borderColor: isSelected ? cat.color : state === 'completed' ? '#D4AF3760' : '#2A2A3A',
-                              color: dimmed ? '#4A4858' : state === 'completed' ? '#D4AF37' : '#B8B5C3',
+                              backgroundColor: isSelected ? `${cat.color}25` : state === 'completed' ? `${cat.color}26` : '#151621',
+                              borderColor: isSelected ? cat.color : state === 'completed' ? `${cat.color}99` : '#2A2A3A',
+                              color: dimmed ? '#4A4858' : state === 'completed' ? getReadableTextColor(cat.color) : '#B8B5C3',
                               opacity: dimmed ? 0.4 : 1,
                             }}
                           >
