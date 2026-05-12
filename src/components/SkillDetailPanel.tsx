@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { Check, GripVertical, ArrowRight, Star } from 'lucide-react';
 import type { Skill } from '@/lib/types';
@@ -32,6 +32,7 @@ export default function SkillDetailPanel({
   const [justCompletedSkillId, setJustCompletedSkillId] = useState<string | null>(null);
   const [width, setWidth] = useState(DEFAULT_WIDTH);
   const panelRef = useRef<HTMLDivElement>(null);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
   const isResizingRef = useRef(false);
   const startXRef = useRef(0);
   const startWidthRef = useRef(DEFAULT_WIDTH);
@@ -85,6 +86,14 @@ export default function SkillDetailPanel({
     ? skill.suggestedPrerequisites.map(pid => ALL_SKILLS.find(s => s.id === pid)).filter(Boolean) as Skill[]
     : [];
   const unlocks = skill ? getChildren(skill.id) : [];
+  const selectedSkillId = skill?.id;
+
+  useEffect(() => {
+    if (!selectedSkillId) return;
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTo({ top: 0, behavior: 'auto' });
+    }
+  }, [selectedSkillId]);
 
   const triggerConfetti = () => {
     if (!category) return;
@@ -276,7 +285,10 @@ export default function SkillDetailPanel({
       </div>
 
       {/* Scrollable content */}
-      <div className={`detail-scrollbar flex-1 overflow-y-auto ${isMobile ? 'px-3.5 py-2.5 pr-2.5 space-y-2' : 'px-5 py-4 pr-4 space-y-4'}`}>
+      <div
+        ref={scrollContainerRef}
+        className={`detail-scrollbar flex-1 overflow-y-auto ${isMobile ? 'px-3.5 py-2.5 pr-2.5 space-y-2' : 'px-5 py-4 pr-4 space-y-4'}`}
+      >
         {/* Learner Promise */}
         <p className={`text-ink font-body font-medium ${isMobile ? 'text-[13px] leading-snug' : 'text-sm leading-relaxed'}`}>
           {skill.learnerPromise}

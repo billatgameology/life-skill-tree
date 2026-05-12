@@ -35,15 +35,17 @@ export default function RegistryView({
         case 'domain': return a.domain.localeCompare(b.domain) || a.title.localeCompare(b.title);
         case 'level': return a.level - b.level || a.title.localeCompare(b.title);
         case 'difficulty':
-          const dOrder = { easy: 0, medium: 1, hard: 2 };
-          return dOrder[a.difficulty] - dOrder[b.difficulty] || a.title.localeCompare(b.title);
+          {
+            const dOrder = { easy: 0, medium: 1, hard: 2 };
+            return dOrder[a.difficulty] - dOrder[b.difficulty] || a.title.localeCompare(b.title);
+          }
         case 'time': return a.estimatedMinutes - b.estimatedMinutes;
         default: return 0;
       }
     });
   }, [activeCategories, searchQuery, sortKey]);
 
-  const SortHeader = ({ label, key }: { label: string; key: typeof sortKey }) => (
+  const renderSortHeader = (label: string, key: typeof sortKey) => (
     <th
       onClick={() => setSortKey(key)}
       className="text-left px-3 py-2 text-[10px] uppercase tracking-wider font-heading font-bold text-ink-dim cursor-pointer hover:text-ink transition-colors select-none"
@@ -76,11 +78,11 @@ export default function RegistryView({
         <table className="min-w-[720px] w-full text-left border-collapse">
           <thead className="sticky top-0 bg-surface z-10">
             <tr className="border-b border-border">
-              <SortHeader label="Skill" key="title" />
-              <SortHeader label="Domain" key="domain" />
-              <SortHeader label="Level" key="level" />
-              <SortHeader label="Difficulty" key="difficulty" />
-              <SortHeader label="Time" key="time" />
+              {renderSortHeader('Skill', 'title')}
+              {renderSortHeader('Domain', 'domain')}
+              {renderSortHeader('Level', 'level')}
+              {renderSortHeader('Difficulty', 'difficulty')}
+              {renderSortHeader('Time', 'time')}
               <th className="text-left px-3 py-2 text-[10px] uppercase tracking-wider font-heading font-bold text-ink-dim">XP</th>
               <th className="text-left px-3 py-2 text-[10px] uppercase tracking-wider font-heading font-bold text-ink-dim">Status</th>
             </tr>

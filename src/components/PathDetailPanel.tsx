@@ -50,7 +50,6 @@ export default function PathDetailPanel({
   const handleMouseUp = useCallback(() => {
     stopResize();
     document.removeEventListener('mousemove', handleMouseMove);
-    document.removeEventListener('mouseup', handleMouseUp);
   }, [handleMouseMove, stopResize]);
 
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
@@ -65,7 +64,7 @@ export default function PathDetailPanel({
     document.addEventListener('mouseup', handleMouseUp);
   }, [width, handleMouseMove, handleMouseUp]);
 
-  const ResizeHandle = () => !isMobile && (
+  const resizeHandle = !isMobile && (
     <div
       onMouseDown={handleMouseDown}
       className="absolute left-0 top-0 bottom-0 w-4 -translate-x-1/2 cursor-col-resize z-20 group flex items-center justify-center"
@@ -83,7 +82,7 @@ export default function PathDetailPanel({
         className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col items-center justify-center text-center px-8 select-none relative"
         style={{ width: isMobile ? '100vw' : `clamp(300px, 37vw, ${width}px)` }}
       >
-        <ResizeHandle />
+        {resizeHandle}
         <div className="w-16 h-16 rounded-full bg-surface-raised border border-border flex items-center justify-center mb-4">
           <Map size={28} className="text-ink-dim/40" />
         </div>
@@ -106,7 +105,7 @@ export default function PathDetailPanel({
       className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col overflow-hidden relative"
       style={{ width: isMobile ? '100vw' : `clamp(300px, 37vw, ${width}px)` }}
     >
-      <ResizeHandle />
+      {resizeHandle}
       {/* Header */}
       <div
         className={`relative flex-shrink-0 pt-6 pb-4 px-5 text-center ${isMobile ? 'pr-12' : ''}`}

@@ -24,20 +24,22 @@ function getLevelInfo(xp: number) {
 }
 
 export default function ProfileModal({ user, open, onClose }: ProfileModalProps) {
-  if (!open || !user) return null;
+  const completedSkillIds = useMemo(() => user?.completedSkillIds ?? [], [user?.completedSkillIds]);
 
-  const level = getLevelInfo(user.xp);
-  const progress = ((user.xp - level.min) / (level.max - level.min)) * 100;
-  const completedCount = user.completedSkillIds.length;
+  const level = getLevelInfo(user?.xp ?? 0);
+  const progress = user ? ((user.xp - level.min) / (level.max - level.min)) * 100 : 0;
+  const completedCount = completedSkillIds.length;
 
   // Calculate per-category completion counts
   const categoryStats = useMemo(() => {
     return CATEGORY_KEYS.map((cat) => {
       const catSkills = ALL_SKILLS.filter(s => s.domain === cat && s.id !== 'root');
-      const completed = catSkills.filter(s => user.completedSkillIds.includes(s.id)).length;
+      const completed = catSkills.filter(s => completedSkillIds.includes(s.id)).length;
       return { cat, catData: CATEGORIES[cat], completed, total: catSkills.length };
     });
-  }, [user.completedSkillIds]);
+  }, [completedSkillIds]);
+
+  if (!open || !user) return null;
 
   return (
     <AnimatePresence>

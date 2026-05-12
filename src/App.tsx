@@ -40,10 +40,12 @@ export default function App() {
   const [showToast, setShowToast] = useState(false);
 
   useEffect(() => {
-    if (isMobile) {
+    if (!isMobile) return;
+    const timeoutId = window.setTimeout(() => {
       setIsSidebarOpen(false);
       setIsDetailPanelOpen(false);
-    }
+    }, 0);
+    return () => window.clearTimeout(timeoutId);
   }, [isMobile]);
 
   const handleSelectSkill = useCallback((skill: Skill) => {

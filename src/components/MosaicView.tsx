@@ -265,7 +265,7 @@ export default function MosaicView({
       pinchMidpoint.current = { x: (p1.x + p2.x) / 2, y: (p1.y + p2.y) / 2 };
       pinchStartPan.current = { ...pan };
     }
-  }, [pan]);
+  }, [pan, zoom]);
 
   const handlePointerMove = useCallback((e: React.PointerEvent) => {
     if (!activePointers.current.has(e.pointerId)) return;
