@@ -1,5 +1,5 @@
 import { useRef, useState, useCallback } from 'react';
-import { Check, GripVertical, Map, Clock, ArrowRight, PanelRightClose } from 'lucide-react';
+import { Check, GripVertical, Map, Clock, ArrowRight } from 'lucide-react';
 import type { LearningPath } from '@/data/paths';
 import { ALL_SKILLS, CATEGORIES } from '@/data/skills';
 import type { Skill } from '@/lib/types';
@@ -8,7 +8,6 @@ interface PathDetailPanelProps {
   path: LearningPath | null;
   completedIds: string[];
   onSelectSkill: (skill: Skill) => void;
-  onCollapse: () => void;
   isMobile?: boolean;
 }
 
@@ -20,7 +19,6 @@ export default function PathDetailPanel({
   path,
   completedIds,
   onSelectSkill,
-  onCollapse,
   isMobile = false,
 }: PathDetailPanelProps) {
   const [width, setWidth] = useState(DEFAULT_WIDTH);
@@ -60,7 +58,7 @@ export default function PathDetailPanel({
     e.stopPropagation();
     isResizingRef.current = true;
     startXRef.current = e.clientX;
-    startWidthRef.current = width;
+    startWidthRef.current = panelRef.current?.getBoundingClientRect().width || width;
     document.body.style.cursor = 'col-resize';
     document.body.style.userSelect = 'none';
     document.addEventListener('mousemove', handleMouseMove);
@@ -83,16 +81,9 @@ export default function PathDetailPanel({
       <div
         ref={panelRef}
         className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col items-center justify-center text-center px-8 select-none relative"
-        style={{ width: isMobile ? '100vw' : width }}
+        style={{ width: isMobile ? '100vw' : `clamp(300px, 37vw, ${width}px)` }}
       >
         <ResizeHandle />
-        <button
-          onClick={onCollapse}
-          className="absolute right-4 top-4 w-8 h-8 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-raised transition-colors"
-          title="Hide detail panel"
-        >
-          <PanelRightClose size={16} />
-        </button>
         <div className="w-16 h-16 rounded-full bg-surface-raised border border-border flex items-center justify-center mb-4">
           <Map size={28} className="text-ink-dim/40" />
         </div>
@@ -113,20 +104,12 @@ export default function PathDetailPanel({
     <div
       ref={panelRef}
       className="flex-shrink-0 h-full bg-surface border-l border-border flex flex-col overflow-hidden relative"
-      style={{ width: isMobile ? '100vw' : width }}
+      style={{ width: isMobile ? '100vw' : `clamp(300px, 37vw, ${width}px)` }}
     >
       <ResizeHandle />
-      <button
-        onClick={onCollapse}
-        className="absolute right-4 top-4 z-20 w-8 h-8 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-raised transition-colors"
-        title="Hide detail panel"
-      >
-        <PanelRightClose size={16} />
-      </button>
-
       {/* Header */}
       <div
-        className="relative flex-shrink-0 pt-6 pb-4 px-5 text-center"
+        className={`relative flex-shrink-0 pt-6 pb-4 px-5 text-center ${isMobile ? 'pr-12' : ''}`}
         style={{ backgroundColor: `${path.color}10`, borderBottom: `1px solid ${path.color}30` }}
       >
         <span
@@ -171,7 +154,7 @@ export default function PathDetailPanel({
       </div>
 
       {/* Scrollable content */}
-      <div className="flex-1 overflow-y-auto px-5 py-4 space-y-4 no-scrollbar">
+      <div className="detail-scrollbar flex-1 overflow-y-auto px-5 py-4 pr-4 space-y-4">
         {/* Summary */}
         <p className="text-ink font-body text-sm leading-relaxed font-medium">
           {path.summary}

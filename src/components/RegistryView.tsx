@@ -72,8 +72,8 @@ export default function RegistryView({
       </div>
 
       {/* Table */}
-      <div className="flex-1 overflow-auto">
-        <table className="w-full text-left border-collapse">
+      <div className="detail-scrollbar flex-1 overflow-auto overscroll-contain" style={{ WebkitOverflowScrolling: 'touch', touchAction: 'pan-x pan-y' }}>
+        <table className="min-w-[720px] w-full text-left border-collapse">
           <thead className="sticky top-0 bg-surface z-10">
             <tr className="border-b border-border">
               <SortHeader label="Skill" key="title" />

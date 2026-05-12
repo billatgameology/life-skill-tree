@@ -1,24 +1,18 @@
 import { useRef, useState, useCallback } from 'react';
 import {
-  Award,
   ChevronDown,
   ChevronRight,
   Clock,
-  LogIn,
-  LogOut,
   GripVertical,
   Hexagon,
   LayoutGrid,
   Map,
-  PanelLeftClose,
   Table,
-  User,
   Star,
 } from 'lucide-react';
-import type { User as FirebaseUser } from 'firebase/auth';
 import { CATEGORIES, CATEGORY_KEYS } from '@/data/skills';
 import { LEARNING_PATHS } from '@/data/paths';
-import type { DomainKey, Skill, View } from '@/lib/types';
+import type { DomainKey, Skill } from '@/lib/types';
 
 type VizMode = 'mosaic' | 'trellis' | 'registry';
 
@@ -28,14 +22,8 @@ interface TreeSidebarProps {
   onShowAllCategories: () => void;
   selectedPathId: string | null;
   onSelectPath: (pathId: string | null) => void;
-  activeView: View;
-  onChangeView: (view: View) => void;
-  authUser: FirebaseUser | null;
-  onOpenAuth: () => void;
-  onSignOut: () => Promise<void>;
   vizMode: VizMode;
   onChangeVizMode: (mode: VizMode) => void;
-  onCollapse: () => void;
   favoriteSkills: Skill[];
   onSelectFavoriteSkill: (skill: Skill) => void;
   isMobile?: boolean;
@@ -51,14 +39,8 @@ export default function TreeSidebar({
   onShowAllCategories,
   selectedPathId,
   onSelectPath,
-  activeView,
-  onChangeView,
-  authUser,
-  onOpenAuth,
-  onSignOut,
   vizMode,
   onChangeVizMode,
-  onCollapse,
   favoriteSkills,
   onSelectFavoriteSkill,
   isMobile = false,
@@ -102,7 +84,7 @@ export default function TreeSidebar({
     e.stopPropagation();
     isResizingRef.current = true;
     startXRef.current = e.clientX;
-    startWidthRef.current = width;
+    startWidthRef.current = panelRef.current?.getBoundingClientRect().width || width;
     document.body.style.cursor = 'col-resize';
     document.body.style.userSelect = 'none';
     document.addEventListener('mousemove', handleMouseMove);
@@ -115,7 +97,7 @@ export default function TreeSidebar({
     <div
       ref={panelRef}
       className="flex-shrink-0 h-full bg-surface border-r border-border flex flex-col overflow-hidden relative select-none"
-      style={{ width: isMobile ? '100%' : width }}
+      style={{ width: isMobile ? '100%' : `clamp(210px, 28vw, ${width}px)` }}
     >
       {!isMobile && (
         <div
@@ -128,24 +110,8 @@ export default function TreeSidebar({
         </div>
       )}
 
-      <div className="flex-shrink-0 px-4 py-3 border-b border-border flex items-center justify-between">
-        <span className="font-heading font-bold text-ink text-[11px] uppercase tracking-wider">
-          Controls
-        </span>
-        <button
-          onClick={onCollapse}
-          className="w-7 h-7 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-raised transition-colors"
-          title="Hide sidebar"
-        >
-          <PanelLeftClose size={15} />
-        </button>
-      </div>
-
-      <div className="flex-1 overflow-y-auto px-4 py-4 space-y-3 no-scrollbar">
-        <div className="space-y-2">
-          <h3 className="font-heading font-bold text-ink text-[11px] uppercase tracking-wider">
-            Views
-          </h3>
+      <div className="detail-scrollbar flex-1 overflow-y-auto px-4 py-4 pr-3 space-y-3">
+        <div className="space-y-2 pr-8">
           <div className="grid grid-cols-3 gap-1">
             {[
               { id: 'mosaic' as VizMode, label: 'Mosaic', Icon: Hexagon },
@@ -302,63 +268,6 @@ export default function TreeSidebar({
         </div>
       </div>
 
-      <div className="flex-shrink-0 p-3 border-t border-border">
-        <div className="mb-2 rounded-lg border border-border bg-surface-raised/40 px-3 py-2">
-          <p className="text-[10px] font-heading font-bold uppercase tracking-wider text-ink-dim">
-            Account
-          </p>
-          {authUser ? (
-            <div className="mt-2 flex items-center gap-2">
-              <div className="min-w-0 flex-1">
-                <p className="truncate text-xs font-heading font-semibold text-ink">
-                  {authUser.displayName || 'Signed in'}
-                </p>
-                <p className="truncate text-[10px] text-ink-dim">
-                  {authUser.email}
-                </p>
-              </div>
-              <button
-                onClick={() => void onSignOut()}
-                className="w-8 h-8 rounded-md flex items-center justify-center text-ink-dim hover:text-ink hover:bg-surface-high transition-colors"
-                title="Sign out"
-              >
-                <LogOut size={15} />
-              </button>
-            </div>
-          ) : (
-            <button
-              onClick={onOpenAuth}
-              className="mt-2 w-full h-9 rounded-lg border border-glow-gold/40 bg-glow-gold/10 text-glow-gold hover:bg-glow-gold/15 transition-colors flex items-center justify-center gap-2 text-xs font-heading font-bold"
-            >
-              <LogIn size={14} />
-              Sign in
-            </button>
-          )}
-        </div>
-        <div className="flex items-center gap-1">
-          {[
-            { id: 'profile' as View, label: 'Profile', Icon: User },
-            { id: 'badges' as View, label: 'Badges', Icon: Award },
-          ].map(item => {
-            const isActive = activeView === item.id;
-            return (
-              <button
-                key={item.id}
-                onClick={() => onChangeView(item.id)}
-                className="flex-1 flex flex-col items-center justify-center gap-0.5 py-2 rounded-lg transition-colors cursor-pointer"
-                style={{
-                  backgroundColor: isActive ? '#D4AF3715' : 'transparent',
-                }}
-              >
-                <item.Icon size={18} className={isActive ? 'text-glow-gold' : 'text-ink-dim'} />
-                <span className={`text-[10px] font-heading font-semibold ${isActive ? 'text-glow-gold' : 'text-ink-dim'}`}>
-                  {item.label}
-                </span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
     </div>
   );
 }
