@@ -203,6 +203,12 @@ export default function SkillDetailPanel({
                   <span className="inline-flex items-center gap-1 bg-surface-raised text-glow-gold font-heading font-bold text-[10px] px-2 py-0.5 rounded-full border border-border">
                     +{skill.xp} XP
                   </span>
+                  <span className="inline-flex items-center bg-surface-raised text-ink-dim font-heading font-semibold text-[10px] capitalize px-2 py-0.5 rounded-full border border-border">
+                    {skill.difficulty}
+                  </span>
+                  <span className="inline-flex items-center bg-surface-raised text-ink-dim font-heading font-semibold text-[10px] px-2 py-0.5 rounded-full border border-border">
+                    {skill.estimatedMinutes} min
+                  </span>
                   {!isEffectivelyCompleted && (
                     <>
                       <button

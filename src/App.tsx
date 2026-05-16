@@ -1,106 +1,81 @@
-import { useState, useCallback, useEffect, useRef } from 'react';
-import { Award, Info, LogIn, LogOut, Menu, User, X } from 'lucide-react';
+import { useState, useCallback, useRef } from 'react';
+import { X } from 'lucide-react';
 import StarfieldBackground from '@/components/StarfieldBackground';
-import TrellisView from '@/components/TrellisView';
-import MosaicView from '@/components/MosaicView';
-import RegistryView from '@/components/RegistryView';
-import TreeSidebar from '@/components/TreeSidebar';
-
+import BottomTabBar from '@/components/BottomTabBar';
+import SkillsScreen, { type SkillsViewMode } from '@/components/screens/SkillsScreen';
+import PathsScreen from '@/components/screens/PathsScreen';
+import SavedScreen from '@/components/screens/SavedScreen';
+import ProfileScreen from '@/components/screens/ProfileScreen';
 import SkillDetailPanel from '@/components/SkillDetailPanel';
-import PathDetailPanel from '@/components/PathDetailPanel';
-import ProfileModal from '@/components/ProfileModal';
+import SettingsSheet from '@/components/SettingsSheet';
 import BadgesView from '@/components/BadgesView';
 import AuthModal from '@/components/AuthModal';
 import CelebrationOverlay from '@/components/CelebrationOverlay';
 import XPToast from '@/components/XPToast';
 import { useAuth } from '@/hooks/useAuth';
 import { useUserData } from '@/hooks/useUserData';
-import { PATH_MAP } from '@/data/paths';
-import { ALL_SKILLS, CATEGORY_KEYS } from '@/data/skills';
-import type { View, Skill, DomainKey } from '@/lib/types';
+import { CATEGORY_KEYS } from '@/data/skills';
+import type { TabId, Skill, DomainKey } from '@/lib/types';
 import { useIsMobile } from '@/hooks/use-mobile';
-
-type VizMode = 'mosaic' | 'trellis' | 'registry';
 
 export default function App() {
   const { authError, clearAuthError, currentUser, signOutUser } = useAuth();
   const { user, loaded, syncError, completeSkill, toggleFavorite } = useUserData();
   const isMobile = useIsMobile();
 
-  const [activeView, setActiveView] = useState<View>('home');
-  const [isAuthOpen, setIsAuthOpen] = useState(false);
-  const [vizMode, setVizMode] = useState<VizMode>('mosaic');
+  const [activeTab, setActiveTab] = useState<TabId>('skills');
+  const [skillsView, setSkillsView] = useState<SkillsViewMode>('map');
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
   const [selectedPathId, setSelectedPathId] = useState<string | null>(null);
   const [activeCategories, setActiveCategories] = useState<Set<DomainKey>>(new Set(CATEGORY_KEYS));
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [isDetailPanelOpen, setIsDetailPanelOpen] = useState(false);
-  const [isMobileDetailExpanded, setIsMobileDetailExpanded] = useState(false);
+  const [isAuthOpen, setIsAuthOpen] = useState(false);
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [isBadgesOpen, setIsBadgesOpen] = useState(false);
+  const [mobileSheetH, setMobileSheetH] = useState(0);
+  const [sheetDragging, setSheetDragging] = useState(false);
   const [showCelebration, setShowCelebration] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const [showToast, setShowToast] = useState(false);
-  const sheetDragStartYRef = useRef<number | null>(null);
+  const sheetStartYRef = useRef(0);
+  const sheetStartHRef = useRef(0);
 
-  useEffect(() => {
-    if (!isMobile) return;
-    const timeoutId = window.setTimeout(() => {
-      setIsSidebarOpen(false);
-      setIsDetailPanelOpen(false);
-    }, 0);
-    return () => window.clearTimeout(timeoutId);
-  }, [isMobile]);
+  const getSheetBounds = useCallback(() => {
+    const h = typeof window !== 'undefined' ? window.innerHeight : 800;
+    return {
+      min: Math.round(h * 0.3),
+      collapsed: Math.round(h * 0.56),
+      max: Math.round(h * 0.9),
+    };
+  }, []);
+
+  const completedIds = user?.completedSkillIds || [];
+  const favoriteIds = user?.favorite || [];
+
+  const handleChangeTab = useCallback((tab: TabId) => {
+    // Re-tapping the active tab closes it back to the Skills map
+    // (Skills is the base view, so tapping it again is a no-op).
+    setActiveTab((prev) => (prev === tab && tab !== 'skills' ? 'skills' : tab));
+    setSelectedSkill(null);
+  }, []);
 
   const handleSelectSkill = useCallback((skill: Skill) => {
     setSelectedSkill(skill);
-    setSelectedPathId(null);
-    setIsDetailPanelOpen(true);
-    if (isMobile) setIsMobileDetailExpanded(false);
-  }, [isMobile]);
+    if (isMobile) setMobileSheetH(getSheetBounds().collapsed);
+  }, [isMobile, getSheetBounds]);
 
-  const handleSelectSkillFromPath = useCallback((skill: Skill) => {
-    setSelectedSkill(skill);
-    setIsDetailPanelOpen(true);
-    if (isMobile) setIsMobileDetailExpanded(false);
-  }, [isMobile]);
-
-  const handleSelectPath = useCallback((pathId: string | null) => {
-    setSelectedPathId(pathId);
+  const handleCloseDetail = useCallback(() => {
     setSelectedSkill(null);
-    setIsDetailPanelOpen(Boolean(pathId));
-    if (isMobile) {
-      setIsMobileDetailExpanded(false);
-      if (pathId) setIsSidebarOpen(false);
-    }
-  }, [isMobile]);
-
-  const handleMobileSheetPointerDown = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
-    sheetDragStartYRef.current = e.clientY;
-    e.currentTarget.setPointerCapture(e.pointerId);
   }, []);
 
-  const handleMobileSheetPointerUp = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
-    const startY = sheetDragStartYRef.current;
-    sheetDragStartYRef.current = null;
-    e.currentTarget.releasePointerCapture(e.pointerId);
-    if (startY === null) {
-      setIsMobileDetailExpanded(open => !open);
-      return;
-    }
-
-    const deltaY = e.clientY - startY;
-    if (deltaY < -40) {
-      setIsMobileDetailExpanded(true);
-    } else if (deltaY > 70 && !isMobileDetailExpanded) {
-      setIsDetailPanelOpen(false);
-    } else if (deltaY > 40) {
-      setIsMobileDetailExpanded(false);
-    } else {
-      setIsMobileDetailExpanded(open => !open);
-    }
-  }, [isMobileDetailExpanded]);
+  const handleShowPathOnMap = useCallback((pathId: string) => {
+    setSelectedPathId((prev) => (prev === pathId ? null : pathId));
+    setActiveTab('skills');
+    setSkillsView('map');
+    setSelectedSkill(null);
+  }, []);
 
   const handleToggleCategory = useCallback((cat: DomainKey) => {
-    setActiveCategories(prev =>
+    setActiveCategories((prev) =>
       prev.size === 1 && prev.has(cat) ? new Set(CATEGORY_KEYS) : new Set([cat])
     );
   }, []);
@@ -130,238 +105,166 @@ export default function App() {
       handleShowToast('Sign in to save skill progress.');
       return false;
     }
-
     return completeSkill(skillId, xp);
   }, [completeSkill, currentUser, handleShowToast]);
 
-  const favoriteSkills = (user?.favorite || [])
-    .map((id) => ALL_SKILLS.find((skill) => skill.id === id))
-    .filter(Boolean) as Skill[];
-  const topChromeHeight = isMobile ? '3.5rem' : '4.5rem';
-  const openSheetHeight = isMobile ? (isSidebarOpen ? '48dvh' : '0px') : '0px';
-  const mobileDetailSheetHeight = isMobileDetailExpanded ? 'h-[86dvh]' : 'h-[54dvh]';
-  const mobileDetailSheetClass = `absolute inset-x-0 bottom-0 ${mobileDetailSheetHeight} z-50 rounded-t-2xl overflow-hidden border-t-2 border-glow-gold/35 shadow-[0_-18px_34px_rgba(0,0,0,0.65)] transition-[height] duration-200`;
-  const desktopDetailPanelClass = 'absolute right-3 top-[4.75rem] h-[70dvh] z-50 rounded-2xl overflow-hidden shadow-2xl border border-border';
-  const mobileSheetHandle = isMobile ? (
-    <button
-      onPointerDown={handleMobileSheetPointerDown}
-      onPointerUp={handleMobileSheetPointerUp}
-      className="absolute left-1/2 top-1.5 z-40 flex h-5 w-20 -translate-x-1/2 items-start justify-center rounded-full"
-      title={isMobileDetailExpanded ? 'Collapse details' : 'Expand details'}
-      aria-label={isMobileDetailExpanded ? 'Collapse details' : 'Expand details'}
-    >
-      <span className="mt-1 block h-1.5 w-11 rounded-full bg-ink-dim/45" />
-    </button>
-  ) : null;
+  const handleSheetPointerDown = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
+    sheetStartYRef.current = e.clientY;
+    sheetStartHRef.current = mobileSheetH || getSheetBounds().collapsed;
+    setSheetDragging(true);
+    try { e.currentTarget.setPointerCapture(e.pointerId); } catch { /* ignore */ }
+  }, [mobileSheetH, getSheetBounds]);
+
+  const handleSheetPointerMove = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
+    if (!sheetDragging) return;
+    const { min, max } = getSheetBounds();
+    const dy = e.clientY - sheetStartYRef.current;
+    setMobileSheetH(Math.max(min, Math.min(max, sheetStartHRef.current - dy)));
+  }, [sheetDragging, getSheetBounds]);
+
+  const handleSheetPointerUp = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
+    setSheetDragging(false);
+    try { e.currentTarget.releasePointerCapture(e.pointerId); } catch { /* ignore */ }
+    const { min, collapsed, max } = getSheetBounds();
+    const dy = e.clientY - sheetStartYRef.current;
+    const mid = (collapsed + max) / 2;
+
+    // No real movement → treat as a tap that toggles collapsed/expanded.
+    if (Math.abs(dy) <= 6) {
+      setMobileSheetH(mobileSheetH > mid ? collapsed : max);
+      return;
+    }
+    // Dragged down near the floor → dismiss.
+    if (mobileSheetH <= min + 28 && dy > 0) {
+      handleCloseDetail();
+      return;
+    }
+    // Otherwise snap to the nearer detent.
+    setMobileSheetH(mobileSheetH > mid ? max : collapsed);
+  }, [getSheetBounds, handleCloseDetail, mobileSheetH]);
 
   if (!loaded) {
     return (
-      <div className="fixed inset-0 bg-void flex items-center justify-center">
-        <div className="text-ink-muted font-display text-2xl animate-pulse">
-          Loading...
-        </div>
+      <div className="fixed inset-0 flex items-center justify-center bg-void">
+        <div className="animate-pulse font-display text-2xl text-ink-muted">Loading...</div>
       </div>
     );
   }
 
+  const { collapsed: sheetCollapsedH, max: sheetMaxH } = getSheetBounds();
+  const sheetExpanded = mobileSheetH > (sheetCollapsedH + sheetMaxH) / 2;
+  const detailPanelClass = isMobile
+    ? `absolute inset-x-0 bottom-0 z-[70] rounded-t-2xl overflow-hidden border-t-2 border-glow-gold/35 shadow-[0_-18px_34px_rgba(0,0,0,0.65)] ${sheetDragging ? '' : 'transition-[height] duration-200'}`
+    : 'absolute right-3 top-3 bottom-[72px] w-[420px] max-w-[40vw] z-[55] rounded-2xl overflow-hidden shadow-2xl border border-border';
+
   return (
-    <div className="fixed inset-0 flex overflow-hidden bg-void">
+    <div className="fixed inset-0 overflow-hidden bg-void">
       <StarfieldBackground />
 
-      {/* Main layout: sidebar | tree canvas | detail panel */}
-      <div className="flex w-full h-full relative z-[1]">
-        <div className={`absolute left-1/2 -translate-x-1/2 z-[70] flex items-center rounded-xl border border-border bg-surface-raised/85 backdrop-blur ${isMobile ? 'top-2 gap-1.5 px-1.5 py-1' : 'top-3 gap-2 px-2 py-1.5'}`}>
-          <button
-            onClick={() => {
-              setIsSidebarOpen((v) => {
-                const next = !v;
-                if (isMobile && next) setIsDetailPanelOpen(false);
-                return next;
-              });
-            }}
-            className={`${isMobile ? 'h-8 px-2.5 text-[11px]' : 'h-8 px-3 text-xs'} rounded-lg border border-border text-ink-muted hover:text-ink hover:bg-surface-high transition-colors flex items-center gap-1.5`}
-            title="Toggle menu"
-          >
-            <Menu size={isMobile ? 13 : 14} />
-            Menu
-          </button>
-          <button
-            onClick={() => {
-              setIsDetailPanelOpen((v) => {
-                const next = !v;
-                if (isMobile && next) setIsSidebarOpen(false);
-                return next;
-              });
-            }}
-            className={`${isMobile ? 'h-8 px-2.5 text-[11px]' : 'h-8 px-3 text-xs'} rounded-lg border border-border text-ink-muted hover:text-ink hover:bg-surface-high transition-colors flex items-center gap-1.5`}
-            title="Toggle details"
-          >
-            <Info size={isMobile ? 13 : 14} />
-            Details
-          </button>
-          <button
-            onClick={() => setActiveView('profile')}
-            className={`${currentUser ? 'h-8 max-w-[96px] px-2' : 'h-8 w-8'} rounded-lg border border-border text-ink-muted hover:text-ink hover:bg-surface-high transition-colors flex items-center justify-center gap-1.5`}
-            title="Profile"
-            aria-label="Profile"
-          >
-            <User size={isMobile ? 13 : 14} className={`flex-shrink-0 ${activeView === 'profile' ? 'text-glow-gold' : ''}`} />
-            {currentUser && (
-              <span className="min-w-0 truncate text-[10px] font-heading font-semibold">
-                {currentUser.displayName || currentUser.email?.split('@')[0] || 'User'}
-              </span>
-            )}
-          </button>
-          <button
-            onClick={() => setActiveView('badges')}
-            className={`${isMobile ? 'h-8 w-8' : 'h-8 w-8'} rounded-lg border border-border text-ink-muted hover:text-ink hover:bg-surface-high transition-colors flex items-center justify-center`}
-            title="Badges"
-            aria-label="Badges"
-          >
-            <Award size={isMobile ? 13 : 14} className={activeView === 'badges' ? 'text-glow-gold' : ''} />
-          </button>
-          {currentUser ? (
-            <button
-              onClick={() => void signOutUser()}
-              className="h-8 w-8 rounded-lg border border-border text-ink-muted hover:text-ink hover:bg-surface-high transition-colors flex items-center justify-center"
-              title="Sign out"
-              aria-label="Sign out"
-            >
-              <LogOut size={isMobile ? 13 : 14} />
-            </button>
-          ) : (
-            <button
-              onClick={() => setIsAuthOpen(true)}
-              className="h-8 w-8 rounded-lg border border-glow-gold/40 bg-glow-gold/10 text-glow-gold hover:bg-glow-gold/15 transition-colors flex items-center justify-center"
-              title="Sign in"
-              aria-label="Sign in"
-            >
-              <LogIn size={isMobile ? 13 : 14} />
-            </button>
-          )}
-        </div>
-
-        {/* Left sidebar: filters + paths + nav */}
-        {isSidebarOpen ? (
-          <div className={isMobile ? 'absolute inset-x-0 top-14 h-[48dvh] z-40 rounded-b-2xl overflow-hidden border-b-2 border-glow-gold/35 shadow-[0_18px_34px_rgba(0,0,0,0.65)]' : 'absolute left-3 top-[4.75rem] h-[70dvh] z-40 rounded-2xl overflow-hidden shadow-2xl border border-border'}>
-            <button
-              onClick={() => setIsSidebarOpen(false)}
-              className="absolute right-3 top-3 z-30 flex h-7 w-7 items-center justify-center rounded-md border border-border bg-surface-raised/90 text-ink-dim transition-colors hover:bg-surface-high hover:text-ink"
-              title="Close menu"
-              aria-label="Close menu"
-            >
-              <X size={15} />
-            </button>
-            <TreeSidebar
-              activeCategories={activeCategories}
-              onToggleCategory={handleToggleCategory}
-              onShowAllCategories={handleShowAllCategories}
-              selectedPathId={selectedPathId}
-              onSelectPath={handleSelectPath}
-              vizMode={vizMode}
-              onChangeVizMode={setVizMode}
-              favoriteSkills={favoriteSkills}
-              onSelectFavoriteSkill={handleSelectSkill}
-              isMobile={isMobile}
-            />
-          </div>
-        ) : null}
-
-        {/* Main visualization area */}
-        <div
-          className="flex-1 h-full min-w-0 transition-[padding] duration-200"
-          style={{
-            paddingTop: isMobile && (isSidebarOpen || isDetailPanelOpen)
-              ? `calc(${topChromeHeight} + ${openSheetHeight})`
-              : topChromeHeight,
-          }}
-        >
-          {vizMode === 'mosaic' && (
-            <MosaicView
-              completedIds={user?.completedSkillIds || []}
-              onSelectSkill={handleSelectSkill}
-              selectedSkillId={selectedSkill?.id || null}
-              activeCategories={activeCategories}
-              selectedPathId={selectedPathId}
-            />
-          )}
-          {vizMode === 'trellis' && (
-            <TrellisView
-              completedIds={user?.completedSkillIds || []}
-              onSelectSkill={handleSelectSkill}
-              selectedSkillId={selectedSkill?.id || null}
-              activeCategories={activeCategories}
-              selectedPathId={selectedPathId}
-            />
-          )}
-          {vizMode === 'registry' && (
-            <RegistryView
-              completedIds={user?.completedSkillIds || []}
-              onSelectSkill={handleSelectSkill}
-              selectedSkillId={selectedSkill?.id || null}
-              activeCategories={activeCategories}
-            />
-          )}
-        </div>
-
-        {/* Detail panel: skill or path */}
-        {isDetailPanelOpen ? (
-          selectedPathId && !selectedSkill ? (
-            <div className={isMobile ? mobileDetailSheetClass : desktopDetailPanelClass}>
-              {mobileSheetHandle}
-              <button
-                onClick={() => setIsDetailPanelOpen(false)}
-                className="absolute right-3 top-3 z-30 flex h-7 w-7 items-center justify-center rounded-md border border-border bg-surface-raised/90 text-ink-dim transition-colors hover:bg-surface-high hover:text-ink"
-                title="Close details"
-                aria-label="Close details"
-              >
-                <X size={15} />
-              </button>
-              <PathDetailPanel
-                path={PATH_MAP[selectedPathId] || null}
-                completedIds={user?.completedSkillIds || []}
-                onSelectSkill={handleSelectSkillFromPath}
-                isMobile={isMobile}
-              />
-            </div>
-          ) : (
-            <div className={isMobile ? mobileDetailSheetClass : desktopDetailPanelClass}>
-              {mobileSheetHandle}
-              <button
-                onClick={() => setIsDetailPanelOpen(false)}
-                className="absolute right-3 top-3 z-30 flex h-7 w-7 items-center justify-center rounded-md border border-border bg-surface-raised/90 text-ink-dim transition-colors hover:bg-surface-high hover:text-ink"
-                title="Close details"
-                aria-label="Close details"
-              >
-                <X size={15} />
-              </button>
-              <SkillDetailPanel
-                skill={selectedSkill}
-                completedIds={user?.completedSkillIds || []}
-                onComplete={handleCompleteSkill}
-                onShowCelebration={handleShowCelebration}
-                onShowToast={handleShowToast}
-                favoriteIds={user?.favorite || []}
-                onToggleFavorite={toggleFavorite}
-                isMobile={isMobile}
-              />
-            </div>
-          )
-        ) : null}
+      {/* Tab content */}
+      <div className="absolute inset-0 z-[1]">
+        {activeTab === 'skills' && (
+          <SkillsScreen
+            skillsView={skillsView}
+            onChangeSkillsView={setSkillsView}
+            completedIds={completedIds}
+            favoriteIds={favoriteIds}
+            onSelectSkill={handleSelectSkill}
+            selectedSkillId={selectedSkill?.id || null}
+            activeCategories={activeCategories}
+            onToggleCategory={handleToggleCategory}
+            onShowAllCategories={handleShowAllCategories}
+            selectedPathId={selectedPathId}
+          />
+        )}
+        {activeTab === 'paths' && (
+          <PathsScreen
+            completedIds={completedIds}
+            activePathId={selectedPathId}
+            onShowOnMap={handleShowPathOnMap}
+            onSelectSkill={handleSelectSkill}
+          />
+        )}
+        {activeTab === 'saved' && (
+          <SavedScreen
+            favoriteIds={favoriteIds}
+            completedIds={completedIds}
+            onSelectSkill={handleSelectSkill}
+            onBrowseSkills={() => handleChangeTab('skills')}
+          />
+        )}
+        {activeTab === 'profile' && (
+          <ProfileScreen
+            user={user}
+            currentUser={currentUser}
+            completedIds={completedIds}
+            favoriteIds={favoriteIds}
+            onSignIn={() => setIsAuthOpen(true)}
+            onSignOut={() => void signOutUser()}
+            onOpenSettings={() => setIsSettingsOpen(true)}
+            onOpenBadges={() => setIsBadgesOpen(true)}
+          />
+        )}
       </div>
 
-      {/* Profile modal */}
-      <ProfileModal
-        user={user}
-        open={activeView === 'profile'}
-        onClose={() => setActiveView('home')}
+      {/* Skill detail (right panel on desktop, bottom sheet on mobile) */}
+      {selectedSkill && (
+        <div
+          className={detailPanelClass}
+          style={isMobile ? { height: mobileSheetH || sheetCollapsedH } : undefined}
+        >
+          {isMobile && (
+            <button
+              onPointerDown={handleSheetPointerDown}
+              onPointerMove={handleSheetPointerMove}
+              onPointerUp={handleSheetPointerUp}
+              onPointerCancel={handleSheetPointerUp}
+              className="absolute left-1/2 top-0 z-40 flex h-9 w-24 -translate-x-1/2 cursor-grab touch-none items-center justify-center active:cursor-grabbing"
+              title={sheetExpanded ? 'Collapse details' : 'Expand details'}
+              aria-label={sheetExpanded ? 'Collapse details' : 'Expand details'}
+            >
+              <span className="block h-1.5 w-11 rounded-full bg-ink-dim/60" />
+            </button>
+          )}
+          <button
+            onClick={handleCloseDetail}
+            className="absolute right-3 top-3 z-30 flex h-7 w-7 items-center justify-center rounded-md border border-border bg-surface-raised/90 text-ink-dim transition-colors hover:text-ink"
+            title="Close details"
+            aria-label="Close details"
+          >
+            <X size={15} />
+          </button>
+          <SkillDetailPanel
+            skill={selectedSkill}
+            completedIds={completedIds}
+            onComplete={handleCompleteSkill}
+            onShowCelebration={handleShowCelebration}
+            onShowToast={handleShowToast}
+            favoriteIds={favoriteIds}
+            onToggleFavorite={toggleFavorite}
+            isMobile={isMobile}
+          />
+        </div>
+      )}
+
+      <BottomTabBar
+        active={activeTab}
+        onChange={handleChangeTab}
+        savedCount={favoriteIds.length}
       />
 
-      {/* Badges modal */}
+      <SettingsSheet
+        open={isSettingsOpen}
+        onClose={() => setIsSettingsOpen(false)}
+        currentUser={currentUser}
+        onSignIn={() => setIsAuthOpen(true)}
+        onSignOut={() => void signOutUser()}
+      />
+
       <BadgesView
         user={user}
-        open={activeView === 'badges'}
-        onClose={() => setActiveView('home')}
+        open={isBadgesOpen}
+        onClose={() => setIsBadgesOpen(false)}
       />
 
       <AuthModal
@@ -373,20 +276,13 @@ export default function App() {
       />
 
       {syncError && (
-        <div className="absolute bottom-4 left-1/2 z-[80] max-w-md -translate-x-1/2 rounded-lg border border-destructive/40 bg-surface px-4 py-3 text-xs text-ink-muted shadow-modal">
+        <div className="absolute bottom-20 left-1/2 z-[80] max-w-md -translate-x-1/2 rounded-lg border border-destructive/40 bg-surface px-4 py-3 text-xs text-ink-muted shadow-modal">
           Firestore sync failed: {syncError}
         </div>
       )}
 
-      {/* Celebration overlay */}
       <CelebrationOverlay visible={showCelebration} />
-
-      {/* XP Toast */}
-      <XPToast
-        message={toastMessage}
-        visible={showToast}
-        onDone={handleToastDone}
-      />
+      <XPToast message={toastMessage} visible={showToast} onDone={handleToastDone} />
     </div>
   );
 }

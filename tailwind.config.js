@@ -25,8 +25,8 @@ module.exports = {
         nature: '#5B9B6B',
         body: '#B0608A',
         everyday: '#5A8ABF',
-        // Glows
-        'glow-gold': '#D4AF37',
+        // Glows — 'glow-gold' is the themeable accent (see ThemeContext)
+        'glow-gold': 'rgb(var(--accent-rgb) / <alpha-value>)',
         'glow-green': '#5B9B6B',
         // shadcn vars
         border: "hsl(var(--border))",

@@ -53,6 +53,9 @@ export interface Category {
 
 export type View = 'home' | 'profile' | 'badges';
 
+/** Bottom-tab navigation destinations. */
+export type TabId = 'skills' | 'paths' | 'saved' | 'profile';
+
 export interface UserData {
   xp: number;
   completedSkillIds: string[];
