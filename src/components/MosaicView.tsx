@@ -234,6 +234,8 @@ export default function MosaicView({
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [zoom, setZoom] = useState(0.55);
   const zoomRef = useRef(zoom);
+  const panRef = useRef(pan);
+  const lastFocusedIdRef = useRef<string | null>(null);
   const [isDragging, setIsDragging] = useState(false);
   const dragStart = useRef({ x: 0, y: 0 });
   const panStart = useRef({ x: 0, y: 0 });
@@ -252,6 +254,10 @@ export default function MosaicView({
   useEffect(() => {
     zoomRef.current = zoom;
   }, [zoom]);
+
+  useEffect(() => {
+    panRef.current = pan;
+  }, [pan]);
 
   const regions = useMemo(() => buildRegions(), []);
   const globalFutureCells = useMemo(() => {
@@ -346,42 +352,59 @@ export default function MosaicView({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Auto-focus the selected skill ONLY on mobile (the bottom sheet covers the
+  // map there, so the hex must be pulled into the visible upper area). On
+  // desktop the detail panel is docked separately, so keep the user's view
+  // put. Fires once per *new* selection — never on drag-end.
   useEffect(() => {
-    if (!selectedSkillId || isDragging) return;
+    if (!isMobile || !selectedSkillId) {
+      lastFocusedIdRef.current = selectedSkillId ?? null;
+      return;
+    }
+    if (selectedSkillId === lastFocusedIdRef.current) return;
+
     const position = skillPositions[selectedSkillId];
     const container = containerRef.current;
     if (!position || !container) return;
+    lastFocusedIdRef.current = selectedSkillId;
 
     const cw = container.clientWidth || window.innerWidth;
     const ch = container.clientHeight || window.innerHeight;
-    const focusZoom = Math.min(1.15, Math.max(zoomRef.current, isMobile ? 0.92 : 0.78));
-    const focusX = cw / 2;
-    const focusY = isMobile ? ch * 0.28 : ch / 2;
+    const focusZoom = Math.min(1.15, Math.max(zoomRef.current, 0.92));
 
     setZoom(focusZoom);
     setPan({
-      x: focusX - position.x * focusZoom,
-      y: focusY - position.y * focusZoom,
+      x: cw / 2 - position.x * focusZoom,
+      y: ch * 0.28 - position.y * focusZoom,
     });
-  }, [isDragging, isMobile, selectedSkillId, skillPositions]);
+  }, [isMobile, selectedSkillId, skillPositions]);
 
-  const handleWheel = useCallback((e: React.WheelEvent) => {
-    e.preventDefault();
-    const rect = containerRef.current?.getBoundingClientRect();
-    if (!rect) return;
-    const mx = e.clientX - rect.left;
-    const my = e.clientY - rect.top;
-    const factor = Math.exp(-e.deltaY * 0.0015);
-    const newZoom = Math.max(0.1, Math.min(3.0, zoom * factor));
-    if (newZoom !== zoom) {
-      const ratio = newZoom / zoom;
+  // Native non-passive wheel listener — React's onWheel is passive, so
+  // e.preventDefault() there throws "Unable to preventDefault inside passive
+  // event listener". Reads zoom/pan from refs to stay stable.
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      const rect = el.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      const z = zoomRef.current;
+      const p = panRef.current;
+      const factor = Math.exp(-e.deltaY * 0.0015);
+      const newZoom = Math.max(0.1, Math.min(3.0, z * factor));
+      if (newZoom === z) return;
+      const ratio = newZoom / z;
       setZoom(newZoom);
       setPan({
-        x: mx - (mx - pan.x) * ratio,
-        y: my - (my - pan.y) * ratio,
+        x: mx - (mx - p.x) * ratio,
+        y: my - (my - p.y) * ratio,
       });
-    }
-  }, [zoom, pan]);
+    };
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
+  }, []);
 
   const handlePointerDown = useCallback((e: React.PointerEvent) => {
     if (e.pointerType === 'mouse' && e.button !== 0) return;
@@ -472,7 +495,6 @@ export default function MosaicView({
     <div
       ref={containerRef}
       className="w-full h-full overflow-hidden bg-void cursor-grab active:cursor-grabbing select-none relative"
-      onWheel={handleWheel}
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}

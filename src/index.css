@@ -34,6 +34,9 @@
     --input: 230 15% 16%;
     --ring: 45 60% 50%;
     --radius: 0.5rem;
+    /* Themeable accent (overridden at runtime by ThemeContext). Default: Gold #D4AF37 */
+    --accent-rgb: 212 175 55;
+    --accent-2: #E0B84D;
   }
 
   html, body {
