@@ -49,12 +49,8 @@ async function ensureUserProfile(user: User, displayName = user.displayName || '
   await setDoc(userRef, {
     email: user.email,
     displayName,
-    xp: 0,
     badges: [],
     firstVisitDate: new Date().toISOString(),
-    currentStreak: 0,
-    longestStreak: 0,
-    lastCompletionDate: null,
     createdAt: serverTimestamp(),
     updatedAt: serverTimestamp(),
   }, { merge: true });

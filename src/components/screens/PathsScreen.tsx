@@ -10,6 +10,8 @@ interface PathsScreenProps {
   /** Apply this path as the map filter and jump to the Skills tab. */
   onShowOnMap: (pathId: string) => void;
   onSelectSkill: (skill: Skill) => void;
+  /** Mobile renders full-screen over the tab bar; desktop renders inside a panel. */
+  isMobile?: boolean;
 }
 
 function pathProgress(path: LearningPath, completedIds: string[]) {
@@ -22,6 +24,7 @@ export default function PathsScreen({
   activePathId,
   onShowOnMap,
   onSelectSkill,
+  isMobile = false,
 }: PathsScreenProps) {
   const [openPathId, setOpenPathId] = useState<string | null>(null);
   const openPath = openPathId ? PATH_MAP[openPathId] : null;
@@ -153,7 +156,7 @@ export default function PathsScreen({
           </div>
         </div>
 
-        <div className="absolute inset-x-0 bottom-[60px] border-t border-border bg-surface/95 p-3 backdrop-blur">
+        <div className={`absolute inset-x-0 ${isMobile ? 'bottom-[60px]' : 'bottom-0'} border-t border-border bg-surface/95 p-3 backdrop-blur`}>
           <button
             onClick={() => onShowOnMap(openPath.id)}
             className="flex w-full items-center justify-center gap-2 rounded-xl py-3 font-heading text-sm font-bold text-void transition-all hover:brightness-110"

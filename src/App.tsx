@@ -11,12 +11,15 @@ import SettingsSheet from '@/components/SettingsSheet';
 import BadgesView from '@/components/BadgesView';
 import AuthModal from '@/components/AuthModal';
 import CelebrationOverlay from '@/components/CelebrationOverlay';
-import XPToast from '@/components/XPToast';
+import Toast from '@/components/Toast';
 import { useAuth } from '@/hooks/useAuth';
 import { useUserData } from '@/hooks/useUserData';
 import { CATEGORY_KEYS } from '@/data/skills';
-import type { TabId, Skill, DomainKey } from '@/lib/types';
+import type { TabId, Skill } from '@/lib/types';
 import { useIsMobile } from '@/hooks/use-mobile';
+
+// All skills are always shown — the category filter UI was removed.
+const ALL_CATEGORIES = new Set(CATEGORY_KEYS);
 
 export default function App() {
   const { authError, clearAuthError, currentUser, signOutUser } = useAuth();
@@ -27,7 +30,6 @@ export default function App() {
   const [skillsView, setSkillsView] = useState<SkillsViewMode>('map');
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
   const [selectedPathId, setSelectedPathId] = useState<string | null>(null);
-  const [activeCategories, setActiveCategories] = useState<Set<DomainKey>>(new Set(CATEGORY_KEYS));
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isBadgesOpen, setIsBadgesOpen] = useState(false);
@@ -58,6 +60,11 @@ export default function App() {
     setSelectedSkill(null);
   }, []);
 
+  // Dismiss the Path/Saved/Profile panel back to the Skills map.
+  const handleCloseScreen = useCallback(() => {
+    setActiveTab('skills');
+  }, []);
+
   const handleSelectSkill = useCallback((skill: Skill) => {
     setSelectedSkill(skill);
     if (isMobile) setMobileSheetH(getSheetBounds().collapsed);
@@ -72,16 +79,6 @@ export default function App() {
     setActiveTab('skills');
     setSkillsView('map');
     setSelectedSkill(null);
-  }, []);
-
-  const handleToggleCategory = useCallback((cat: DomainKey) => {
-    setActiveCategories((prev) =>
-      prev.size === 1 && prev.has(cat) ? new Set(CATEGORY_KEYS) : new Set([cat])
-    );
-  }, []);
-
-  const handleShowAllCategories = useCallback(() => {
-    setActiveCategories(new Set(CATEGORY_KEYS));
   }, []);
 
   const handleShowCelebration = useCallback(() => {
@@ -99,13 +96,13 @@ export default function App() {
     setToastMessage('');
   }, []);
 
-  const handleCompleteSkill = useCallback((skillId: string, xp: number) => {
+  const handleCompleteSkill = useCallback((skillId: string) => {
     if (!currentUser) {
       setIsAuthOpen(true);
       handleShowToast('Sign in to save skill progress.');
       return false;
     }
-    return completeSkill(skillId, xp);
+    return completeSkill(skillId);
   }, [completeSkill, currentUser, handleShowToast]);
 
   const handleSheetPointerDown = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
@@ -161,9 +158,10 @@ export default function App() {
     <div className="fixed inset-0 overflow-hidden bg-void">
       <StarfieldBackground />
 
-      {/* Tab content */}
-      <div className="absolute inset-0 z-[1]">
-        {activeTab === 'skills' && (
+      {/* Skills map — base layer. Stays mounted on desktop so the
+          Path/Saved/Profile panel can float over it. */}
+      {(!isMobile || activeTab === 'skills') && (
+        <div className="absolute inset-0 z-[1]">
           <SkillsScreen
             skillsView={skillsView}
             onChangeSkillsView={setSkillsView}
@@ -171,41 +169,64 @@ export default function App() {
             favoriteIds={favoriteIds}
             onSelectSkill={handleSelectSkill}
             selectedSkillId={selectedSkill?.id || null}
-            activeCategories={activeCategories}
-            onToggleCategory={handleToggleCategory}
-            onShowAllCategories={handleShowAllCategories}
+            activeCategories={ALL_CATEGORIES}
             selectedPathId={selectedPathId}
           />
-        )}
-        {activeTab === 'paths' && (
-          <PathsScreen
-            completedIds={completedIds}
-            activePathId={selectedPathId}
-            onShowOnMap={handleShowPathOnMap}
-            onSelectSkill={handleSelectSkill}
-          />
-        )}
-        {activeTab === 'saved' && (
-          <SavedScreen
-            favoriteIds={favoriteIds}
-            completedIds={completedIds}
-            onSelectSkill={handleSelectSkill}
-            onBrowseSkills={() => handleChangeTab('skills')}
-          />
-        )}
-        {activeTab === 'profile' && (
-          <ProfileScreen
-            user={user}
-            currentUser={currentUser}
-            completedIds={completedIds}
-            favoriteIds={favoriteIds}
-            onSignIn={() => setIsAuthOpen(true)}
-            onSignOut={() => void signOutUser()}
-            onOpenSettings={() => setIsSettingsOpen(true)}
-            onOpenBadges={() => setIsBadgesOpen(true)}
-          />
-        )}
-      </div>
+        </div>
+      )}
+
+      {/* Path / Saved / Profile.
+          Desktop: a dismissible panel docked to the left, over the map.
+          Mobile: a full-screen view. */}
+      {activeTab !== 'skills' && (
+        <div
+          className={
+            isMobile
+              ? 'absolute inset-0 z-[1]'
+              : 'absolute left-3 top-3 bottom-[72px] w-[420px] max-w-[40vw] z-[55] rounded-2xl overflow-hidden border border-border bg-surface shadow-2xl'
+          }
+        >
+          {!isMobile && (
+            <button
+              onClick={handleCloseScreen}
+              className="absolute right-3 top-3 z-30 flex h-7 w-7 items-center justify-center rounded-md border border-border bg-surface-raised/90 text-ink-dim transition-colors hover:text-ink"
+              title="Close"
+              aria-label="Close"
+            >
+              <X size={15} />
+            </button>
+          )}
+          {activeTab === 'paths' && (
+            <PathsScreen
+              completedIds={completedIds}
+              activePathId={selectedPathId}
+              onShowOnMap={handleShowPathOnMap}
+              onSelectSkill={handleSelectSkill}
+              isMobile={isMobile}
+            />
+          )}
+          {activeTab === 'saved' && (
+            <SavedScreen
+              favoriteIds={favoriteIds}
+              completedIds={completedIds}
+              onSelectSkill={handleSelectSkill}
+              onBrowseSkills={() => handleChangeTab('skills')}
+            />
+          )}
+          {activeTab === 'profile' && (
+            <ProfileScreen
+              user={user}
+              currentUser={currentUser}
+              completedIds={completedIds}
+              favoriteIds={favoriteIds}
+              onSignIn={() => setIsAuthOpen(true)}
+              onSignOut={() => void signOutUser()}
+              onOpenSettings={() => setIsSettingsOpen(true)}
+              onOpenBadges={() => setIsBadgesOpen(true)}
+            />
+          )}
+        </div>
+      )}
 
       {/* Skill detail (right panel on desktop, bottom sheet on mobile) */}
       {selectedSkill && (
@@ -282,7 +303,7 @@ export default function App() {
       )}
 
       <CelebrationOverlay visible={showCelebration} />
-      <XPToast message={toastMessage} visible={showToast} onDone={handleToastDone} />
+      <Toast message={toastMessage} visible={showToast} onDone={handleToastDone} />
     </div>
   );
 }

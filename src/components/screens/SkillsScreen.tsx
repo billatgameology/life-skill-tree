@@ -1,7 +1,6 @@
 import { Map as MapIcon, List as ListIcon } from 'lucide-react';
 import MosaicView from '@/components/MosaicView';
 import RegistryView from '@/components/RegistryView';
-import { CATEGORIES, CATEGORY_KEYS, ALL_SKILLS } from '@/data/skills';
 import type { DomainKey, Skill } from '@/lib/types';
 
 export type SkillsViewMode = 'map' | 'list';
@@ -14,8 +13,6 @@ interface SkillsScreenProps {
   onSelectSkill: (skill: Skill) => void;
   selectedSkillId: string | null;
   activeCategories: Set<DomainKey>;
-  onToggleCategory: (cat: DomainKey) => void;
-  onShowAllCategories: () => void;
   selectedPathId: string | null;
 }
 
@@ -27,12 +24,8 @@ export default function SkillsScreen({
   onSelectSkill,
   selectedSkillId,
   activeCategories,
-  onToggleCategory,
-  onShowAllCategories,
   selectedPathId,
 }: SkillsScreenProps) {
-  const showingAll = activeCategories.size === CATEGORY_KEYS.length;
-
   return (
     <div className="relative h-full w-full">
       {/* Viz layer */}
@@ -46,7 +39,7 @@ export default function SkillsScreen({
             selectedPathId={selectedPathId}
           />
         ) : (
-          <div className="h-full w-full pt-[104px]">
+          <div className="h-full w-full pt-[72px]">
             <RegistryView
               completedIds={completedIds}
               favoriteIds={favoriteIds}
@@ -87,41 +80,6 @@ export default function SkillsScreen({
               );
             })}
           </div>
-        </div>
-
-        {/* Category filter chips */}
-        <div className="pointer-events-auto mt-2.5 flex gap-1.5 overflow-x-auto pb-1 scrollbar-hide">
-          <button
-            onClick={onShowAllCategories}
-            className="flex-shrink-0 rounded-full border px-2.5 py-1 text-[11px] font-heading font-semibold transition-colors"
-            style={{
-              backgroundColor: showingAll ? 'rgb(var(--accent-rgb) / 0.18)' : 'rgba(255,255,255,0.04)',
-              borderColor: showingAll ? 'rgb(var(--accent-rgb) / 0.55)' : '#2A2A3A',
-              color: showingAll ? 'rgb(var(--accent-rgb))' : '#7D7A8A',
-            }}
-          >
-            All <span className="opacity-60">{ALL_SKILLS.length}</span>
-          </button>
-          {CATEGORY_KEYS.map((cat) => {
-            const data = CATEGORIES[cat];
-            const isActive = activeCategories.size === 1 && activeCategories.has(cat);
-            const count = ALL_SKILLS.filter((s) => s.domain === cat).length;
-            return (
-              <button
-                key={cat}
-                onClick={() => onToggleCategory(cat)}
-                className="flex flex-shrink-0 items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-heading font-semibold transition-colors"
-                style={{
-                  backgroundColor: isActive ? `${data.color}22` : 'rgba(255,255,255,0.04)',
-                  borderColor: isActive ? `${data.color}88` : '#2A2A3A',
-                  color: isActive ? data.color : '#7D7A8A',
-                }}
-              >
-                {data.name}
-                <span className="opacity-60">{count}</span>
-              </button>
-            );
-          })}
         </div>
       </div>
     </div>

@@ -1,21 +1,8 @@
 import { useMemo } from 'react';
-import { Settings, Award, LogIn, Flame, Heart, Trophy, Zap, ChevronRight } from 'lucide-react';
+import { Settings, Award, LogIn, Heart, Trophy, ChevronRight } from 'lucide-react';
 import type { User as FirebaseUser } from 'firebase/auth';
 import type { UserData } from '@/lib/types';
 import { CATEGORIES, CATEGORY_KEYS, ALL_SKILLS } from '@/data/skills';
-
-const LEVELS = [
-  { level: 1, min: 0, max: 30, title: 'Seedling' },
-  { level: 2, min: 30, max: 75, title: 'Sprout' },
-  { level: 3, min: 75, max: 135, title: 'Explorer' },
-  { level: 4, min: 135, max: 210, title: 'Adventurer' },
-  { level: 5, min: 210, max: 300, title: 'Champion' },
-  { level: 6, min: 300, max: 999, title: 'Master' },
-];
-
-function getLevelInfo(xp: number) {
-  return LEVELS.find((l) => xp >= l.min && xp < l.max) || LEVELS[LEVELS.length - 1];
-}
 
 function ProgressRing({ pct }: { pct: number }) {
   const r = 30;
@@ -66,7 +53,6 @@ export default function ProfileScreen({
   const totalSkills = ALL_SKILLS.length;
   const done = completedIds.length;
   const pct = totalSkills ? Math.round((done / totalSkills) * 100) : 0;
-  const level = getLevelInfo(user?.xp ?? 0);
 
   const categoryStats = useMemo(
     () =>
@@ -116,8 +102,6 @@ export default function ProfileScreen({
   const stats = [
     { label: 'Skills learned', value: done, sub: `of ${totalSkills}`, Icon: Trophy, color: '#5B9B6B' },
     { label: 'Favorites', value: favoriteIds.length, sub: 'saved', Icon: Heart, color: '#E8628C' },
-    { label: 'Day streak', value: user.currentStreak, sub: 'days', Icon: Flame, color: '#E89066' },
-    { label: 'Total XP', value: user.xp, sub: `Lv ${level.level} · ${level.title}`, Icon: Zap, color: '#D4AF37' },
   ];
 
   return (

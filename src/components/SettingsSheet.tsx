@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { X, Check } from 'lucide-react';
 import type { User as FirebaseUser } from 'firebase/auth';
@@ -11,24 +10,6 @@ interface SettingsSheetProps {
   currentUser: FirebaseUser | null;
   onSignIn: () => void;
   onSignOut: () => void;
-}
-
-function Toggle({ initial }: { initial: boolean }) {
-  const [on, setOn] = useState(initial);
-  return (
-    <button
-      onClick={() => setOn((v) => !v)}
-      className="relative h-6 w-11 flex-shrink-0 rounded-full transition-colors"
-      style={{ backgroundColor: on ? 'rgb(var(--accent-rgb))' : 'rgba(255,255,255,0.12)' }}
-      role="switch"
-      aria-checked={on}
-    >
-      <span
-        className="absolute top-0.5 h-5 w-5 rounded-full bg-white shadow transition-all"
-        style={{ left: on ? '22px' : '2px' }}
-      />
-    </button>
-  );
 }
 
 export default function SettingsSheet({
@@ -105,29 +86,6 @@ export default function SettingsSheet({
                   );
                 })}
               </div>
-            </section>
-
-            {/* Notifications (local-only placeholders) */}
-            <section className="px-5 pb-5">
-              <p className="mb-2.5 text-[10px] font-heading font-bold uppercase tracking-wider text-ink-dim">
-                Notifications
-              </p>
-              {[
-                { label: 'Daily reminder', sub: 'A nudge at the time you choose', on: true },
-                { label: 'Path progress', sub: 'When you complete a path skill', on: true },
-                { label: 'Streak reminders', sub: "Don't break the chain", on: false },
-              ].map((row) => (
-                <div
-                  key={row.label}
-                  className="flex items-center gap-3 border-b border-border/60 py-3 last:border-0"
-                >
-                  <div className="min-w-0 flex-1">
-                    <p className="text-sm font-heading font-semibold text-ink">{row.label}</p>
-                    <p className="text-xs text-ink-muted">{row.sub}</p>
-                  </div>
-                  <Toggle initial={row.on} />
-                </div>
-              ))}
             </section>
 
             {/* Account */}

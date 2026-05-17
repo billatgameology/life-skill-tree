@@ -59,7 +59,7 @@ export default function WelcomeOverlay({ onComplete }: WelcomeOverlayProps) {
             className="absolute bottom-3 left-0 right-0 text-center"
           >
             <h1 className="font-display text-2xl text-ink drop-shadow-lg">
-              Welcome to SkillBlox
+              Welcome to Life Skill Tree
             </h1>
           </motion.div>
         </div>

@@ -1,12 +1,12 @@
 import { motion, AnimatePresence } from 'framer-motion';
 
-interface XPToastProps {
+interface ToastProps {
   message: string;
   visible: boolean;
   onDone: () => void;
 }
 
-export default function XPToast({ message, visible, onDone }: XPToastProps) {
+export default function Toast({ message, visible, onDone }: ToastProps) {
   return (
     <AnimatePresence>
       {visible && (
