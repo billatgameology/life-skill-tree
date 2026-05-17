@@ -20,7 +20,7 @@ export const THEMES: ThemeOption[] = [
   { id: 'plum', name: 'Plum', accent: '#B884E0', accent2: '#7A8FE0', rgb: '184 132 224' },
 ];
 
-export const THEME_STORAGE_KEY = 'skillblox_theme';
+export const THEME_STORAGE_KEY = 'lifeskilltree_theme';
 
 export interface ThemeContextValue {
   theme: ThemeOption;

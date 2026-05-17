@@ -148,9 +148,6 @@ export default function RegistryView({
               {renderSortHeader('Difficulty', 'difficulty')}
               {renderSortHeader('Time', 'time')}
               <th className="px-3 py-2 text-left text-[10px] font-heading font-bold uppercase tracking-wider text-ink-dim">
-                XP
-              </th>
-              <th className="px-3 py-2 text-left text-[10px] font-heading font-bold uppercase tracking-wider text-ink-dim">
                 Status
               </th>
             </tr>
@@ -158,7 +155,7 @@ export default function RegistryView({
           <tbody>
             {filteredSkills.length === 0 ? (
               <tr>
-                <td colSpan={7} className="px-3 py-12 text-center text-xs text-ink-dim">
+                <td colSpan={6} className="px-3 py-12 text-center text-xs text-ink-dim">
                   {statusFilter === 'favorites'
                     ? 'No favorites match. Tap the heart on a skill to save it here.'
                     : 'Nothing matches. Try clearing the search or filter.'}
@@ -192,7 +189,6 @@ export default function RegistryView({
                     <td className="px-3 py-2 text-xs text-ink-dim">{skill.level}</td>
                     <td className="px-3 py-2 text-xs capitalize text-ink-dim">{skill.difficulty}</td>
                     <td className="px-3 py-2 text-xs text-ink-dim">{skill.estimatedMinutes}m</td>
-                    <td className="px-3 py-2 text-xs font-bold text-glow-gold">+{skill.xp}</td>
                     <td className="px-3 py-2">
                       {state === 'completed' ? (
                         <span className="text-[10px] font-heading font-semibold text-glow-green">Done</span>

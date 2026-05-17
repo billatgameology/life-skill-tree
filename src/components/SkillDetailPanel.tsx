@@ -7,7 +7,7 @@ import { CATEGORIES, ALL_SKILLS, getChildren } from '@/data/skills';
 interface SkillDetailPanelProps {
   skill: Skill | null;
   completedIds: string[];
-  onComplete: (skillId: string, xp: number) => boolean;
+  onComplete: (skillId: string) => boolean;
   onShowCelebration: () => void;
   onShowToast: (msg: string) => void;
   favoriteIds: string[];
@@ -105,7 +105,7 @@ export default function SkillDetailPanel({
 
   const handleComplete = () => {
     if (!skill || isCompleted || justCompleted) return;
-    const completed = onComplete(skill.id, skill.xp);
+    const completed = onComplete(skill.id);
     if (!completed) return;
 
     if (isFavorite) {
@@ -115,7 +115,7 @@ export default function SkillDetailPanel({
     setJustCompletedSkillId(skill.id);
     triggerConfetti();
     onShowCelebration();
-    onShowToast(`+${skill.xp} XP earned!`);
+    onShowToast('Skill completed!');
   };
 
   const handleToggleFavorite = () => {
@@ -200,9 +200,6 @@ export default function SkillDetailPanel({
                   </span>
                 </div>
                 <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
-                  <span className="inline-flex items-center gap-1 bg-surface-raised text-glow-gold font-heading font-bold text-[10px] px-2 py-0.5 rounded-full border border-border">
-                    +{skill.xp} XP
-                  </span>
                   <span className="inline-flex items-center bg-surface-raised text-ink-dim font-heading font-semibold text-[10px] capitalize px-2 py-0.5 rounded-full border border-border">
                     {skill.difficulty}
                   </span>
@@ -215,8 +212,8 @@ export default function SkillDetailPanel({
                         onClick={handleToggleFavorite}
                         className={`inline-flex h-6 items-center justify-center rounded-full border px-2 text-[10px] font-heading font-bold transition-colors ${
                           isFavorite
-                            ? 'bg-glow-gold/15 border-glow-gold/50 text-glow-gold'
-                            : 'bg-surface-raised border-border text-ink-dim hover:text-ink'
+                            ? 'bg-rose-500/20 border-rose-400/60 text-rose-300'
+                            : 'bg-surface-raised border-rose-400/30 text-rose-300/80 hover:text-rose-200'
                         }`}
                         title={isFavorite ? 'Favorited' : 'Add to favorites'}
                         aria-label={isFavorite ? 'Favorited' : 'Add to favorites'}
@@ -270,19 +267,16 @@ export default function SkillDetailPanel({
               {skill.title}
             </h2>
 
-            <span className="inline-flex items-center gap-1 bg-surface-raised text-glow-gold font-heading font-bold text-[11px] px-3 py-0.5 rounded-full border border-border">
-              +{skill.xp} XP
-            </span>
             {!isEffectivelyCompleted && (
               <button
                 onClick={handleToggleFavorite}
                 className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full border text-[11px] font-heading font-semibold mt-3 ${
                   isFavorite
-                    ? 'bg-glow-gold/15 border-glow-gold/50 text-glow-gold'
-                    : 'bg-surface-raised border-border text-ink-dim hover:text-ink'
+                    ? 'bg-rose-500/20 border-rose-400/60 text-rose-300'
+                    : 'bg-surface-raised border-rose-400/30 text-rose-300/80 hover:text-rose-200'
                 }`}
               >
-                <Star size={11} className={isFavorite ? 'fill-glow-gold' : ''} />
+                <Star size={11} className={isFavorite ? 'fill-rose-300 text-rose-300' : ''} />
                 {isFavorite ? 'Favorited' : 'Add to Favorites'}
               </button>
             )}
@@ -300,16 +294,13 @@ export default function SkillDetailPanel({
           {skill.learnerPromise}
         </p>
 
-        {/* Difficulty + Time + XP badge */}
+        {/* Difficulty + Time */}
         <div className="flex items-center gap-2 flex-wrap">
           <span className="px-2 py-0.5 rounded-md bg-surface-raised border border-border text-[11px] text-ink-dim font-heading font-semibold capitalize">
             {skill.difficulty}
           </span>
           <span className="px-2 py-0.5 rounded-md bg-surface-raised border border-border text-[11px] text-ink-dim font-heading font-semibold">
             {skill.estimatedMinutes} min
-          </span>
-          <span className="px-2 py-0.5 rounded-md bg-glow-gold/10 border border-glow-gold/30 text-[11px] text-glow-gold font-heading font-bold">
-            +{skill.xp} XP
           </span>
         </div>
 

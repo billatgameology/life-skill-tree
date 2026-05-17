@@ -31,7 +31,6 @@ export interface Skill {
   difficulty: Difficulty;
   status: SkillStatus;
   suggestedPrerequisites: string[];
-  xp: number;
   estimatedMinutes: number;
   youWillLearn: string[];
   miniChallenge: string;
@@ -57,12 +56,8 @@ export type View = 'home' | 'profile' | 'badges';
 export type TabId = 'skills' | 'paths' | 'saved' | 'profile';
 
 export interface UserData {
-  xp: number;
   completedSkillIds: string[];
   favorite: string[];
   badges: string[];
   firstVisitDate: string;
-  currentStreak: number;
-  longestStreak: number;
-  lastCompletionDate: string | null;
 }
