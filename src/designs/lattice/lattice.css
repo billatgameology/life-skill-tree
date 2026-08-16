@@ -1,0 +1,89 @@
+/* LATTICE — scoped styles. Dark solder-mask green, copper traces, HASL gold.
+   Fonts referenced here are already loaded by index.html. */
+
+.lattice {
+  font-family: 'Archivo', 'Inter', sans-serif;
+}
+
+.lattice .lt-mono {
+  font-family: 'JetBrains Mono', 'Cousine', monospace;
+}
+
+.lattice ::selection {
+  background: rgb(240 195 60 / 35%);
+}
+
+.lattice :focus-visible {
+  outline: 2px solid var(--lt-gold);
+  outline-offset: 2px;
+}
+
+/* Drilled-via texture over the solder mask. */
+.lattice .lt-board-grid {
+  background-image: radial-gradient(rgb(233 244 235 / 5.5%) 1px, transparent 1.4px);
+  background-size: 24px 24px;
+}
+
+.lattice .lt-clamp2 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.lattice .lt-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #3a5c48 transparent;
+}
+
+/* Warm glow on live (frontier) pads. */
+@keyframes lt-live-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 0 rgb(240 195 60 / 0%),
+      0 0 12px rgb(240 195 60 / 20%);
+  }
+
+  50% {
+    box-shadow:
+      0 0 0 4px rgb(240 195 60 / 12%),
+      0 0 22px rgb(240 195 60 / 38%);
+  }
+}
+
+.lattice .lt-live-pad {
+  animation: lt-live-pulse 2.8s ease-in-out infinite;
+}
+
+/* Current flowing along a powered trace into unsoldered work. */
+@keyframes lt-current {
+  to {
+    stroke-dashoffset: -28;
+  }
+}
+
+.lattice .lt-current {
+  stroke-dasharray: 3 11;
+  animation: lt-current 1.4s linear infinite;
+}
+
+@keyframes lt-blink {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.lattice .lt-blink {
+  animation: lt-blink 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lattice *,
+  .lattice *::before,
+  .lattice *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

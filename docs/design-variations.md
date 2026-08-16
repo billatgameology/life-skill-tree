@@ -69,24 +69,74 @@ typography, motion. A design should feel like a **different product**, not a re-
   radix/shadcn (`src/components/ui/`), embla-carousel, recharts, vaul, date-fns,
   canvas-confetti.
 - Works on desktop **and** mobile (one responsive codebase; test a ~390px viewport).
-- Handles the real scale: 233 skills / 15 domains must stay browsable — no single
-  undifferentiated wall of cards, no unusably tiny tap targets.
+- Handles the real scale: 233 skills must stay reachable — no single
+  undifferentiated wall of cards, no unusably tiny tap targets. The domain
+  taxonomy is *available data*, *not* a required organizing principle; a design
+  may ignore it entirely as long as skills stay findable its own way.
 - Skill detail must present the full content: summary/learnerPromise, whyItMatters,
   realLifeUses, youWillLearn, miniChallenge, steps, completionCriteria,
   commonProblems, tips, prerequisites ("builds on") and dependents ("leads to" —
   via `getChildren`), difficulty, estimatedMinutes. It's long — design for scrolling.
-- Required capabilities: browse/explore, search or find, open detail, mark complete
-  (auth-gated), favorite, per-domain + overall progress.
+- Required capabilities: some way to explore/find skills, open detail, mark complete
+  (auth-gated), favorite, and visible progress — overall plus within whatever
+  structure the design actually uses (per-domain progress is available data, not a
+  layout mandate).
+
+## Structural differentiation — the real bar
+
+A hard lesson from designs #1–#9: seven of nine ended up with the SAME interaction
+skeleton — *partition skills by domain → list within partition → detail page* — in
+different costumes (chapters, drawers, beds, pegboard sections, and frequency bands
+are all the same noun). A new metaphor + palette on that skeleton is a re-skin, not
+a new design, **and fails review regardless of how good the metaphor is.**
+
+A design's identity = its **organizing axis** (what structures the collection) +
+its **core verb** (what the user actually does). New designs must differ from ALL
+existing designs on at least one of these, preferably both. Axes already used:
+
+- Domain taxonomy → list → detail (the default; used by most of #1–#9 — CLOSED,
+  do not build another)
+- Spatial pan/zoom territory map (Honeycomb)
+- Deterministic sequence along a line w/ prev-next travel + cross-cutting journeys
+  (Interchange)
+
+Axes claimed by designs #10–#15 (all added 2026-08-16): the prerequisite DAG as
+navigation itself (Lattice) · the user's completion frontier as the home surface
+(Frontier) · time / estimatedMinutes-first (Tempo) · place cross-cutting domains
+(Rooms) · anti-browsing, one dealt skill (Today) · one continuous global path
+(Trail).
+
+Axes still open: dialogue/triage-first concierge ("what's going on?" as the whole
+interface) · scheduling skills onto a real calendar week · serendipity/shuffle as
+the primary verb (Today's redeal only brushes it) · comparison/duel mechanics ·
+social/shared surfaces (out of scope while the app is single-user). Novel
+interaction mechanics count too, when they ARE the design rather than decoration.
+
+## Judging criteria (for concept competitions)
+
+When generating competing concepts and judging them, score on:
+
+1. **Structural differentiation** — organizing axis + core verb vs EVERY existing
+   design. A domain→list→detail skeleton scores 1–2 here no matter the metaphor.
+2. **Fitness for its own promise** — judge usability against what THIS design
+   promises, not against taxonomy browsing. A daily-draw design isn't "bad at
+   goal-directed lookup"; a search escape-hatch covers that. Do not let the
+   "distracted user finds a skill fast" lens veto structural novelty — that lens,
+   applied as a universal criterion, is exactly what produced nine list apps.
+   Every design still needs *an* escape hatch to any specific skill (search is
+   enough), but that's a checkbox, not the center of the score.
+3. **Feasibility** — one focused session, existing deps only, honest scope.
+4. **Delight/memorability** — would someone reopen it just because of how it feels?
 
 ## Process
 
-1. **Concept before code.** Write down: name, metaphor, mood/palette (hex values),
-   desktop layout, mobile layout, navigation model, detail presentation, progress
-   presentation. Check it against the differentiation ledger below — if it shares a
-   metaphor OR a mood with an existing design, pick again. Generating several
-   competing concepts and judging them (differentiation / usability at 233-skill
-   scale / feasibility / delight) produces much better results than running with
-   the first idea.
+1. **Concept before code.** Write down: organizing axis, core verb, name, metaphor,
+   mood/palette (hex values), desktop layout, mobile layout, navigation model,
+   detail presentation, progress presentation. Check it against the structural
+   axes above AND the ledger below — if it shares an organizing axis with an
+   existing design, pick again; metaphor/mood overlap is secondary. Generating
+   several competing concepts and judging them on the criteria above produces much
+   better results than running with the first idea.
 2. **Build** under `src/designs/<slug>/`. Root component: `index.tsx` default export.
 3. **Register**: append a `DesignMeta` entry in `src/designs/registry.tsx` — including
    a small hand-drawn SVG `preview` motif for the gallery card (look at the existing
@@ -113,9 +163,16 @@ differ from ALL entries in metaphor, navigation model, and mood.
 | 7 | Codex | `/codex` | Life-skills field guide / almanac: domains are chapters, skills are numbered entries, completion is a field-mark check | Warm paper (#F4F1EA), moss ink (#2A2F23), faded gold (#B89A4D), print serif, scholarly quiet | Chapter table of contents rail → chapter spread of skill cards → full-page specimen entry; search jumps across chapters |
 | 8 | Garden | `/garden` | Seasonal garden: domains are raised beds, skills are plants/seedlings, completion makes them bloom | Soft cream (#F9F7F2), leaf green (#5A7D3A), soil brown (#6B4E3D), rounded organic type, watercolor calm | Bird's-eye bed grid → tap a plant → detail tag; mobile bed tabs + bottom sheet |
 | 9 | Workshop | `/workshop` | Workshop pegboard: domains are tool-wall sections, skills are hanging tool cards, completion adds a brass check tag | Pegboard gray (#E8E6E1), tool-steel (#2C2E33), safety yellow (#F4B400), industrial sans + mono, utilitarian | Pegboard grid by section → tool card → side drawer spec sheet; mobile section accordions + bottom sheet |
+| 10 | Lattice | `/lattice` | Printed circuit board: skills = pads, prerequisite edges = copper traces, connected components = nets, isolated skills = loose pins, completion = a soldered joint that lights every downstream trace — warmth, never a lock | Dark solder-mask green (#0E2318), copper (#D98E4A) and HASL gold (#F0C33C), silkscreen-white mono labels; Archivo + JetBrains Mono | Home board (live-edge frontier strip → net directory with real-topology minimaps → loose-pin bin) → scrollable per-net trace map with pre-routed chamfered traces → pad datasheet whose upstream/downstream trace links are the primary way around; `/`-key Probe finder |
+| 11 | Frontier | `/frontier` | Expedition at dawn: completions are the cairn trail behind camp, the frontier is the actionable edge (all prereqs covered), the rest are reachable ridges — never locked; each advance visibly migrates the territory | Deep indigo night giving way to coral-amber horizon light (#10162B/#FF8A5C), bold editorial Archivo, mono expedition labels, quiet contour textures | Progress-banded base camp (behind → frontier → further out) with a curated reshuffleable frontier hand; routed survey pages; full-frontier index + day-by-day logbook; `/`-key Scout escape hatch |
+| 12 | Tempo | `/tempo` | Precision chronograph: minutes are the shelf, skills are what fits the time you have, sessions are 2–3 skills assembled to sum exactly to a budget, completion is minutes banked in a ledger | Crisp white watch-dial (#FAFAF7), near-black hands (#121316), one sweep-hand red (#C81E14), chunky tabular numerals; Space Grotesk + JetBrains Mono | Minute dial (5/10/15/20/30+) reshapes one duration-banded quick-win list → skill spec sheet; session builder with swappable slots + persistent run strip; invested ledger with month-by-month rhythm; `/`-key finder escape hatch |
+| 13 | Rooms | `/rooms` | A home and its surroundings at dusk: skills live in the PLACE they happen (kitchen, laundry corner, front door, street, shops, your phone) — places deliberately cross-cut domains, and each completion turns on another light in the house | Cozy evening interior: deep teal night (#1B2C31), lamp amber (#F0B860), warm cream, muted terracotta/rose/sage room tints; Source Serif 4 + Atkinson Hyperlegible | Cutaway dwelling SVG floor plan (desktop) / illustrated room list (mobile) → room page with level shelves + "also passes through here" → routed long-form skill page; `/`-key search overlay; favorites as a corkboard strip |
+| 14 | Today | `/today` | A daily dealt card: the app opens onto exactly one skill; "not today" spends a small hand of redeals, mood chips re-deal in context, completion closes the day | Near-black charcoal stage (#131118), one saturated card color per domain, oversized Space Grotesk, confetti celebration, zero guilt mechanics | No browsing: deterministic per-day deal (date + completed-set seed, domain rotates day over day) → full-page detail → done-for-today with a tomorrow hint; quiet-corner search + A–Z index and a past-days log as escape hatches |
+| 15 | Trail | `/trail` | One continuous hiking trail: all 233 skills as waypoints on a single serpentine path, chunked into 15 derived named legs, completion = a berry paint blaze, favorites = gold flags, progress = distance traveled / furthest point | Parchment topographic map (#F0E8D2) with faint contour rings, dashed pine path (#3F5A2E), berry blazes (#8F3B45); Source Serif 4 italics + Nunito + Cousine | One scrollable global path (trailhead board → legs → trail's end) with a Continue jump to the first unblazed waypoint, jump-to-leg index overlay, `/`-key waypoint finder, waypoint page with global prev/next onward travel |
 
-Directions intentionally still open (claim one or invent your own): periodic-table /
-specimen-drawer grid (dense systematic completeness) · boarding-pass / itinerary.
+Directions intentionally still open (claim one or invent your own): see the
+"Axes still open" list in the Structural differentiation section above — and
+remember the bar is a new organizing axis or core verb, not a new metaphor.
 
 ## Design batch #3-5 concepts
 

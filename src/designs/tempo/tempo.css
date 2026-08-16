@@ -1,0 +1,48 @@
+/* Tempo design — scoped styles. Font families are already loaded globally. */
+
+.tp-sans {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+.tp-display {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+}
+.tp-mono {
+  font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* The wordmark dial's sweep hand — one revolution per minute, like a seconds hand. */
+.tp-sweep-hand {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  animation: tp-sweep 60s linear infinite;
+}
+@keyframes tp-sweep {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Recording dot while a session is running. */
+.tp-rec {
+  animation: tp-rec 2s ease-in-out infinite;
+}
+@keyframes tp-rec {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tp-sweep-hand,
+  .tp-rec {
+    animation: none;
+  }
+}
