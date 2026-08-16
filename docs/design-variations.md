@@ -106,11 +106,12 @@ differ from ALL entries in metaphor, navigation model, and mood.
 |---|------|-------|----------|--------------|------------------|
 | 1 | Honeycomb | `/honeycomb` | Hex-territory star map (RPG skill tree) | Dark, cosmic, gold glow, Cinzel serif | Pan/zoom spatial map + sortable registry table, bottom tabs |
 | 2 | Interchange | `/interchange` | City transit system: domains = lines, skills = stations, levels = fare zones, paths = journeys, completion = a dated VISITED stamp | Light "municipal modernism": ink on map paper (#F7F6F2), flat wayfinding, Overpass/Overpass Mono + Source Serif 4 | Page-based altitudes (network board → platform diagram → station page) with real routes/back-button, desktop line-index rail, mobile bottom tabs, `/`-key station finder |
+| 3 | Manila | `/manila` | Mid-century card catalog + personal dossier: domains = wooden drawers, skills = typed index cards with call numbers (04.07), levels = tier dividers, paths = dossier folders with routing slips, completion = red FILED date stamp | Warm mid-tone "reading room": walnut chrome + cream cards, Courier Prime/Special Elite typewriter labels with Atkinson Hyperlegible body, brass + stamp-pad red | Cabinet grid → drawer riffle (overlapping card edges that lift on hover) → pulled card; desktop master-detail blotter panel, mobile bottom tabs, `/`-key Lookup request card, derived "Pulled for you" tray |
 
 Directions intentionally still open (claim one or invent your own): editorial
 field-guide / almanac (paper, chapters, print typography) · periodic-table /
 specimen-drawer grid (dense systematic completeness) · garden / seasonal growth
-(organic, time-of-day rhythm) · workshop pegboard · radio dial · card catalog ·
+(organic, time-of-day rhythm) · workshop pegboard · radio dial / instrument panel ·
 boarding-pass / itinerary.
 
 ## Notes from building design #2 (useful precedents)

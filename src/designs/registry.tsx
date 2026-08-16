@@ -89,6 +89,33 @@ const interchangePreview = (
   </svg>
 );
 
+const manilaPreview = (
+  <svg viewBox="0 0 140 90" className="h-full w-full" aria-hidden="true">
+    {/* Cabinet face */}
+    <rect x="18" y="8" width="104" height="74" rx="4" fill="#3E2F23" stroke="#241C16" strokeWidth="1.5" />
+    {/* Drawer rows */}
+    {[14, 38, 62].map((y, i) => (
+      <g key={i}>
+        <rect x="24" y={y} width="92" height="18" rx="2" fill="#46362A" stroke="#241C16" strokeWidth="1" />
+        {/* Brass label frame with cream card */}
+        <rect x="40" y={y + 3} width="44" height="9" rx="1.5" fill="#C9A45C" opacity="0.85" />
+        <rect x="42" y={y + 4.5} width="40" height="6" rx="1" fill="#F9F2E0" />
+        {/* Brass pull */}
+        <rect x="94" y={y + 6.5} width="14" height="3" rx="1.5" fill="#C9A45C" />
+      </g>
+    ))}
+    {/* A pulled index card */}
+    <g transform="rotate(-5 108 30)">
+      <rect x="92" y="16" width="40" height="28" rx="1.5" fill="#F9F2E0" stroke="#241C16" strokeWidth="1" />
+      <rect x="92" y="16" width="40" height="3" fill="#C46A5A" />
+      <line x1="96" y1="26" x2="126" y2="26" stroke="#A9BFCB" strokeWidth="1" />
+      <line x1="96" y1="31" x2="120" y2="31" stroke="#A9BFCB" strokeWidth="1" />
+      {/* FILED stamp */}
+      <rect x="106" y="33" width="22" height="8" rx="1" fill="none" stroke="#B3472F" strokeWidth="1.3" transform="rotate(-6 117 37)" />
+    </g>
+  </svg>
+);
+
 export const DESIGNS: DesignMeta[] = [
   {
     slug: 'honeycomb',
@@ -113,5 +140,17 @@ export const DESIGNS: DesignMeta[] = [
     addedDate: '2026-08-16',
     preview: interchangePreview,
     Component: lazy(() => import('@/designs/interchange')),
+  },
+  {
+    slug: 'manila',
+    name: 'Manila',
+    tagline: 'A card catalog of everyday competence — pull a card, stamp it FILED.',
+    description:
+      'A mid-century archive: 15 wooden drawers of typed index cards, riffled edges you lift to read, dossier folders with routing slips, and a red date stamp for every skill you master.',
+    vibe: ['Warm', 'Card catalog', 'Typewriter', 'Date stamps'],
+    accent: '#C9A45C',
+    addedDate: '2026-08-16',
+    preview: manilaPreview,
+    Component: lazy(() => import('@/designs/manila')),
   },
 ];

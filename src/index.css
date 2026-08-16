@@ -13,6 +13,19 @@
   .ic-serif {
     font-family: 'Source Serif 4', Georgia, serif;
   }
+  /* Manila design font stacks (scoped utilities; see src/designs/manila/) */
+  .ma-type {
+    font-family: 'Courier Prime', 'Courier New', monospace;
+  }
+  .ma-stamp {
+    font-family: 'Special Elite', 'Courier Prime', monospace;
+  }
+  .ma-body {
+    font-family: 'Atkinson Hyperlegible', 'Inter', system-ui, sans-serif;
+  }
+  .ma-chrome {
+    font-family: 'Archivo', 'Inter', system-ui, sans-serif;
+  }
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
