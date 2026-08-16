@@ -106,12 +106,13 @@ differ from ALL entries in metaphor, navigation model, and mood.
 |---|------|-------|----------|--------------|------------------|
 | 1 | Honeycomb | `/honeycomb` | Hex-territory star map (RPG skill tree) | Dark, cosmic, gold glow, Cinzel serif | Pan/zoom spatial map + sortable registry table, bottom tabs |
 | 2 | Interchange | `/interchange` | City transit system: domains = lines, skills = stations, levels = fare zones, paths = journeys, completion = a dated VISITED stamp | Light "municipal modernism": ink on map paper (#F7F6F2), flat wayfinding, Overpass/Overpass Mono + Source Serif 4 | Page-based altitudes (network board → platform diagram → station page) with real routes/back-button, desktop line-index rail, mobile bottom tabs, `/`-key station finder |
+| 3 | Fieldbook | `/fieldbook` | Naturalist field journal: domains = chapters, skills = observations, favorites = pinned specimens, completion = a dated field mark | Sun-faded botanical paper (#F2E7D5), forest ink, terracotta annotations, literary serif | Clothbound chapter rail → searchable observation folio → routed long-form field note; horizontal chapter tabs on mobile |
+| 4 | Workbench | `/workbench` | Community maker shop: domains = parts drawers, skills = job cards, completion = punched work orders, favorites = ready rack | Tactile plywood, enamel blue, safety orange, graphite; sturdy industrial typography | Drawer bank → three level-based pegboard lanes → routed clipped instruction sheet; horizontally scrollable drawer rack on mobile |
+| 5 | Shortwave | `/shortwave` | Analog radio receiver: domains = frequency bands, skills = broadcasts, levels = dayparts, completion = logged reception, favorites = presets | Bright 1970s broadcast studio: apricot, aubergine, electric cyan, tomato, cream | Frequency dial → level-grouped broadcast schedule → routed transmission log; global scanner and preset switch |
 
-Directions intentionally still open (claim one or invent your own): editorial
-field-guide / almanac (paper, chapters, print typography) · periodic-table /
+Directions intentionally still open (claim one or invent your own): periodic-table /
 specimen-drawer grid (dense systematic completeness) · garden / seasonal growth
-(organic, time-of-day rhythm) · workshop pegboard · radio dial · card catalog ·
-boarding-pass / itinerary.
+(organic, time-of-day rhythm) · card catalog · boarding-pass / itinerary.
 
 ## Notes from building design #2 (useful precedents)
 
