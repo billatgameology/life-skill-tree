@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 @layer utilities {
+  /* Interchange design font stacks (scoped utilities; see src/designs/interchange/) */
+  .ic-sans {
+    font-family: 'Overpass', 'Inter', system-ui, sans-serif;
+  }
+  .ic-mono {
+    font-family: 'Overpass Mono', ui-monospace, 'SF Mono', monospace;
+  }
+  .ic-serif {
+    font-family: 'Source Serif 4', Georgia, serif;
+  }
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
