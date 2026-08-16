@@ -108,6 +108,8 @@ export function useUserData() {
   const [user, setUser] = useState<UserData | null>(null);
   const [loaded, setLoaded] = useState(false);
   const [syncError, setSyncError] = useState('');
+  // skillId -> local completion date ("YYYY-MM-DD"), derived from completion docs
+  const [completionDates, setCompletionDates] = useState<Record<string, string>>({});
 
   useEffect(() => {
     if (authLoading) return;
@@ -122,6 +124,7 @@ export function useUserData() {
       if (!currentUser || !db) {
         if (!cancelled) {
           setUser(createEmptyUser());
+          setCompletionDates({});
           setLoaded(true);
         }
         return;
@@ -159,6 +162,11 @@ export function useUserData() {
       }, { merge: true }), FIRESTORE_SYNC_TIMEOUT_MS);
 
       if (!cancelled) {
+        const dates: Record<string, string> = {};
+        for (const completion of completionDocs) {
+          if (completion.completedDate) dates[completion.skillId] = completion.completedDate;
+        }
+        setCompletionDates(dates);
         setUser(nextUser);
         setLoaded(true);
       }
@@ -186,6 +194,8 @@ export function useUserData() {
         completedSkillIds: [...prev.completedSkillIds, skillId],
       };
     });
+
+    setCompletionDates((prev) => (prev[skillId] ? prev : { ...prev, [skillId]: getLocalDateKey() }));
 
     void saveSkillCompletion(currentUser.uid, skillId).catch((error: unknown) => {
       const message = error instanceof Error ? error.message : 'Firestore sync failed.';
@@ -239,5 +249,6 @@ export function useUserData() {
     syncError,
     completeSkill,
     toggleFavorite,
+    completionDates,
   };
 }

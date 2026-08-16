@@ -1,4 +1,5 @@
-import { Map as MapIcon, List as ListIcon } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Map as MapIcon, List as ListIcon, LayoutGrid } from 'lucide-react';
 import MosaicView from '@/components/MosaicView';
 import RegistryView from '@/components/RegistryView';
 import type { DomainKey, Skill } from '@/lib/types';
@@ -60,25 +61,35 @@ export default function SkillsScreen({
             </p>
             <h1 className="truncate font-display text-lg text-ink">Skill Tree</h1>
           </div>
-          <div className="flex flex-shrink-0 items-center rounded-full border border-border bg-surface-raised/80 p-0.5 backdrop-blur">
-            {([
-              { id: 'map' as SkillsViewMode, label: 'Map', Icon: MapIcon },
-              { id: 'list' as SkillsViewMode, label: 'List', Icon: ListIcon },
-            ]).map((opt) => {
-              const isActive = skillsView === opt.id;
-              return (
-                <button
-                  key={opt.id}
-                  onClick={() => onChangeSkillsView(opt.id)}
-                  className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-[11px] font-heading font-bold transition-colors ${
-                    isActive ? 'bg-glow-gold/20 text-glow-gold' : 'text-ink-dim hover:text-ink'
-                  }`}
-                >
-                  <opt.Icon size={12} />
-                  {opt.label}
-                </button>
-              );
-            })}
+          <div className="flex flex-shrink-0 items-center gap-2">
+            <Link
+              to="/"
+              title="All designs"
+              aria-label="Back to the design gallery"
+              className="flex h-8 w-8 items-center justify-center rounded-full border border-border bg-surface-raised/80 text-ink-dim backdrop-blur transition-colors hover:text-ink"
+            >
+              <LayoutGrid size={13} />
+            </Link>
+            <div className="flex items-center rounded-full border border-border bg-surface-raised/80 p-0.5 backdrop-blur">
+              {([
+                { id: 'map' as SkillsViewMode, label: 'Map', Icon: MapIcon },
+                { id: 'list' as SkillsViewMode, label: 'List', Icon: ListIcon },
+              ]).map((opt) => {
+                const isActive = skillsView === opt.id;
+                return (
+                  <button
+                    key={opt.id}
+                    onClick={() => onChangeSkillsView(opt.id)}
+                    className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-[11px] font-heading font-bold transition-colors ${
+                      isActive ? 'bg-glow-gold/20 text-glow-gold' : 'text-ink-dim hover:text-ink'
+                    }`}
+                  >
+                    <opt.Icon size={12} />
+                    {opt.label}
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
