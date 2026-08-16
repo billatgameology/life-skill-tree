@@ -1,0 +1,69 @@
+/* Rooms — cozy evening interior. All rules scoped under .rm-root. */
+
+.rm-serif {
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+.rm-body {
+  font-family: 'Atkinson Hyperlegible', 'Inter', system-ui, sans-serif;
+}
+
+.rm-root ::selection {
+  background: rgba(240, 184, 96, 0.35);
+}
+
+.rm-root :focus-visible {
+  outline: 2px solid var(--rm-amber);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Clickable floor-plan rooms */
+.rm-room {
+  cursor: pointer;
+  outline: none;
+}
+.rm-room .rm-room-bg {
+  transition: fill-opacity 0.18s ease;
+}
+.rm-room:hover .rm-room-bg,
+.rm-room:focus-visible .rm-room-bg {
+  fill-opacity: 0.3;
+}
+.rm-room:focus-visible .rm-room-frame {
+  stroke: var(--rm-amber);
+  stroke-width: 2.5;
+}
+
+/* Gentle hover lift for cards */
+.rm-lift {
+  transition: transform 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+}
+.rm-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* Slow lamp shimmer on the home scene */
+.rm-shimmer {
+  animation: rm-shimmer 5s ease-in-out infinite alternate;
+}
+@keyframes rm-shimmer {
+  from {
+    opacity: 0.82;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rm-root *,
+  .rm-root *::before,
+  .rm-root *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .rm-lift:hover {
+    transform: none;
+  }
+}

@@ -1,0 +1,65 @@
+/* Frontier — expedition at dawn. Scoped: everything hangs off .fr-* classes. */
+
+.fr-display {
+  font-family: 'Archivo', 'Inter', system-ui, sans-serif;
+}
+
+.fr-body {
+  font-family: 'Source Sans 3', 'Inter', system-ui, sans-serif;
+}
+
+.fr-mono {
+  font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+}
+
+/* Faint topographic contours for unmapped ground. */
+.fr-contour {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='200' viewBox='0 0 320 200'%3E%3Cg fill='none' stroke='%23F4F1E8' stroke-opacity='0.045'%3E%3Cpath d='M-10 55 Q 60 20 150 48 T 330 42'/%3E%3Cpath d='M-10 95 Q 80 60 170 92 T 330 84'/%3E%3Cpath d='M-10 140 Q 70 108 160 138 T 330 128'/%3E%3Cpath d='M-10 182 Q 90 152 180 180 T 330 172'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 320px 200px;
+}
+
+/* The dawn band behind the frontier: night giving way to horizon light. */
+.fr-dawnband {
+  background:
+    radial-gradient(120% 90px at 50% 0%, rgba(255, 138, 92, 0.16), rgba(255, 180, 84, 0.05) 55%, transparent 100%),
+    linear-gradient(to bottom, rgba(255, 138, 92, 0.05), transparent 240px);
+}
+
+/* Hairline horizon rule, amber into coral into night. */
+.fr-horizon {
+  height: 2px;
+  background: linear-gradient(to right, transparent, #ffb454 18%, #ff8a5c 50%, #ffb454 82%, transparent);
+}
+
+/* Thin scrollbars inside the design, incl. the trail strip. */
+.fr-root ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.fr-root ::-webkit-scrollbar-thumb {
+  background: #2a3457;
+  border-radius: 8px;
+}
+.fr-root ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Ember pulse for the newest mark on the trail. */
+@keyframes fr-ember {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 180, 84, 0.55);
+  }
+  100% {
+    box-shadow: 0 0 0 12px rgba(255, 180, 84, 0);
+  }
+}
+
+.fr-ember-pulse {
+  animation: fr-ember 1.4s ease-out 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fr-ember-pulse {
+    animation: none;
+  }
+}

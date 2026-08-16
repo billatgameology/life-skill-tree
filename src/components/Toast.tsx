@@ -18,7 +18,7 @@ export default function Toast({ message, visible, onDone }: ToastProps) {
           onAnimationComplete={() => {
             setTimeout(onDone, 3000);
           }}
-          className="fixed top-4 left-1/2 -translate-x-1/2 z-[80] bg-surface-raised border border-border text-ink px-5 py-3 rounded-xl shadow-lg font-heading font-semibold text-sm whitespace-nowrap"
+          className="fixed top-4 left-1/2 -translate-x-1/2 z-[80] w-max max-w-[calc(100vw-2rem)] bg-surface-raised border border-border text-ink px-5 py-3 rounded-xl shadow-lg font-heading font-semibold text-sm text-center"
         >
           <span className="text-glow-gold font-bold">{message}</span>
         </motion.div>

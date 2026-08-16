@@ -218,6 +218,160 @@ const shortwavePreview = (
   </svg>
 );
 
+const latticePreview = (
+  <svg viewBox="0 0 140 90" className="h-full w-full" aria-hidden="true">
+    <rect x="8" y="8" width="124" height="74" rx="6" fill="#0E2318" stroke="#24422F" strokeWidth="1.5" />
+    {[
+      'M 30 22 L 30 38 L 38 46 L 62 46',
+      'M 30 22 L 30 30 L 70 30 L 78 38 L 78 60',
+      'M 110 24 L 110 40 L 102 48 L 86 48 L 78 56 L 78 60',
+      'M 46 68 L 60 68 L 66 62 L 78 62',
+    ].map((d, i) => (
+      <path key={i} d={d} fill="none" stroke={i === 0 ? '#F0C33C' : '#7A5C3E'} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+    ))}
+    {[
+      { cx: 30, cy: 22, fill: '#F0C33C', ring: 'transparent' },
+      { cx: 62, cy: 46, fill: '#F0C33C', ring: 'transparent' },
+      { cx: 110, cy: 24, fill: '#D98E4A', ring: 'transparent' },
+      { cx: 78, cy: 60, fill: '#D98E4A', ring: 'transparent' },
+      { cx: 46, cy: 68, fill: '#284534', ring: '#4A6B57' },
+    ].map((p, i) => (
+      <g key={i}>
+        <circle cx={p.cx} cy={p.cy} r="6" fill={p.fill} stroke={p.ring} strokeWidth="1.5" />
+        <circle cx={p.cx} cy={p.cy} r="2.2" fill="#0E2318" />
+      </g>
+    ))}
+  </svg>
+);
+
+const frontierPreview = (
+  <svg viewBox="0 0 140 90" className="h-full w-full" fill="none" aria-hidden="true">
+    <rect width="140" height="90" rx="6" fill="#10162B" />
+    <path d="M14 30 Q 42 20 72 28 T 128 25" stroke="#2A3457" strokeWidth="1" />
+    <path d="M10 38 Q 45 30 78 36 T 130 33" stroke="#2A3457" strokeWidth="1" opacity="0.6" />
+    <ellipse cx="70" cy="46" rx="54" ry="13" fill="#FF8A5C" opacity="0.09" />
+    <ellipse cx="70" cy="46" rx="30" ry="7" fill="#FF8A5C" opacity="0.14" />
+    <rect x="10" y="45" width="120" height="1.6" rx="0.8" fill="#B3542F" opacity="0.7" />
+    <rect x="42" y="45" width="56" height="1.6" rx="0.8" fill="#FF8A5C" />
+    {[24, 58, 92].map((x) => (
+      <g key={x}>
+        <rect x={x} y="52" width="24" height="15" rx="2.5" fill="#1A2140" stroke="#2A3457" strokeWidth="1" />
+        <rect x={x} y="52" width="24" height="2.5" rx="1.2" fill="#FF8A5C" />
+      </g>
+    ))}
+    <path d="M18 80 H 122" stroke="#2A3457" strokeWidth="1" />
+    {[18, 38, 58, 78].map((x) => (
+      <circle key={x} cx={x} cy="80" r="3" fill="#FFB454" />
+    ))}
+    <circle cx="98" cy="80" r="3.5" fill="#FFB454" stroke="#FF8A5C" strokeWidth="2" strokeOpacity="0.55" />
+  </svg>
+);
+
+const tempoPreview = (
+  <svg viewBox="0 0 140 90" className="h-full w-full" fill="none" aria-hidden="true">
+    <rect width="140" height="90" fill="#FAFAF7" />
+    <circle cx="27" cy="29" r="16" fill="#FFFFFF" stroke="#121316" strokeWidth="2.4" />
+    {[
+      { x1: 27, y1: 15.5, x2: 27, y2: 19 },
+      { x1: 27, y1: 39, x2: 27, y2: 42.5 },
+      { x1: 13.5, y1: 29, x2: 17, y2: 29 },
+      { x1: 37, y1: 29, x2: 40.5, y2: 29 },
+    ].map((t) => (
+      <line key={`${t.x1}-${t.y1}`} x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2} stroke="#121316" strokeWidth="1.5" />
+    ))}
+    <line x1="27" y1="29" x2="35" y2="18" stroke="#C81E14" strokeWidth="2.4" strokeLinecap="round" />
+    <circle cx="27" cy="29" r="2.2" fill="#C81E14" />
+    {[
+      { x: 57, label: '5', on: false },
+      { x: 79, label: '10', on: false },
+      { x: 101, label: '15', on: true },
+      { x: 123, label: '20', on: false },
+    ].map((s) => (
+      <g key={s.label}>
+        <rect x={s.x - 9} y="15" width="18" height="27" rx="2.5" fill={s.on ? '#121316' : '#FFFFFF'} stroke={s.on ? '#121316' : '#C9C9C1'} strokeWidth="1.4" />
+        {s.on && <rect x={s.x - 5} y="15" width="10" height="2.6" fill="#C81E14" />}
+        <text x={s.x} y="33.5" textAnchor="middle" fontFamily="JetBrains Mono, monospace" fontSize="10.5" fontWeight="700" fill={s.on ? '#FAFAF7' : '#121316'}>
+          {s.label}
+        </text>
+      </g>
+    ))}
+    {[
+      { y: 56, w: 94 },
+      { y: 66, w: 72 },
+      { y: 76, w: 106 },
+    ].map((b) => (
+      <g key={b.y}>
+        <rect x="13" y={b.y} width="7" height="6" rx="1" fill="#C81E14" />
+        <rect x="25" y={b.y + 1} width={b.w} height="4" rx="2" fill="#C9C9C1" />
+      </g>
+    ))}
+  </svg>
+);
+
+const roomsPreview = (
+  <svg viewBox="0 0 140 90" className="h-full w-full" aria-hidden="true">
+    <circle cx="18" cy="14" r="7" fill="#F4E8D6" opacity="0.9" />
+    <circle cx="21" cy="12" r="6" fill="#1B2C31" />
+    {[[40, 10], [62, 20], [95, 8], [118, 16], [131, 34]].map(([x, y], i) => (
+      <circle key={i} cx={x} cy={y} r="1.2" fill="#F4E8D6" opacity="0.5" />
+    ))}
+    <rect x="24" y="38" width="72" height="40" fill="#243940" stroke="#3B565C" strokeWidth="1.5" />
+    <polygon points="20,38 60,16 100,38" fill="#2E464D" stroke="#3B565C" strokeWidth="1.5" />
+    <rect x="31" y="45" width="12" height="12" fill="#F0B860" opacity="0.9" />
+    <rect x="51" y="45" width="12" height="12" fill="#F0B860" opacity="0.35" />
+    <rect x="71" y="45" width="12" height="12" fill="#F0B860" opacity="0.6" />
+    <rect x="43" y="62" width="12" height="16" rx="1" fill="#C79A6B" />
+    <circle cx="52.5" cy="70" r="1.2" fill="#F4E8D6" />
+    <rect x="104" y="52" width="12" height="26" rx="3" fill="#22363C" stroke="#7CC3B4" strokeWidth="1.2" />
+    <rect x="106.5" y="55" width="7" height="17" rx="1" fill="#F0B860" opacity="0.5" />
+    <rect x="0" y="78" width="140" height="2.5" fill="#1E3133" />
+    <rect x="121" y="60" width="1.8" height="18" fill="#93A6C9" />
+    <circle cx="122" cy="58" r="2.5" fill="#F0B860" />
+  </svg>
+);
+
+const todayPreview = (
+  <svg viewBox="0 0 140 90" className="h-full w-full" aria-hidden="true">
+    <rect width="140" height="90" fill="#131118" />
+    <rect x="38" y="16" width="68" height="52" rx="7" fill="none" stroke="#2B2735" strokeWidth="1.5" transform="rotate(4 72 42)" />
+    <g transform="rotate(-3 70 44)">
+      <rect x="34" y="14" width="72" height="56" rx="7" fill="#FFC94B" />
+      <rect x="41" y="22" width="26" height="3" rx="1.5" fill="#332D3E" opacity="0.55" />
+      <rect x="41" y="30" width="52" height="7" rx="2" fill="#191521" />
+      <rect x="41" y="40" width="40" height="7" rx="2" fill="#191521" />
+      <rect x="41" y="54" width="24" height="9" rx="4.5" fill="#191521" />
+      <rect x="69" y="54" width="20" height="9" rx="4.5" fill="none" stroke="#191521" strokeWidth="1.5" />
+    </g>
+    {[0, 1, 2, 3].map((i) => (
+      <rect key={i} x={28 + i * 23} y={78} width={18} height={6} rx={3} fill="none" stroke="#453F55" strokeWidth="1.2" />
+    ))}
+  </svg>
+);
+
+const trailPreview = (
+  <svg viewBox="0 0 140 90" className="h-full w-full" aria-hidden="true">
+    <rect x="0" y="0" width="140" height="90" fill="#F0E8D2" />
+    <path d="M -10 28 Q 30 10 70 24 T 150 20" fill="none" stroke="#D9CDA9" strokeWidth="1" />
+    <path d="M -10 60 Q 40 82 80 64 T 150 72" fill="none" stroke="#D9CDA9" strokeWidth="1" />
+    <path
+      d="M 12 78 C 40 80, 58 68, 66 56 C 74 44, 52 40, 44 32 C 37 25, 56 16, 76 18 C 98 20, 116 26, 126 14"
+      fill="none" stroke="#3F5A2E" strokeWidth="2.5" strokeDasharray="3 5" strokeLinecap="round"
+    />
+    {[
+      { x: 12, y: 78, c: '#8F3B45', done: true },
+      { x: 66, y: 56, c: '#456650', done: false },
+      { x: 44, y: 32, c: '#8F3B45', done: true },
+      { x: 76, y: 18, c: '#6F5C32', done: false },
+      { x: 126, y: 14, c: '#4A6379', done: false },
+    ].map((p, i) => (
+      <g key={i}>
+        <circle cx={p.x} cy={p.y} r="6" fill={p.done ? p.c : '#F8F3E3'} stroke={p.c} strokeWidth="2" />
+        {p.done && <rect x={p.x - 1.5} y={p.y - 3.5} width="3" height="7" rx="1" fill="#FFFFFF" />}
+      </g>
+    ))}
+  </svg>
+);
+
 export const DESIGNS: DesignMeta[] = [
   {
     slug: 'honeycomb',
@@ -326,5 +480,77 @@ export const DESIGNS: DesignMeta[] = [
     addedDate: '2026-08-16',
     preview: workshopPreview,
     Component: lazy(() => import('@/designs/workshop')),
+  },
+  {
+    slug: 'lattice',
+    name: 'Lattice',
+    tagline: 'Skills are pads, prerequisites are copper — walk the traces.',
+    description:
+      'The prerequisite graph is the navigation itself, rendered as a dark printed circuit board: connected components become walkable nets of pads and copper traces, isolated skills sit honestly in a loose-pins bin, and completing a skill solders the joint and lights every downstream trace.',
+    vibe: ['Dark PCB', 'Copper & gold', 'Graph walk', 'Silkscreen mono'],
+    accent: '#F0C33C',
+    addedDate: '2026-08-16',
+    preview: latticePreview,
+    Component: lazy(() => import('@/designs/lattice')),
+  },
+  {
+    slug: 'frontier',
+    name: 'Frontier',
+    tagline: 'Your progress is the map.',
+    description:
+      'The library reorganized around where you stand: covered ground behind you, a dawn-lit frontier of skills whose groundwork is already done, and reachable ridges beyond — every completion visibly migrates the territory.',
+    vibe: ['Expedition at dawn', 'Indigo & coral', 'Living dashboard', 'Never locked'],
+    accent: '#FF8A5C',
+    addedDate: '2026-08-16',
+    preview: frontierPreview,
+    Component: lazy(() => import('@/designs/frontier')),
+  },
+  {
+    slug: 'tempo',
+    name: 'Tempo',
+    tagline: 'Fit practice into the time you actually have.',
+    description:
+      'Skills organized by minutes instead of domains: a chunky time dial reshapes the library to what fits your moment, a session builder assembles blocks that sum exactly to your budget, and completion dates become an honest ledger of invested practice.',
+    vibe: ['Timepiece', 'White dial', 'Tabular numerals', 'Sweep-hand red'],
+    accent: '#E8442F',
+    addedDate: '2026-08-16',
+    preview: tempoPreview,
+    Component: lazy(() => import('@/designs/tempo')),
+  },
+  {
+    slug: 'rooms',
+    name: 'Rooms',
+    tagline: 'Walk into the room where the skill lives.',
+    description:
+      'The 233 skills re-shelved by where in life they happen — a dwelling at dusk whose kitchen, laundry corner, front door, street, and phone cross-cut the domain taxonomy entirely; every completion turns on another light in the house.',
+    vibe: ['Dusk', 'Cozy', 'Lamp-lit', 'Cross-cut'],
+    accent: '#F0B860',
+    addedDate: '2026-08-16',
+    preview: roomsPreview,
+    Component: lazy(() => import('@/designs/rooms')),
+  },
+  {
+    slug: 'today',
+    name: 'Today',
+    tagline: 'One skill, dealt fresh every day.',
+    description:
+      'Anti-browsing: the whole app is one full-bleed card dealt deterministically each day — do it, keep it, or warmly pass — with mood chips that re-deal in context and a quiet corner index for the days you need one specific skill.',
+    vibe: ['One card a day', 'Anti-browsing', 'Near-black stage', 'No streaks'],
+    accent: '#FFC94B',
+    addedDate: '2026-08-16',
+    preview: todayPreview,
+    Component: lazy(() => import('@/designs/today')),
+  },
+  {
+    slug: 'trail',
+    name: 'Trail',
+    tagline: 'All 233 skills, one continuous path.',
+    description:
+      'The whole library as a single winding trail: a deterministic easy-to-hard ordering drawn as one dashed serpentine, every skill a tappable waypoint, completions painted on as berry blazes — walk it in order or wander, nothing is locked.',
+    vibe: ['Topo parchment', 'One long path', 'Trail blazes', 'Wander freely'],
+    accent: '#C9737E',
+    addedDate: '2026-08-16',
+    preview: trailPreview,
+    Component: lazy(() => import('@/designs/trail')),
   },
 ];

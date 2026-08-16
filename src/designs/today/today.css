@@ -1,0 +1,115 @@
+/* Design #14 — TODAY. Scoped styles; every class is td-prefixed. */
+
+.td-display {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+}
+
+.td-body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Quiet corner affordances — 44px icon targets that stay out of the way. */
+.td-quiet {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  color: var(--td-text-2);
+  transition: color 120ms ease, background-color 120ms ease;
+}
+
+.td-quiet:hover {
+  color: var(--td-text);
+  background-color: var(--td-stage-2);
+}
+
+/* Tactile press state shared by every button-shaped thing. */
+.td-btn {
+  transition: transform 120ms ease, filter 120ms ease, background-color 120ms ease,
+    color 120ms ease, border-color 120ms ease;
+}
+
+.td-btn:hover {
+  filter: brightness(1.06);
+}
+
+.td-btn:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+/* "What's today like?" chips on the dark stage. */
+.td-chip {
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid var(--td-line);
+  color: var(--td-text-2);
+  font-size: 13px;
+  transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease,
+    transform 120ms ease;
+}
+
+.td-chip:hover {
+  color: var(--td-text);
+  border-color: #453F55;
+}
+
+.td-chip:active {
+  transform: translateY(1px);
+}
+
+.td-chip[aria-pressed='true'] {
+  background-color: var(--td-text);
+  border-color: var(--td-text);
+  color: var(--td-stage);
+  font-weight: 600;
+}
+
+/* The card's physical presence: crisp edge + deep stage shadow + color bloom. */
+.td-card-shadow {
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.25) inset,
+    0 2px 0 rgba(0, 0, 0, 0.22),
+    0 24px 60px -18px rgba(0, 0, 0, 0.65),
+    0 60px 140px -40px color-mix(in srgb, var(--td-card) 50%, transparent);
+}
+
+/* Ambient stage glow in the dealt card's color. */
+.td-glow {
+  background: radial-gradient(
+    closest-side,
+    color-mix(in srgb, var(--td-card) 22%, transparent),
+    transparent 72%
+  );
+}
+
+.td-quiet:focus-visible,
+.td-btn:focus-visible,
+.td-chip:focus-visible,
+.td-link:focus-visible {
+  outline: 2px solid var(--td-card, #ffc94b);
+  outline-offset: 2px;
+}
+
+.td-link {
+  text-underline-offset: 3px;
+}
+
+.td-link:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .td-quiet,
+  .td-btn,
+  .td-chip {
+    transition: none;
+  }
+
+  .td-btn:active,
+  .td-chip:active {
+    transform: none;
+  }
+}
