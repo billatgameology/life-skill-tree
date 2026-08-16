@@ -26,6 +26,27 @@
   .ma-chrome {
     font-family: 'Archivo', 'Inter', system-ui, sans-serif;
   }
+  /* Codex design font stacks (see src/designs/codex/) */
+  .cx-display {
+    font-family: 'Crimson Pro', Georgia, serif;
+  }
+  .cx-sans {
+    font-family: 'Source Sans 3', 'Inter', system-ui, sans-serif;
+  }
+  .cx-mono {
+    font-family: 'Cousine', ui-monospace, 'SF Mono', monospace;
+  }
+  /* Garden design font stacks (see src/designs/garden/) */
+  .gd-sans {
+    font-family: 'Quicksand', 'Nunito', system-ui, sans-serif;
+  }
+  /* Workshop design font stacks (see src/designs/workshop/) */
+  .ws-display {
+    font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  }
+  .ws-mono {
+    font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+  }
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;

@@ -107,12 +107,47 @@ differ from ALL entries in metaphor, navigation model, and mood.
 | 1 | Honeycomb | `/honeycomb` | Hex-territory star map (RPG skill tree) | Dark, cosmic, gold glow, Cinzel serif | Pan/zoom spatial map + sortable registry table, bottom tabs |
 | 2 | Interchange | `/interchange` | City transit system: domains = lines, skills = stations, levels = fare zones, paths = journeys, completion = a dated VISITED stamp | Light "municipal modernism": ink on map paper (#F7F6F2), flat wayfinding, Overpass/Overpass Mono + Source Serif 4 | Page-based altitudes (network board → platform diagram → station page) with real routes/back-button, desktop line-index rail, mobile bottom tabs, `/`-key station finder |
 | 3 | Manila | `/manila` | Mid-century card catalog + personal dossier: domains = wooden drawers, skills = typed index cards with call numbers (04.07), levels = tier dividers, paths = dossier folders with routing slips, completion = red FILED date stamp | Warm mid-tone "reading room": walnut chrome + cream cards, Courier Prime/Special Elite typewriter labels with Atkinson Hyperlegible body, brass + stamp-pad red | Cabinet grid → drawer riffle (overlapping card edges that lift on hover) → pulled card; desktop master-detail blotter panel, mobile bottom tabs, `/`-key Lookup request card, derived "Pulled for you" tray |
+| 4 | Fieldbook | `/fieldbook` | Naturalist field journal: domains = chapters, skills = observations, favorites = pinned specimens, completion = a dated field mark | Sun-faded botanical paper (#F2E7D5), forest ink, terracotta annotations, literary serif | Clothbound chapter rail → searchable observation folio → routed long-form field note; horizontal chapter tabs on mobile |
+| 5 | Workbench | `/workbench` | Community maker shop: domains = parts drawers, skills = job cards, completion = punched work orders, favorites = ready rack | Tactile plywood, enamel blue, safety orange, graphite; sturdy industrial typography | Drawer bank → three level-based pegboard lanes → routed clipped instruction sheet; horizontally scrollable drawer rack on mobile |
+| 6 | Shortwave | `/shortwave` | Analog radio receiver: domains = frequency bands, skills = broadcasts, levels = dayparts, completion = logged reception, favorites = presets | Bright 1970s broadcast studio: apricot, aubergine, electric cyan, tomato, cream | Frequency dial → level-grouped broadcast schedule → routed transmission log; global scanner and preset switch |
+| 7 | Codex | `/codex` | Life-skills field guide / almanac: domains are chapters, skills are numbered entries, completion is a field-mark check | Warm paper (#F4F1EA), moss ink (#2A2F23), faded gold (#B89A4D), print serif, scholarly quiet | Chapter table of contents rail → chapter spread of skill cards → full-page specimen entry; search jumps across chapters |
+| 8 | Garden | `/garden` | Seasonal garden: domains are raised beds, skills are plants/seedlings, completion makes them bloom | Soft cream (#F9F7F2), leaf green (#5A7D3A), soil brown (#6B4E3D), rounded organic type, watercolor calm | Bird's-eye bed grid → tap a plant → detail tag; mobile bed tabs + bottom sheet |
+| 9 | Workshop | `/workshop` | Workshop pegboard: domains are tool-wall sections, skills are hanging tool cards, completion adds a brass check tag | Pegboard gray (#E8E6E1), tool-steel (#2C2E33), safety yellow (#F4B400), industrial sans + mono, utilitarian | Pegboard grid by section → tool card → side drawer spec sheet; mobile section accordions + bottom sheet |
 
-Directions intentionally still open (claim one or invent your own): editorial
-field-guide / almanac (paper, chapters, print typography) · periodic-table /
-specimen-drawer grid (dense systematic completeness) · garden / seasonal growth
-(organic, time-of-day rhythm) · workshop pegboard · radio dial / instrument panel ·
-boarding-pass / itinerary.
+Directions intentionally still open (claim one or invent your own): periodic-table /
+specimen-drawer grid (dense systematic completeness) · boarding-pass / itinerary.
+
+## Design batch #3-5 concepts
+
+### #3 Codex — Field Guide
+- **Metaphor:** A life-skills almanac / field guide. Domains are chapters; skills are numbered entries with specimen-style detail pages; completion is a small field-mark check.
+- **Mood / palette:** Warm paper `#F4F1EA`, moss ink `#2A2F23`, faded gold `#B89A4D`, soft rule `#D9D4C8`. Editorial, print, scholarly, quiet.
+- **Fonts:** Crimson Pro (display), Source Sans 3 (body), Cousine (data).
+- **Desktop layout:** Two-column spread: left chapter TOC rail, right chapter "spread" of skill index cards. Persistent header with search and back-to-gallery link.
+- **Mobile layout:** Single column with chapter dropdown, stacked skill cards, and a full-screen detail entry.
+- **Navigation model:** Chapter TOC → skill cards → specimen entry. Search jumps directly to any entry.
+- **Detail presentation:** Full-page specimen page with serif headings, all skill fields in labeled sections, prerequisites/dependents as "see also" entries.
+- **Progress presentation:** Per-chapter progress bar in the TOC and chapter headers; overall completion shown in the "Field Log" badge.
+
+### #4 Garden — Seasonal Growth
+- **Metaphor:** A garden of skills. Domains are raised beds; skills are plants/seedlings; completing one makes it bloom.
+- **Mood / palette:** Soft cream `#F9F7F2`, leaf green `#5A7D3A`, soil brown `#6B4E3D`, sky blue `#7EA4B3`, petal accents. Organic, watercolor, calm.
+- **Fonts:** Quicksand (rounded headings), Nunito (body).
+- **Desktop layout:** Bird's-eye grid of raised beds; each bed shows plant cards. Right-side detail panel slides in like a plant tag.
+- **Mobile layout:** Vertical scroll through beds; tapping a plant opens a bottom-sheet detail tag.
+- **Navigation model:** Browse beds → tap plant → detail tag. Bed tabs on mobile and a top search/filter bar.
+- **Detail presentation:** Plant tag with rounded sections: care instructions (what you'll learn), steps, criteria, tips, common problems, and related plants.
+- **Progress presentation:** Bloom ring per bed and overall garden bloom percentage.
+
+### #5 Workshop — Pegboard
+- **Metaphor:** A workshop pegboard wall. Domains are sections of the tool wall; skills are tool cards hung on pegs; completion adds a brass "checked out" tag.
+- **Mood / palette:** Pegboard gray `#E8E6E1`, tool-steel `#2C2E33`, safety yellow `#F4B400`, black ink `#1A1C20`, wood `#A67C52`. Practical, tactile, utilitarian.
+- **Fonts:** Space Grotesk (industrial headings), JetBrains Mono (labels/data).
+- **Desktop layout:** Pegboard grid of tool cards grouped by section. Tool detail opens in a side drawer styled like a spec sheet.
+- **Mobile layout:** Vertical list of tool categories with expandable cards; detail opens in a bottom sheet.
+- **Navigation model:** Section tabs/rail → tool grid → detail drawer. Search by tool name.
+- **Detail presentation:** Tool spec sheet with difficulty, time, uses, steps, criteria, tips, common problems, and prerequisites/dependents as "related tools".
+- **Progress presentation:** Per-section progress bars and overall workshop completion gauge.
 
 ## Notes from building design #2 (useful precedents)
 
